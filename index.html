@@ -1,88 +1,72 @@
+<!DOCTYPE html>
+
 <?php
-// Assuming $selectedLanguage contains the user's selected language ("en" or "nl")
+include "header.php";
 
-// Load the localization data from the file
-$languageData = json_decode(file_get_contents('localization.json'), true);
-
-// Assign the selected language's content to the $content variable
-$content = $languageData[$selectedLanguage];
+// Load the specific localization data for index.php
+$indexLocalizationData = json_decode(file_get_contents('localisation/Index_localisation.json'), true);
+$indexContent = $indexLocalizationData[$selectedLanguage];
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heng Ren Tang - Home Page</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="icon" href="favicon.ico" type="assets/images/x-icon">
-</head>
-<body>
-<header>
-    <!-- Your header content here -->
-</header>
-
 <main>
-    <section class="section1">
+    <section class="section_1">
         <video class="video">
             <!-- Video goes here -->
         </video>
         <div class="content">
-            <h1><?php echo $content['section1Title']; ?></h1>
-            <p><?php echo $content['section1Paragraph']; ?></p>
-            <button><?php echo $content['section1ButtonLabel']; ?></button>
+            <h1><?php echo $content['section_1_title']; ?></h1>
+            <p><?php echo $content['section_1_paragraph']; ?></p>
+            <button><?php echo $content['section_1_button_label']; ?></button>
         </div>
     </section>
 
-    <section class="section2">
+    <section class="section_2">
         <div class="content">
-            <h1><?php echo $content['section2Title']; ?></h1>
-            <h2><?php echo $content['section2Subtitle']; ?></h2>
-            <p><?php echo $content['section2Paragraph']; ?></p>
-            <figure class="profile-picture">
+            <h1><?php echo $content['section_2_title']; ?></h1>
+            <h2><?php echo $content['section_2_subtitle']; ?></h2>
+            <p><?php echo $content['section_2_paragraph']; ?></p>
+            <figure class="profile_picture">
                 <!-- Profile picture goes here -->
-                <figcaption><?php echo $content['profileText']; ?></figcaption>
+                <figcaption><?php echo $content['profile_text']; ?></figcaption>
             </figure>
-            <button><?php echo $content['section2ButtonLabel1']; ?></button>
-            <button><?php echo $content['section2ButtonLabel2']; ?></button>
+            <button><?php echo $content['section_2_button_label_1']; ?></button>
+            <button><?php echo $content['section_2_button_label_2']; ?></button>
         </div>
     </section>
 
-    <section class="section3">
+    <section class="section_3">
         <div class="content">
-            <h1><?php echo $content['section3Title']; ?></h1>
-            <h2><?php echo $content['section3Subtitle1']; ?></h2>
+            <h1><?php echo $content['section_3_title']; ?></h1>
+            <h2><?php echo $content['section_3_subtitle_1']; ?></h2>
             <p>
-                <?php echo $content['section3Paragraph1']; ?>
-                <span class="tooltip">Tooltip text</span>
+                <?php echo $content['section_3_paragraph_1']; ?>
+                <span class="tooltip"><?php echo $content['tooltip_text']; ?></span>
             </p>
-            <h2><?php echo $content['section3Subtitle2']; ?></h2>
-            <p><?php echo $content['section3Paragraph2']; ?></p>
-            <button><?php echo $content['section3ButtonLabel']; ?></button>
+            <h2><?php echo $content['section_3_subtitle_2']; ?></h2>
+            <p><?php echo $content['section_3_paragraph_2']; ?></p>
+            <button><?php echo $content['section_3_button_label']; ?></button>
         </div>
     </section>
 
-    <section class="section4">
+    <section class="section_4">
         <div class="content">
-            <h1><?php echo $content['section4Title']; ?></h1>
-            <h2><?php echo $content['section4Subtitle']; ?></h2>
-            <p><?php echo $content['section4Paragraph']; ?></p>
+            <h1><?php echo $content['section_4_title']; ?></h1>
+            <h2><?php echo $content['section_4_subtitle']; ?></h2>
+            <p><?php echo $content['section_4_paragraph']; ?></p>
             <div class="map">
                 <!-- Map goes here -->
             </div>
-            <button><?php echo $content['section4ButtonLabel']; ?></button>
-            <h2><?php echo $content['section4Subtitle2']; ?></h2>
-            <p><?php echo $content['section4Paragraph2']; ?></p>
+            <button><?php echo $content['section_4_button_label']; ?></button>
+            <h2><?php echo $content['section_4_subtitle_2']; ?></h2>
+            <p><?php echo $content['section_4_paragraph_2']; ?></p>
         </div>
     </section>
 
-    <section class="section5">
-        <h1><?php echo $content['section5Title']; ?></h1>
+    <section class="section_5">
+        <h1><?php echo $content['section_5_title']; ?></h1>
     </section>
 </main>
 
-<footer>
-    <!-- Your footer content here -->
-</footer>
-</body>
-</html>
+<?php
+include "footer.php";
+?>

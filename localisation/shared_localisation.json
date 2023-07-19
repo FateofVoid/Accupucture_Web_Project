@@ -1,0 +1,10 @@
+{
+  "en": {
+    "header_logo": "Logo Here",
+    "header_button": "Language Switch"
+  },
+  "nl": {
+    "header_logo": "Logo Hier",
+    "header_button": "Taalwissel"
+  }
+}
