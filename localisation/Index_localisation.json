@@ -1,0 +1,60 @@
+{
+  "en": {
+    "section1Title": "Section 1 Title",
+    "section1Paragraph": "This is the paragraph for section 1.",
+    "section1ButtonLabel": "Click me",
+
+    "section2Title": "Section 2 Title",
+    "section2Subtitle": "Section 2 Subtitle",
+    "section2Paragraph": "This is the paragraph for section 2.",
+    "profileText": "Profile description goes here",
+    "section2ButtonLabel1": "Button 1",
+    "section2ButtonLabel2": "Button 2",
+
+    "section3Title": "Section 3 Title",
+    "section3Subtitle1": "Subtitle 1",
+    "section3Paragraph1": "This is the paragraph for section 3 with a tooltip:",
+    "section3Subtitle2": "Subtitle 2",
+    "section3Paragraph2": "This is the paragraph for section 3 without a tooltip.",
+    "section3ButtonLabel": "Section 3 Button",
+
+    "section4Title": "Section 4 Title",
+    "section4Subtitle": "Section 4 Subtitle",
+    "section4Paragraph": "This is the paragraph for section 4.",
+    "section4ButtonLabel": "Click me",
+
+    "section4Subtitle2": "Section 4 Subtitle 2",
+    "section4Paragraph2": "This is another paragraph for section 4.",
+
+    "section5Title": "Section 5 Title"
+  },
+  "nl": {
+    "section1Title": "Titel Sectie 1",
+    "section1Paragraph": "Dit is de alinea voor sectie 1.",
+    "section1ButtonLabel": "Klik hier",
+
+    "section2Title": "Titel Sectie 2",
+    "section2Subtitle": "Ondertitel Sectie 2",
+    "section2Paragraph": "Dit is de alinea voor sectie 2.",
+    "profileText": "Profielbeschrijving komt hier",
+    "section2ButtonLabel1": "Knop 1",
+    "section2ButtonLabel2": "Knop 2",
+
+    "section3Title": "Titel Sectie 3",
+    "section3Subtitle1": "Ondertitel 1",
+    "section3Paragraph1": "Dit is de alinea voor sectie 3 met een tooltip:",
+    "section3Subtitle2": "Ondertitel 2",
+    "section3Paragraph2": "Dit is de alinea voor sectie 3 zonder een tooltip.",
+    "section3ButtonLabel": "Knop Sectie 3",
+
+    "section4Title": "Titel Sectie 4",
+    "section4Subtitle": "Ondertitel Sectie 4",
+    "section4Paragraph": "Dit is de alinea voor sectie 4.",
+    "section4ButtonLabel": "Klik hier",
+
+    "section4Subtitle2": "Ondertitel 2 Sectie 4",
+    "section4Paragraph2": "Dit is een andere alinea voor sectie 4.",
+
+    "section5Title": "Titel Sectie 5"
+  }
+}

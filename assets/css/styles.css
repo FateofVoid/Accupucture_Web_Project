@@ -1,0 +1,125 @@
+/* Reset default styles and set general rules */
+body, h1, h2, h3, p, button, ul, li, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+/* Main content styles */
+main {
+  padding-top: 60px; /* Make room for the fixed header */
+}
+
+section {
+  padding: 40px;
+}
+
+/* Section 1 specific styles */
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video {
+  width: 50%;
+}
+
+.content {
+  width: 40%;
+  margin-top: 20px;
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.content button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* Section 2 specific styles */
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section2 h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-picture {
+  width: 30%;
+  margin-top: 20px;
+}
+
+.profile-picture img {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Rest of the section styles... */
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  /* Example: Hide the video in Section 1 for smaller screens */
+  .video {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust styles for even smaller screens */
+  /* Example: Make the profile picture in Section 2 full-width on smaller screens */
+  .profile-picture {
+    width: 100%;
+  }
+}
+
+/* Additional media queries for other resolutions as needed */
