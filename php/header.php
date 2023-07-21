@@ -1,36 +1,34 @@
 <?php
-// Language detection code here (detect user's preferred language or IP location)
+$rootPath = $_SERVER['DOCUMENT_ROOT'];
+include $rootPath."/config.php";
 
-// For this example, we'll assume the detected language is English.
-$selectedLanguage = 'en';
+// Extract the language from the URL path
 
-// Check if the user has manually switched languages using the button.
-// If so, update the $selectedLanguage accordingly.
-if (isset($_GET['lang']) && ($_GET['lang'] === 'nl' || $_GET['lang'] === 'en')) {
-    $selectedLanguage = $_GET['lang'];
-}
-
-// Redirect to the corresponding language version if the detected language is not Dutch.
-if ($selectedLanguage !== 'en') {
-    header('Location: /' . $selectedLanguage . '/index.php');
-    exit;
-}
 
 // Load the shared localization data for the header
-$headerLocalizationData = json_decode(file_get_contents('localisation/shared_localisation.json'), true);
-$headerContent = $headerLocalizationData[$selectedLanguage];
+$headerLocalizationData = json_decode(file_get_contents($rootPath.'/localisation/shared_localisation.json'), true);
+$headerContent = $headerLocalizationData[$_SESSION['lang']];
 
 ?>
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heng Ren Tang - Home Page</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="icon" href="favicon.ico" type="assets/images/x-icon">
-</head>
-<body>
 <header>
-    <!-- Your header content here -->
+    <div class="header-content">
+        <div class="logo"><?php echo $headerContent['header_logo']; ?></div>
+
+        <!-- Other Header Buttons -->
+        <nav class="header-buttons">
+            <ul>
+                <li><a href="/<?php echo ($selectedLanguage === 'nl') ? 'en' : 'nl'; ?>"><?php echo $headerContent['header_button1_label']; ?></a></li>
+                <!-- Add more buttons here if needed -->
+            </ul>
+        </nav>
+
+        <!-- Language Selection Dropdown -->
+        <div class="language-dropdown">
+            <select onchange="window.location.href='?lang=' + this.value">
+                <option value="en" <?php echo ($_SESSION['lang'] === 'en') ? 'selected' : ''; ?>>English</option>
+                <option value="nl" <?php echo ($_SESSION['lang'] === 'nl') ? 'selected' : ''; ?>>Nederlands</option>
+            </select>
+        </div>
+    </div>
 </header>

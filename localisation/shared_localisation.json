@@ -1,10 +1,22 @@
 {
   "en": {
-    "header_logo": "Logo Here",
-    "header_button": "Language Switch"
+    "header_logo": "Heng Ren Tang Logo",
+    "header_button1_label": "Button 1",
+    "header_button2_label": "Button 2",
+    "tooltip_text": "This is a tooltip text.",
+    "footer_logo": "Heng Ren Tang",
+    "footer_link_1": "Home",
+    "footer_link_2": "About",
+    "footer_link_3": "Contact"
   },
   "nl": {
-    "header_logo": "Logo Hier",
-    "header_button": "Taalwissel"
+    "header_logo": "Heng Ren Tang Logo",
+    "header_button1_label": "Knop 1",
+    "header_button2_label": "Knop 2",
+    "tooltip_text": "Dit is een tooltip tekst.",
+    "footer_logo": "Heng Ren Tang",
+    "footer_link_1": "Home",
+    "footer_link_2": "Over Ons",
+    "footer_link_3": "Contact"
   }
 }
