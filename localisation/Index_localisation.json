@@ -29,32 +29,32 @@
     "section_5_title": "Section 5 Title"
   },
   "nl": {
-    "section_1_title": "Título de la Sección 1",
-    "section_1_paragraph": "Este es el párrafo para la sección 1.",
-    "section_1_button_label": "Haz clic",
-    "tooltip_text": "Texto de tooltip",
+    "section_1_title": "Titel Sectie 1",
+    "section_1_paragraph": "Dit is de alinea voor sectie 1.",
+    "section_1_button_label": "Klik hier",
+    "tooltip_text": "Tooltip-tekst",
 
-    "section_2_title": "Título de la Sección 2",
-    "section_2_subtitle": "Subtítulo de la Sección 2",
-    "section_2_paragraph": "Este es el párrafo para la sección 2.",
-    "profile_text": "Descripción del perfil va aquí",
-    "section_2_button_label_1": "Botón 1",
-    "section_2_button_label_2": "Botón 2",
+    "section_2_title": "Titel Sectie 2",
+    "section_2_subtitle": "Subtitel Sectie 2",
+    "section_2_paragraph": "Dit is de alinea voor sectie 2.",
+    "profile_text": "Profiel beschrijving komt hier",
+    "section_2_button_label_1": "Knop 1",
+    "section_2_button_label_2": "Knop 2",
 
-    "section_3_title": "Título de la Sección 3",
-    "section_3_subtitle_1": "Subtítulo 1",
-    "section_3_paragraph_1": "Este es el párrafo para la sección 3 con un tooltip:",
-    "section_3_subtitle_2": "Subtítulo 2",
-    "section_3_paragraph_2": "Este es el párrafo para la sección 3 sin tooltip.",
-    "section_3_button_label": "Botón de la Sección 3",
+    "section_3_title": "Titel Sectie 3",
+    "section_3_subtitle_1": "Subtitel 1",
+    "section_3_paragraph_1": "Dit is de alinea voor sectie 3 met een tooltip:",
+    "section_3_subtitle_2": "Subtitel 2",
+    "section_3_paragraph_2": "Dit is de alinea voor sectie 3 zonder tooltip.",
+    "section_3_button_label": "Knop Sectie 3",
 
-    "section_4_title": "Título de la Sección 4",
-    "section_4_subtitle": "Subtítulo de la Sección 4",
-    "section_4_paragraph": "Este es el párrafo para la sección 4.",
-    "section_4_button_label": "Haz clic",
-    "section_4_subtitle_2": "Subtítulo 2 de la Sección 4",
-    "section_4_paragraph_2": "Este es otro párrafo para la sección 4.",
+    "section_4_title": "Titel Sectie 4",
+    "section_4_subtitle": "Subtitel Sectie 4",
+    "section_4_paragraph": "Dit is de alinea voor sectie 4.",
+    "section_4_button_label": "Klik hier",
+    "section_4_subtitle_2": "Subtitel 2 Sectie 4",
+    "section_4_paragraph_2": "Dit is nog een alinea voor sectie 4.",
 
-    "section_5_title": "Título de la Sección 5"
+    "section_5_title": "Titel Sectie 5"
   }
 }
