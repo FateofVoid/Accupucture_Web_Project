@@ -14,10 +14,22 @@ body {
 
 /* Main Colors */
 :root {
-    --color-primary: #F1DDBF;
-    --color-secondary: #525E75;
-    --color-tertiary: #78938A;
-    --color-quaternary: #92BA92;
+    /* Primary color */
+        --color-primary: #F1DDBF;
+
+        /* Secondary color */
+        --color-secondary: #525E75;
+
+        /* Tertiary color */
+        --color-tertiary: #78938A;
+
+        /* Quaternary color */
+        --color-quaternary: #92BA92;
+
+        /* New colors */
+        --extra-01: #ABCDEF;
+        --extra-02: #F0E0D0;
+        --extra-03: #C0FFEE;
 }
 
 /* Header Styles */
@@ -82,78 +94,152 @@ body {
 }
 
 main {
-    width: 100%;
-    height: 100%;
-    }
-
-.section {
-    width: 100%;
-    height: 100%;
-    color: #333;
-}
-
-.section:nth-child(even) {
-    background-color: var(--color-primary);
-}
-
-.section:nth-child(odd) {
-    background-color: var(--color-secondary);
-}
-
-/* Section 1 specific styles */
-.section1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.video {
-  width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
-  width: 40%;
-  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Adjust the max-width as needed */
 }
 
-.content h1 {
+/* Sections */
+section {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #000; /* Set the text color for all sections */
+    max-height: 100vh; /* Cap the height to the viewport height */
+    min-height: 42vw; /* 16:9 aspect ratio for 16x9 screen (width * 9 / 16) */
+}
+
+section:nth-child(odd) {
+    background-color: var(--color-primary);
+}
+
+section:nth-child(even) {
+    background-color: var(--color-secondary);
+}
+
+/* Section 1 layout */
+.section_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Left column with video */
+.section_1_left {
+    flex: 1;
+}
+
+/* Right column with title, paragraph, and button */
+.section_1_right {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.video-container {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive height */
+}
+
+/* Style for the video */
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    max-width: 100%;
+}
+
+.section_1_right h1 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.content p {
+.section_1_right p {
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-.content button {
+.section_1_right button {
   padding: 10px 20px;
   font-size: 16px;
 }
 
 /* Section 2 specific styles */
-.section2 {
+.section_2 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
-.section2 h2 {
+.section_2 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section_2 h2 {
   font-size: 20px;
   margin-bottom: 5px;
 }
 
-.profile-picture {
-  width: 30%;
-  margin-top: 20px;
+.section_2 p {
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
-.profile-picture img {
-  width: 100%;
-  display: block;
+.section_2_left {
+  flex: 1;
+  max-width: 40%; /* Adjust the width as needed */
+  padding: 20px;
+}
+
+.section_2_middle {
+  flex: 1;
+  max-width: 30%; /* Adjust the width as needed */
+  padding: 20px;
+}
+
+.section_2_right {
+  flex: 1;
+  max-width: 25%; /* Adjust the width as needed */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section_2_right button {
+  padding: 10px 20px;
+  font-size: 16px;
   margin-bottom: 10px;
+}
+
+/* Media query for responsive layout */
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .section_2_left,
+  .section_2_middle,
+  .section_2_right {
+    max-width: 100%;
+  }
 }
 
 /* Rest of the section styles... */
@@ -204,21 +290,21 @@ a:hover {
 @media (max-width: 768px) {
   /* Adjust styles for smaller screens */
   /* Example: Hide the video in Section 1 for smaller screens */
-  .video {
+  /*.video {
     display: none;
   }
 
   .content {
     width: 100%;
-  }
+  }*/
 }
 
 @media (max-width: 480px) {
   /* Adjust styles for even smaller screens */
   /* Example: Make the profile picture in Section 2 full-width on smaller screens */
-  .profile-picture {
+  /*.profile-picture {
     width: 100%;
-  }
+  }*/
 }
 
 /* Additional media queries for other resolutions as needed */

@@ -18,11 +18,20 @@
 
     <main>
         <!-- Section 1 -->
-        <section class="section section_1">
-            <video class="video">
-                <!-- Video goes here -->
-            </video>
-            <div class="content">
+        <section class="section_1">
+            <div class="section_1_left">
+                <div class="video-container">
+                    <video class="video" controls poster="path/to/video-poster.jpg">
+                        <!-- Add the video source -->
+                        <source src="assets/video/pexels-alexandr-9421160 (1080p).mp4" type="video/mp4">
+                        <!-- Add other video formats for cross-browser support -->
+                        <!-- <source src="path/to/video.webm" type="video/webm"> -->
+                        <!-- <source src="path/to/video.ogv" type="video/ogg"> -->
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="section_1_right">
                 <h1><?php echo $indexContent['section_1_title']; ?></h1>
                 <p><?php echo $indexContent['section_1_paragraph']; ?></p>
                 <button><?php echo $indexContent['section_1_button_label']; ?></button>
@@ -32,15 +41,22 @@
         <!-- Section 2 -->
         <section class="section section_2">
             <div class="content">
-                <h1><?php echo $indexContent['section_2_title']; ?></h1>
-                <h2><?php echo $indexContent['section_2_subtitle']; ?></h2>
-                <p><?php echo $indexContent['section_2_paragraph']; ?></p>
-                <figure class="profile_picture">
-                    <!-- Profile picture goes here -->
-                    <figcaption><?php echo $indexContent['profile_text']; ?></figcaption>
-                </figure>
-                <button><?php echo $indexContent['section_2_button_label_1']; ?></button>
-                <button><?php echo $indexContent['section_2_button_label_2']; ?></button>
+                <div class="section_2_left">
+                    <h1><?php echo $indexContent['section_2_title']; ?></h1>
+                    <h2><?php echo $indexContent['section_2_subtitle']; ?></h2>
+                    <p><?php echo $indexContent['section_2_paragraph']; ?></p>
+                </div>
+                <div class="section_2_middle">
+                    <div class="profile-picture">
+                        <!-- Profile picture goes here -->
+                        <img src="path/to/profile-picture.jpg" alt="Profile Picture">
+                        <figcaption><?php echo $indexContent['profile_text']; ?></figcaption>
+                    </div>
+                </div>
+                <div class="section_2_right">
+                    <button><?php echo $indexContent['section_2_button_label_1']; ?></button>
+                    <button><?php echo $indexContent['section_2_button_label_2']; ?></button>
+                </div>
             </div>
         </section>
 
