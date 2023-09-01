@@ -1,8 +1,8 @@
 <?php
-$path = $_SERVER['DOCUMENT_ROOT'];
+$rootPath = $_SERVER['DOCUMENT_ROOT']."/Accupucture Web Project";
 
 // Load the shared localization data for the footer
-$footerLocalizationData = json_decode(file_get_contents($path.'/localisation/shared_localisation.json'), true);
+$footerLocalizationData = json_decode(file_get_contents($rootPath.'/localisation/shared_localisation.json'), true);
 $footerContent = $footerLocalizationData[$_SESSION['lang']];
 ?>
 

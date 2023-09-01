@@ -1,8 +1,8 @@
 {
   "en": {
     "header_logo": "Heng Ren Tang Logo",
-    "header_home_button_label": "Home",
-    "header_service_button_label": "Services",
+    "header_button1_label": "Home",
+    "header_button2_label": "Services",
     "header_appointment_button_label": "Make an Appointment",
     "tooltip_text": "This is a tooltip text.",
     "footer_logo": "Heng Ren Tang",
