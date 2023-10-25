@@ -14,3 +14,17 @@ for (let question of questions) {
         }
     });
 }
+
+$(document).ready(function() {
+    // Get all the sections within the "sections" div
+    const sections = $(".sections > section");
+
+    // Loop through the sections and assign alternating classes
+    sections.each(function(index) {
+        if (index % 2 === 0) {
+            $(this).addClass("even-section");
+        } else {
+            $(this).addClass("odd-section");
+        }
+    });
+});

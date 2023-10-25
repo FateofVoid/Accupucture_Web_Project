@@ -1,23 +1,60 @@
 {
   "en": {
-    "header_logo": "Heng Ren Tang Logo",
-    "header_button1_label": "Home",
-    "header_button2_label": "Services",
-    "header_appointment_button_label": "Make an Appointment",
-    "tooltip_text": "This is a tooltip text.",
-    "footer_logo": "Heng Ren Tang",
-    "footer_link_1": "Home",
-    "footer_link_2": "About",
-    "footer_link_3": "Contact"
+    "main_title": "Our Services",
+    "services": [
+      {
+        "title": "Respiratory",
+        "description": "acute colds, flu, sinusitis, sore throats, acute bronchitis, asthma, allergies."
+      },
+      {
+        "title": "Digestive system",
+        "description": "esophageal spasms, gastritis, inflammation of the small and large intestine, irritable bowel syndrome, constipation/diarrhea."
+      },
+      {
+        "title": "Musculoskeletal",
+        "description": "sports injuries, whiplash, tennis elbow, shoulder pain, back pain, weak/spastic paralysis, golfer's elbow."
+      },
+      {
+        "title": "Hormonal",
+        "description": "diabetes, menstrual disorders, premenstrual pain and tension (PMS)."
+      },
+      {
+        "title": "Urinary and reproductive organs",
+        "description": "bedwetting, urinary tract infections, prostate hypertrophy/prostatitis, impotence, erectile problems, burning pain during urination, certain fertility issues."
+      },
+      {
+        "title": "Other",
+        "description": "exhaustion (mental and physical), sleep disorders, psychological instability, depression, nervousness, phobias, toothache, headaches, migraines, rheumatic complaints, menopausal symptoms, facial pain, fibromyalgia, RSI (repetitive strain injury), burnout, ear problems (such as tinnitus), skin problems (e.g., acne, eczema)."
+      }
+    ]
   },
   "nl": {
-    "header_logo": "Heng Ren Tang Logo",
-    "header_button1_label": "Knop 1",
-    "header_button2_label": "Knop 2",
-    "tooltip_text": "Dit is een tooltip tekst.",
-    "footer_logo": "Heng Ren Tang",
-    "footer_link_1": "Home",
-    "footer_link_2": "Over Ons",
-    "footer_link_3": "Contact"
+    "main_title": "Onze Diensten",
+    "services": [
+      {
+        "title": "Ademhalingssysteem",
+        "description": "acute verkoudheid, griep, sinusitis, keelpijn, acute bronchitis, astma, allergieën."
+      },
+      {
+        "title": "Maag-darmstelsel",
+        "description": "slokdarmspasmen, gastritis, ontsteking van de dunne en dikke darm, prikkelbare darmsyndroom, obstipatie/diarree."
+      },
+      {
+        "title": "Spier- en Skeletstelsel",
+        "description": "sportblessures, whiplash, tenniselleboog, schouderpijn, rugpijn, zwakke/spastische verlamming, golfelleboog."
+      },
+      {
+        "title": "Hormonaal",
+        "description": "diabetes, menstruatiestoornissen, premenstruele pijn en spanning (PMS)."
+      },
+      {
+        "title": "Urinaire en Voortplantingsorganen",
+        "description": "bedplassen, urineweginfecties, prostaathypertrofie/prostatitis, impotentie, erectieproblemen, brandende pijn tijdens het plassen, bepaalde vruchtbaarheidsproblemen."
+      },
+      {
+        "title": "Overige",
+        "description": "uitputting (mentaal en fysiek), slaapstoornissen, psychische instabiliteit, depressie, nervositeit, fobieën, tandpijn, hoofdpijn, migraine, reumatische klachten, symptomen van de menopauze, gezichtspijn, fibromyalgie, RSI (herhaalde bewegingsletsel), burn-out, oorproblemen (zoals tinnitus), huidproblemen (bijvoorbeeld acne, eczeem)."
+      }
+    ]
   }
 }

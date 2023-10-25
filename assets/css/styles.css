@@ -1,44 +1,51 @@
 /* Reset default styles and set general rules */
 body, h1, h2, h3, p, button, ul, li, figure, footer, header {
+  width:100%;
   margin: 0;
   padding: 0;
 }
 
 body {
-    height: 100%;
-    font-family: Arial, sans-serif;
-    font-size: 1vw; /* Font size is 1% of viewport width */
-    line-height: 1.6;
+    background-color: var(--color-secondary);
+    margin: 0 auto;
+    font-family: 'Quicksand', 'Raleway','Crimson Pro', 'Lora', 'Playfair Display',  'Nunito', 'Cormorant Garamond', 'Rosarivo', sans-serif;
+    font-size: 16px; /* Font size is 1% of viewport width */
+    line-height: 1.4;
     max-width: 99%;
+    width: 1600px;
 }
 
 /* Main Colors */
 :root {
     /* Primary color */
-        --color-primary: #F1DDBF;
+        --color-primary: rgba(241, 221, 191, 0.35);
 
         /* Secondary color */
-        --color-secondary: #525E75;
+        --color-secondary: rgba(192, 219, 234, 0.35);
 
         /* Tertiary color */
-        --color-tertiary: #78938A;
+        --color-tertiary: rgba(120, 147, 138, 1);
 
         /* Quaternary color */
-        --color-quaternary: #92BA92;
+        --color-quaternary: rgba(146, 186, 146, 1);
 
         /* New colors */
         --button-idle01: #92BA92;
         --button-idle02: #FAF3F0;
+        --button-idle03: rgba(51, 153, 255, 0.21);
         --button-hover01: #ABCDEF;
         --button-hover02: #ABCDEF;
+        --button-hover03: rgba(51, 153, 255, 0.28);
+        --button-selected: rgba(51, 153, 255, 0.35);
         --extra-01: #ABCDEF;
         --extra-02: #F0E0D0;
         --extra-03: #C0FFEE;
 
         /* Other variables... */
-        --font-size-title: 1.8vw; /* 6% of viewport width */
-        --font-size-subtitle: 1.4vw; /* 3.5% of viewport width */
-        --font-size-paragraph: 1vw; /* 2.5% of viewport width */
+        --font-size-title: 1.8rem; /* 6% of viewport width */
+        --font-size-subtitle: 1.4rem; /* 3.5% of viewport width */
+        --font-size-paragraph: 1rem; /* 2.5% of viewport width */
+        --gradient-height: 3rem;
 }
 
 h1{
@@ -68,26 +75,26 @@ header {
 }
 
 .logo {
-    padding:1vw;
-    font-size: 1vw;
+    padding:1rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 .header-buttons {
     display: flex;
     align-items: center;
-    margin-left: 1vw; /* Add spacing between logo and nav */
+    margin-left: 1rem; /* Add spacing between logo and nav */
 }
 
 .header-buttons button {
     background-color: var(--button-idle02);
     color: #000;
-    padding: 1vw 2vw;
-    border: 0.21vw solid #ccc;
-    border-radius: 2vw;
+    padding: 1rem 2rem;
+    border: 0.21rem solid #ccc;
+    border-radius: 2rem;
     cursor: pointer;
-    font-size: 1.125vw;
-    margin-right: 1vw; /* Add spacing between appointment button and language dropdown */
+    font-size: 1.125rem;
+    margin-right: 1rem; /* Add spacing between appointment button and language dropdown */
 }
 
 .header-buttons button:hover {
@@ -108,31 +115,32 @@ header {
     appearance: none;
     -webkit-appearance: none;
     background-color: #fff;
-    border: 0.21vw solid #ccc; /* 0.5% of viewport width for border */
-    border-radius: 1vw; /* 1% of viewport width for border-radius */
-    padding: 1.2vw;
+    border: 0.21rem solid #ccc; /* 0.5% of viewport width for border */
+    border-radius: 1rem; /* 1% of viewport width for border-radius */
+    padding: 1.2rem;
     color: #333;
-    font-size: 0.875vw; /* 0.875% of viewport width */
+    font-size: 0.875rem; /* 0.875% of viewport width */
     background: url('path-to-dropdown-arrow.png') no-repeat right center
     cursor: pointer;
 }
 
 .language-dropdown select option {
-    padding: 0.75vw; /* 0.75% of viewport width */
+    padding: 0.75rem; /* 0.75% of viewport width */
     background-color: #fff;
     display: flex;
     align-items: center;
 }
 
 .language-dropdown option img {
-    margin-right: 10px; /* Adjust spacing between image and text */
-    width: 2vw; /* Adjust image width as needed */
+    margin-right: 0.5rem; /* Adjust spacing between image and text */
+    width: 2rem; /* Adjust image width as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
 /* Main Content Styling */
 
 main {
+
     display: flex;
     flex-direction: column;
 }
@@ -145,24 +153,34 @@ main {
   max-width: 2800px; /* Adjust the max-width as needed */
 }
 
-/* Sections */
-section {
-    display: flex;
-    flex: 1;
-    padding: 0.5vw;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    max-height: 100vh; /* Cap the height to the viewport height */
-    min-height: 42vw; /* 16:9 aspect ratio for 16x9 screen (width * 9 / 16) */
+.margin{
+    margin: 2rem
 }
 
-section:nth-child(odd) {
+/* Sections */
+section {
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    min-height:100%;
+}
+
+.even-section {
     background-color: var(--color-primary);
 }
 
-section:nth-child(even) {
+.odd-section {
     background-color: var(--color-secondary);
+}
+
+.gradient_even {
+  background-image: linear-gradient(var(--color-primary), var(--color-secondary));
+  height:var(--gradient-height);
+}
+
+.gradient_odd {
+  background-image: linear-gradient(var(--color-secondary), var(--color-primary));
+  height:var(--gradient-height);
 }
 
 /* Section 1 layout */
@@ -181,7 +199,7 @@ section:nth-child(even) {
 /* Right column with title, paragraph, and button */
 .section_1_right {
     flex: 1;
-    padding: 20px;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -204,12 +222,12 @@ section:nth-child(even) {
 
 .section_1_right h1 {
   font-size: calc(var(--font-size-title) * 1.5);
-  margin-bottom: 1.5vw; /* 1.5% of viewport width */
+  margin-bottom: 1.5rem; /* 1.5% of viewport width */
 }
 
 .section_1_right p {
   font-size: calc(var(--font-size-paragraph) * 1.5);
-  margin-bottom: 2.5vw; /* 2.5% of viewport width */
+  margin-bottom: 2.5rem; /* 2.5% of viewport width */
 }
 
 
@@ -223,17 +241,17 @@ section:nth-child(even) {
 
 .section_2 h1 {
   font-size: var(--font-size-title);
-  margin-bottom: 2vw; /* 5% of viewport width */
+  margin-bottom: 2rem; /* 5% of viewport width */
 }
 
 .section_2 h2 {
   font-size: var(--font-size-subtitle);
-  margin-bottom: 0.5vw; /* 0.5% of viewport width */
+  margin-bottom: 0.5rem; /* 0.5% of viewport width */
 }
 
 .section_2 p {
   font-size: var(--font-size-paragraph);
-  margin-bottom: 0.5vw; /* 2.5% of viewport width */
+  margin-bottom: 0.5rem; /* 2.5% of viewport width */
 }
 
 .section_2 img {
@@ -241,23 +259,26 @@ section:nth-child(even) {
 }
 
 .section_2 .section_2_left {
-  flex: 0 0 calc(50% - 20px); /* 40% width with some space between columns */
-  padding: 20px;
+  flex: 0 0 calc(50% - 1rem); /* 40% width with some space between columns */
+  padding: 1rem;
   box-sizing: border-box;
 }
 
 .section_2 .section_2_middle {
-  flex: 0 0 calc(20% - 20px); /* 30% width with some space between columns */
-  adding: 1vw;
+  flex: 0 0 calc(30% - 1rem); /* 30% width with some space between columns */
+  adding: 1rem;
   box-sizing: border-box;
 }
 
 .section_2 .section_2_right {
-  flex: 0 0 calc(30% - 20px); /* 30% width with some space between columns */
-  padding: 20px;
+  flex: 0 0 calc(20% - 1rem); /* 30% width with some space between columns */
+  padding: 1rem; /* Add padding to create separation */
   box-sizing: border-box;
 }
 
+.section_2 .section_2_right .image-text-button{
+    margin: 1rem 0
+}
 /* Section 3 Specific Style*/
 .section_3 {
   display: flex;
@@ -268,27 +289,39 @@ section:nth-child(even) {
 
 .section_3 h1 {
   font-size: var(--font-size-title);
-  margin-bottom: 2vw; /* 5% of viewport width */
+  margin-bottom: 2rem; /* 5% of viewport width */
 }
 
 .section_3 h2 {
   font-size: var(--font-size-subtitle);
-  margin-bottom: 0.5vw; /* 0.5% of viewport width */
+  margin-bottom: 0.5rem; /* 0.5% of viewport width */
 }
 
 .section_3 p {
   font-size: var(--font-size-paragraph);
-  margin-bottom: 0.5vw; /* 2.5% of viewport width */
+  margin-bottom: 0.5rem; /* 2.5% of viewport width */
 }
 
 .section_3 .section_3_left {
-  flex: 0 0 calc(50% - 20px); /* 40% width with some space between columns */
-  padding: 1vw;
+  flex: 0 0 calc(50% - 1rem); /* 40% width with some space between columns */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.section_3 .section_3_middle {
+  flex: 0 0 calc(25% - 1rem); /* 40% width with some space between columns */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.section_3 .section_3_right {
+  flex: 0 0 calc(25% - 1rem); /* 40% width with some space between columns */
+  padding: 1rem;
   box-sizing: border-box;
 }
 
 .section_3_middle img {
-    width: 28vw;
+    width: 100%;
     height: auto;
 }
 /* Section 4 Specific Style*/
@@ -301,48 +334,58 @@ section:nth-child(even) {
 
 .section_4 h1 {
     font-size: var(--font-size-title);
-    margin-bottom: 2vw; /* 5% of viewport width */
+    margin-bottom: 2rem; /* 5% of viewport width */
 }
 
 .section_4 h2 {
     font-size: var(--font-size-subtitle);
-    margin-bottom: 0.5vw; /* 0.5% of viewport width */
+    margin-bottom: 0.5rem; /* 0.5% of viewport width */
 }
 
 .section_4 p {
     font-size: var(--font-size-paragraph);
-    margin-bottom: 0.5vw; /* 2.5% of viewport width */
+    margin-bottom: 0.5rem; /* 2.5% of viewport width */
 }
 
 .section_4 .map {
-    width: 30vw; /* Adjust the width of the map as needed */
-    height: 22.5vw; /* Adjust the width of the map as needed */
-    border: 0.21vw solid #000
+    width: 22.5rem; /* Adjust the width of the map as needed */
+    height: 22.5rem; /* Adjust the width of the map as needed */
+    border: 0.21rem solid #000
 }
 
 .section_4 .section_4_left {
-  flex: 0 0 calc(40% - 20px); /* 40% width with some space between columns */
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.section_4 .section_4_middle {
-  flex: 0 0 calc(30% - 20px); /* 30% width with some space between columns */
-  adding: 1vw; q
+  flex: 0 0 calc(35% - 1rem); /* 40% width with some space between columns */
+  padding: 1rem;
   box-sizing: border-box;
 }
 
 .section_4 .section_4_right {
-  flex: 0 0 calc(30% - 20px); /* 30% width with some space between columns */
-  padding: 20px;
+  flex: 0 0 calc(55% - 1rem); /* 30% width with some space between columns */
+  padding: 1rem;
   box-sizing: border-box;
 }
 
 /* Section 5 Specific Style*/
+
+.section_5 h1 {
+  font-size: var(--font-size-title);
+  margin-bottom: 2rem; /* 5% of viewport width */
+}
+
+.section_5 h2 {
+  font-size: var(--font-size-subtitle);
+  margin-bottom: 0.5rem; /* 0.5% of viewport width */
+}
+
+.section_5 p {
+  font-size: var(--font-size-paragraph);
+  margin-bottom: 0.5rem; /* 2.5% of viewport width */
+}
+
 .faq {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 1vw; /* Gap between columns */
+    gap: 1rem; /* Gap between columns */
     position: relative;
     border-bottom: thin dotted #d4d4d4;
     /* Add a fixed height to the container */
@@ -359,18 +402,16 @@ section:nth-child(even) {
     transition: max-height 0.1s ease;
     overflow: hidden;
     font-size: --font-size-paragraph;
-    padding-left: 10px;
-    line-height: 26px;
-    color: #fff;
+    padding-left: 0.5rem;
+    color: #000;
     background-color: var(--color-secondary); /* Background color for answers */
 }
 
-.faq .question {
+.faq .qa {
     cursor: pointer;
-    font-size: --font-size-subtitle;
-    background-color: var(--color-primary); /* Background color for questions */
-    color: var(--color-secondary);
-    padding: 10px; /* Adjust padding */
+    font-size: var(--font-size-subtitle);
+    background-color: var(--color-secondary); /* Background color for questions */
+    padding: 0.5rem; /* Adjust padding */
     position: relative;
 }
 
@@ -378,9 +419,9 @@ section:nth-child(even) {
     content: "\2304";
     display: inline-block;
     position: absolute;
-    transform: translateY(-10px);
+    transform: translateY(-0.5rem);
     right: 0;
-    font-size: 20px;
+    font-size: var(--font-size-paragraph);
     transition: transform 0.2s ease;
     color: #999;
 }
@@ -390,38 +431,131 @@ section:nth-child(even) {
 }
 
 .faq .answer.active {
-    padding: 0.35vw;
-    max-height: 50vw; /* Adjust max-height to show full answer content */
+    padding: 0.35rem;
+    max-height: 50rem; /* Adjust max-height to show full answer content */
     transition: max-height 0.3s ease;
 
 }
 
-/* Rest of the section styles... */
-
-/* Footer Styles */
-footer {
-    background-color: var(--color-primary);
-    color: #333;
-    max-width: 99%;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
+/* Services page Specific Style*/
+.services_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center; /* Center items horizontally in each grid cell */
+    padding: 0.5rem;
+    width: 100%;
+    height: 100%;
     align-items: center;
+    justify-content: center;
+    min-height: 42rem; /* 16:9 aspect ratio for 16x9 screen (width * 9 / 16) */
 }
 
-.footer-logo {
-    font-size: 20px;
-    font-weight: bold;
+.services_section h1{
+    width: 70%;
+    margin: 2rem;
+    font-size: calc(var(--font-size-title) * 2.1);
+}
+
+
+/* Style the service buttons (similar to your previous styles) */
+/* [1] 'dense' packing fills in holes earlier in the grid. */
+.service-grid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-gap: 2rem; /* Adjust the gap between grid items as needed */
+    justify-items: center; /* Center items horizontally in each grid cell */
+    text-align: center; /* Center-align the content within each service div */
+    margin: 2rem;
+    grid-auto-flow: dense; /* [1] */
+}
+
+.service-grid > * {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.service-grid li {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.service-grid .fullwidth {
+    grid-column: 1 / -1;
+    overflow: hidden;
+    width: 100%; /* Add this rule to make it take the full width */
+    margin-top: -2rem; /* Adjust the negative margin to match the padding */
+    padding: 0 2.1rem 1rem 2.1rem;
+
+}
+
+.service-grid h2  {
+    margin-top: 0.7rem;
+    font-size: calc(var(--font-size-subtitle)*2.1);
+}
+
+.service-grid p  {
+    margin-top: 0.7rem;
+    font-size: calc(var(--font-size-paragraph)*2.1);
+}
+
+.service-grid .fullwidth .text-container{
+    padding: 1rem;
+    text-align: left; /* Align the text to the left */
+}
+
+.service-grid .is-hidden {
+    display: none;
+}
+
+.service-grid .image-text-button {
+    width: 100%;
+    height: 100%;
+    background-color: var(--button-idle03);
+    color: #000;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.service-grid .image-text-button:hover {
+    background-color: var(--button-hover03);
+}
+
+.service-grid .fullwidth,
+.service-grid .image-text-button.is-selected  {
+    background: var(--button-selected);
+    color: #000;
+}
+.service-grid .image-text-button.is-selected{
+    border-radius: 1.4rem 1.4rem 0 0;
+}
+/* For medium screens (e.g., tablets), 2 columns */
+@media (max-width: 1024px) {
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For small screens (typical mobile), 1 column */
+@media (max-width: 768px) {
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Example button styling */
 button {
-    background-color: var(--button-idle02);
+    background-color: transparent;
     color: #000;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.2rem;
     cursor: pointer;
 }
 
@@ -430,61 +564,74 @@ button:hover {
 }
 
 .image-text-button {
+    /* Set the dimensions for the button */
+    font-size: var(--font-size-subtitle);
+    width: 100%; /* Button width as a percentage of its container */
+    height: 100%; /* Button height as a percentage of its container */
+    border-radius: 1.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
-    margin: 1vw;
-    border: none;
-    border-radius: 1.4vw;
-    width: 14vw;
-    color: #000;
+    justify-content: flex-start; /* Align content to the top */
     cursor: pointer;
     transition: background-color 0.3s ease;
+    position: relative; /* Added for positioning child elements */
+}
+
+.image-text-button span {
+    font-size: calc(var(--font-size-subtitle)); /* Adjust font size as needed */
+    text-align: center;
 }
 
 .image-text-button:hover {
     background-color: var(--button-hover02); /* Replace with your button hover color */
-    border-radius: 1.6vw;
-    border: 0.21vw solid #ccc;
+    border-radius: 1.6rem;
+    border: 0.21rem solid #ccc;
 }
 
 .image-text-button img {
-    width: 100%; /* Adjust image width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0; /* Remove margin */
-    padding: 0; /* Remove padding */
-    border-radius: 1.4vw;
-    position: relative;
-    overflow: hidden;
+    /* Set the image to cover the container while preserving its aspect ratio */
+    border-radius: 1.4rem 1.4rem 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute; /* Position the image within the container */
+    top: 0;
+    left: 0;
+    margin-bottom: 1rem;
 }
 
-.image-text-button span {
-    font-size: 1.5vw; /* Adjust font size as needed */
-    text-align: center;
-    width: 100%
-    height: auto;
-    padding: 0.7vw 0; /* Add padding to the text strip */
-    margin: 0;
+.image-container {
+    width: 99%; /* Container width as a percentage of the button */
+    padding-top: 49%; /* Maintain a 4:3 aspect ratio (adjust as needed) */
+    position: relative; /* Added for positioning the image */
+    overflow: hidden; /* Hide overflowing image */
+}
 
+.label-container {
+    width: 99%; /* Container width as a percentage of the button */
+    height: auto; /* Maintain a 4:3 aspect ratio (adjust as needed) */
+    position: relative; /* Added for positioning the image */
+    overflow: hidden; /* Hide overflowing image */
+    padding: 1rem
 }
 
 header .appointment-button {
-    width: 12vw;
-    font-size: 1.4vw;
+    width: 12rem;
+    font-size: 1.4rem;
     background-color: var(--button-idle01); /* Replace with your button hover color */
-    padding:0.14vw;
+    padding:0.14rem;
 }
 
 .appointment-button {
     background-color: var(--button-idle01);
-    padding: 1vw; /* 1% of viewport width for padding */
+    padding: 1rem; /* 1% of viewport width for padding */
     font-size: calc(var(--font-size-paragraph) * 2.1);
     align-items: center;
-    margin: 0.21vw;
-    border: 0.14vw solid #777;
-    border-radius: 1.4vw;
-    width: 21vw;
+    margin: 0.21rem;
+    border: 0.14rem solid #777;
+    border-radius: 1.4rem;
+    width: 21rem;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -505,5 +652,150 @@ a:hover {
     color: var(--color-primary);
 }
 
+/* For screens with a minimum width of 1280px and maximum width of 1920px */
+@media (min-width: 1280px) and (max-width: 1920px) {
+  /* Set a fixed font size for all elements */
 
-/* Additional media queries for other resolutions as needed */
+    body {
+        width: 1280px;
+        font-size: 12.8px; /* Adjust the font size relative to viewport width */
+    }
+
+    :root {
+        --font-size-title: 23.04px;
+        --font-size-subtitle: 17.92px;
+        --font-size-paragraph: 12.8px;
+    }
+}
+
+/* For screens with a maximum width of 1280px */
+@media (max-width: 1280px) {
+
+    body {
+        width: 99%;
+        font-size: 1vw; /* Adjust the font size relative to viewport width */
+    }
+
+    :root {
+      --font-size-title: calc(1.875vw); /* Relative font size for titles */
+      --font-size-subtitle: calc(1.25vw); /* Relative font size for subtitles */
+      --font-size-paragraph: calc(0.875vw); /* Relative font size for paragraphs */
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    :root {
+            --font-size-title: 3.5vw; /* 6% of viewport width */
+            --font-size-subtitle: 2.8vw; /* 3.5% of viewport width */
+            --font-size-paragraph: 2.1vw; /* 2.5% of viewport width */
+    }
+
+    .content {
+        height: auto;
+        flex-direction: column; /* Change to vertical alignment */
+        align-items: center; /* Center content horizontally */
+        flex-grow: 1;
+    }
+
+    /* Optionally, you can adjust individual section styles for mobile */
+    section {
+        height: auto;
+        width: 99%; /* Make sections full width on mobile */
+    }
+
+    /* Adjust specific styles for each section as needed */
+    .section_1_right h1,
+    .section_1_right p,
+    .section_2 h1,
+    .section_2 h2,
+    .section_2 p,
+    .section_3 h1,
+    .section_3 h2,
+    .section_3 p,
+    .section_4 h1,
+    .section_4 h2,
+    .section_4 p {
+        /* mobile-specific styles here */
+    }
+
+    .section_1_left,
+    .section_1_right,
+    .section_2_left,
+    .section_2_middle,
+    .section_2_right,
+    .section_3_left,
+    .section_4_left,
+    .section_4_middle,
+    .section_4_right {
+        flex: 1; /* Full width on mobile */
+        padding: 1vw; /* Adjust padding as needed */
+    }
+
+    .section_1_left{
+        width: 70%;
+    }
+
+    .section_2_middle,
+    .section_2_right{
+        width: 70%;
+    }
+    .section_2 .section_2_right {
+        flex: 0 0 100%; /* Make it take up the full width */
+        display: flex; /* Display children horizontally */
+        flex-direction: row; /* Stack children vertically */
+        align-items: center; /* Center children horizontally */
+        padding: 1vw;
+        box-sizing: border-box;
+    }
+
+    .section_2 .section_2_right{
+
+    }
+
+    .section_3 .section_3_middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+      }
+
+
+    .section_3 .section_3_middle_img_1{
+        width: 43.7%;
+    }
+    .section_3 .section_3_middle_img_2{
+        width: 56.3%;
+    }
+
+    .section_4_left,
+    .section_4_middle,
+    .section_4_right {
+        width:99%;
+    }
+
+    .section_4 {
+        padding: 1vw;
+    }
+
+    .section_5 {
+        padding: 1vw;
+        width: 99%;
+    }
+    .faq {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    /* Reset styles for questions and answers */
+    .faq .question,
+    .faq .answer {
+        grid-column: auto; /* Reset grid-column property */
+        width: auto; /* Reset width property */
+    }
+
+    .appointment-button {
+        width: 35vw
+    }
+}
