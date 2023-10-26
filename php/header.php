@@ -28,14 +28,19 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
             <button class="appointment-button"><?php echo $headerContent['header_appointment_button_label']; ?></button>
             <!-- Language Selection Dropdown -->
             <div class="language-dropdown">
-                <select onchange="window.location.href='?lang=' + this.value">
-                    <option value="en" <?php echo ($_SESSION['lang'] === 'en') ? 'selected' : ''; ?>>
-                        <img src=$rootPath."/assets/images/icon-en.png" alt="English Flag" width="20" height="15"> English
-                    </option>
-                    <option value="nl" <?php echo ($_SESSION['lang'] === 'nl') ? 'selected' : ''; ?>>
-                        <img src=$rootPath."/assets/images/icon-nl.png" alt="Dutch Flag" width="20" height="15"> Nederland
-                    </option>
-                </select>
+                <div class="custom-select" id="custom-select">
+                    <div class="selected-option">
+                        <img src="/Accupucture Web Project/assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
+                    </div>
+                    <div class="options" id="options">
+                        <div class="option" data-value="en">
+                            <img src="/Accupucture Web Project/assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
+                        </div>
+                        <div class="option" data-value="nl">
+                            <img src="/Accupucture Web Project/assets/images/icon-nl.png" alt="Dutch Flag" class="flag-icon"> NL
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

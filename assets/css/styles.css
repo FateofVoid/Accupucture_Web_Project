@@ -1,19 +1,12 @@
 /* Reset default styles and set general rules */
-body, h1, h2, h3, p, button, ul, li, figure, footer, header {
+body, h1, h2, h3, p, button, ul, li, select, footer, header {
   width:100%;
   margin: 0;
   padding: 0;
+  font-family: 'Quicksand', 'Raleway','Crimson Pro', 'Lora', 'Playfair Display',  'Nunito', 'Cormorant Garamond', 'Rosarivo', sans-serif;
 }
 
-body {
-    background-color: var(--color-secondary);
-    margin: 0 auto;
-    font-family: 'Quicksand', 'Raleway','Crimson Pro', 'Lora', 'Playfair Display',  'Nunito', 'Cormorant Garamond', 'Rosarivo', sans-serif;
-    font-size: 16px; /* Font size is 1% of viewport width */
-    line-height: 1.4;
-    max-width: 99%;
-    width: 1600px;
-}
+
 
 /* Main Colors */
 :root {
@@ -46,6 +39,15 @@ body {
         --font-size-subtitle: 1.4rem; /* 3.5% of viewport width */
         --font-size-paragraph: 1rem; /* 2.5% of viewport width */
         --gradient-height: 3rem;
+}
+
+body {
+    background-color: var(--color-secondary);
+    margin: 0 auto;
+    font-size: 16px; /* Font size is 1% of viewport width */
+    line-height: 1.4;
+    max-width: 99%;
+    width: 1600px;
 }
 
 h1{
@@ -107,34 +109,58 @@ header {
     margin-left: auto; /* Push right section to the right edge */
 }
 
-.language-dropdown {
+/* Add this CSS to hide options initially and style the custom dropdown */
+
+
+.language-dropdown .custom-select {
     position: relative;
-}
-
-.language-dropdown select {
-    appearance: none;
-    -webkit-appearance: none;
-    background-color: #fff;
-    border: 0.21rem solid #ccc; /* 0.5% of viewport width for border */
-    border-radius: 1rem; /* 1% of viewport width for border-radius */
-    padding: 1.2rem;
-    color: #333;
-    font-size: 0.875rem; /* 0.875% of viewport width */
-    background: url('path-to-dropdown-arrow.png') no-repeat right center
     cursor: pointer;
+    user-select: none;
 }
 
-.language-dropdown select option {
-    padding: 0.75rem; /* 0.75% of viewport width */
-    background-color: #fff;
+.language-dropdown .selected-option {
     display: flex;
     align-items: center;
+    left: auto;
+    right: 0;
+    padding: var(--font-size-paragraph);
+
 }
 
-.language-dropdown option img {
-    margin-right: 0.5rem; /* Adjust spacing between image and text */
-    width: 2rem; /* Adjust image width as needed */
-    height: auto; /* Maintain aspect ratio */
+.language-dropdown .options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    z-index: 1;
+    min-height: auto;
+    width: auto;
+    left: auto;
+    right: 0;
+}
+
+.language-dropdown .option {
+    padding: var(--font-size-paragraph);
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-paragraph);
+    min-height: auto;
+    width: auto;
+}
+
+.language-dropdown .flag-icon {
+    height: calc(var(--font-size-paragraph)*3.5);
+    margin-right: 5px;
+}
+
+.language-dropdown .show-options {
+    display: block;
+    z-index: 1000;
 }
 
 /* Main Content Styling */
@@ -618,15 +644,15 @@ button:hover {
 
 header .appointment-button {
     width: 12rem;
-    font-size: 1.4rem;
+    font-size: calc(var(--font-size-paragraph) * 1.4);
     background-color: var(--button-idle01); /* Replace with your button hover color */
-    padding:0.14rem;
+    padding:0.35rem;
 }
 
 .appointment-button {
     background-color: var(--button-idle01);
     padding: 1rem; /* 1% of viewport width for padding */
-    font-size: calc(var(--font-size-paragraph) * 2.1);
+    font-size: calc(var(--font-size-paragraph) * 1.4);
     align-items: center;
     margin: 0.21rem;
     border: 0.14rem solid #777;
