@@ -520,12 +520,12 @@ section {
 
 .service-grid h2  {
     margin-top: 0.7rem;
-    font-size: calc(var(--font-size-subtitle)*2.1);
+    font-size: calc(var(--font-size-subtitle));
 }
 
 .service-grid p  {
     margin-top: 0.7rem;
-    font-size: calc(var(--font-size-paragraph)*2.1);
+    font-size: calc(var(--font-size-paragraph));
 }
 
 .service-grid .fullwidth .text-container{
