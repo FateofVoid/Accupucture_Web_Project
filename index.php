@@ -21,6 +21,7 @@
 </head>
 <body>
     <?php
+    $_SESSION['lang'] = 'en';
     include "php/header.php";
 
     // Load the specific localization data for index.php
@@ -186,6 +187,6 @@
         </div>
     </main>
 
-   <script src="/Accupucture Web Project/assets/js/faq-script.js"></script> <!-- Link to the javascript file -->
+   <script src="assets/js/faq-script.js"></script> <!-- Link to the javascript file -->
 </body>
 </html>

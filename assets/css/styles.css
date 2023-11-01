@@ -35,9 +35,9 @@ body, h1, h2, h3, p, button, ul, li, select, footer, header {
         --extra-03: #C0FFEE;
 
         /* Other variables... */
-        --font-size-title: 1.8rem; /* 6% of viewport width */
-        --font-size-subtitle: 1.4rem; /* 3.5% of viewport width */
-        --font-size-paragraph: 1rem; /* 2.5% of viewport width */
+        --font-size-title: 2.1rem; /* 6% of viewport width */
+        --font-size-subtitle: 1.7rem; /* 3.5% of viewport width */
+        --font-size-paragraph: 1.4rem; /* 2.5% of viewport width */
         --gradient-height: 3rem;
 }
 
