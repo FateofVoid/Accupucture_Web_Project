@@ -113,8 +113,6 @@
                         <p><?php echo $indexContent['section_3_paragraph_2']; ?></p>
                     </div>
                     <div class="section_3_middle">
-                        <img class="section_3_middle_img_1" src="assets/images/stacks-image-5c587d1.png" alt="Image" >
-                        <img class="section_3_middle_img_2" src="assets/images/stacks-image-dbb4ead.jpg" alt="Image" >
                     </div>
                     <div class="section_3_right">
 
@@ -183,6 +181,14 @@
                             <?php } ?>
                         </div>
                 </div>
+                <div class="margin"></div>
+
+                <h2><?php echo $indexContent['section_5_subtitle_1']; ?></h2>
+                <p><?php echo $indexContent['section_5_paragraph_1']; ?></p>
+                <img class="section_3_middle_img_1" src="assets/images/stacks-image-5c587d1.png" alt="Image" >
+                <img class="section_3_middle_img_2" src="assets/images/stacks-image-dbb4ead.jpg" alt="Image" >
+
+                <div class="margin"></div>
             </section>
         </div>
     </main>

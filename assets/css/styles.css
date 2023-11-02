@@ -71,14 +71,15 @@ header {
     align-items: center;
 }
 
-.left-section {
+header .left-section {
     display: flex;
     align-items: center;
 }
 
 .logo {
+    font-family: 'Lobster', cursive;
     padding:1rem;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -103,7 +104,7 @@ header {
     background-color: var(--button-hover02);
 }
 
-.right-section {
+header .right-section {
     display: flex;
     align-items: center;
     margin-left: auto; /* Push right section to the right edge */
@@ -408,6 +409,13 @@ section {
   margin-bottom: 0.5rem; /* 2.5% of viewport width */
 }
 
+.section_5 .section_3_middle_img_1{
+    width: 27%;
+}
+.section_5 .section_3_middle_img_2{
+    width: 34.7%;
+}
+
 .faq {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
@@ -561,6 +569,33 @@ section {
 }
 .service-grid .image-text-button.is-selected{
     border-radius: 1.4rem 1.4rem 0 0;
+}
+
+.staff_section {
+    display: flex;
+    flex-direction: row; /* Display the items in a row */
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+    min-height: 42rem; /* 16:9 aspect ratio for 16x9 screen (width * 9 / 16) */
+}
+
+.staff_section .left-section {
+    flex: 1;
+    padding-right: 1rem; /* Add some spacing between image and text */
+}
+
+.staff_section .left-section img {
+    width: 100%;
+}
+
+.staff_section .right-section {
+    flex: 2; /* Adjust the flex value to give more space to the text */
+}
+
+.staff_section .right-section h2,
+.staff_section .right-section p {
+    margin: 0; /* Remove default margins */
 }
 /* For medium screens (e.g., tablets), 2 columns */
 @media (max-width: 1024px) {
@@ -787,12 +822,7 @@ a:hover {
       }
 
 
-    .section_3 .section_3_middle_img_1{
-        width: 43.7%;
-    }
-    .section_3 .section_3_middle_img_2{
-        width: 56.3%;
-    }
+
 
     .section_4_left,
     .section_4_middle,
@@ -808,6 +838,14 @@ a:hover {
         padding: 1vw;
         width: 99%;
     }
+
+    .section_5 .section_3_middle_img_1{
+        width: 42.7%;
+    }
+    .section_5 .section_3_middle_img_2{
+        width: 55.3%;
+    }
+
     .faq {
         display: flex;
         flex-direction: column;

@@ -7,10 +7,10 @@
 
     "section_2_title": "",
     "section_2_subtitle": "HENG REN TANG Acupuncture Clinic",
-    "section_2_paragraph1": "In our clinic, we strive to promote your well-being in a welcoming environment. We offer personalized care and listen to your specific needs. Whether you're experiencing pain, stress, insomnia, allergies, digestive problems, or other health issues, our experienced team is here for you.<br><br>Explore how our expertise in the Balance Method can alleviate your pain and enhance your well-being. At HENG REN TANG, we specialize in pain treatment, harmoniously blending the time-tested wisdom of Chinese medicine with contemporary knowledge. We are dedicated to tailoring our approach to your individual needs, recognizing that every person deserves a customized solution for their discomfort.<br><br>Our clinic is also a proud member of the Dutch Association for Traditional Chinese Medicine ZHONG. As a result, our treatments may be reimbursed by health insurers, depending on your policy.<br><br>Contact us today to schedule an appointment and begin your journey to better health. Fransisca Ekkel and the team at HENG REN TANG Acupuncture Clinic warmly welcome you to our clinic, where we work with care and expertise to promote your well-being.",
+    "section_2_paragraph1": "In our clinic, we strive to promote your well-being in a welcoming environment. We offer personalized care and listen to your specific needs. Whether you're experiencing pain, stress, insomnia, allergies, digestive problems, or other health issues, our experienced team is here for you.<br><br>Explore how our expertise in the Balance Method can alleviate your pain and enhance your well-being. At HENG REN TANG, we specialize in pain treatment, harmoniously blending the time-tested wisdom of Chinese medicine with contemporary knowledge. We are dedicated to tailoring our approach to your individual needs, recognizing that every person deserves a customized solution for their discomfort.<br><br>Contact us today to schedule an appointment and begin your journey to better health. Fransisca Ekkel and the team at HENG REN TANG Acupuncture Clinic warmly welcome you to our clinic, where we work with care and expertise to promote your well-being.",
     "profile_text": "Profile description goes here",
     "section_2_button_label_1": "Certificates",
-    "section_2_button_label_2": "Staff",
+    "section_2_button_label_2": "More About Me",
 
     "section_3_title": "Our Services",
     "section_3_subtitle_1": "Prices",
@@ -88,7 +88,10 @@
     "section_5_answer_20": "Yes, acupuncture can help reduce stress and anxiety. It promotes relaxation, balances the body, and can foster a sense of calm and well-being. Many people experience deep relaxation during and after an acupuncture session.",
 
     "section_5_question_21": "Can I come in a wheelchair?",
-    "section_5_answer_21": "Yes, our practice is wheelchair accessible. We have a lift, and the practice area is wheelchair-friendly. So, you can definitely visit us if you're using a wheelchair."
+    "section_5_answer_21": "Yes, our practice is wheelchair accessible. We have a lift, and the practice area is wheelchair-friendly. So, you can definitely visit us if you're using a wheelchair.",
+
+    "section_5_subtitle_1": "partnership",
+    "section_5_paragraph_1": "<br><br>Our clinic is also a proud member of the Dutch Association for Traditional Chinese Medicine ZHONG. As a result, our treatments may be reimbursed by health insurers, depending on your policy."
   },
   "nl": {
     "section_1_title": "Introductie",
@@ -179,6 +182,9 @@
     "section_5_answer_20": "Ja, acupunctuur kan helpen om stress en angst te verminderen. Het bevordert ontspanning, balanceert het lichaam en kan een gevoel van kalmte en welzijn bevorderen. Veel mensen ervaren diepe ontspanning tijdens en na een acupunctuursessie.",
 
     "section_5_question_21": "Kan ik in een rolstoel komen?",
-    "section_5_answer_21": "Ja, onze praktijk is toegankelijk voor rolstoelgebruikers. We hebben een lift en de praktijkruimte is rolstoelvriendelijk. Dus je kunt ons zeker bezoeken als je een rolstoel gebruikt."
+    "section_5_answer_21": "Ja, onze praktijk is toegankelijk voor rolstoelgebruikers. We hebben een lift en de praktijkruimte is rolstoelvriendelijk. Dus je kunt ons zeker bezoeken als je een rolstoel gebruikt.",
+
+    "section_5_subtitle_1": "partnership",
+    "section_5_paragraph_1": "<br><br>Our clinic is also a proud member of the Dutch Association for Traditional Chinese Medicine ZHONG. As a result, our treatments may be reimbursed by health insurers, depending on your policy."
   }
 }

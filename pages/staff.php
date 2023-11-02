@@ -22,42 +22,30 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rosarivo:400,700&display=swap">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <?php
         include $rootPath."/php/header.php";
 
     // Load the specific localization data for services.php
-    $servicesLocalizationData = json_decode(file_get_contents($rootPath.'/localisation/services_localisation.json'), true);
-    $taffContent = $servicesLocalizationData[$_SESSION['lang']];
+    $staffLocalizationData = json_decode(file_get_contents($rootPath.'/localisation/staff_localisation.json'), true);
+    $staffContent = $staffLocalizationData[$_SESSION['lang']];
     ?>
 
     <main>
         <div class="margin"></div>
-        <section class="services_section">
-            <h1><?php echo $servicesContent['main_title']; ?></h1>
-            <ul class="service-grid">
-                <?php for ($i = 0; $i < count($servicesContent['services']); $i++) { ?>
-                    <li>
-                        <button class="image-text-button">
-                            <div class="image-container">
-                                <img src="<?php echo $baseURL; ?>assets/images/service<?php echo $i + 1; ?>.jpg" alt="<?php echo $servicesContent[$i]['title']; ?>">
-                            </div>
-                            <div class="label-container">
-                                <span><?php echo $servicesContent['services'][$i]['title']; ?></span>
-                            </div>
-                        </button>
-                    </li>
-                    <li class="fullwidth is-hidden" id="quickview-<?php echo $i + 1; ?>">
-                        <div class="text-container">
-                            <h2><?php echo $servicesContent['services'][$i]['title']; ?></h2>
-                            <p><?php echo $servicesContent['services'][$i]['description']; ?></p>
-                        </div>
-                    </li>
-                <?php } ?>
-            </ul>
+        <section class="staff_section">
+                <div class="left-section">
+                    <img src="<?php echo $baseURL; ?>assets/images/stacks-image-460eb02-5.jpg" alt="Image">
+                </div>
+                <div class="right-section">
+                    <h2><?php echo $staffContent['staff_title']; ?></h2>
+                    <p><?php echo $staffContent['staff_paragraph']; ?></p>
+                </div>
+            </div>
         </section>
     </main>
-    <script src="/Accupucture Web Project/assets/js/services-script.js"></script> <!-- Link to the javascript file -->
 </body>
 </html>

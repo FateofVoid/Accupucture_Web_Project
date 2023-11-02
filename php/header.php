@@ -1,15 +1,13 @@
-
 <?php
 $rootPath = str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']) . "/Accupucture Web Project/";
-include $rootPath."config.php";
+$baseURL = "http://localhost:8080/Accupucture%20Web%20Project/";
+include $rootPath . "config.php";
 
 // Extract the language from the URL path
 
-
 // Load the shared localization data for the header
-$headerLocalizationData = json_decode(file_get_contents($rootPath.'localisation/shared_localisation.json'), true);
+$headerLocalizationData = json_decode(file_get_contents($rootPath . 'localisation/shared_localisation.json'), true);
 $headerContent = $headerLocalizationData[$_SESSION['lang']];
-
 ?>
 
 <header>
@@ -17,11 +15,14 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
         <div class="left-section">
             <div class="logo"><?php echo $headerContent['header_logo']; ?></div>
             <nav class="header-buttons">
-                <a href=$rootPath."index.php">
+                <a href="<?php echo $baseURL; ?>index.php">
                     <button><?php echo $headerContent['header_home_button_label']; ?></button>
                 </a>
-                <a href=$rootPath."pages/services.php">
+                <a href="<?php echo $baseURL; ?>pages/services.php">
                     <button><?php echo $headerContent['header_service_button_label']; ?></button>
+                </a>
+                <a href="<?php echo $baseURL; ?>pages/staff.php">
+                    <button><?php echo $headerContent['header_staff_button_label']; ?></button>
                 </a>
             </nav>
         </div>
@@ -31,21 +32,20 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
             <div class="language-dropdown">
                 <div class="custom-select" id="custom-select">
                     <div class="selected-option">
-                        <img src=$rootPath."assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
+                        <img src="<?php echo $baseURL; ?>assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
                     </div>
                     <div class="options" id="options">
                         <div class="option" data-value="en">
-                            <img src=$rootPath."assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
+                            <img src="<?php echo $baseURL; ?>assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
                         </div>
                         <div class="option" data-value="nl">
-                            <img src=$rootPath."assets/images/icon-nl.png" alt="Dutch Flag" class="flag-icon"> NL
+                            <img src="<?php echo $baseURL; ?>assets/images/icon-nl.png" alt="Dutch Flag" class="flag-icon"> NL
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <?php echo 'File Path: ' . str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']); ?>
+    <?php echo 'File Path: ' . $rootPath . 'localisation/shared_localisation.json'; ?>
 </header>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
