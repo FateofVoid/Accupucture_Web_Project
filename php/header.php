@@ -1,12 +1,12 @@
 <?php
 $rootPath = str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']) . "/Accupucture Web Project/";
-$baseURL = "http://localhost:8080/Accupucture%20Web%20Project/";
+$baseURL = "http://localhost:8080/Accupucture Web Project/";
 include $rootPath . "config.php";
 
 // Extract the language from the URL path
 
 // Load the shared localization data for the header
-$headerLocalizationData = json_decode(file_get_contents($rootPath . 'localisation/shared_localisation.json'), true);
+$headerLocalizationData = json_decode(file_get_contents('localisation/shared_localisation.json'), true);
 $headerContent = $headerLocalizationData[$_SESSION['lang']];
 ?>
 

@@ -70,8 +70,6 @@
                     <div class="section_2_middle">
                         <div class="profile-picture">
                             <!-- Profile picture goes here -->
-                            <img src="assets/images/stacks-image-460eb02-5.jpg" alt="Profile Picture">
-                            <figcaption><?php echo $indexContent['profile_text']; ?></figcaption>
                         </div>
                     </div>
                     <div class="section_2_right">
@@ -135,25 +133,19 @@
             <section class="section_4">
                 <div class="content">
                     <div class="section_4_left">
-                        <h1><?php echo $indexContent['section_4_title']; ?></h1>
-                        <h2><?php echo $indexContent['section_4_subtitle']; ?></h2>
-                        <p><?php echo $indexContent['section_4_paragraph']; ?></p>
-                        <button class="appointment-button"><?php echo $indexContent['section_4_button_label']; ?></button>
-                        <h2><?php echo $indexContent['section_4_subtitle_2']; ?></h2>
-                        <p><?php echo $indexContent['section_4_paragraph_2']; ?></p>
+                        <h1><?php echo $indexContent['section_4_left_title']; ?></h1>
+                        <h2><?php echo $indexContent['section_4_left_subtitle']; ?></h2>
+                        <p><?php echo $indexContent['section_4_left_paragraph']; ?></p>
+                        <button class="appointment-button"><?php echo $indexContent['section_4_left_button_label']; ?></button>
+                        <h2><?php echo $indexContent['section_4_left_subtitle_2']; ?></h2>
+                        <p><?php echo $indexContent['section_4_left_paragraph_2']; ?></p>
                     </div>
                     <div class="section_4_right">
-                        <div class="map">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.7330290348536!2d5.146192377588776!3d52.35712714827447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c61112de60e201%3A0xa7698c5e8cab0cf0!2sHerasingel%2013%2C%201363%20TH%20Almere!5e0!3m2!1sen!2snl!4v1693567494770!5m2!1sen!2snl"
-                                width=100%
-                                height=100%
-                                style="border:0;"
-                                allowfullscreen=""
-                                loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
-                        </div>
+                        <h1><?php echo $indexContent['section_4_right_title']; ?></h1>
+                        <h2><?php echo $indexContent['section_4_right_subtitle']; ?></h2>
+                        <p><?php echo $indexContent['section_4_right_paragraph']; ?></p>
+                        <button class="appointment-button appointment-alt"><?php echo $indexContent['section_4_right_button_label']; ?></button>
+                    </div>
                     </div>
                 </div>
             </section>

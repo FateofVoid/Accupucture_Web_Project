@@ -26,9 +26,11 @@ body, h1, h2, h3, p, button, ul, li, select, footer, header {
         --button-idle01: #92BA92;
         --button-idle02: #FAF3F0;
         --button-idle03: rgba(51, 153, 255, 0.21);
+        --button-idle04: rgba(102, 0, 153, 0.6);
         --button-hover01: #ABCDEF;
         --button-hover02: #ABCDEF;
         --button-hover03: rgba(51, 153, 255, 0.28);
+        --button-hover04: rgba(128, 0, 170, 0.6);
         --button-selected: rgba(51, 153, 255, 0.35);
         --extra-01: #ABCDEF;
         --extra-02: #F0E0D0;
@@ -703,6 +705,13 @@ header .appointment-button {
 }
 
 
+.appointment-alt {
+    background-color: var(--button-idle04);
+}
+
+.appointment-alt:hover {
+    background-color: var(--button-hover04); /* Replace with your button hover color */
+}
 /* Example link styling */
 a {
     color: var(--color-tertiary);
