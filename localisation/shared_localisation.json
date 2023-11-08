@@ -9,17 +9,34 @@
     "footer_logo": "Heng Ren Tang",
     "footer_link_1": "Home",
     "footer_link_2": "About",
-    "footer_link_3": "Contact"
+    "footer_link_3": "Contact",
+    "popup_title": "To make an appointment select one of my clinics bellow or call me at: ",
+    "popup_subtitle": "06 2419 9579",
+    "popup_section_1_title": "Almere",
+    "popup_section_1_content": "Tuesday: 16:00 - 20:00 <br><br>Thursday: 9:00 - 18:00<br><br><br><br>",
+    "popup_section_1_button": "go to Almere",
+    "popup_section_2_title": "Bussum",
+    "popup_section_2_content": "Monday: 13:00 - 17:00 <br><br>Wndsday: 9:00 - 17:00 <br><br>Friday: 9:00 - 12:00",
+    "popup_section_2_button": "go to Bussum"
   },
   "nl": {
-    "header_logo": "Heng Ren Tang Logo",
+    "header_logo": "Heng Ren Tang",
     "header_home_button_label": "Home",
-    "header_service_button_label": "Diensten",
-    "header_appointment_button_label": "Maak een<br>Afspraak",
-    "tooltip_text": "Dit is een tooltip tekst.",
+    "header_service_button_label": "Services",
+    "header_staff_button_label": "Staff",
+    "header_appointment_button_label": "Make an<br>Appointment",
+    "tooltip_text": "This is a tooltip text.",
     "footer_logo": "Heng Ren Tang",
     "footer_link_1": "Home",
-    "footer_link_2": "Over Ons",
-    "footer_link_3": "Contact"
+    "footer_link_2": "About",
+    "footer_link_3": "Contact",
+    "popup_title": "Popup Title",
+    "popup_subtitle": "Popup Subtitle",
+    "popup_section_1_title": "Section 1 Title",
+    "popup_section_1_content": "Content for section 1.",
+    "popup_section_1_button": "Button 1",
+    "popup_section_2_title": "Section 2 Title",
+    "popup_section_2_content": "Content for section 2.",
+    "popup_section_2_button": "Button 2"
   }
 }

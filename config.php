@@ -10,4 +10,13 @@
             $_SESSION['lang'] = $_GET['lang'];
     }
 
+    $validPages = array('home', 'services', 'staff');
+
+    if (!isset($_SESSION['selectedPage'])) {
+        $_SESSION['selectedPage'] = "home"; // Set a default page
+    } else if (isset($_GET['page']) && $_SESSION['selectedPage'] != $_GET['page'] && !empty($_GET['page'])) {
+        if (in_array($_GET['page'], $validPages)) {
+            $_SESSION['selectedPage'] = $_GET['page'];
+        }
+    }
 ?>

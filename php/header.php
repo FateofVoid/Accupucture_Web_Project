@@ -1,8 +1,6 @@
 <?php
 $rootPath = str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']) . "/Accupucture Web Project/";
 $baseURL = "http://localhost:8080/Accupucture Web Project/";
-include $rootPath . "config.php";
-
 // Extract the language from the URL path
 
 // Load the shared localization data for the header
@@ -13,21 +11,25 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
 <header>
     <div class="header-content">
         <div class="left-section">
+            <div class="mobile-dropdown-button">
+                <button class="mobile-dropdown-button-icon">☰</button>
+            </div>
             <div class="logo"><?php echo $headerContent['header_logo']; ?></div>
-            <nav class="header-buttons">
-                <a href="<?php echo $baseURL; ?>index.php">
+
+            <div class="header-buttons page-options" id="page-options">
+                <div class="page-option" data-value="home">
                     <button><?php echo $headerContent['header_home_button_label']; ?></button>
-                </a>
-                <a href="<?php echo $baseURL; ?>pages/services.php">
+                </div>
+                <div class="page-option" data-value="services">
                     <button><?php echo $headerContent['header_service_button_label']; ?></button>
-                </a>
-                <a href="<?php echo $baseURL; ?>pages/staff.php">
+                </div>
+                <div class="page-option" data-value="staff">
                     <button><?php echo $headerContent['header_staff_button_label']; ?></button>
-                </a>
-            </nav>
+                </div>
+            </div>
         </div>
         <div class="right-section">
-            <button class="appointment-button"><?php echo $headerContent['header_appointment_button_label']; ?></button>
+            <button class="appointment-button popup-button"><?php echo $headerContent['header_appointment_button_label']; ?></button>
             <!-- Language Selection Dropdown -->
             <div class="language-dropdown">
                 <div class="custom-select" id="custom-select">
@@ -46,6 +48,6 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
             </div>
         </div>
     </div>
-    <?php echo 'File Path: ' . $rootPath . 'localisation/shared_localisation.json'; ?>
+    <?php //echo 'File Path: ' . $rootPath . 'localisation/shared_localisation.json'; ?>
 </header>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
