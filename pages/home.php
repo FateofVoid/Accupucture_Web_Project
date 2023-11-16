@@ -31,14 +31,15 @@
         <!-- Section 2 -->
         <section class="section_2">
             <div class="content">
-                <div class="section_2_left">
+                <div class="left-content">
                     <h1><?php echo $indexContent['section_2_title']; ?></h1>
                     <h2><?php echo $indexContent['section_2_subtitle']; ?></h2>
                     <p><?php echo $indexContent['section_2_paragraph1']; ?></p>
                 </div>
                 <div class="section_2_middle">
                     <div class="profile-picture">
-                        <!-- Profile picture goes here -->
+                            <img src="assets/images/IMG-20231028-WA0002.jpg" alt="Image">
+                            <img src="assets/images/IMG-20231028-WA0001.jpg" alt="Image">
                     </div>
                 </div>
                 <div class="section_2_right">
@@ -47,7 +48,7 @@
                             <img src="assets/images/130129549-close-up-of-doctor-s-hand-perform-medical-professional-acupuncture-treatment-in-beauty-spa-on-woman.jpg" alt="Image">
                         </div>
                         <div class="label-container">
-                            <span><?php echo $indexContent['section_2_button_label_1']; ?></span>
+                            <span><?php echo $indexContent['section_2_button_label_2']; ?></span>
                         </div>
                     </button>
                     <button class="image-text-button">
@@ -55,9 +56,10 @@
                             <img src="assets/images/130129549-close-up-of-doctor-s-hand-perform-medical-professional-acupuncture-treatment-in-beauty-spa-on-woman.jpg" alt="Image">
                         </div>
                         <div class="label-container">
-                            <span><?php echo $indexContent['section_2_button_label_2']; ?></span>
+                            <span><?php echo $indexContent['section_2_button_label_1']; ?></span>
                         </div>
                     </button>
+
                 </div>
             </div>
         </section>
@@ -76,7 +78,7 @@
                         <div class="tooltip-container">
                             <?php echo $indexContent['section_3_paragraph_1_1']; ?>
                             <div class="tooltip">
-                                <img src="<?php echo $baseURL; ?>assets/images/tooltip_icon.png" alt="?" class="tooltip-icon">
+                                <img src="assets/images/tooltip_icon.png" alt="?" class="tooltip-icon">
                                 <span class="tooltiptext"><?php echo $indexContent['section_3_tooltip_text']; ?></span>
                             </div>
                             <?php echo $indexContent['section_3_paragraph_1_2']; ?>
@@ -115,16 +117,16 @@
                 <div class="section_4_left">
                     <h2><?php echo $indexContent['section_4_left_subtitle']; ?></h2>
                     <p><?php echo $indexContent['section_4_left_paragraph']; ?></p>
-                    <h2><?php echo $indexContent['section_4_left_subtitle_2']; ?></h2>
-                    <p><?php echo $indexContent['section_4_left_paragraph_2']; ?></p>
                 </div>
                 <div class="section_4_right">
                     <h1><?php echo $indexContent['section_4_right_title']; ?></h1>
                     <h2><?php echo $indexContent['section_4_right_subtitle']; ?></h2>
                     <p><?php echo $indexContent['section_4_right_paragraph']; ?></p>
                 </div>
+                <div class="section_4_bottom">
+                    <h2><?php echo $indexContent['section_4_left_subtitle_2']; ?></h2>
+                    <p><?php echo $indexContent['section_4_left_paragraph_2']; ?></p>
                 </div>
-            </div>
         </section>
 
         <div class="gradient_odd">

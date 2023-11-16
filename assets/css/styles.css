@@ -235,9 +235,9 @@ header .left-section {
 }
 
 header .logo {
-    font-family: 'Lobster', cursive;
+    font-family: 'Kis Antiqua', serif;
     padding:1rem;
-    font-size: var(--font-size-title);
+    font-size: calc(var(--font-size-title)*1.4);
     font-weight: bold;
 }
 
@@ -397,9 +397,12 @@ section {
 /* Section 2 specific styles */
 .section_2 {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex: 1;
+}
+
+.section_2 .content {
+  display: flex;
 }
 
 .section_2 h1 {
@@ -422,14 +425,20 @@ section {
 }
 
 .section_2 .section_2_left {
-  flex: 0 0 calc(50% - 1rem); /* 40% width with some space between columns */
+  flex: 0 0 calc(50% - 1rem);
   padding: 1rem;
   box-sizing: border-box;
 }
 
+.section_2 .left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the top */
+}
+
 .section_2 .section_2_middle {
   flex: 0 0 calc(30% - 1rem); /* 30% width with some space between columns */
-  adding: 1rem;
+  padding: 1rem;
   box-sizing: border-box;
 }
 
@@ -583,6 +592,11 @@ section {
 .section_4 .section_4_right {
     grid-column: 2; /* Place in the second column */
     grid-row: 2; /* Place in the second row */
+}
+
+.section_4 .section_4_bottom {
+    grid-column: 1/*/ span 2*/;
+    grid-row: 3;
 }
 
 /* Section 5 Specific Style*/
@@ -917,6 +931,12 @@ a:hover {
         display: block; /* Show on smaller screens */
     }
 
+    header .logo {
+        font-family: 'Kis Antiqua', serif;
+        padding:1rem;
+        font-size: var(--font-size-title);
+        font-weight: bold;
+    }
     .mobile-dropdown-button .mobile-dropdown-button-icon {
         font-size: var(--font-size-title); /* Adjust the size as needed */
         padding: var(--font-size-paragraph)

@@ -11,7 +11,7 @@
         <div class="margin"></div>
         <section class="staff_section">
                 <div class="left-section">
-                    <img src="assets/images/stacks-image-460eb02-5.jpg" alt="Image">
+                    <img src="assets/images/IMG-20231028-WA0003.jpg" alt="Image">
                 </div>
                 <div class="right-section">
                     <h2><?php echo $staffContent['staff_title']; ?></h2>

@@ -4,27 +4,27 @@
     "services": [
       {
         "title": "Respiratory",
-        "description": "acute colds, flu, sinusitis, sore throats, acute bronchitis, asthma, allergies."
+        "description": "Acute colds, flu, sinusitis, sore throats, acute bronchitis, asthma, allergies."
       },
       {
         "title": "Digestive system",
-        "description": "esophageal spasms, gastritis, inflammation of the small and large intestine, irritable bowel syndrome, constipation/diarrhea."
+        "description": "Esophageal spasms, gastritis, inflammation of the small and large intestine, irritable bowel syndrome, constipation/diarrhea."
       },
       {
         "title": "Musculoskeletal",
-        "description": "sports injuries, whiplash, tennis elbow, shoulder pain, back pain, weak/spastic paralysis, golfer's elbow."
+        "description": "Sports injuries, whiplash, tennis elbow, shoulder pain, back pain, weak/spastic paralysis, golfer's elbow."
       },
       {
         "title": "Hormonal",
-        "description": "diabetes, menstrual disorders, premenstrual pain and tension (PMS)."
+        "description": "Diabetes, menstrual disorders, premenstrual pain and tension (PMS)."
       },
       {
         "title": "Urinary and reproductive organs",
-        "description": "bedwetting, urinary tract infections, prostate hypertrophy/prostatitis, impotence, erectile problems, burning pain during urination, certain fertility issues."
+        "description": "Bedwetting, urinary tract infections, prostate hypertrophy/prostatitis, impotence, erectile problems, burning pain during urination, certain fertility issues."
       },
       {
         "title": "Other",
-        "description": "exhaustion (mental and physical), sleep disorders, psychological instability, depression, nervousness, phobias, toothache, headaches, migraines, rheumatic complaints, menopausal symptoms, facial pain, fibromyalgia, RSI (repetitive strain injury), burnout, ear problems (such as tinnitus), skin problems (e.g., acne, eczema)."
+        "description": "Exhaustion (mental and physical), sleep disorders, psychological instability, depression, nervousness, phobias, toothache, headaches, migraines, rheumatic complaints, menopausal symptoms, facial pain, fibromyalgia, RSI (repetitive strain injury), burnout, ear problems (such as tinnitus), skin problems (e.g., acne, eczema)."
       }
     ]
   },
