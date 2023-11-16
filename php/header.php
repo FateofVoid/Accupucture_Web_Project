@@ -1,7 +1,4 @@
 <?php
-$rootPath = str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']) . "/Accupucture Web Project/";
-$baseURL = "http://localhost:8080/Accupucture Web Project/";
-// Extract the language from the URL path
 
 // Load the shared localization data for the header
 $headerLocalizationData = json_decode(file_get_contents('localisation/shared_localisation.json'), true);
@@ -25,6 +22,12 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
                 </div>
                 <div class="page-option" data-value="staff">
                     <button><?php echo $headerContent['header_staff_button_label']; ?></button>
+                </div>
+                <div class="page-option" data-value="certificate">
+                    <button><?php echo $headerContent['header_certificate_button_label']; ?></button>
+                </div>
+                <div class="page-option" data-value="privacy">
+                    <button><?php echo $headerContent['header_privacy_button_label']; ?></button>
                 </div>
             </div>
         </div>

@@ -1,11 +1,8 @@
-
-    <?php
-        include "php/header.php";
-
-    // Load the specific localization data for services.php
-    $staffLocalizationData = json_decode(file_get_contents('localisation/staff_localisation.json'), true);
-    $staffContent = $staffLocalizationData[$_SESSION['lang']];
-    ?>
+<?php
+// Load the specific localization data for services.php
+$staffLocalizationData = json_decode(file_get_contents('localisation/staff_localisation.json'), true);
+$staffContent = $staffLocalizationData[$_SESSION['lang']];
+?>
 
     <main>
         <div class="margin"></div>

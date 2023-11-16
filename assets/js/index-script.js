@@ -132,21 +132,10 @@ function initializePageDropdown() {
     const pageOptions = document.getElementById('page-options');
     let selectedPage = 'home'; // Set the default selected page
 
-    function setPageFromURL() {
-        const page = getPageFromURL();
-        if (page) {
-            selectedPage = page;
-            // Update the page dropdown button label
-            pageOptions.querySelector('button').textContent = selectedPage;
-            setSessionPage(page);
-        }
-    }
 
     const pageOptionElements = document.querySelectorAll('.page-option');
     pageOptionElements.forEach((pageOption) => {
         pageOption.addEventListener('click', function () {
-            console.log("Page option clicked");
-
             const pageValue = this.getAttribute('data-value');
             const currentLang = getLanguageFromURL();
             // Update the page and language in the URL
@@ -156,8 +145,6 @@ function initializePageDropdown() {
             location.reload();
         });
     });
-
-    setPageFromURL();
 }
 
 function getPageFromURL() {
@@ -168,7 +155,7 @@ function getPageFromURL() {
 function setSessionPage(pageValue) {
     // You can add checks to ensure the pageValue is valid
     // For example, check against a list of valid pages
-    const validPages = ['home', 'services', 'staff'];
+    const validPages = ['home', 'services', 'staff', 'certificate', 'privacy'];
     if (validPages.includes(pageValue)) {
         // Set the session value for the selected page
         // You can use the session variable as needed in your PHP code

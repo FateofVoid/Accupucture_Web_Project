@@ -27,11 +27,6 @@
     <?php
     include_once "config.php";
     include_once "php/header.php";
-
-    // Load the specific localization data for index.php
-    $indexLocalizationData = json_decode(file_get_contents('localisation/Index_localisation.json'), true);
-    $indexContent = $indexLocalizationData[$_SESSION['lang']];
-
     include_once "php/popup.php";
     // Include the selected page based on the session variable
     include_once 'pages/' . $_SESSION['selectedPage'] . '.php';

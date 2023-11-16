@@ -10,7 +10,7 @@
             $_SESSION['lang'] = $_GET['lang'];
     }
 
-    $validPages = array('home', 'services', 'staff');
+    $validPages = array('home', 'services', 'staff', 'certificate', 'privacy');
 
     if (!isset($_SESSION['selectedPage'])) {
         $_SESSION['selectedPage'] = "home"; // Set a default page
