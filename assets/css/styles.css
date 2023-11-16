@@ -47,7 +47,7 @@ body, h1, h2, h3, p, button, ul, li, select, footer, header {
 body {
     background-color: var(--color-secondary);
     margin: 0 auto;
-    font-size: 16px; /* Font size is 1% of viewport width */
+    font-size: var(--font-size-paragraph); /* Adjust the size as needed */
     line-height: 1.4;
     max-width: 99%;
     width: 1600px;
@@ -268,7 +268,7 @@ header .header-buttons {
 header .header-buttons button {
     background-color: var(--button-idle02);
     color: #000;
-    padding: 1rem 2rem;
+    padding: calc(var(--font-size-paragraph)*1) calc(var(--font-size-paragraph)*2);
     border: 0.21rem solid #ccc;
     border-radius: 2rem;
     cursor: pointer;
@@ -290,7 +290,7 @@ header .appointment-button {
     width:calc(var(--font-size-paragraph)*14);
     font-size: calc(var(--font-size-paragraph) * 1.4);
     background-color: var(--button-idle01); /* Replace with your button hover color */
-    padding:0.35rem 1rem;
+    padding:calc(var(--font-size-paragraph) * 0.35) calc(var(--font-size-paragraph) * 1);
 }
 
 header .mobile-dropdown-button {
@@ -334,8 +334,7 @@ main {
 }
 
 .margin{
-    margin: 2rem;
-
+    margin-top: calc(var(--font-size-paragraph)*7);
 }
 
 /* Sections */
@@ -851,9 +850,10 @@ a:hover {
 @media (min-width: 1280px) and (max-width: 1920px) {
   /* Set a fixed font size for all elements */
 
+
     body {
         width: 1280px;
-        font-size: 12.8px; /* Adjust the font size relative to viewport width */
+        font-size: calc(var(--font-size-paragraph)); /* Adjust the font size relative to viewport width */
     }
 
     :root {

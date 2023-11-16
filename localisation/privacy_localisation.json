@@ -3,12 +3,25 @@
     "contact_title": "Contact Information",
     "contact_paragraph": "Heng Ren Tang, located at De Binderij 62B, 1321EK Almere, is responsible for the processing of personal data as outlined in this privacy statement.<br>Phone: 0624199579<br>Internet: https://www.hengrentang.nl",
 
-    "personal_data_title": "Personal Data We Process",
-    "personal_data_paragraph": "Heng Ren Tang processes your personal data when you use our services and/or provide it to us.<br>Below, you will find an overview of the personal data we process:<br>- **Initials, last name, and given name.**<br>- **Gender.**<br>- **Date of birth.**<br>- **Address details.**<br>- **Phone number.**<br>- **Email address.**",
+    "personal_data_title": "Personal Data Processed by Us",
+    "personal_data_paragraph": "Heng Ren Tang processes your personal data when you use our services and/or when you provide it to us.<br>Below is an overview of the personal data we process:<br>",
+    "personal_data_list": [
+      "Initials, last name, and first name.",
+      "Gender.",
+      "Date of birth.",
+      "Address information.",
+      "Phone number.",
+      "Email address."
+    ],
 
-    "sensitive_data_title": "Special and/or Sensitive Personal Data We Process",
-    "sensitive_data_paragraph": "Based on the Medical Treatment Agreement Act (WGBO), we, as a healthcare provider, are obliged to maintain a medical record.<br>- **Your care request and main complaint.**<br>- **Diagnostic data.**<br>- **Treatment data.**",
-
+    "sensitive_data_title": "Special and/or Sensitive Personal Data Processed by Us",
+    "sensitive_data_paragraph": "In accordance with the Medical Treatment Agreement Act (WGBO), we, as a healthcare provider, are obliged to keep a medical record.<br>",
+    "sensitive_data_list": [
+      "Your care request and main complaint.",
+      "Diagnostic data.",
+      "Treatment data."
+    ],
+    
     "under_16_title": "Data of Individuals Under 16 Years",
     "under_16_paragraph": "Our website and/or service does not intend to collect data about website visitors under the age of 16, unless they have parental or guardian consent. However, we cannot verify whether a visitor is over 16. We recommend that parents be involved in their children's online activities to prevent the collection of data about children without parental consent. If you are convinced that we have collected personal data about a minor without permission, please contact us, and we will remove this information.",
 
@@ -41,6 +54,12 @@
     "access_modify_delete_paragraph_2": "You can submit a request for access, correction, deletion, or data portability of your personal data, or request the withdrawal of your consent or object to the processing of your personal data by sending it to Heng Ren Tang. To ensure that the request for access is made by you, we ask you to include a copy of your identity document with the request. In this copy, please black out your photo, MRZ (machine-readable zone, the strip with numbers at the bottom of the passport), passport number, and Citizen Service Number (BSN) to protect your privacy.",
     "access_modify_delete_paragraph_3": "We will respond as soon as possible, but within four weeks, to your request. Heng Ren Tang also wants to inform you that you have the option to file a complaint with the national supervisory authority, the Dutch Data Protection Authority (Autoriteit Persoonsgegevens). This can be done through the following link: https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons",
 
+    "retention_title": "Data Retention Period",
+    "retention_paragraph": "The legal retention period of your dossier is 20 years.",
+
+    "sharing_with_third_parties_title": "Sharing with Third Parties",
+    "sharing_with_third_parties_paragraph": "Heng Ren Tang provides information to third parties only when necessary for the execution of our agreement with you or to comply with a legal obligation.",
+
     "data_security_title": "How We Secure Personal Data",
     "data_security_paragraph": "Heng Ren Tang takes the protection of your data seriously and implements appropriate measures to prevent misuse, loss, unauthorized access, unwanted disclosure, and unauthorized modification. We use a digital client file secured with a password and data encryption. If you believe your data is not properly secured or there are indications of misuse, please contact us.",
 
@@ -52,10 +71,23 @@
     "contact_paragraph": "Heng Ren Tang, gevestigd aan De Binderij 62B, 1321EK Almere, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.<br>Telefoon: 0624199579<br>Internet: https://www.hengrentang.nl",
 
     "personal_data_title": "Persoonsgegevens die wij verwerken",
-    "personal_data_paragraph": "Heng Ren Tang verwerkt uw persoonsgegevens doordat u gebruik maakt van onze diensten en/of omdat u deze zelf aan ons verstrekt.<br>Hieronder vindt u een overzicht van de persoonsgegevens die wij verwerken:<br>- **Initialen, achternaam en roepnaam.**<br>- **Geslacht.**<br>- **Geboortedatum.**<br>- **Adresgegevens.**<br>- **Telefoonnummer.**<br>- **Emailadres.**",
+    "personal_data_paragraph": "Heng Ren Tang verwerkt uw persoonsgegevens doordat u gebruik maakt van onze diensten en/of omdat u deze zelf aan ons verstrekt.<br>Hieronder vindt u een overzicht van de persoonsgegevens die wij verwerken:<br>",
+    "personal_data_list": [
+      "Initialen, achternaam en roepnaam.",
+      "Geslacht.",
+      "Geboortedatum.",
+      "Adresgegevens.",
+      "Telefoonnummer.",
+      "Emailadres."
+    ],
 
     "sensitive_data_title": "Bijzondere en/of gevoelige persoonsgegevens die wij verwerken",
-    "sensitive_data_paragraph": "Op grond van de Wet op de Geneeskundige Behandeling Overeenkomst (WGBO) zijn wij als zorgverlener verplicht een medisch dossier bij te houden.<br>- **Uw zorgvraag en hoofdklacht.**<br>- **Diagnostische gegevens.**<br>- **Behandelgegevens.**",
+    "sensitive_data_paragraph": "Op grond van de Wet op de Geneeskundige Behandeling Overeenkomst (WGBO) zijn wij als zorgverlener verplicht een medisch dossier bij te houden.<br>",
+    "sensitive_data_list": [
+      "Uw zorgvraag en hoofdklacht.",
+      "Diagnostische gegevens.",
+      "Behandelgegevens."
+    ],
 
     "under_16_title": "Gegevens van personen jonger dan 16 jaar",
     "under_16_paragraph": "Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar. Tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als u er van overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op en wij verwijderen dan deze informatie.",
@@ -88,6 +120,12 @@
     "access_modify_delete_paragraph_1": "U heeft het recht om uw persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heeft u het recht om uw eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van uw persoonsgegevens door Heng Ren Tang en heeft u het recht op gegevensoverdraagbaarheid.",
     "access_modify_delete_paragraph_2": "Dat betekent dat u bij ons een verzoek kunt indienen om de persoonsgegevens die wij van u beschikken in een computerbestand naar u of een ander, door u genoemde organisatie, te sturen.",
     "access_modify_delete_paragraph_3": "U kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van uw persoonsgegevens of verzoek tot intrekking van uw toestemming of bezwaar op de verwerking van uw persoonsgegevens sturen naar Heng Ren Tang. Om er zeker van te zijn dat het verzoek tot inzage door u is gedaan, vragen wij u een kopie van uw identiteitsbewijs met het verzoek mee te sturen. Maak in deze kopie uw pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter bescherming van uw privacy. We reageren zo snel mogelijk, maar binnen vier weken, op uw verzoek. Heng Ren Tang wil u er tevens op wijzen dat u de mogelijkheid heeft om een klacht in te dienen bij de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link: https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons",
+
+    "retention_title": "Bewaartermijn",
+    "retention_paragraph": "De wettelijke bewaartermijn van uw dossier is 20 jaar.",
+
+    "sharing_with_third_parties_title": "Delen met Derden",
+    "sharing_with_third_parties_paragraph": "Heng Ren Tang verstrekt alleen informatie aan derden als dit nodig is voor de uitvoering van onze overeenkomst met u of om te voldoen aan een wettelijke verplichting.",
 
     "data_security_title": "Hoe wij persoonsgegevens beveiligen",
     "data_security_paragraph": "Heng Ren Tang neemt de bescherming van uw gegevens serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Wij werken met een digitaal cliëntendossier. Beveiligt via wachtwoord en data-encryptie. Als u de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact met ons op.",

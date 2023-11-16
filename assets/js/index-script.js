@@ -132,9 +132,6 @@ function initializePageDropdown() {
     const pageOptions = document.getElementById('page-options');
     let selectedPage = 'home'; // Set the default selected page
 
-    // Set the initial page without checking the URL
-    pageOptions.querySelector('button').textContent = selectedPage;
-    setSessionPage(selectedPage);
 
     const pageOptionElements = document.querySelectorAll('.page-option');
     pageOptionElements.forEach((pageOption) => {
