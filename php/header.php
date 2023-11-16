@@ -1,7 +1,4 @@
 <?php
-$rootPath = str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT']) . "/Accupucture Web Project/";
-$baseURL = "http://localhost:8080/Accupucture Web Project/";
-// Extract the language from the URL path
 
 // Load the shared localization data for the header
 $headerLocalizationData = json_decode(file_get_contents('localisation/shared_localisation.json'), true);
@@ -26,6 +23,12 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
                 <div class="page-option" data-value="staff">
                     <button><?php echo $headerContent['header_staff_button_label']; ?></button>
                 </div>
+                <div class="page-option" data-value="certificate">
+                    <button><?php echo $headerContent['header_certificate_button_label']; ?></button>
+                </div>
+                <div class="page-option" data-value="privacy">
+                    <button><?php echo $headerContent['header_privacy_button_label']; ?></button>
+                </div>
             </div>
         </div>
         <div class="right-section">
@@ -34,14 +37,14 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
             <div class="language-dropdown">
                 <div class="custom-select" id="custom-select">
                     <div class="selected-option">
-                        <img src="<?php echo $baseURL; ?>assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
+                        <img src="assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
                     </div>
                     <div class="options" id="options">
                         <div class="option" data-value="en">
-                            <img src="<?php echo $baseURL; ?>assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
+                            <img src="assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
                         </div>
                         <div class="option" data-value="nl">
-                            <img src="<?php echo $baseURL; ?>assets/images/icon-nl.png" alt="Dutch Flag" class="flag-icon"> NL
+                            <img src="assets/images/icon-nl.png" alt="Dutch Flag" class="flag-icon"> NL
                         </div>
                     </div>
                 </div>

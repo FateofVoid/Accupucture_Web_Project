@@ -64,11 +64,30 @@ body {
     z-index: 700; /* Ensure the overlay appears on top of other content */
 }
 
-h1{
-  text-align: center;
+ h1 {
+    font-size: var(--font-size-title);
+    margin-bottom: 2rem; /* 5% of viewport width */
+    text-align: center;
+
 }
 
+ h2 {
+    font-size: var(--font-size-subtitle);
+    margin-bottom: 0.5rem; /* 0.5% of viewport width */
+}
 
+ p {
+    font-size: var(--font-size-paragraph);
+    margin-bottom: 0.5rem; /* 2.5% of viewport width */
+}
+
+.blue-link {
+    color: blue;
+    text-decoration: none; /* Optional: Remove underline */
+}
+.blue-link:hover {
+    color: darkblue; /* Change to the desired hover color */
+}
 
 /* Add this CSS to hide options initially and style the custom dropdown */
 
@@ -132,7 +151,7 @@ h1{
     margin: 0.21rem;
     border: 0.14rem solid #777;
     border-radius: 1.4rem;
-    width: 21rem;
+    width: calc(var(--font-size-paragraph) * 21);
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -384,12 +403,12 @@ section {
 }
 
 .section_1_right h1 {
-  font-size: calc(var(--font-size-title) * 1.5);
+  font-size: calc(var(--font-size-title) * 1.4);
   margin-bottom: 1.5rem; /* 1.5% of viewport width */
 }
 
 .section_1_right p {
-  font-size: calc(var(--font-size-paragraph) * 1.5);
+  font-size: calc(var(--font-size-paragraph) * 1.4);
   margin-bottom: 2.5rem; /* 2.5% of viewport width */
 }
 
@@ -400,21 +419,6 @@ section {
   align-items: center;
   justify-content: center;
   flex: 1;
-}
-
-.section_2 h1 {
-  font-size: var(--font-size-title);
-  margin-bottom: 2rem; /* 5% of viewport width */
-}
-
-.section_2 h2 {
-  font-size: var(--font-size-subtitle);
-  margin-bottom: 0.5rem; /* 0.5% of viewport width */
-}
-
-.section_2 p {
-  font-size: var(--font-size-paragraph);
-  margin-bottom: 0.5rem; /* 2.5% of viewport width */
 }
 
 .section_2 img {
@@ -448,21 +452,6 @@ section {
   align-items: center;
   justify-content: center;
   flex: 1;
-}
-
-.section_3 h1 {
-  font-size: var(--font-size-title);
-  margin-bottom: 2rem; /* 5% of viewport width */
-}
-
-.section_3 h2 {
-  font-size: var(--font-size-subtitle);
-  margin-bottom: 0.5rem; /* 0.5% of viewport width */
-}
-
-.section_3 p {
-  font-size: var(--font-size-paragraph);
-  margin-bottom: 0.5rem; /* 2.5% of viewport width */
 }
 
 .section_3 .tooltip-container {
@@ -587,20 +576,6 @@ section {
 
 /* Section 5 Specific Style*/
 
-.section_5 h1 {
-  font-size: var(--font-size-title);
-  margin-bottom: 2rem; /* 5% of viewport width */
-}
-
-.section_5 h2 {
-  font-size: var(--font-size-subtitle);
-  margin-bottom: 0.5rem; /* 0.5% of viewport width */
-}
-
-.section_5 p {
-  font-size: var(--font-size-paragraph);
-  margin-bottom: 0.5rem; /* 2.5% of viewport width */
-}
 
 .section_5 .section_3_middle_img_1{
     width: 27%;
@@ -631,13 +606,11 @@ section {
     font-size: --font-size-paragraph;
     padding-left: 0.5rem;
     color: #000;
-    background-color: var(--color-secondary); /* Background color for answers */
 }
 
 .faq .qa {
     cursor: pointer;
     font-size: var(--font-size-subtitle);
-    background-color: var(--color-secondary); /* Background color for questions */
     padding: 0.5rem; /* Adjust padding */
     position: relative;
 }
@@ -1006,7 +979,36 @@ a:hover {
 
     .section_4 {
         padding: 1vw;
+        justify-content: start;
     }
+
+    .section_4 .content {
+        display: grid;
+        grid-template-columns: 1fr; /* Change to a single column layout */
+        grid-template-rows: auto; /* Reset rows to auto */
+        gap: 1rem; /* Add some space between items */
+    }
+
+    .section_4 .section_4_top {
+        grid-column: 1; /* Place in the first column */
+        grid-row: 1; /* Place in the first row */
+    }
+
+    .section_4 .appointment-button {
+        grid-column: 1; /* Place in the second column */
+        grid-row: 2; /* Place in the first row */
+    }
+
+    .section_4 .section_4_left {
+        grid-column: 1; /* Place in the first column */
+        grid-row: 3; /* Place in the second row */
+    }
+
+    .section_4 .section_4_right {
+        grid-column: 1; /* Place in the second column */
+        grid-row: 4; /* Place in the second row */
+    }
+
 
     .section_5 {
         padding: 1vw;
@@ -1034,7 +1036,6 @@ a:hover {
     }
 
     .appointment-button {
-        width: 35vw
     }
 
     .service-grid {

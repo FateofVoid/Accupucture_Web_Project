@@ -1,0 +1,99 @@
+{
+  "en": {
+    "contact_title": "Contact Information",
+    "contact_paragraph": "Heng Ren Tang, located at De Binderij 62B, 1321EK Almere, is responsible for the processing of personal data as outlined in this privacy statement.<br>Phone: 0624199579<br>Internet: https://www.hengrentang.nl",
+
+    "personal_data_title": "Personal Data We Process",
+    "personal_data_paragraph": "Heng Ren Tang processes your personal data when you use our services and/or provide it to us.<br>Below, you will find an overview of the personal data we process:<br>- **Initials, last name, and given name.**<br>- **Gender.**<br>- **Date of birth.**<br>- **Address details.**<br>- **Phone number.**<br>- **Email address.**",
+
+    "sensitive_data_title": "Special and/or Sensitive Personal Data We Process",
+    "sensitive_data_paragraph": "Based on the Medical Treatment Agreement Act (WGBO), we, as a healthcare provider, are obliged to maintain a medical record.<br>- **Your care request and main complaint.**<br>- **Diagnostic data.**<br>- **Treatment data.**",
+
+    "under_16_title": "Data of Individuals Under 16 Years",
+    "under_16_paragraph": "Our website and/or service does not intend to collect data about website visitors under the age of 16, unless they have parental or guardian consent. However, we cannot verify whether a visitor is over 16. We recommend that parents be involved in their children's online activities to prevent the collection of data about children without parental consent. If you are convinced that we have collected personal data about a minor without permission, please contact us, and we will remove this information.",
+
+    "processing_purpose_title": "Purpose and Legal Basis for Processing Personal Data",
+    "processing_purpose_paragraph": "For effective treatment, it is necessary for your treating therapist at Heng Ren Tang to create a record. This is a legal obligation imposed by the Medical Treatment Agreement Act (WGBO). Your record includes notes about your health status and details about conducted examinations and treatments. It also includes data necessary for your treatment, which we, if needed and with your explicit consent, may request from another healthcare provider, such as a general practitioner.",
+
+    "processing_purpose_personal_data_title": "Purpose of Processing Personal Data",
+    "processing_purpose_personal_data_paragraph": "- Creating a medical record based on the treatments received.<br>- Generating invoices for your health insurance. The invoice you receive contains the information requested by the health insurer, allowing you to claim reimbursement from your health insurance. This includes your name, address, date of birth, date(s) of treatment, procedure code, and the description 'acupuncture treatment.'<br>- Maintaining contact with you regarding treatment and/or billing.",
+
+    "processing_purpose_medical_data_title": "Purpose of Processing Medical Data",
+    "processing_purpose_medical_data_paragraph": "To perform a treatment that suits you.",
+
+    "usage_personal_and_medical_data_title": "Use of Personal and Medical Data",
+    "usage_personal_and_medical_data_paragraph": "- Data from your file may also be used for the following purposes:<br>  - Informing other healthcare providers (only with your explicit consent), e.g., when therapy is completed or in case of a referral;<br>  - For use during the absence of your therapist for observation;<br>  - For anonymized use during peer review;<br>  - For financial administration: the invoice contains your name, address, and date of birth so that you can submit the invoice to the health insurer;<br>  - Your email address is used for sending invoices, scheduling appointments, and asking questions related to your treatment.<br>If we want to use your data for another reason, we will inform you first and request your explicit consent.",
+
+    "access_to_dossier_title": "Access to Your File",
+    "access_to_dossier_paragraph": "Your treating therapist is the only one with access to the data in your file. Your treating therapist has a legal duty of confidentiality (professional secrecy).<br>The right of access is regulated in Article 35 (paragraph 1, paragraph 2, paragraph 3, paragraph 4) of the Personal Data Protection Act.<br>You have the right to request correction and deletion of your personal data. The right of correction is regulated in Article 36 (paragraph 1, paragraph 2, paragraph 3, paragraph 4) of the Personal Data Protection Act.",
+
+    "access_to_minor_dossier_title": "Access to the File of a Minor",
+    "access_to_minor_dossier_paragraph": "According to patient rights under the WGBO, the capable minor between 12-16 years has rights, as do the parent(s) with authority. Parents of minors up to 16 years have decision-making rights regarding treatment. Parents have the right to information and access to the file when linked to decision-making rights for treatment. There is an exception to this right of access, namely when the professional believes that the exercise of certain patient rights conflicts with the interests of the patient/client. Capable patients/clients aged 12 and older are authorized to grant consent to breach confidentiality.",
+
+    "retention_period_title": "Retention Period",
+    "retention_period_paragraph": "The legal retention period of your file is 20 years.",
+
+    "sharing_personal_data_title": "Sharing of Personal Data with Third Parties",
+    "sharing_personal_data_paragraph": "Heng Ren Tang only provides information to third parties when necessary for the execution of our agreement with you or to comply with a legal obligation.",
+
+    "access_modify_delete_title": "Access, Modify, or Delete Data",
+    "access_modify_delete_paragraph_1": "You have the right to access, correct, or delete your personal data. Additionally, you have the right to withdraw your consent for data processing or object to the processing of your personal data by Heng Ren Tang. You also have the right to data portability, allowing you to request the personal data we hold about you in a computer file sent to you or another organization of your choice.",
+    "access_modify_delete_paragraph_2": "You can submit a request for access, correction, deletion, or data portability of your personal data, or request the withdrawal of your consent or object to the processing of your personal data by sending it to Heng Ren Tang. To ensure that the request for access is made by you, we ask you to include a copy of your identity document with the request. In this copy, please black out your photo, MRZ (machine-readable zone, the strip with numbers at the bottom of the passport), passport number, and Citizen Service Number (BSN) to protect your privacy.",
+    "access_modify_delete_paragraph_3": "We will respond as soon as possible, but within four weeks, to your request. Heng Ren Tang also wants to inform you that you have the option to file a complaint with the national supervisory authority, the Dutch Data Protection Authority (Autoriteit Persoonsgegevens). This can be done through the following link: https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons",
+
+    "data_security_title": "How We Secure Personal Data",
+    "data_security_paragraph": "Heng Ren Tang takes the protection of your data seriously and implements appropriate measures to prevent misuse, loss, unauthorized access, unwanted disclosure, and unauthorized modification. We use a digital client file secured with a password and data encryption. If you believe your data is not properly secured or there are indications of misuse, please contact us.",
+
+    "cookies_title": "Cookies or Similar Technologies We Use",
+    "cookies_paragraph": "Heng Ren Tang only uses analytical cookies that do not infringe on your privacy. A cookie is a small text file that is stored on your computer, tablet, or smartphone when you first visit this website. The cookies we use are necessary for the technical operation of the website and your convenience. They ensure that the website works properly and remember your preferences. Additionally, they allow us to optimize our website. You can opt out of cookies by adjusting your internet browser settings to no longer store cookies. Furthermore, you can delete all information stored earlier through your browser settings."
+  },
+  "nl": {
+    "contact_title": "Contactgegevens",
+    "contact_paragraph": "Heng Ren Tang, gevestigd aan De Binderij 62B, 1321EK Almere, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.<br>Telefoon: 0624199579<br>Internet: https://www.hengrentang.nl",
+
+    "personal_data_title": "Persoonsgegevens die wij verwerken",
+    "personal_data_paragraph": "Heng Ren Tang verwerkt uw persoonsgegevens doordat u gebruik maakt van onze diensten en/of omdat u deze zelf aan ons verstrekt.<br>Hieronder vindt u een overzicht van de persoonsgegevens die wij verwerken:<br>- **Initialen, achternaam en roepnaam.**<br>- **Geslacht.**<br>- **Geboortedatum.**<br>- **Adresgegevens.**<br>- **Telefoonnummer.**<br>- **Emailadres.**",
+
+    "sensitive_data_title": "Bijzondere en/of gevoelige persoonsgegevens die wij verwerken",
+    "sensitive_data_paragraph": "Op grond van de Wet op de Geneeskundige Behandeling Overeenkomst (WGBO) zijn wij als zorgverlener verplicht een medisch dossier bij te houden.<br>- **Uw zorgvraag en hoofdklacht.**<br>- **Diagnostische gegevens.**<br>- **Behandelgegevens.**",
+
+    "under_16_title": "Gegevens van personen jonger dan 16 jaar",
+    "under_16_paragraph": "Onze website en/of dienst heeft niet de intentie gegevens te verzamelen over websitebezoekers die jonger zijn dan 16 jaar. Tenzij ze toestemming hebben van ouders of voogd. We kunnen echter niet controleren of een bezoeker ouder dan 16 is. Wij raden ouders dan ook aan betrokken te zijn bij de online activiteiten van hun kinderen, om zo te voorkomen dat er gegevens over kinderen verzameld worden zonder ouderlijke toestemming. Als u er van overtuigd bent dat wij zonder die toestemming persoonlijke gegevens hebben verzameld over een minderjarige, neem dan contact met ons op en wij verwijderen dan deze informatie.",
+
+    "processing_purpose_title": "Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken",
+    "processing_purpose_paragraph": "Voor een goede behandeling is het noodzakelijk dat uw behandelend therapeut bij de Heng Ren Tang een dossier aanlegt. Dit is een wettelijke plicht opgelegd door de Wet op de Geneeskundige Behandeling Overeenkomst (WGBO). Uw dossier bevat aantekeningen over uw gezondheidstoestand en gegevens over de uitgevoerde onderzoeken en behandelingen. Ook worden in het dossier gegevens opgenomen die voor uw behandeling noodzakelijk zijn en die wij, indien nodig en na uw expliciete toestemming, hebben opgevraagd bij een andere zorgverlener, bijvoorbeeld bij de huisarts.",
+
+    "processing_purpose_personal_data_title": "Het doel van het verwerken van persoonsgegevens",
+    "processing_purpose_personal_data_paragraph": "- Het opstellen van een medisch dossier waarop de behandelingen zijn gebaseerd.<br>- Opstellen van de factuur voor uw zorgverzekering. Op de factuur die u ontvangt staan de gegevens die door de zorgverzekeraar gevraagd worden, zodat u deze kunt declareren bij uw zorgverzekeraar. Uw naam, adres en woonplaats, uw geboortedatum, de datum van de behandeling(en), de prestatiecode en de omschrijving ‘behandeling acupunctuur’.<br>- Contact met u onderhouden m.b.t. de behandeling en/of facturatie.",
+
+    "processing_purpose_medical_data_title": "Het doel van het verwerken van medische gegevens",
+    "processing_purpose_medical_data_paragraph": "Voor het kunnen uitvoeren van een bij u passende behandeling.",
+
+    "usage_personal_and_medical_data_title": "Gebruik van persoons- en dossiergegevens",
+    "usage_personal_and_medical_data_paragraph": "- De gegevens uit uw dossier kunnen ook nog voor de volgende doeleinden gebruikt worden:<br>  - Informeren van andere zorgverleners (alléén met uw expliciete toestemming), bijv. als de therapie is afgerond of bij een doorverwijzing;<br>  - Voor het gebruik voor waarneming tijdens afwezigheid van uw therapeut;<br>  - Voor geanonimiseerde gebruik tijdens intercollegiale toetsing;<br>  - Voor de financiële administratie: de factuur bevat uw NAW-gegevens en geboortedatum zodat u de factuur bij de zorgverzekeraar kunt indienen;<br>  - Uw emailadres wordt gebruikt voor het versturen van facturen, het maken van afspraken en het stellen van vragen in het kader van uw behandeling.<br>Als wij vanwege een andere reden gebruik willen maken van uw gegevens, dan zullen wij u eerst informeren en expliciet uw toestemming vragen.",
+
+    "access_to_dossier_title": "Toegang tot uw dossier",
+    "access_to_dossier_paragraph": "Uw behandelend therapeut heeft als enige toegang tot de gegevens in uw dossier. Uw behandelend therapeut heeft een wettelijke geheimhoudingsplicht (beroepsgeheim).<br>Het inzagerecht is geregeld in artikel 35 (lid 1, lid 2, lid 3, lid 4) van de Wet Bescherming Persoonsgegevens.<br>U hebt het recht om correctie en verwijdering van uw persoonsgegevens te vragen. Het correctierecht is geregeld in artikel 36 (lid 1, lid 2, lid 3, lid 4) van de Wet Bescherming Persoonsgegevens.",
+
+    "access_to_minor_dossier_title": "Toegang tot dossier van minderjarige",
+    "access_to_minor_dossier_paragraph": "Volgens de patiëntenrechten uit de WGBO komen de wilsbekwame minderjarige tussen 12-16 jaar zelf en de ouder(s) met gezag toe. Ouder(s) van minderjarigen tot 16 jaar hebben medebeslissingsrecht over de behandeling. Ouders hebben recht op informatie en inzage in het dossier, wanneer dit gekoppeld is aan het medebeslissingsrecht voor de behandeling. Er bestaat een uitzondering op dit inzagerecht, namelijk wanneer de professional van mening is dat de uitoefening van bepaalde patiëntenrechten indruist tegen het belang van de patiënt/cliënt. Wilsbekwame patiënten/cliënten van 12 jaar en ouder zijn zelf bevoegd om toestemming te verlenen voor doorbreking van de geheimhouding.",
+
+    "retention_period_title": "Bewaartermijn",
+    "retention_period_paragraph": "De wettelijke bewaartermijn van uw dossier is 20 jaar.",
+
+    "sharing_personal_data_title": "Delen van persoonsgegevens met derden",
+    "sharing_personal_data_paragraph": "Heng Ren Tang verstrekt uitsluitend aan derden en alleen als dit nodig is voor de uitvoering van onze overeenkomst met u of om te voldoen aan een wettelijke verplichting.",
+
+    "access_modify_delete_title": "Gegevens inzien, aanpassen of verwijderen",
+    "access_modify_delete_paragraph_1": "U heeft het recht om uw persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heeft u het recht om uw eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van uw persoonsgegevens door Heng Ren Tang en heeft u het recht op gegevensoverdraagbaarheid.",
+    "access_modify_delete_paragraph_2": "Dat betekent dat u bij ons een verzoek kunt indienen om de persoonsgegevens die wij van u beschikken in een computerbestand naar u of een ander, door u genoemde organisatie, te sturen.",
+    "access_modify_delete_paragraph_3": "U kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van uw persoonsgegevens of verzoek tot intrekking van uw toestemming of bezwaar op de verwerking van uw persoonsgegevens sturen naar Heng Ren Tang. Om er zeker van te zijn dat het verzoek tot inzage door u is gedaan, vragen wij u een kopie van uw identiteitsbewijs met het verzoek mee te sturen. Maak in deze kopie uw pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter bescherming van uw privacy. We reageren zo snel mogelijk, maar binnen vier weken, op uw verzoek. Heng Ren Tang wil u er tevens op wijzen dat u de mogelijkheid heeft om een klacht in te dienen bij de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link: https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons",
+
+    "data_security_title": "Hoe wij persoonsgegevens beveiligen",
+    "data_security_paragraph": "Heng Ren Tang neemt de bescherming van uw gegevens serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Wij werken met een digitaal cliëntendossier. Beveiligt via wachtwoord en data-encryptie. Als u de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact met ons op.",
+
+    "cookies_title": "Cookies, of vergelijkbare technieken, die wij gebruiken",
+    "cookies_paragraph": "Heng Ren Tang gebruikt alleen analytische cookies die geen inbreuk maken op uw privacy. Een cookie is een klein tekstbestand dat bij het eerste bezoek aan deze website wordt opgeslagen op uw computer, tablet of smartphone. De cookies die wij gebruiken zijn noodzakelijk voor de technische werking van de website en uw gebruiksgemak. Ze zorgen ervoor dat de website naar behoren werkt en onthouden bijvoorbeeld uw voorkeursinstellingen. Ook kunnen wij hiermee onze website optimaliseren. U kunt zich afmelden voor cookies door uw internetbrowser zo in te stellen dat deze geen cookies meer opslaat. Daarnaast kunt u ook alle informatie die eerder is opgeslagen via de instellingen van uw browser verwijderen."
+
+  }
+}
