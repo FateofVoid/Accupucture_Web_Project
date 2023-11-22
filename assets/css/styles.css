@@ -38,9 +38,9 @@ body, h1, h2, h3, p, button, ul, li, select, footer, header {
         --header: #FAF3F0;
 
         /* Other variables... */
-        --font-size-title: 2.1rem; /* 6% of viewport width */
-        --font-size-subtitle: 1.7rem; /* 3.5% of viewport width */
-        --font-size-paragraph: 1.4rem; /* 2.5% of viewport width */
+        --font-size-title: 28px;
+        --font-size-subtitle: 25px;
+        --font-size-paragraph: 25px;
         --gradient-height: 3rem;
 }
 
@@ -420,7 +420,9 @@ section {
 }
 
 .section_2 .content {
-  display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
 }
 
 .section_2 h1 {
@@ -443,9 +445,7 @@ section {
 }
 
 .section_2 .section_2_left {
-  flex: 0 0 calc(50% - 1rem);
-  padding: 1rem;
-  box-sizing: border-box;
+    grid-column: 1 / span 5; /* Span two columns */
 }
 
 .section_2 .left-content {
@@ -455,20 +455,79 @@ section {
 }
 
 .section_2 .section_2_middle {
-  flex: 0 0 calc(30% - 1rem); /* 30% width with some space between columns */
-  padding: 1rem;
-  box-sizing: border-box;
+    grid-column: 6 / span 3; /* Span two columns */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section_2 .profile-picture {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.section_2 .profile-picture img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem; /* Add some space between images */
 }
 
 .section_2 .section_2_right {
-  flex: 0 0 calc(20% - 1rem); /* 30% width with some space between columns */
-  padding: 1rem; /* Add padding to create separation */
-  box-sizing: border-box;
+    grid-column: 9 / span 2; /* Span two columns */
 }
 
-.section_2 .section_2_right .image-text-button{
-    margin: 1rem 0
+.section_2 .section_2_right .image-text-button {
+    margin: 1rem 0;
 }
+
+.section_2 .social-icon {
+    display: inline-block; /* Align icons side by side */
+    position: relative;
+    width: calc(var(--font-size-paragraph)*2.1); /* Adjust the width as needed */
+    height: calc(var(--font-size-paragraph)*2.1); /* Adjust the height as needed */
+    margin: calc(var(--font-size-paragraph)); /* Adjust the margin as needed */
+    overflow: hidden;
+}
+
+.section_2 .social-icon a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.section_2 .social-icon i {
+    font-size: 50px; /* Adjust the font size as needed */
+}
+
+.section_2 .social-icon:hover a {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+.section_2 .social-icon .default-image,
+.section_2 .social-icon .hover-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.section_2 .social-icon .hover-image {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.section_2 .social-icon:hover .default-image {
+    opacity: 0;
+}
+
+.section_2 .social-icon:hover .hover-image {
+    opacity: 1;
+}
+
 /* Section 3 Specific Style*/
 .section_3 {
   display: flex;
@@ -864,6 +923,18 @@ button:hover {
     padding: 1rem
 }
 
+.section_2 .image-container, .section_3 .image-container {
+    width: 35%; /* Container width as a percentage of the button */
+    padding-top: 39%; /* Maintain a 4:3 aspect ratio (adjust as needed) */
+    position: relative; /* Added for positioning the image */
+    overflow: hidden; /* Hide overflowing image */
+}
+
+.section_2 .image-text-button img, .section_3 .image-text-button img{
+    width: 100%;
+    height:auto;
+    border-radius: 0rem;
+}
 /* Example link styling */
 a {
     color: var(--color-tertiary);
@@ -887,8 +958,8 @@ a:hover {
 
     :root {
         --font-size-title: 23.04px;
-        --font-size-subtitle: 17.92px;
-        --font-size-paragraph: 12.8px;
+        --font-size-subtitle: 20px;
+        --font-size-paragraph: 20px;
     }
 }
 
@@ -902,8 +973,8 @@ a:hover {
 
     :root {
       --font-size-title: calc(1.875vw); /* Relative font size for titles */
-      --font-size-subtitle: calc(1.25vw); /* Relative font size for subtitles */
-      --font-size-paragraph: calc(0.875vw); /* Relative font size for paragraphs */
+      --font-size-subtitle: calc(1.45vw); /* Relative font size for subtitles */
+      --font-size-paragraph: calc(1.45vw); /* Relative font size for paragraphs */
     }
 }
 
@@ -979,21 +1050,44 @@ a:hover {
         width: 70%;
     }
 
-    .section_2_middle,
-    .section_2_right{
-        width: 70%;
+    .section_2 .content {
+        grid-template-columns: 1fr; /* Change to a single column layout */
     }
+
+    .section_2 .section_2_left,
+    .section_2 .section_2_middle,
     .section_2 .section_2_right {
-        flex: 0 0 100%; /* Make it take up the full width */
-        display: flex; /* Display children horizontally */
-        flex-direction: row; /* Stack children vertically */
-        align-items: center; /* Center children horizontally */
-        padding: 1vw;
-        box-sizing: border-box;
+        grid-column: 1; /* Place all sections in the first column */
     }
 
-    .section_2 .section_2_right{
+    .section_2 .section_2_middle {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Center items vertically */
+        text-align: center; /* Center text content */
+    }
 
+    .section_2 .section_2_middle .profile-picture{
+        flex-direction: row;
+    }
+
+    .section_2 .section_2_middle .profile-picture img,
+    .section_2 .section_2_right button{
+        width:42%;
+        margin: calc(var(--font-size-paragraph));
+    }
+
+
+    .section_2 .section_2_right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; /* Center items vertically */
+        text-align: center; /* Center text content */
+    }
+
+    .section_2 .section_2_right .image-text-button {
+        margin: 1rem 0;
     }
 
     .section_3 .section_3_middle {

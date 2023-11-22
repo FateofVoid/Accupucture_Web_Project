@@ -1,3 +1,9 @@
+<?php
+// Load the specific localization data for services.php
+$homeLocalizationData = json_decode(file_get_contents('localisation/home_localisation.json'), true);
+$homeContent = $homeLocalizationData[$_SESSION['lang']];
+?>
+
 <main>
     <div class="margin">
     </div>
@@ -35,17 +41,34 @@
                     <h1><?php echo $homeContent['section_2_title']; ?></h1>
                     <h2><?php echo $homeContent['section_2_subtitle']; ?></h2>
                     <p><?php echo $homeContent['section_2_paragraph1']; ?></p>
+                    <div class="social-icons">
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/hengrentang/" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                                <img class="default-image" src="assets/images/facebook_idle.png" alt="Facebook Icon Default">
+                                <img class="hover-image" src="assets/images/facebook_hover.png" alt="Facebook Icon Hover">
+                            </a>
+                        </div>
+
+                        <div class="social-icon">
+                            <a href="https://instagram.com/hengrentang_acupunctuur?igshid=MWszYjEzMmUxd2J2dg%3D%3D&utm_source=qr" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                <img class="default-image" src="assets/images/Instagram_idle.png" alt="Instagram Icon Default">
+                                <img class="hover-image" src="assets/images/Instagram_hover.png" alt="Instagram Icon Hover">
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="section_2_middle">
                     <div class="profile-picture">
-                            <img src="assets/images/IMG-20231028-WA0002.jpg" alt="Image">
-                            <img src="assets/images/IMG-20231028-WA0001.jpg" alt="Image">
+                        <img src="assets/images/IMG-20231028-WA0002.jpg" alt="Image">
+                        <img src="assets/images/IMG-20231028-WA0001.jpg" alt="Image">
                     </div>
                 </div>
                 <div class="section_2_right">
                     <button class="image-text-button">
                         <div class="image-container">
-                            <img src="assets/images/130129549-close-up-of-doctor-s-hand-perform-medical-professional-acupuncture-treatment-in-beauty-spa-on-woman.jpg" alt="Image">
+                            <img src="assets/images/certificate.png" alt="Image">
                         </div>
                         <div class="label-container">
                             <span><?php echo $homeContent['section_2_button_label_1']; ?></span>
@@ -53,7 +76,7 @@
                     </button>
                     <button class="image-text-button">
                         <div class="image-container">
-                            <img src="assets/images/130129549-close-up-of-doctor-s-hand-perform-medical-professional-acupuncture-treatment-in-beauty-spa-on-woman.jpg" alt="Image">
+                            <img src="assets/images/users.png" alt="Image">
                         </div>
                         <div class="label-container">
                             <span><?php echo $homeContent['section_2_button_label_2']; ?></span>
@@ -77,7 +100,7 @@
                         <div class="tooltip-container">
                             <?php echo $homeContent['section_3_paragraph_1_1']; ?>
                             <div class="tooltip">
-                                <img src="<?php echo $baseURL; ?>assets/images/tooltip_icon.png" alt="?" class="tooltip-icon">
+                                <img src="assets/images/tooltip_icon.png" alt="?" class="tooltip-icon">
                                 <span class="tooltiptext"><?php echo $homeContent['section_3_tooltip_text']; ?></span>
                             </div>
                             <?php echo $homeContent['section_3_paragraph_1_2']; ?>
@@ -96,7 +119,7 @@
 
                     <button class="image-text-button">
                         <div class="image-container">
-                            <img src="assets/images/130129549-close-up-of-doctor-s-hand-perform-medical-professional-acupuncture-treatment-in-beauty-spa-on-woman.jpg" alt="Image">
+                            <img src="assets/images/acupuncture.png" alt="Image">
                         </div>
                         <div class="label-container">
                             <span><?php echo $homeContent['section_3_button_label']; ?></span>
@@ -118,17 +141,16 @@
                 </div>
                 <button class="appointment-button  popup-button"><?php echo $homeContent['section_4_left_button_label']; ?></button>
                 <div class="section_4_left">
-                    <h2><?php echo $indexContent['section_4_left_subtitle']; ?></h2>
-                    <p><?php echo $indexContent['section_4_left_paragraph']; ?></p>
+                    <h2><?php echo $homeContent['section_4_left_subtitle']; ?></h2>
+                    <p><?php echo $homeContent['section_4_left_paragraph']; ?></p>
                 </div>
                 <div class="section_4_right">
-                    <h1><?php echo $indexContent['section_4_right_title']; ?></h1>
-                    <h2><?php echo $indexContent['section_4_right_subtitle']; ?></h2>
-                    <p><?php echo $indexContent['section_4_right_paragraph']; ?></p>
+                    <h2><?php echo $homeContent['section_4_right_subtitle']; ?></h2>
+                    <p><?php echo $homeContent['section_4_right_paragraph']; ?></p>
                 </div>
                 <div class="section_4_bottom">
-                    <h2><?php echo $indexContent['section_4_left_subtitle_2']; ?></h2>
-                    <p><?php echo $indexContent['section_4_left_paragraph_2']; ?></p>
+                    <h2><?php echo $homeContent['section_4_left_subtitle_2']; ?></h2>
+                    <p><?php echo $homeContent['section_4_left_paragraph_2']; ?></p>
                 </div>
             </div>
         </section>
@@ -155,6 +177,7 @@
                             </div>
                         <?php } ?>
                     </div>
+                </div>
             </div>
             <div class="margin"></div>
 
@@ -169,3 +192,10 @@
 </main>
 
 <script src="assets/js/home-script.js"></script> <!-- Link to the javascript file -->
+
+<a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by mikan933 - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/contract" title="contract icons">Contract icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Good Ware - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Flat Icons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by Grand Iconic - Flaticon</a>
