@@ -14,7 +14,7 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
             <div class="logo"><?php echo $headerContent['header_logo']; ?></div>
 
             <div class="header-buttons page-options" id="page-options">
-                <div class="page-option" data-value="home">
+                <div class="page-option nav-alpha" data-value="home">
                     <button><?php echo $headerContent['header_home_button_label']; ?></button>
                 </div>
                 <div class="page-option" data-value="services">
@@ -26,7 +26,7 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
                 <div class="page-option" data-value="certificate">
                     <button><?php echo $headerContent['header_certificate_button_label']; ?></button>
                 </div>
-                <div class="page-option" data-value="privacy">
+                <div class="page-option nav-omega" data-value="privacy">
                     <button><?php echo $headerContent['header_privacy_button_label']; ?></button>
                 </div>
             </div>

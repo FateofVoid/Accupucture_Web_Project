@@ -13,7 +13,7 @@ $servicesContent = $servicesLocalizationData[$_SESSION['lang']];
                 <li>
                     <button class="image-text-button">
                         <div class="image-container">
-                            <img src="assets/images/service<?php echo $i + 1; ?>.jpg" alt="<?php echo $servicesContent[$i]['title']; ?>">
+                            <img src="assets/images/service<?php echo $i + 1; ?>.png" alt="<?php echo $servicesContent[$i]['title']; ?>">
                         </div>
                         <div class="label-container">
                             <span><?php echo $servicesContent['services'][$i]['title']; ?></span>

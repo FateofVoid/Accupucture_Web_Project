@@ -113,7 +113,7 @@ body {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--extra-02);
     border: 1px solid #ccc;
     border-top: none;
     border-radius: 0 0 4px 4px;
@@ -240,6 +240,8 @@ header {
     background-color: var(--extra-02);
     z-index: 1000;
     max-width: 100%;
+    box-sizing: border-box;
+    padding:  calc(var(--font-size-paragraph)*0.35) 0;
 }
 
 header .header-content {
@@ -268,16 +270,23 @@ header .header-buttons {
 header .header-buttons button {
     background-color: var(--button-idle02);
     color: #000;
-    padding: calc(var(--font-size-paragraph)*1) calc(var(--font-size-paragraph)*2);
+    padding: calc(var(--font-size-paragraph)*1) calc(var(--font-size-paragraph)*1);
     border: 0.21rem solid #ccc;
-    border-radius: 2rem;
     cursor: pointer;
     font-size: var(--font-size-subtitle);
     margin-right: 1rem; /* Add spacing between appointment button and language dropdown */
 }
 
-header .header-buttons button:hover {
-    background-color: var(--button-hover02);
+header .header-buttons .nav-alpha button {
+    border-right-radius: 2rem;
+}
+
+header .nav-alpha button {
+    border-radius: 2rem 0 0 2rem;
+}
+
+header .nav-omega button {
+    border-radius: 0 2rem 2rem 0;
 }
 
 header .right-section {
@@ -287,10 +296,10 @@ header .right-section {
 }
 
 header .appointment-button {
-    width:calc(var(--font-size-paragraph)*14);
+    width:calc(var(--font-size-paragraph)*12);
     font-size: calc(var(--font-size-paragraph) * 1.4);
     background-color: var(--button-idle01); /* Replace with your button hover color */
-    padding:calc(var(--font-size-paragraph) * 0.35) calc(var(--font-size-paragraph) * 1);
+    padding:calc(var(--font-size-paragraph) * 0.21) calc(var(--font-size-paragraph) * 0.35);
 }
 
 header .mobile-dropdown-button {
@@ -299,23 +308,7 @@ header .mobile-dropdown-button {
     padding:0;
 }
 
-/* Style the mobile dropdown menu */
-.header-buttons.show-dropdown {
-    display: block;
-    background-color: var(--header);
-    position: absolute;
-    top: 100%; /* Adjust as needed to position it below the mobile-dropdown-button */
-    left: 0;
-    width: 70%;
-    z-index: 1;
-}
 
-.header-buttons.show-dropdown a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-}
 
 /* Main Content Styling */
 
@@ -334,7 +327,7 @@ main {
 }
 
 .margin{
-    margin-top: calc(var(--font-size-paragraph)*7);
+        margin-top: calc(var(--font-size-paragraph)*7);
 }
 
 /* Sections */
@@ -351,6 +344,11 @@ section {
 
 .odd-section {
     background-color: var(--color-secondary);
+}
+
+.gradient_margin {
+  background-image: linear-gradient(var(--color-secondary), var(--color-primary));
+  height:var(--gradient-height);
 }
 
 .gradient_even {
@@ -382,6 +380,7 @@ section {
     flex: 1;
     padding: 1rem;
     text-align: center;
+    padding-top: calc(var(--font-size-paragraph)*7);
 }
 
 .section_1_left .video-container {
@@ -906,14 +905,9 @@ button:hover {
     top: 0;
     left: 0;
     margin-bottom: 1rem;
+    padding: calc(var(--font-size-title)*0.7) 0;
 }
 
-.image-container {
-    width: 99%; /* Container width as a percentage of the button */
-    padding-top: 49%; /* Maintain a 4:3 aspect ratio (adjust as needed) */
-    position: relative; /* Added for positioning the image */
-    overflow: hidden; /* Hide overflowing image */
-}
 
 .label-container {
     width: 99%; /* Container width as a percentage of the button */
@@ -923,7 +917,7 @@ button:hover {
     padding: 1rem
 }
 
-.section_2 .image-container, .section_3 .image-container {
+.image-container {
     width: 35%; /* Container width as a percentage of the button */
     padding-top: 39%; /* Maintain a 4:3 aspect ratio (adjust as needed) */
     position: relative; /* Added for positioning the image */
@@ -996,6 +990,28 @@ a:hover {
         font-size: var(--font-size-title);
         font-weight: bold;
     }
+
+    /* Style the mobile dropdown menu */
+    .header-buttons.show-dropdown {
+        display: block;
+        background-color: var(--header);
+        position: absolute;
+        top: 100%; /* Adjust as needed to position it below the mobile-dropdown-button */
+        left: 0;
+        width: auto;
+        min-width: 35%;
+        z-index: 1;
+        border-radius: 0 0 2rem 2rem;
+
+    }
+
+    .header-buttons.show-dropdown a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+
     .mobile-dropdown-button .mobile-dropdown-button-icon {
         font-size: var(--font-size-title); /* Adjust the size as needed */
         padding: var(--font-size-paragraph)
@@ -1003,6 +1019,14 @@ a:hover {
 
     header .header-buttons {
         display: none;
+    }
+
+    header .nav-alpha button {
+        border-radius: 0;
+    }
+
+    header .nav-omega button {
+        border-radius: 0 0 2rem 0;
     }
 
     .content {

@@ -5,8 +5,6 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
 ?>
 
 <main>
-    <div class="margin">
-    </div>
     <div class="sections">
         <!-- Section 1 -->
         <section class="section_1">
@@ -187,15 +185,21 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
             <img class="section_3_middle_img_2" src="assets/images/stacks-image-dbb4ead.jpg" alt="Image" >
 
             <div class="margin"></div>
+
+            This website uses images taken from flaticon.com:
+                    <a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by mikan933 - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/contract" title="contract icons">Contract icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Good Ware - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Flat Icons - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by Grand Iconic - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Eucalyp - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/healthcare-and-medical" title="healthcare and medical icons">Healthcare and medical icons created by Mayor Icons - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/chinese-medicine" title="chinese medicine icons">Chinese medicine icons created by Darius Dan - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Mayor Icons - Flaticon</a>
         </section>
+
     </div>
 </main>
 
 <script src="assets/js/home-script.js"></script> <!-- Link to the javascript file -->
-
-<a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by mikan933 - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/contract" title="contract icons">Contract icons created by Freepik - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by Freepik - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Good Ware - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Flat Icons - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by Grand Iconic - Flaticon</a>
