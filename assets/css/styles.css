@@ -139,7 +139,7 @@ body {
 }
 
 .language-dropdown .show-options {
-    display: block;
+    display: flex;
     z-index: 1000;
 }
 
@@ -184,6 +184,7 @@ body {
     text-align: center;
     z-index: 707;
     display: none;
+    max-width:100%;
 }
 
 .popup-content {
@@ -192,17 +193,18 @@ body {
     gap: var(--font-size-paragraph); /* Add some spacing between grid items */
     padding: 1rem;
     box-sizing: border-box;
+    max-width:100%;
 }
 
 .left-section, .right-section {
     display: grid;
     grid-template-rows: auto auto auto; /* Stack elements vertically in each section */
-    gap: 1rem; /* Add spacing between the elements */
 
 }
 
 .popup-header {
     width: calc(var(--font-size-paragraph)*35)
+    max-width:100%;
 }
 
 .popup-section {
@@ -241,25 +243,29 @@ header {
     z-index: 1000;
     max-width: 100%;
     box-sizing: border-box;
-    padding:  calc(var(--font-size-paragraph)*0.35) 0;
+    padding:  calc(var(--font-size-paragraph)*0.35);
 }
 
 header .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+
 }
 
 header .left-section {
     display: flex;
     align-items: center;
+    flex-direction: column; /* Reverse the order for mobile */
+
 }
 
 header .logo {
     font-family: 'Kis Antiqua', serif;
-    padding:1rem;
     font-size: calc(var(--font-size-title)*1.4);
     font-weight: bold;
+
 }
 
 header .header-buttons {
@@ -327,7 +333,7 @@ main {
 }
 
 .margin{
-        margin-top: calc(var(--font-size-paragraph)*7);
+    padding-top: calc(var(--font-size-paragraph)*7)
 }
 
 /* Sections */
@@ -364,10 +370,13 @@ section {
 /* Section 1 layout */
 .section_1 {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex: 1;
-    padding-top:4rem;
+    padding-top: calc(var(--font-size-paragraph)*7)
+}
+
+.section_1 .content{
+    justify-content: flex-start;
 }
 
 /* Left column with video */
@@ -657,7 +666,7 @@ section {
 
 .section_4 .section_4_bottom {
     grid-column: 1/*/ span 2*/;
-    grid-row: 3;
+    grid-row: 5;
 }
 
 /* Section 5 Specific Style*/
@@ -962,7 +971,6 @@ a:hover {
 
     body {
         width: 99%;
-        font-size: 1vw; /* Adjust the font size relative to viewport width */
     }
 
     :root {
@@ -975,13 +983,19 @@ a:hover {
 @media screen and (max-width: 768px) {
 
     :root {
-            --font-size-title: 3.5vw; /* 6% of viewport width */
-            --font-size-subtitle: 2.8vw; /* 3.5% of viewport width */
-            --font-size-paragraph: 2.1vw; /* 2.5% of viewport width */
+            --font-size-title: 4.2vw; /* 6% of viewport width */
+            --font-size-subtitle: 3.5vw; /* 3.5% of viewport width */
+            --font-size-paragraph: 3.5vw; /* 2.5% of viewport width */
     }
 
-    header .mobile-dropdown-button {
-        display: block; /* Show on smaller screens */
+    header {
+        overflow: hidden;
+        height: calc(var(--font-size-title) * 3);
+        transition: height 0.5s ease; /* Add transition for smooth effect */
+    }
+
+    header.expanded {
+        height: auto; /* Set to the desired expanded height */
     }
 
     header .logo {
@@ -989,20 +1003,70 @@ a:hover {
         padding:1rem;
         font-size: var(--font-size-title);
         font-weight: bold;
+        display:flex;
+        align-items: flex-start; /* Align items to the left horizontally in mobile */
+    }
+
+    header .header-content {
+        flex-direction: column; /* Change to column layout for mobile */
+        align-items: flex-start; /* Align content to the left horizontally in mobile */
+    }
+
+    header .left-section {
+        flex-direction: column; /* Align items vertically in mobile */
+        align-items: flex-start; /* Align items to the left horizontally in mobile */
+    }
+
+    header .header-buttons {
+        flex-direction: column; /* Change to column layout for mobile */
+        align-items: flex-start; /* Align items to the left horizontally in mobile */
+    }
+
+    header .header-buttons .page-option {
+        width: 100%; /* Make buttons full width in mobile */
+    }
+    header .header-buttons button {
+        width: 100%; /* Make buttons full width in mobile */
+        text-align: center; /* Center text in buttons */
+    }
+
+    header .header-buttons .nav-alpha button {
+        border-radius: 2rem 2rem 0 0; /* Adjust border-radius for mobile */
+    }
+
+    header .nav-alpha button {
+        border-radius: 2rem 2rem 0 0;v
+    }
+
+    header .nav-omega button {
+        border-radius: 0 0 2rem 2rem; /* Adjust border-radius for mobile */
+    }
+
+    header .right-section {
+        flex-direction: column; /* Align items vertically in mobile */
+        align-items: flex-start; /* Align items to the left horizontally in mobile */
+        margin-left: 0; /* Remove the margin for mobile */
+    }
+
+    header .mobile-dropdown-button {
+        display: block; /* Show on smaller screens */
+        position: relative;
+        padding: 0 var(--font-size-title);
+        align-self: flex-start; /* Align to the start in mobile */
     }
 
     /* Style the mobile dropdown menu */
-    .header-buttons.show-dropdown {
-        display: block;
+    /*.header-buttons.show-dropdown {
+        display: flex;
+        flex-direction: column;
         background-color: var(--header);
         position: absolute;
-        top: 100%; /* Adjust as needed to position it below the mobile-dropdown-button */
+        top: 100%;
         left: 0;
-        width: auto;
-        min-width: 35%;
+        width: 100%;
         z-index: 1;
         border-radius: 0 0 2rem 2rem;
-
+        overflow: hidden;
     }
 
     .header-buttons.show-dropdown a {
@@ -1010,30 +1074,18 @@ a:hover {
         padding: 10px;
         color: #fff;
         text-decoration: none;
-    }
+        width: 100%;
+    }*/
 
     .mobile-dropdown-button .mobile-dropdown-button-icon {
         font-size: var(--font-size-title); /* Adjust the size as needed */
-        padding: var(--font-size-paragraph)
     }
 
-    header .header-buttons {
-        display: none;
-    }
-
-    header .nav-alpha button {
-        border-radius: 0;
-    }
-
-    header .nav-omega button {
-        border-radius: 0 0 2rem 0;
-    }
-
-    .content {
-        height: auto;
-        flex-direction: column; /* Change to vertical alignment */
-        align-items: center; /* Center content horizontally */
-        flex-grow: 1;
+    .language-dropdown .options {
+        flex-direction: row; /* Align options horizontally in mobile */
+        width: 100%;
+        top: 0;
+        left: 100%;
     }
 
     /* Optionally, you can adjust individual section styles for mobile */
@@ -1070,7 +1122,13 @@ a:hover {
         padding: 1vw; /* Adjust padding as needed */
     }
 
-    .section_1_left{
+
+    .section_1 .content, .section_3 .content {
+        flex-direction: column; /* Reverse the order for mobile */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .section_1_left {
         width: 70%;
     }
 
@@ -1121,7 +1179,21 @@ a:hover {
         padding: 1rem;
       }
 
+    .tooltip::after {
+        left: 100%; /* Center the tooltip horizontally */
+        transform: translateX(-100%) scale(0);
+        transform-origin: bottom center;
+        transition: transform 0.2s, opacity 0.2s;
+    }
 
+    .tooltip:hover::after {
+        transform: translateX(-100%) scale(1);
+    }
+
+    .tooltiptext {
+        left: 50%;
+        transform: translateX(-100%) translateY(-100%);
+    }
 
 
     .section_4_left,
@@ -1194,4 +1266,18 @@ a:hover {
     .service-grid {
         grid-template-columns: 1fr;
     }
+
+    .staff_section {
+        flex-direction: column; /* Display the items in a row */
+    }
+
+    .staff_section .left-section img {
+    margin:auto;
+        width: 70%;
+    }
+
+    .staff_section .right-section {
+        padding: 1vw;
+    }
+
 }

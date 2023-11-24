@@ -8,10 +8,13 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
 <header>
     <div class="header-content">
         <div class="left-section">
-            <div class="mobile-dropdown-button">
-                <button class="mobile-dropdown-button-icon">☰</button>
+
+            <div class="logo">
+                <div class="mobile-dropdown-button">
+                    <button class="mobile-dropdown-button-icon">☰</button>
+                </div>
+                <?php echo $headerContent['header_logo']; ?>
             </div>
-            <div class="logo"><?php echo $headerContent['header_logo']; ?></div>
 
             <div class="header-buttons page-options" id="page-options">
                 <div class="page-option nav-alpha" data-value="home">
@@ -37,7 +40,7 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
             <div class="language-dropdown">
                 <div class="custom-select" id="custom-select">
                     <div class="selected-option">
-                        <img src="assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
+                        <img src="assets/images/icon-nl.png" alt="English Flag" class="flag-icon"> NL
                     </div>
                     <div class="options" id="options">
                         <div class="option" data-value="en">

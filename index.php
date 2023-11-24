@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heng Ren Tang - Home Page</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="icon" href="favicon.ico" type="assets/images/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <!-- Include Quicksand as the primary font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap">
     <!-- Include other fonts as backup fonts -->
@@ -19,11 +19,11 @@
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Kis+Antiqua:wght@400;700&display=swap">
 
 
 </head>
 <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>;
     <?php
     include_once "config.php";
     include_once "php/header.php";

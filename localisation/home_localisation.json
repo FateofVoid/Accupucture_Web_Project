@@ -98,7 +98,9 @@
     "section_5_answer_21": "Yes, our practice is wheelchair accessible. We have a lift, and the practice area is wheelchair-friendly. So, you can definitely visit us if you're using a wheelchair.",
 
     "section_5_subtitle_1": "Partnership",
-    "section_5_paragraph_1": "<br><br>Our clinic is also a proud member of the Dutch Association for Traditional Chinese Medicine ZHONG. As a result, our treatments may be reimbursed by health insurers, depending on your policy."
+    "section_5_paragraph_1": "<br><br>Our clinic is also a proud member of the Dutch Association for Traditional Chinese Medicine ZHONG. As a result, our treatments may be reimbursed by health insurers, depending on your policy.",
+
+    "section_5_credits": "This website uses images taken from flaticon.com:"
   },
   "nl": {
     "section_1_title": "",
@@ -114,24 +116,24 @@
 
     "section_3_title": "",
     "section_3_subtitle_1": "Prijzen",
-    "section_3_paragraph_1": "Voor een intakegesprek inclusief behandeling € 75.00<br>Voor een vervolgbehandeling: € 63.00<br><br>Je hebt geen verwijzing nodig van je huisarts of specialist.",
+    "section_3_paragraph_1_1": "Voor een intakegesprek inclusief behandeling € 75,00",
+    "section_3_paragraph_1_2": "<br>Voor een vervolgbehandeling: € 63,00",
     "section_3_subtitle_2": "Vergoeding door zorgverzekering",
     "section_3_paragraph_2": "Acupunctuur wordt vergoed via de aanvullende verzekering. Kijk onder alternatieve geneeswijzen. Dit is geen fysiotherapie.<br>We zijn aangesloten bij de NVTCG - Zhong (Nederlandse Vereniging voor Traditionele Chinese Geneeskunde). Afhankelijk van je zorgverzekeraar en je aanvullende verzekering kunnen de kosten gedeeltelijk of volledig worden vergoed. Controleer dit altijd van tevoren.<br>Bezoek Zorgwijzer.nl voor een overzicht van de verzekeraars die behandelingen door therapeuten aangesloten bij Zhong vergoeden.",
     "section_3_button_label": "Waarmee kunnen we je helpen",
-    "section_3_tooltip_text": "Je hebt geen verwijzing nodig van je huisarts of specialist. De prijzen zijn hetzelfde voor beide klinieken.",
+    "section_3_tooltip_text": "U heeft geen verwijzing nodig van uw huisarts of specialist. De prijzen zijn hetzelfde voor beide klinieken.",
 
-    "section_4_title": "Je kunt Fransisca Ekkel op twee locaties vinden, in Almere en Bussum",
-    "section_4_paragraph": "Telefoon: 06 2419 9579<br><br>ZHONG-lidmaatschap: 2016085<br>Kamer van Koophandel: 56216815<br><br>De praktijk is gemakkelijk toegankelijk voor rolstoelgebruikers.",
+    "section_4_title": "U kunt Fransisca Ekkel vinden op twee locaties, in Almere en Bussum",
+    "section_4_paragraph": "Telefoon: 06 2419 9579<br><br>ZHONG-lidmaatschap: 2016085<br>Kamer van Koophandel: 56216815<br><br>De praktijk is goed toegankelijk voor rolstoelgebruikers.",
     "section_4_left_subtitle": "Locatie Heng Ren Tang Almere",
-    "section_4_left_paragraph": "Dinsdag: 16:00 - 20:00 <br><br>Donderdag: 9:00 - 18:00 <br><br>De Binderij 62B,<br>1321EK Almere Literatuurwijk<br>Eerste verdieping.<br><br>Telefoon: 06 2419 9579<br><br>ZHONG-lidmaatschap: 2016085<br>Kamer van Koophandel: 56216815<br><br>De praktijk is gemakkelijk toegankelijk voor rolstoelgebruikers.",
-    "section_4_left_button_label": "Maak een Afspraak in Almere",
-    "section_4_left_subtitle_2": "Afspraak Annuleren/Verzetten",
-    "section_4_left_paragraph_2": "Als je een afspraak wilt annuleren, moet je dit minstens 24 uur van tevoren doen, anders kunnen er kosten in rekening worden gebracht. Je kunt annuleren via de telefoon of e-mail.<br>Een factuur voor een consult dat niet is geannuleerd, wordt meestal niet vergoed door de meeste zorgverzekeraars. Immers, je hebt geen behandeling ondergaan.",
-
+    "section_4_left_paragraph": "De Binderij 62B,<br>1321EK Almere Literatuurwijk<br>Eerste verdieping.<br><br>Dinsdag: 16:00 - 20:00 <br>Donderdag: 9:00 - 18:00<br><br>",
+    "section_4_left_button_label": "Maak een afspraak",
+    "section_4_left_subtitle_2": "Afspraak annuleren/verzetten",
+    "section_4_left_paragraph_2": "Als u een afspraak wilt annuleren, moet u dit minstens 24 uur van tevoren doen, anders worden er kosten in rekening gebracht. U kunt annuleren per telefoon of e-mail.<br>Een factuur voor een niet-geannuleerd consult wordt door de meeste zorgverzekeraars niet vergoed. U heeft immers geen behandeling ondergaan.",
     "section_4_right_title": "",
     "section_4_right_subtitle": "Locatie ACU Pijnkliniek Bussum",
-    "section_4_right_paragraph": "Maandag: 13:00 - 17:00 <br><br>Woensdag: 9:00 - 17:00 <br><br>Vrijdag: 9:00 - 12:00 <br><br>Huizerweg 10 D<br>1402 AA Bussum<br><br><br>Telefoon: 06 2419 9579<br><br>ZHONG-lidmaatschap: 2016085<br>Kamer van Koophandel: 56216815<br><br>De praktijk is gemakkelijk toegankelijk voor rolstoelgebruikers.",
-    "section_4_right_button_label": "Maak een Afspraak in Bussum",
+    "section_4_right_paragraph": "Huizerweg 10 D<br>1402 AA Bussum<br><br>Maandag: 13:00 - 17:00 <br>Woensdag: 9:00 - 17:00 <br>Vrijdag: 9:00 - 12:00<br><br>",
+    "section_4_right_button_label": "Maak een afspraak in Bussum",
 
     "section_5_title": "Veelgestelde Vragen:",
     "section_5_question_1": "Wat is acupunctuur?",
@@ -197,7 +199,9 @@
     "section_5_question_21": "Kan ik in een rolstoel komen?",
     "section_5_answer_21": "Ja, onze praktijk is toegankelijk voor rolstoelgebruikers. We hebben een lift en de praktijkruimte is rolstoelvriendelijk. Dus je kunt ons zeker bezoeken als je een rolstoel gebruikt.",
 
-    "section_5_subtitle_1": "partnership",
-    "section_5_paragraph_1": "<br><br>Our clinic is also a proud member of the Dutch Association for Traditional Chinese Medicine ZHONG. As a result, our treatments may be reimbursed by health insurers, depending on your policy."
+    "section_5_subtitle_1": "Partnership",
+    "section_5_paragraph_1": "<br><br>Our clinic is also a proud member of the Dutch Association for Traditional Chinese Medicine ZHONG. As a result, our treatments may be reimbursed by health insurers, depending on your policy.",
+
+    "section_5_credits": "Deze website maakt gebruik van afbeeldingen van flaticon.com:"
   }
 }
