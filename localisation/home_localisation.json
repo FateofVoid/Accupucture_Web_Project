@@ -6,7 +6,7 @@
 
     "section_2_title": "",
     "section_2_subtitle": "HENG REN TANG Acupuncture Clinic",
-    "section_2_paragraph1": "In our clinic, we strive to promote your well-being in a welcoming environment. We offer personalized care and listen to your specific needs. Whether you're experiencing pain, stress, insomnia, allergies, digestive problems, or other health issues, our experienced team is here for you.<br><br>Explore how our expertise in the Balance Method can alleviate your pain and enhance your well-being. At HENG REN TANG, we specialize in pain treatment, harmoniously blending the time-tested wisdom of Chinese medicine with contemporary knowledge. We are dedicated to tailoring our approach to your individual needs, recognizing that every person deserves a customized solution for their discomfort.<br><br>Contact us today to schedule an appointment and begin your journey to better health. Fransisca Ekkel and the team at HENG REN TANG Acupuncture Clinic warmly welcome you to our clinic, where we work with care and expertise to promote your well-being.",
+    "section_2_paragraph1": "At HENG REN TANG Acupuncture Clinic, we provide personalized care in a welcoming setting\nfor various health issues like pain, stress, insomnia, fertility and more. Our experienced\nteam employs the Balance Method, blending Classical Chinese medicine with modern\ninsights to improve your well-being. We tailor treatments to your unique needs.\nContact us to schedule an appointment and start your journey to better health. Fransisca\nEkkel and our team warmly welcome you, dedicating our knowledge and care to your wellbeing.",
     "profile_text": "Profile description goes here",
     "section_2_button_label_1": "Certificates",
     "section_2_button_label_2": "Staff",
@@ -16,7 +16,7 @@
     "section_3_paragraph_1_1": "For an intake interview including treatment € 75.00",
     "section_3_paragraph_1_2": "<br>For a follow up treatment: € 63.00",
     "section_3_subtitle_2": "Insurance reimbursement",
-    "section_3_paragraph_2": "Acupuncture is covered by the supplementary insurance. Look under alternative medicine. This is not physiotherapy.<br>We are affiliated with the NVTCG - [Zhong] (Dutch Association for Traditional Chinese Medicine).<br>Dependency on your health insurer and your supplementary insurance policy, the cost are partially or fully reimbursed.Always check this in advance.<br>Visit [Zorgwijzer.nl] for an overview of the insurance companies that reimburse treatment by therapists affiliated with Zhong.",
+    "section_3_paragraph_2": "Acupuncture covered by supplementary insurance, not physiotherapy, look under\nalternative medicine. We're part of NVTCG - [Zhong] (Dutch Association for Traditional\nChinese Medicine). Reimbursement depends on your insurer and policy; always verify\nbeforehand. For a list of insurers visit [Zorgwijzer.nl].",
     "section_3_button_label": "What we can help you with",
     "section_3_tooltip_text": "You do not need a referral from your general practitioner or specialist. Prices are the same for both clinics.",
 
@@ -26,7 +26,7 @@
     "section_4_left_paragraph": "De Binderij 62B,<br>1321EK Almere Literatuurwijk<br>First floor.<br><br>Tuesday: 16:00 - 20:00 <br>Thursday: 9:00 - 18:00<br><br>",
     "section_4_left_button_label": "Make an Appointment",
     "section_4_left_subtitle_2": "Cancel/Reschedule appointment",
-    "section_4_left_paragraph_2": "If you want to cancel an appointment, you must do so at least 24 hours in advance, otherwise costs will be charged. You can cancel by phone or email.<br>An invoice for a consultation that has not been canceled is not reimbursed by most health insurers. After all, you have not undergone any treatment.",
+    "section_4_left_paragraph_2": "To cancel an appointment, do so at least 24 hours in advance to avoid charges. Cancellation\ncan be done by phone or email. Your health insurers do not reimburse for consultations that\nare not canceled in time, as no treatment has taken place.",
 
     "section_4_right_title": "",
     "section_4_right_subtitle": "Location ACU Pijnkliniek Bussum",
@@ -107,16 +107,17 @@
 
     "section_2_title": "",
     "section_2_subtitle": "HENG REN TANG Acupunctuurkliniek",
-    "section_2_paragraph1": "In onze kliniek streven we ernaar jouw welzijn te bevorderen in een gastvrije omgeving. We bieden persoonlijke zorg en luisteren naar jouw specifieke behoeften. Of je nu last hebt van pijn, stress, slapeloosheid, allergieën, spijsverteringsproblemen of andere gezondheidsproblemen, ons ervaren team staat voor je klaar.<br><br>Ontdek hoe onze expertise in de Balance Methode pijn kan verlichten en jouw welzijn kan verbeteren. Bij HENG REN TANG zijn we gespecialiseerd in pijnbehandeling en combineren we de eeuwenoude wijsheid van de Chinese geneeskunde harmonieus met hedendaagse kennis. We zijn toegewijd aan het afstemmen van onze aanpak op jouw individuele behoeften, omdat we begrijpen dat iedereen recht heeft op een oplossing op maat voor hun ongemak.<br><br>Neem vandaag nog contact met ons op om een afspraak te plannen en aan je reis naar een betere gezondheid te beginnen. Fransisca Ekkel en het team van de HENG REN TANG Acupunctuurkliniek heten je van harte welkom in onze kliniek, waar we met zorg en expertise werken om jouw welzijn te bevorderen.",
+    "section_2_paragraph1": "Bij HENG REN TANG Acupunctuurkliniek bieden we persoonlijke zorg in een gastvrije\nomgeving voor uiteenlopende gezondheidsproblemen zoals pijn, stress, fertiliteit,\nslapeloosheid en meer. Ons ervaren team gebruikt de Balansmethode, een combinatie van\nKlasieke Chinese geneeskunde en moderne inzichten, om uw welzijn te verbeteren. We\npassen onze behandelingen aan uw unieke behoeften aan.\nNeem contact op voor een afspraak en begin uw weg naar een betere gezondheid. Fransisca\nEkkel en ons team heten u van harte welkom en zetten onze kennis en zorg in voor uw\nwelzijn.",
     "profile_text": "Profielbeschrijving komt hier",
     "section_2_button_label_1": "Certificaten",
     "section_2_button_label_2": "Meer Over Mij",
 
     "section_3_title": "",
     "section_3_subtitle_1": "Prijzen",
-    "section_3_paragraph_1": "Voor een intakegesprek inclusief behandeling € 75.00<br>Voor een vervolgbehandeling: € 63.00<br><br>Je hebt geen verwijzing nodig van je huisarts of specialist.",
+    "section_3_paragraph_1_1": "Voor een intakegesprek inclusief behandeling € 75,00",
+    "section_3_paragraph_1_2": "<br>Voor een vervolgbehandeling: € 63,00",
     "section_3_subtitle_2": "Vergoeding door zorgverzekering",
-    "section_3_paragraph_2": "Acupunctuur wordt vergoed via de aanvullende verzekering. Kijk onder alternatieve geneeswijzen. Dit is geen fysiotherapie.<br>We zijn aangesloten bij de NVTCG - Zhong (Nederlandse Vereniging voor Traditionele Chinese Geneeskunde). Afhankelijk van je zorgverzekeraar en je aanvullende verzekering kunnen de kosten gedeeltelijk of volledig worden vergoed. Controleer dit altijd van tevoren.<br>Bezoek Zorgwijzer.nl voor een overzicht van de verzekeraars die behandelingen door therapeuten aangesloten bij Zhong vergoeden.",
+    "section_3_paragraph_2": "Acupunctuur valt onder de aanvullende verzekering, niet onder fysiotherapie, kijk onder\nalternatieve geneeskunde. Wij zijn aangesloten bij NVTCG - [Zhong] (Nederlandse Vereniging\nvoor Traditionele Chinese Geneeskunde). Vergoeding is afhankelijk van uw verzekeraar en\npolis; controleer dit altijd vooraf. Voor een overzicht van verzekeraars bezoek [Zorgwijzer.nl].",
     "section_3_button_label": "Waarmee kunnen we je helpen",
     "section_3_tooltip_text": "Je hebt geen verwijzing nodig van je huisarts of specialist. De prijzen zijn hetzelfde voor beide klinieken.",
 
@@ -126,7 +127,7 @@
     "section_4_left_paragraph": "Dinsdag: 16:00 - 20:00 <br><br>Donderdag: 9:00 - 18:00 <br><br>De Binderij 62B,<br>1321EK Almere Literatuurwijk<br>Eerste verdieping.<br><br>Telefoon: 06 2419 9579<br><br>ZHONG-lidmaatschap: 2016085<br>Kamer van Koophandel: 56216815<br><br>De praktijk is gemakkelijk toegankelijk voor rolstoelgebruikers.",
     "section_4_left_button_label": "Maak een Afspraak in Almere",
     "section_4_left_subtitle_2": "Afspraak Annuleren/Verzetten",
-    "section_4_left_paragraph_2": "Als je een afspraak wilt annuleren, moet je dit minstens 24 uur van tevoren doen, anders kunnen er kosten in rekening worden gebracht. Je kunt annuleren via de telefoon of e-mail.<br>Een factuur voor een consult dat niet is geannuleerd, wordt meestal niet vergoed door de meeste zorgverzekeraars. Immers, je hebt geen behandeling ondergaan.",
+    "section_4_left_paragraph_2": "Om een afspraak te annuleren, moet dit minstens 24 uur van tevoren, anders worden er\nkosten in rekening gebracht. Annuleren kan telefonisch of per e-mail. Niet tijdig\ngeannuleerde consulten worden niet vergoed door zorgverzekeraars, aangezien er geen\nbehandeling heeft plaatsgevonden.",
 
     "section_4_right_title": "",
     "section_4_right_subtitle": "Locatie ACU Pijnkliniek Bussum",

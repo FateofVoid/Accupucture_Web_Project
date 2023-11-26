@@ -11,37 +11,42 @@ body, h1, h2, h3, p, button, ul, li, select, footer, header {
 /* Main Colors */
 :root {
     /* Primary color */
-        --color-primary: rgba(241, 221, 191, 0.35);
+    --color-primary: rgba(241, 221, 191, 0.35);
 
-        /* Secondary color */
-        --color-secondary: rgba(192, 219, 234, 0.35);
+    /* Secondary color */
+    --color-secondary: rgba(192, 219, 234, 0.35);
 
-        /* Tertiary color */
-        --color-tertiary: rgba(120, 147, 138, 1);
+    /* Tertiary color */
+    --color-tertiary: rgba(120, 147, 138, 1);
 
-        /* Quaternary color */
-        --color-quaternary: rgba(146, 186, 146, 1);
+    /* Quaternary color */
+    --color-quaternary: rgba(146, 186, 146, 1);
 
-        /* New colors */
-        --button-idle01: #92BA92;
-        --button-idle02: #FAF3F0;
-        --button-idle03: rgba(51, 153, 255, 0.21);
-        --button-idle04: rgba(102, 0, 153, 0.6);
-        --button-hover01: #ABCDEF;
-        --button-hover02: #ABCDEF;
-        --button-hover03: rgba(51, 153, 255, 0.28);
-        --button-hover04: rgba(128, 0, 170, 0.6);
-        --button-selected: rgba(51, 153, 255, 0.35);
-        --extra-01: #ABCDEF;
-        --extra-02: #F0E0D0;
-        --extra-03: #C0FFEE;
-        --header: #FAF3F0;
+    /* New colors */
+    --button-idle01: #92BA92;
+    --button-idle02: #FAF3F0;
+    --button-idle03: rgba(51, 153, 255, 0.21);
+    --button-idle04: rgba(102, 0, 153, 0.6);
+    --button-hover01: #ABCDEF;
+    --button-hover02: #ABCDEF;
+    --button-hover03: rgba(51, 153, 255, 0.28);
+    --button-hover04: rgba(128, 0, 170, 0.6);
+    --button-selected: rgba(51, 153, 255, 0.35);
+    --extra-01: #ABCDEF;
+    --extra-02: #F0E0D0;
+    --extra-03: #C0FFEE;
+    --nav-01: rgba(0, 191, 255, 0.7);
+    --nav-02: rgba(102, 0, 153, 0.5);
+    --nav-03: rgba(135, 206, 250, 0.7);
+    --nav-04: rgba(255, 215, 0, 0.7);
+    --nav-05: rgba(255, 160, 122, 0.7);
+    --header: #FAF3F0;
 
-        /* Other variables... */
-        --font-size-title: 28px;
-        --font-size-subtitle: 25px;
-        --font-size-paragraph: 25px;
-        --gradient-height: 3rem;
+    /* Other variables... */
+    --font-size-title: 35px;
+    --font-size-subtitle: 30px;
+    --font-size-paragraph: 25px;
+    --gradient-height: 3rem;
 }
 
 body {
@@ -91,11 +96,14 @@ body {
 
 /* Add this CSS to hide options initially and style the custom dropdown */
 
-
+.language-dropdown .custom-select {
+    min-width:10%;
+}
 .language-dropdown .custom-select {
     position: relative;
     cursor: pointer;
     user-select: none;
+
 }
 
 .language-dropdown .selected-option {
@@ -260,17 +268,19 @@ header .logo {
     padding:1rem;
     font-size: calc(var(--font-size-title)*1.4);
     font-weight: bold;
+    min-width: 30%
 }
 
 header .header-buttons {
     display: flex;
     align-items: center;
+    min-width: 40%
 }
 
 header .header-buttons button {
     background-color: var(--button-idle02);
     color: #000;
-    padding: calc(var(--font-size-paragraph)*1) calc(var(--font-size-paragraph)*1);
+    padding: calc(var(--font-size-paragraph)*0.5) calc(var(--font-size-paragraph)*0.5);
     border: 0.21rem solid #ccc;
     cursor: pointer;
     font-size: var(--font-size-subtitle);
@@ -279,6 +289,30 @@ header .header-buttons button {
 
 header .header-buttons .nav-alpha button {
     border-right-radius: 2rem;
+}
+
+header .header-buttons #nav1 button{
+    background-color: var(--extra-02);
+}
+
+header .header-buttons #nav1 button{
+    background-color: var(--nav-01);
+}
+
+header .header-buttons #nav2 button{
+    background-color: var(--nav-02);
+}
+
+header .header-buttons #nav3 button{
+    background-color: var(--nav-03);
+}
+
+header .header-buttons #nav4 button{
+    background-color: var(--nav-04);
+}
+
+header .header-buttons #nav5 button{
+    background-color: var(--nav-05);
 }
 
 header .nav-alpha button {
@@ -300,6 +334,7 @@ header .appointment-button {
     font-size: calc(var(--font-size-paragraph) * 1.4);
     background-color: var(--button-idle01); /* Replace with your button hover color */
     padding:calc(var(--font-size-paragraph) * 0.21) calc(var(--font-size-paragraph) * 0.35);
+    min-width: 20%
 }
 
 header .mobile-dropdown-button {
@@ -500,7 +535,7 @@ section {
 }
 
 .section_2 .social-icon i {
-    font-size: 50px; /* Adjust the font size as needed */
+    font-size: var(--font-size-paragraph); /* Adjust the font size as needed */
 }
 
 .section_2 .social-icon:hover a {
@@ -597,13 +632,13 @@ section {
 }
 
 .section_3 .section_3_middle {
-  flex: 0 0 calc(25% - 1rem); /* 40% width with some space between columns */
+  flex: 0 0 calc(30% - 1rem); /* 40% width with some space between columns */
   padding: 1rem;
   box-sizing: border-box;
 }
 
 .section_3 .section_3_right {
-  flex: 0 0 calc(25% - 1rem); /* 40% width with some space between columns */
+  flex: 0 0 calc(20% - 1rem); /* 40% width with some space between columns */
   padding: 1rem;
   box-sizing: border-box;
 }
@@ -689,7 +724,7 @@ section {
     max-height: 0;
     transition: max-height 0.1s ease;
     overflow: hidden;
-    font-size: --font-size-paragraph;
+    font-size: var(--font-size-paragraph);
     padding-left: 0.5rem;
     color: #000;
 }
@@ -951,8 +986,8 @@ a:hover {
     }
 
     :root {
-        --font-size-title: 23.04px;
-        --font-size-subtitle: 20px;
+        --font-size-title: 30px;
+        --font-size-subtitle: 25px;
         --font-size-paragraph: 20px;
     }
 }
@@ -962,12 +997,11 @@ a:hover {
 
     body {
         width: 99%;
-        font-size: 1vw; /* Adjust the font size relative to viewport width */
     }
 
     :root {
-      --font-size-title: calc(1.875vw); /* Relative font size for titles */
-      --font-size-subtitle: calc(1.45vw); /* Relative font size for subtitles */
+      --font-size-title: calc(2.125vw); /* Relative font size for titles */
+      --font-size-subtitle: calc(1.875vw); /* Relative font size for subtitles */
       --font-size-paragraph: calc(1.45vw); /* Relative font size for paragraphs */
     }
 }
