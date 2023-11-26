@@ -272,13 +272,11 @@ header .logo {
     font-family: 'Kis Antiqua', serif;
     font-size: calc(var(--font-size-title)*1.4);
     font-weight: bold;
-    min-width: 30%
 }
 
 header .header-buttons {
     display: flex;
     align-items: center;
-    min-width: 40%
 }
 
 header .header-buttons button {
@@ -338,7 +336,6 @@ header .appointment-button {
     font-size: calc(var(--font-size-paragraph) * 1.4);
     background-color: var(--button-idle01); /* Replace with your button hover color */
     padding:calc(var(--font-size-paragraph) * 0.21) calc(var(--font-size-paragraph) * 0.35);
-    min-width: 20%
 }
 
 header .mobile-dropdown-button {
