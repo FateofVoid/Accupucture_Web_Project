@@ -35,7 +35,25 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
             </div>
         </div>
         <div class="right-section">
+
             <button class="appointment-button popup-button"><?php echo $headerContent['header_appointment_button_label']; ?></button>
+            <div class="social-icons">
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/hengrentang/" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                        <img class="default-image" src="assets/images/facebook_idle.png" alt="Facebook Icon Default">
+                        <img class="hover-image" src="assets/images/facebook_hover.png" alt="Facebook Icon Hover">
+                    </a>
+                </div>
+
+                <div class="social-icon">
+                    <a href="https://instagram.com/hengrentang_acupunctuur?igshid=MWszYjEzMmUxd2J2dg%3D%3D&utm_source=qr" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <img class="default-image" src="assets/images/Instagram_idle.png" alt="Instagram Icon Default">
+                        <img class="hover-image" src="assets/images/Instagram_hover.png" alt="Instagram Icon Hover">
+                    </a>
+                </div>
+            </div>
             <!-- Language Selection Dropdown -->
             <div class="language-dropdown">
                 <div class="custom-select" id="custom-select">

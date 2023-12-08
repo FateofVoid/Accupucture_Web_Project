@@ -103,7 +103,7 @@ body {
     align-items: center;
     left: auto;
     right: 0;
-    padding: var(--font-size-paragraph);
+    padding: calc(var(--font-size-paragraph)*0.7);
 
 }
 
@@ -262,7 +262,6 @@ header .left-section {
 }
 
 header .logo {
-    font-family: 'Kis Antiqua', serif;
     font-size: calc(var(--font-size-title)*1.4);
     font-weight: bold;
 
@@ -298,6 +297,7 @@ header .nav-omega button {
 header .right-section {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-left: auto; /* Push right section to the right edge */
 }
 
@@ -492,7 +492,11 @@ section {
     margin: 1rem 0;
 }
 
-.section_2 .social-icon {
+header .social-icons{
+    margin: calc(var(--font-size-paragraph)*0.35) 0 0 calc(var(--font-size-paragraph)*0.7); /* Adjust the margin as needed */
+}
+
+.section_2 .social-icon, header .social-icon {
     display: inline-block; /* Align icons side by side */
     position: relative;
     width: calc(var(--font-size-paragraph)*2.1); /* Adjust the width as needed */
@@ -501,38 +505,48 @@ section {
     overflow: hidden;
 }
 
-.section_2 .social-icon a {
+header .social-icon{
+    margin: calc(var(--font-size-paragraph)*0.35); /* Adjust the margin as needed */
+    height: calc(var(--font-size-paragraph)*2.5); /* Adjust the height as needed */
+    width: calc(var(--font-size-paragraph)*2.5); /* Adjust the width as needed */
+
+}
+
+.section_2 .social-icon a, header .social-icon a {
     display: block;
     width: 100%;
     height: 100%;
     transition: transform 0.3s ease-in-out;
 }
 
-.section_2 .social-icon i {
+.section_2 .social-icon i, header .social-icon i {
     font-size: 50px; /* Adjust the font size as needed */
 }
 
-.section_2 .social-icon:hover a {
+.section_2 .social-icon:hover a, header .social-icon:hover a {
     transform: scale(1.1); /* Adjust the scale factor as needed */
 }
 
 .section_2 .social-icon .default-image,
-.section_2 .social-icon .hover-image {
+.section_2 .social-icon .hover-image,
+header .social-icon .default-image,
+header .social-icon .hover-image{
+
     position: absolute;
     width: 100%;
     height: 100%;
 }
 
-.section_2 .social-icon .hover-image {
+.section_2 .social-icon .hover-image, header .social-icon .hover-image {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
 
-.section_2 .social-icon:hover .default-image {
+.section_2 .social-icon:hover .default-image, header .social-icon:hover .default-image {
     opacity: 0;
 }
 
-.section_2 .social-icon:hover .hover-image {
+.section_2 .social-icon:hover .hover-image, header .social-icon:hover .hover-image {
     opacity: 1;
 }
 
