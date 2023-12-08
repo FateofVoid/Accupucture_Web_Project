@@ -1,6 +1,6 @@
 {
   "en": {
-    "main_title": "Our Services",
+    "main_title": "Indications for acupuncture",
     "services": [
       {
         "title": "Respiratory",
@@ -29,31 +29,31 @@
     ]
   },
   "nl": {
-    "main_title": "Onze Diensten",
+    "main_title": "Indicaties voor acupunctuur",
     "services": [
       {
         "title": "Ademhalingssysteem",
-        "description": "acute verkoudheid, griep, sinusitis, keelpijn, acute bronchitis, astma, allergieën."
+        "description": "Acute verkoudheid, griep, sinusitis, keelpijn, acute bronchitis, astma, allergieën."
       },
       {
         "title": "Maag-darmstelsel",
-        "description": "slokdarmspasmen, gastritis, ontsteking van de dunne en dikke darm, prikkelbare darmsyndroom, obstipatie/diarree."
+        "description": "Slokdarmspasmen, gastritis, ontsteking van de dunne en dikke darm, prikkelbare darmsyndroom, obstipatie/diarree."
       },
       {
         "title": "Spier- en Skeletstelsel",
-        "description": "sportblessures, whiplash, tenniselleboog, schouderpijn, rugpijn, zwakke/spastische verlamming, golfelleboog."
+        "description": "Sportblessures, whiplash, tenniselleboog, schouderpijn, rugpijn, zwakke/spastische verlamming, golfelleboog."
       },
       {
         "title": "Hormonaal",
-        "description": "diabetes, menstruatiestoornissen, premenstruele pijn en spanning (PMS)."
+        "description": "Diabetes, menstruatiestoornissen, premenstruele pijn en spanning (PMS)."
       },
       {
         "title": "Urinaire en Voortplantingsorganen",
-        "description": "bedplassen, urineweginfecties, prostaathypertrofie/prostatitis, impotentie, erectieproblemen, brandende pijn tijdens het plassen, bepaalde vruchtbaarheidsproblemen."
+        "description": "Bedplassen, urineweginfecties, prostaathypertrofie/prostatitis, impotentie, erectieproblemen, brandende pijn tijdens het plassen, bepaalde vruchtbaarheidsproblemen."
       },
       {
         "title": "Overige",
-        "description": "uitputting (mentaal en fysiek), slaapstoornissen, psychische instabiliteit, depressie, nervositeit, fobieën, tandpijn, hoofdpijn, migraine, reumatische klachten, symptomen van de menopauze, gezichtspijn, fibromyalgie, RSI (herhaalde bewegingsletsel), burn-out, oorproblemen (zoals tinnitus), huidproblemen (bijvoorbeeld acne, eczeem)."
+        "description": "Uitputting (mentaal en fysiek), Slaapstoornissen, psychische instabiliteit, depressie, nervositeit, fobieën, tandpijn, hoofdpijn, migraine, reumatische klachten, symptomen van de menopauze, gezichtspijn, fibromyalgie, RSI (herhaalde bewegingsletsel), burn-out, oorproblemen (zoals tinnitus), huidproblemen (bijvoorbeeld acne, eczeem)."
       }
     ]
   }

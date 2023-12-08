@@ -8,12 +8,20 @@ $staffContent = $staffLocalizationData[$_SESSION['lang']];
         <div class="margin"></div>
         <section class="staff_section">
                 <div class="left-section">
-                    <img src="assets/images/IMG-20231028-WA0003.jpg" alt="Image">
+                    <div class="left-section-content">
+                        <img src="assets/images/IMG-20231028-WA0003.jpg" alt="Image">
+                    </div>
                 </div>
                 <div class="right-section">
-                    <h2><?php echo $staffContent['staff_title']; ?></h2>
+                    <h1><?php echo $staffContent['staff_title']; ?></h1>
                     <p><?php echo $staffContent['staff_paragraph']; ?></p>
+
                 </div>
+
             </div>
+        </section>
+        <section class="certificate_section">
+            <h2><?php echo $staffContent['certificate_title']; ?></h2>
+            <p><?php echo $staffContent['certificate_paragraph']; ?></p>
         </section>
     </main>

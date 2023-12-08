@@ -2,8 +2,8 @@
   "en": {
     "header_logo": "HENG REN TANG",
     "header_home_button_label": "Home",
-    "header_service_button_label": "Services",
-    "header_staff_button_label": "Staff",
+    "header_service_button_label": "Indications",
+    "header_staff_button_label": "Acupuncturist ",
     "header_certificate_button_label": "Certificate",
     "header_privacy_button_label": "Privacy",
     "header_appointment_button_label": "Make an<br>Appointment",
@@ -24,8 +24,8 @@
   "nl": {
     "header_logo": "HENG REN TANG",
     "header_home_button_label": "Home",
-    "header_service_button_label": "Diensten",
-    "header_staff_button_label": "Personeel",
+    "header_service_button_label": "Indicaties",
+    "header_staff_button_label": "Acupuncturist ",
     "header_certificate_button_label": "Certificaat",
     "header_privacy_button_label": "Privacy",
     "header_appointment_button_label": "Maak een<br>Afspraak",
