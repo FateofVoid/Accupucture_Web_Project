@@ -17,19 +17,16 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
             </div>
 
             <div class="header-buttons page-options" id="page-options">
-                <div class="page-option nav-alpha" data-value="home">
+                <div class="page-option nav-alpha" id="nav1" data-value="home">
                     <button><?php echo $headerContent['header_home_button_label']; ?></button>
                 </div>
-                <div class="page-option" data-value="services">
+                <div class="page-option" id="nav2" data-value="services">
                     <button><?php echo $headerContent['header_service_button_label']; ?></button>
                 </div>
-                <div class="page-option" data-value="staff">
+                <div class="page-option" id="nav3" data-value="staff">
                     <button><?php echo $headerContent['header_staff_button_label']; ?></button>
                 </div>
-                <div class="page-option" data-value="certificate">
-                    <button><?php echo $headerContent['header_certificate_button_label']; ?></button>
-                </div>
-                <div class="page-option nav-omega" data-value="privacy">
+                <div class="page-option nav-omega" id="nav4" data-value="privacy">
                     <button><?php echo $headerContent['header_privacy_button_label']; ?></button>
                 </div>
             </div>

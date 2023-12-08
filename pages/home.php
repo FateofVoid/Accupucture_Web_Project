@@ -36,50 +36,35 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
         <section class="section_2">
             <div class="content">
                 <div class="section_2_left">
-                    <h1><?php echo $homeContent['section_2_title']; ?></h1>
-                    <h2><?php echo $homeContent['section_2_subtitle']; ?></h2>
-                    <p><?php echo $homeContent['section_2_paragraph1']; ?></p>
-                    <div class="social-icons">
-                        <div class="social-icon">
-                            <a href="https://www.facebook.com/hengrentang/" target="_blank">
-                                <i class="fab fa-facebook-square"></i>
-                                <img class="default-image" src="assets/images/facebook_idle.png" alt="Facebook Icon Default">
-                                <img class="hover-image" src="assets/images/facebook_hover.png" alt="Facebook Icon Hover">
-                            </a>
-                        </div>
+                    <div class="left-content">
+                        <h1><?php echo $homeContent['section_2_subtitle']; ?></h1>
+                        <p><?php echo $homeContent['section_2_paragraph1']; ?></p>
+                        <div class="social-icons">
+                            <div class="social-icon">
+                                <a href="https://www.facebook.com/hengrentang/" target="_blank">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <img class="default-image" src="assets/images/facebook_idle.png" alt="Facebook Icon Default">
+                                    <img class="hover-image" src="assets/images/facebook_hover.png" alt="Facebook Icon Hover">
+                                </a>
+                            </div>
 
-                        <div class="social-icon">
-                            <a href="https://instagram.com/hengrentang_acupunctuur?igshid=MWszYjEzMmUxd2J2dg%3D%3D&utm_source=qr" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                                <img class="default-image" src="assets/images/Instagram_idle.png" alt="Instagram Icon Default">
-                                <img class="hover-image" src="assets/images/Instagram_hover.png" alt="Instagram Icon Hover">
-                            </a>
+                            <div class="social-icon">
+                                <a href="https://instagram.com/hengrentang_acupunctuur?igshid=MWszYjEzMmUxd2J2dg%3D%3D&utm_source=qr" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                    <img class="default-image" src="assets/images/Instagram_idle.png" alt="Instagram Icon Default">
+                                    <img class="hover-image" src="assets/images/Instagram_hover.png" alt="Instagram Icon Hover">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="section_2_middle">
+                </div>
+                <div class="section_2_right">
                     <div class="profile-picture">
                         <img src="assets/images/IMG-20231028-WA0002.jpg" alt="Image">
                         <img src="assets/images/IMG-20231028-WA0001.jpg" alt="Image">
                     </div>
-                </div>
-                <div class="section_2_right">
-                    <button class="image-text-button" data-value="certificate">
-                        <div class="image-container">
-                            <img src="assets/images/certificate.png" alt="Image">
-                        </div>
-                        <div class="label-container">
-                            <span><?php echo $homeContent['section_2_button_label_1']; ?></span>
-                        </div>
-                    </button>
-                    <button class="image-text-button" data-value="staff">
-                        <div class="image-container">
-                            <img src="assets/images/users.png" alt="Image">
-                        </div>
-                        <div class="label-container">
-                            <span><?php echo $homeContent['section_2_button_label_2']; ?></span>
-                        </div>
-                    </button>
                 </div>
             </div>
         </section>
@@ -107,14 +92,14 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                     <h2><?php echo $homeContent['section_3_subtitle_2']; ?></h2>
                     <p><?php echo str_replace(
                         array('[Zhong]', '[Zorgwijzer.nl]'),
-                        array('<a href="https://zhong.nl/" class="blue-link">ZHONG</a>', '<a href="https://www.kab-koepel.nl/" class="blue-link">Zorgwijzer.nl</a>'),
+                        array('<a href="https://zhong.nl/" class="blue-link" target="_blank">ZHONG</a>', '<a href="https://www.kab-koepel.nl/" class="blue-link" target="_blank">Zorgwijzer.nl</a>'),
                         $homeContent['section_3_paragraph_2']
                     ); ?></p>
                 </div>
                 <div class="section_3_middle">
+
                 </div>
                 <div class="section_3_right">
-
                     <button class="image-text-button" data-value="services">
                         <div class="image-container">
                             <img src="assets/images/acupuncture.png" alt="Image">
@@ -123,6 +108,15 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                             <span><?php echo $homeContent['section_3_button_label']; ?></span>
                         </div>
                     </button>
+                    <button class="image-text-button" data-value="staff">
+                        <div class="image-container">
+                            <img src="assets/images/users.png" alt="Image">
+                        </div>
+                        <div class="label-container">
+                            <span><?php echo $homeContent['section_2_button_label_2']; ?></span>
+                        </div>
+                    </button>
+
                 </div>
             </div>
         </section>

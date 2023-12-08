@@ -11,37 +11,42 @@ body, h1, h2, h3, p, button, ul, li, select, footer, header {
 /* Main Colors */
 :root {
     /* Primary color */
-        --color-primary: rgba(241, 221, 191, 0.35);
+    --color-primary: rgba(241, 221, 191, 0.35);
 
-        /* Secondary color */
-        --color-secondary: rgba(192, 219, 234, 0.35);
+    /* Secondary color */
+    --color-secondary: rgba(192, 219, 234, 0.35);
 
-        /* Tertiary color */
-        --color-tertiary: rgba(120, 147, 138, 1);
+    /* Tertiary color */
+    --color-tertiary: rgba(120, 147, 138, 1);
 
-        /* Quaternary color */
-        --color-quaternary: rgba(146, 186, 146, 1);
+    /* Quaternary color */
+    --color-quaternary: rgba(146, 186, 146, 1);
 
-        /* New colors */
-        --button-idle01: #92BA92;
-        --button-idle02: #FAF3F0;
-        --button-idle03: rgba(51, 153, 255, 0.21);
-        --button-idle04: rgba(102, 0, 153, 0.6);
-        --button-hover01: #ABCDEF;
-        --button-hover02: #ABCDEF;
-        --button-hover03: rgba(51, 153, 255, 0.28);
-        --button-hover04: rgba(128, 0, 170, 0.6);
-        --button-selected: rgba(51, 153, 255, 0.35);
-        --extra-01: #ABCDEF;
-        --extra-02: #F0E0D0;
-        --extra-03: #C0FFEE;
-        --header: #FAF3F0;
+    /* New colors */
+    --button-idle01: #92BA92;
+    --button-idle02: #FAF3F0;
+    --button-idle03: rgba(51, 153, 255, 0.21);
+    --button-idle04: rgba(102, 0, 153, 0.6);
+    --button-hover01: #ABCDEF;
+    --button-hover02: #ABCDEF;
+    --button-hover03: rgba(51, 153, 255, 0.28);
+    --button-hover04: rgba(128, 0, 170, 0.6);
+    --button-selected: rgba(51, 153, 255, 0.35);
+    --extra-01: #ABCDEF;
+    --extra-02: #F0E0D0;
+    --extra-03: #C0FFEE;
+    --nav-01: rgba(0, 191, 255, 0.7);
+    --nav-02: rgba(38, 166, 230, 0.75); /* Slightly darker and less transparent */
+    --nav-03: rgba(106, 187, 229, 0.78); /* Gradual transition */
+    --nav-04: rgba(145, 203, 232, 0.79); /* Gradual transition */
+    --nav-05: rgba(176, 224, 230, 0.8);
+    --header: #FAF3F0;
 
-        /* Other variables... */
-        --font-size-title: 28px;
-        --font-size-subtitle: 25px;
-        --font-size-paragraph: 25px;
-        --gradient-height: 3rem;
+    /* Other variables... */
+    --font-size-title: 35px;
+    --font-size-subtitle: 30px;
+    --font-size-paragraph: 25px;
+    --gradient-height: 3rem;
 }
 
 body {
@@ -91,7 +96,9 @@ body {
 
 /* Add this CSS to hide options initially and style the custom dropdown */
 
-
+.language-dropdown .custom-select {
+    min-width:10%;
+}
 .language-dropdown .custom-select {
     position: relative;
     cursor: pointer;
@@ -165,7 +172,6 @@ body {
 .appointment-popup {
     background-color: var(--button-idle04);
     width:100%;
-    height:auto;
 }
 
 .appointment-popup:hover {
@@ -198,7 +204,7 @@ body {
 
 .left-section, .right-section {
     display: grid;
-    grid-template-rows: auto auto auto; /* Stack elements vertically in each section */
+    grid-template-rows: 14% 58% 28%; /* Stack elements vertically in each section */
 
 }
 
@@ -212,6 +218,9 @@ body {
     box-sizing: border-box;
     position: relative;
 }
+
+.popup-section button{
+ }
 
 .popup-section::before {
     content: '';
@@ -264,7 +273,6 @@ header .left-section {
 header .logo {
     font-size: calc(var(--font-size-title)*1.4);
     font-weight: bold;
-
 }
 
 header .header-buttons {
@@ -275,7 +283,7 @@ header .header-buttons {
 header .header-buttons button {
     background-color: var(--button-idle02);
     color: #000;
-    padding: calc(var(--font-size-paragraph)*1) calc(var(--font-size-paragraph)*1);
+    padding: calc(var(--font-size-paragraph)*0.5) calc(var(--font-size-paragraph)*0.5);
     border: 0.21rem solid #ccc;
     cursor: pointer;
     font-size: var(--font-size-subtitle);
@@ -284,6 +292,30 @@ header .header-buttons button {
 
 header .header-buttons .nav-alpha button {
     border-right-radius: 2rem;
+}
+
+header .header-buttons #nav1 button{
+    background-color: var(--extra-02);
+}
+
+header .header-buttons #nav1 button{
+    background-color: var(--nav-01);
+}
+
+header .header-buttons #nav2 button{
+    background-color: var(--nav-02);
+}
+
+header .header-buttons #nav3 button{
+    background-color: var(--nav-03);
+}
+
+header .header-buttons #nav4 button{
+    background-color: var(--nav-04);
+}
+
+header .header-buttons #nav5 button{
+    background-color: var(--nav-05);
 }
 
 header .nav-alpha button {
@@ -453,17 +485,19 @@ section {
 }
 
 .section_2 .section_2_left {
-    grid-column: 1 / span 5; /* Span two columns */
+    grid-column: 1 / span 6; /* Span two columns */
+    height:100%;
 }
 
 .section_2 .left-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* Align items to the top */
+  height:auto;
 }
 
 .section_2 .section_2_middle {
-    grid-column: 6 / span 3; /* Span two columns */
+    grid-column: 6 / span 1; /* Span two columns */
 
     display: flex;
     flex-direction: column;
@@ -485,7 +519,8 @@ section {
 }
 
 .section_2 .section_2_right {
-    grid-column: 9 / span 2; /* Span two columns */
+    grid-column: 8 / span 3; /* Span two columns */
+    grid-row: 1; /* Span two columns */
 }
 
 .section_2 .section_2_right .image-text-button {
@@ -519,8 +554,8 @@ header .social-icon{
     transition: transform 0.3s ease-in-out;
 }
 
-.section_2 .social-icon i, header .social-icon i {
-    font-size: 50px; /* Adjust the font size as needed */
+.section_2 .social-icon i {
+    font-size: var(--font-size-paragraph); /* Adjust the font size as needed */
 }
 
 .section_2 .social-icon:hover a, header .social-icon:hover a {
@@ -712,7 +747,7 @@ header .social-icon .hover-image{
     max-height: 0;
     transition: max-height 0.1s ease;
     overflow: hidden;
-    font-size: --font-size-paragraph;
+    font-size: var(--font-size-paragraph);
     padding-left: 0.5rem;
     color: #000;
 }
@@ -754,14 +789,10 @@ header .social-icon .hover-image{
     padding: 0.5rem;
     width: 100%;
     height: 100%;
-    align-items: center;
-    justify-content: center;
-    min-height: 42rem; /* 16:9 aspect ratio for 16x9 screen (width * 9 / 16) */
 }
 
 .services_section h1{
-    width: 70%;
-    margin: 2rem;
+    width: 100%;
     font-size: calc(var(--font-size-title) * 2.1);
 }
 
@@ -775,7 +806,6 @@ header .social-icon .hover-image{
     grid-gap: 2rem; /* Adjust the gap between grid items as needed */
     justify-items: center; /* Center items horizontally in each grid cell */
     text-align: center; /* Center-align the content within each service div */
-    margin: 2rem;
     grid-auto-flow: dense; /* [1] */
 }
 
@@ -849,15 +879,20 @@ header .social-icon .hover-image{
 .staff_section {
     display: flex;
     flex-direction: row; /* Display the items in a row */
-    align-items: center;
+    align-items: flex-start;
     padding: 0.5rem;
     width: 100%;
-    min-height: 42rem; /* 16:9 aspect ratio for 16x9 screen (width * 9 / 16) */
 }
 
 .staff_section .left-section {
     flex: 1;
     padding-right: 1rem; /* Add some spacing between image and text */
+    display:flex;
+    align-items:flex-start;
+}
+
+.staff_section .left-section-content {
+    height:100%;
 }
 
 .staff_section .left-section img {
@@ -871,6 +906,10 @@ header .social-icon .hover-image{
 .staff_section .right-section h2,
 .staff_section .right-section p {
     margin: 0; /* Remove default margins */
+}
+
+.credits{
+    font-size: calc(var(--font-size-subtitle)*0.35);
 }
 /* For medium screens (e.g., tablets), 2 columns */
 @media (max-width: 1024px) {
@@ -974,8 +1013,8 @@ a:hover {
     }
 
     :root {
-        --font-size-title: 23.04px;
-        --font-size-subtitle: 20px;
+        --font-size-title: 30px;
+        --font-size-subtitle: 25px;
         --font-size-paragraph: 20px;
     }
 }
@@ -988,8 +1027,8 @@ a:hover {
     }
 
     :root {
-      --font-size-title: calc(1.875vw); /* Relative font size for titles */
-      --font-size-subtitle: calc(1.45vw); /* Relative font size for subtitles */
+      --font-size-title: calc(2.125vw); /* Relative font size for titles */
+      --font-size-subtitle: calc(1.875vw); /* Relative font size for subtitles */
       --font-size-paragraph: calc(1.45vw); /* Relative font size for paragraphs */
     }
 }
@@ -1147,15 +1186,16 @@ a:hover {
     }
 
     .section_2 .content {
-        grid-template-columns: 1fr; /* Change to a single column layout */
+        display:flex;
+        flex-direction:column;
     }
+
 
     .section_2 .section_2_left,
     .section_2 .section_2_middle,
     .section_2 .section_2_right {
         grid-column: 1; /* Place all sections in the first column */
     }
-
     .section_2 .section_2_middle {
         display: flex;
         justify-content: center;
@@ -1180,6 +1220,7 @@ a:hover {
         justify-content: center;
         align-items: center; /* Center items vertically */
         text-align: center; /* Center text content */
+
     }
 
     .section_2 .section_2_right .image-text-button {
@@ -1205,6 +1246,7 @@ a:hover {
     }
 
     .tooltiptext {
+        max-width:2100%;
         left: 50%;
         transform: translateX(-100%) translateY(-100%);
     }
