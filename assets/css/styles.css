@@ -645,6 +645,8 @@ header .social-icon .hover-image{
   transform: translateX(-50%);
   opacity: 0;
   transition: opacity 0.2s;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 
@@ -1052,7 +1054,6 @@ a:hover {
     }
 
     header .logo {
-        font-family: 'Kis Antiqua', serif;
         padding:1rem;
         font-size: var(--font-size-title);
         font-weight: bold;

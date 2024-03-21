@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heng Ren Tang - Home Page</title>
+    <title>Heng Ren Tang</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <!-- Include Quicksand as the primary font -->
@@ -25,6 +25,7 @@
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>;
     <?php
+
     include_once "config.php";
     include_once "php/header.php";
     include_once "php/popup.php";

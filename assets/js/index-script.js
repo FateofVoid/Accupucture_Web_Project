@@ -131,7 +131,14 @@ function initializePageDropdown() {
             // Close the options
             pageOptions.classList.remove('show-options');
             location.reload();
+
         });
+    });
+
+    // Add an event listener for the popstate event
+    window.addEventListener('popstate', function (event) {
+        console.log("url back loaded");
+        location.reload();
     });
 }
 
@@ -167,16 +174,36 @@ function updateDropdownURL(langValue, pageValue) {
     window.history.pushState({}, '', newURL);
 }
 
+function getTitleForPage(page) {
+    // Customize this function to return the appropriate title for each page
+    switch (page) {
+        case 'home':
+            return 'Heng Ren Tang - Home Page';
+        case 'services':
+            return 'Heng Ren Tang - Services';
+        case 'staff':
+            return 'Heng Ren Tang - Staff';
+        case 'certificate':
+            return 'Heng Ren Tang - Certificate';
+        case 'privacy':
+            return 'Heng Ren Tang - Privacy';
+        default:
+            return 'Heng Ren Tang'; // Default title for unknown pages
+    }
+}
+
 
 ///////////////////////////////////////////////
 // Run the scripts when the document is ready//
 ///////////////////////////////////////////////
 
 $(document).ready(function () {
-console.log("Script loaded");
+    console.log("Script loaded");
 
     initializeNavigationDropdown();
     initializePopup();
     initializeCustomDropdown();
     initializePageDropdown();
+    document.title = getTitleForPage(getPageFromURL());
+
 });
