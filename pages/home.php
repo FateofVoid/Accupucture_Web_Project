@@ -26,7 +26,7 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                 <div class="section_1_right">
                     <h1><?php echo $homeContent['section_1_title']; ?></h1>
                     <p><?php echo $homeContent['section_1_paragraph']; ?></p>
-                    <button class="appointment-button  popup-button"><?php echo $homeContent['section_1_button_label']; ?></button>
+                    <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button  popup-button"><?php echo $homeContent['section_1_button_label']; ?></button>
                 </div>
             </div>
         </section>

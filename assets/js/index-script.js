@@ -282,17 +282,50 @@ function initializeExpandableMessage() {
     });
 }
 
+//////////////////////////////////////////
+// adjust margin at top to header height//
+//////////////////////////////////////////
+
 function adjustMarginTopToHeader() {
-    window.onload = function() {
-        // Get the actual height of the header
-        const header = document.querySelector('header');
+    console.log('adjustMarginTopToHeader function called'); // Check if the function is being called
+
+    // Check if the DOM content is loaded
+    if (document.readyState === 'loading') {
+        console.log('DOM content is still loading');
+    } else {
+        console.log('DOM content is already loaded');
+        setMarginTop();
+    }
+
+    // Add event listener for window onload event
+    window.addEventListener('load', function() {
+        console.log('Window onload event triggered'); // Check if the window onload event is triggered
+        setMarginTop();
+    });
+}
+
+function setMarginTop() {
+    // Get the actual height of the header
+    const header = document.querySelector('header');
+    console.log('Header element:', header); // Check if the header element is selected
+    if (header) {
         const headerHeight = header.offsetHeight;
+        console.log('Header height:', headerHeight); // Check the height of the header
 
         // Set the height of the margin to match the header height
         const marginTop = document.querySelector('.margin-top');
-        marginTop.style.height = `${headerHeight}px`;
-    };
+        console.log('Margin top element:', marginTop); // Check if the margin top element is selected
+        if (marginTop) {
+            marginTop.style.height = `${headerHeight}px`;
+            console.log('Margin top height set successfully'); // Confirm that margin top height is set
+        } else {
+            console.log('Margin top element not found'); // Log a message if margin top element is not found
+        }
+    } else {
+        console.log('Header element not found');
+    }
 }
+
 
 ///////////////////////////////////////////////
 // Run the scripts when the document is ready//
