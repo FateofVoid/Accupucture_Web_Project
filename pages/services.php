@@ -5,7 +5,7 @@ $servicesContent = $servicesLocalizationData[$_SESSION['lang']];
 ?>
 
 <main>
-    <div class="margin"></div>
+    <div class="margin-top"></div>
     <section class="services_section">
         <h1><?php echo $servicesContent['main_title']; ?></h1>
         <ul class="service-grid">

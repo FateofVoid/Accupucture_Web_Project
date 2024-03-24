@@ -23,12 +23,11 @@
 
 </head>
 <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>;
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <?php
 
     include_once "config.php";
     include_once "php/header.php";
-    include_once "php/popup.php";
     // Include the selected page based on the session variable
     include_once 'pages/' . $_SESSION['selectedPage'] . '.php';
     ?>

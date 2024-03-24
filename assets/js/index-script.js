@@ -24,7 +24,7 @@ function initializeNavigationDropdown() {
 /////////////////////////
 // javascript for popup//
 /////////////////////////
-
+/*
 function initializePopup() {
     // Get references to the overlay and popup
     const overlay = document.getElementById('overlay');
@@ -53,7 +53,7 @@ function initializePopup() {
     // Add click event listener to the overlay to hide the popup
     overlay.addEventListener('click', hidePopup);
 }
-
+*/
 ////////////////////////////////////////////
 // JavaScript for custom language dropdown//
 ////////////////////////////////////////////
@@ -192,6 +192,107 @@ function getTitleForPage(page) {
     }
 }
 
+//////////////////////////////////
+// javascript for expandabl list//
+//////////////////////////////////
+
+function initializeExpandableMessage() {
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const expandableTitles = document.querySelectorAll('.expandable_title');
+
+        expandableTitles.forEach(title => {
+            title.addEventListener('click', function () {
+                console.log('Expandable title clicked'); // Log a message when the title is clicked
+
+                const expandableMessage = this.nextElementSibling;
+                const isActive = this.classList.contains('active');
+
+                // Close all other expandable messages
+                expandableTitles.forEach(otherTitle => {
+                    if (otherTitle !== this && otherTitle.classList.contains('active')) {
+                        otherTitle.classList.remove('active');
+                        otherTitle.nextElementSibling.style.display = 'none';
+                    }
+                });
+
+                // Toggle current expandable message
+                if (isActive) {
+                    this.classList.remove('active');
+                    expandableMessage.style.display = 'none';
+                    console.log('Expandable message closed'); // Log a message when the message is closed
+                } else {
+                    this.classList.add('active');
+                    expandableMessage.style.display = 'block';
+                    console.log('Expandable message opened'); // Log a message when the message is opened
+                }
+            });
+        });
+    });
+}
+
+//////////////////////////////////////
+// javascript for expandable message//
+//////////////////////////////////////
+
+function initializeExpandableMessage() {
+    const expandableTitles = document.querySelectorAll('.expandable_title');
+
+    expandableTitles.forEach(title => {
+        title.addEventListener('click', function () {
+            console.log('Expandable title clicked'); // Check if click event is being captured
+
+            const expandableMessage = this.nextElementSibling;
+            const isActive = this.classList.contains('active');
+            const headerHeight = document.querySelector('header').offsetHeight; // Get the height of the header
+            const scrollOffset = 20; // Adjust this value to your preference
+
+            // Toggle current expandable message
+            if (isActive) {
+                this.classList.remove('active');
+                expandableMessage.style.display = 'none';
+            } else {
+                this.classList.add('active');
+                expandableMessage.style.display = 'block';
+            }
+
+            // Close all other expandable messages
+            expandableTitles.forEach(otherTitle => {
+                if (otherTitle !== this && otherTitle.classList.contains('active')) {
+                    otherTitle.classList.remove('active');
+                    otherTitle.nextElementSibling.style.display = 'none';
+                }
+            });
+
+            // Wait for the transition to complete before scrolling
+            setTimeout(() => {
+                // Get the top position of the active title
+                const titleTop = this.getBoundingClientRect().top + window.pageYOffset;
+
+                // Calculate the target scroll position considering the header height
+                const targetScrollPosition = titleTop - headerHeight - scrollOffset;
+
+                // Scroll to the target position
+                window.scrollTo({
+                    top: targetScrollPosition,
+                    behavior: 'smooth' // Optionally, use smooth scrolling
+                });
+            }, 300); // Adjust the delay if necessary
+        });
+    });
+}
+
+function adjustMarginTopToHeader() {
+    window.onload = function() {
+        // Get the actual height of the header
+        const header = document.querySelector('header');
+        const headerHeight = header.offsetHeight;
+
+        // Set the height of the margin to match the header height
+        const marginTop = document.querySelector('.margin-top');
+        marginTop.style.height = `${headerHeight}px`;
+    };
+}
 
 ///////////////////////////////////////////////
 // Run the scripts when the document is ready//
@@ -200,10 +301,12 @@ function getTitleForPage(page) {
 $(document).ready(function () {
     console.log("Script loaded");
 
+    adjustMarginTopToHeader();
     initializeNavigationDropdown();
-    initializePopup();
+    initializeExpandableMessage();
     initializeCustomDropdown();
     initializePageDropdown();
     document.title = getTitleForPage(getPageFromURL());
 
 });
+

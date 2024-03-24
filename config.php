@@ -1,6 +1,7 @@
 <?php
     session_start();
 
+
     $validLanguages = array('en', 'nl');
 
     if (!isset($_SESSION['lang']))
@@ -19,4 +20,7 @@
             $_SESSION['selectedPage'] = $_GET['page'];
         }
     }
+
+    $validStaffMembers = array('fransisca', 'paz');
+
 ?>

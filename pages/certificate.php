@@ -5,6 +5,6 @@ $certificateContent = $certificateLocalizationData[$_SESSION['lang']];
 ?>
 
 <main>
-    <div class="margin"></div>
+    <div class="margin-top"></div>
 
 </main>

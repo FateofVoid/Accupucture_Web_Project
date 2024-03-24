@@ -5,7 +5,7 @@ $privacyContent = $privacyLocalizationData[$_SESSION['lang']];
 ?>
 
 <main>
-    <div class="margin"></div>
+    <div class="margin-top"></div>
 
     <!-- Contact Section -->
     <section class="contact_section">

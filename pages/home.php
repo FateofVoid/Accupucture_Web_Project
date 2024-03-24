@@ -5,6 +5,8 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
 ?>
 
 <main>
+    <div class="margin-top"></div>
+
     <div class="sections">
         <!-- Section 1 -->
         <section class="section_1">
@@ -87,6 +89,10 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                                 <span class="tooltiptext"><?php echo $homeContent['section_3_tooltip_text']; ?></span>
                             </div>
                             <?php echo $homeContent['section_3_paragraph_1_2']; ?>
+                            <div class="tooltip">
+                                <img src="assets/images/tooltip_icon.png" alt="?" class="tooltip-icon">
+                                <span class="tooltiptext"><?php echo $homeContent['section_3_tooltip_2_text']; ?></span>
+                            </div>
                         </div>
                     </p>
                     <h2><?php echo $homeContent['section_3_subtitle_2']; ?></h2>
@@ -131,7 +137,7 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                     <h1><?php echo $homeContent['section_4_title']; ?></h1>
                     <p><?php echo $homeContent['section_4_paragraph']; ?></p>
                 </div>
-                <button class="appointment-button  popup-button"><?php echo $homeContent['section_4_left_button_label']; ?></button>
+                <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button appointment"><?php echo $homeContent['section_4_left_button_label']; ?></button>
                 <div class="section_4_left">
                     <h2><?php echo $homeContent['section_4_left_subtitle']; ?></h2>
                     <p><?php echo $homeContent['section_4_left_paragraph']; ?></p>
@@ -159,11 +165,12 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                 <div class="section_5_questions">
                     <div class="faq">
                         <?php for ($i = 1; $i <= 21; $i++) { ?>
-                            <div class="qa <?php echo $i % 2 === 1 ? 'left' : 'right'; ?>">
-                                <div class="question">
-                                    <?php echo $homeContent['section_5_question_'.$i]; ?>
+                            <div class="expandable_container <?php echo $i % 2 === 1 ? 'left' : 'right'; ?>">
+                                <div class="expandable_title">
+                                    <span class="expand_icon">▼</span>
+                                    <span class="expandable_text"><?php echo $homeContent['section_5_question_'.$i]; ?></span>
                                 </div>
-                                <div class="answer" style="max-height: 0px;">
+                                <div class="expandable_message" style="display: none;">
                                     <?php echo $homeContent['section_5_answer_'.$i]; ?>
                                 </div>
                             </div>
@@ -173,11 +180,12 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
             </div>
             <div class="margin"></div>
 
-            <h2><?php echo $homeContent['section_5_subtitle_1']; ?></h2>
-            <p><?php echo $homeContent['section_5_paragraph_1']; ?></p>
-            <img class="section_3_middle_img_1" src="assets/images/stacks-image-5c587d1.png" alt="Image" >
-            <img class="section_3_middle_img_2" src="assets/images/stacks-image-dbb4ead.jpg" alt="Image" >
-
+                <h2><?php echo $homeContent['section_5_subtitle_1']; ?></h2>
+                <p><?php echo $homeContent['section_5_paragraph_1']; ?></p>
+                <div class="logo-container">
+                    <img onclick="window.open('https://www.scag.nl/', '_blank')" class="section_3_middle_img_1" src="assets/images/SCAG Logo.png" alt="SCAG Logo">
+                    <img onclick="window.open('https://zhong.nl/', '_blank')" class="section_3_middle_img_2" src="assets/images/Zhong Logo.png" alt="Zhong Logo">
+                </div>
 
             <div class="credits">
                 <?php echo $homeContent['section_5_credits']; ?>

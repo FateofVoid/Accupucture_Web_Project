@@ -364,8 +364,8 @@ main {
   max-width: 2800px; /* Adjust the max-width as needed */
 }
 
-.margin{
-    padding-top: calc(var(--font-size-paragraph)*7)
+.margin-top {
+    height: 60px; /* Adjust this value to match the height of your header */
 }
 
 /* Sections */
@@ -404,7 +404,6 @@ section {
     display: flex;
     justify-content: center;
     flex: 1;
-    padding-top: calc(var(--font-size-paragraph)*7)
 }
 
 .section_1 .content{
@@ -730,6 +729,21 @@ header .social-icon .hover-image{
     width: 34.7%;
 }
 
+.section_5 .logo-container {
+    height: calc(14*var(--font-size-subtitle)); /* Set the fixed height for the container */
+    max-width: min-content; /* Set the maximum width to fit the content */
+    display: flex; /* Use flexbox for positioning */
+    justify-content: space-between; /* Separate the images with space between them */
+    align-items: center; /* Center the images vertically */
+}
+
+.section_5 .logo-container img {
+    height: 100%; /* Set the height of the images to fill the container */
+    width: auto; /* Let the width adjust based on the image height */
+    cursor: pointer; /* Add pointer cursor for clickable images */
+    margin: calc(0.35*var(--font-size-subtitle));
+}
+
 .faq {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
@@ -739,6 +753,8 @@ header .social-icon .hover-image{
     /* Add a fixed height to the container */
     height: auto; /* or set a specific height in pixels */
     /* Other existing styles... */
+  align-items: end; /* Align items to the bottom */
+
 }
 
 .question.right, .answer.right {
@@ -878,41 +894,103 @@ header .social-icon .hover-image{
     border-radius: 1.4rem 1.4rem 0 0;
 }
 
-.staff_section {
-    display: flex;
-    flex-direction: row; /* Display the items in a row */
-    align-items: flex-start;
-    padding: 0.5rem;
-    width: 100%;
+.staff-member-section {
+    display: grid;
+    grid-template-columns: 1fr 6fr; /* Left section takes auto width, right section takes remaining width */
+    grid-template-rows: auto auto; /* Both left and right sections have auto height */
+    grid-row-gap: 1rem; /* Gap between grid rows */
 }
 
-.staff_section .left-section {
-    flex: 1;
+.staff-member-section .left-section {
+    grid-column: 1; /* Left section occupies first column */
+    grid-row: 1 ; /* Left section spans two rows from the first row */
+    align-self: start; /* Align the left section to the start (top) of its grid cell */
     padding-right: 1rem; /* Add some spacing between image and text */
-    display:flex;
-    align-items:flex-start;
+    display: flex;
+    align-items: flex-start;
 }
 
-.staff_section .left-section-content {
-    height:100%;
+.staff-member-section .right-section {
+    grid-column: 2; /* Right section occupies second column */
+    grid-row: 1; /* Left section spans two rows */
+    display: grid; /* Use grid layout for the right section */
+    grid-template-rows: auto 1fr; /* First row auto for header, second row takes remaining space */
+    grid-gap: 10px; /* Adjust as needed */
+    overflow: hidden; /* Prevent content overflow */
 }
-
-.staff_section .left-section img {
+.staff-member-section .left-section img {
     width: 100%;
 }
 
-.staff_section .right-section {
-    flex: 2; /* Adjust the flex value to give more space to the text */
+.staff-member-section .left-section img {
+    width: 100%;
+    border-radius: 50%;
 }
 
-.staff_section .right-section h2,
-.staff_section .right-section p {
+.staff-member-section h1 {
     margin: 0; /* Remove default margins */
+    text-align: left; /* Align the title to the left */
+
+}
+
+.staff-member-section .bullet-points {
+    display: block; /* Change to block-level display */
+    margin-top: 10px; /* Adjust top margin between bullet points */
+}
+
+.staff-member-section .bullet-points li {
+    list-style-type: disc; /* Set list-style-type to disc for bullet points */
+    margin-left: 20px; /* Adjust the space between the bullet icon and the text */
+}
+
+.staff-member-section .certificate-section {
+    grid-column: 2; /* Certificate section spans both columns */
+    grid-row: 2;
+}
+
+.expandable_title {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Align icon to the left, text to the right */
+    gap: 1rem; /* Gap between icon and text */
+    position: relative;
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    border-bottom: thin dotted #777;
+    padding-bottom: 0.5rem; /* Add some padding below the title */
+}
+
+.expandable_title .expandable-text {
+    display: inline-block;
+    vertical-align: middle; /* Align vertically with the expand icon */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+    font-size: var(--font-size-subtitle);
+    padding: 0.5rem;
+}
+
+.expandable_title .expand_icon {
+    display: inline-block;
+    vertical-align: middle; /* Align vertically with the expandable_title text */
+    margin-left: 5px; /* Adjust margin as needed */
+    font-size: 1.2rem; /* Adjust size as needed */
+    transition: transform 0.7s ease; /* Add smooth transition */
+}
+
+.expandable_message {
+    display: none; /* Initially hide the expandable message */
+}
+
+.expandable_title.active .expand_icon {
+    transform: rotate(180deg); /* Rotate the icon when active */
+}
+
+.expandable_title.active + .expandable_message {
+    display: block; /* Display the message when its title is active */
 }
 
 .credits{
     font-size: calc(var(--font-size-subtitle)*0.35);
 }
+
+
 /* For medium screens (e.g., tablets), 2 columns */
 @media (max-width: 1024px) {
     .service-grid {
@@ -1297,11 +1375,19 @@ a:hover {
         width: 99%;
     }
 
-    .section_5 .section_3_middle_img_1{
-        width: 42.7%;
+    .section_5 .logo-container {
+        width: 70%; /* Set the fixed width for the container */
+        height: auto; /* Let the height adjust based on the content */
+        display: flex; /* Use flexbox for positioning */
+        flex-direction: column; /* Stack the images vertically */
+        align-items: center; /* Center the images horizontally */
+        max-width: 100%; /* Ensure the container doesn't exceed 100% width of the viewport */
     }
-    .section_5 .section_3_middle_img_2{
-        width: 55.3%;
+
+    .section_5 .logo-container img {
+        max-width: 100%; /* Limit the maximum width of the images to 100% */
+        height: auto; /* Let the height adjust based on the image width to preserve aspect ratio */
+        cursor: pointer; /* Add pointer cursor for clickable images */
     }
 
     .faq {
@@ -1317,24 +1403,38 @@ a:hover {
         width: auto; /* Reset width property */
     }
 
+    .staff-member-section .left-section {
+        grid-row: 1; /* Left section occupies first row */
+        grid-column: span 2;
+        align-self: center; /* Center the left section vertically */
+        justify-self: center; /* Center the left section horizontally */
+        text-align: center; /* Center text content */
+    }
+
+    .staff-member-section .right-section {
+        grid-column: span 2;
+        grid-row: 2; /* Right section occupies second row */
+    }
+
+    .staff-member-section .certificate-section {
+        grid-row: 3; /* Certificate section occupies third row */
+        grid-column: span 2;
+    }
+
+    .staff-member-section .left-section img {
+        width: 70%; /* Image takes half the width */
+        max-width: 100%; /* Ensure image doesn't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Ensure image is centered properly */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    .staff-member-section h1 {
+        margin: 0; /* Remove default margins */
+        text-align: center; /* Center the title */
+    }
+
     .appointment-button {
-    }
-
-    .service-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .staff_section {
-        flex-direction: column; /* Display the items in a row */
-    }
-
-    .staff_section .left-section img {
-    margin:auto;
-        width: 70%;
-    }
-
-    .staff_section .right-section {
-        padding: 1vw;
     }
 
 }
