@@ -33,7 +33,7 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
         </div>
         <div class="right-section">
 
-            <button class="appointment-button popup-button"><?php echo $headerContent['header_appointment_button_label']; ?></button>
+            <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button appointment-popup"><?php echo $headerContent['header_appointment_button_label']; ?></button>
             <div class="social-icons">
                 <div class="social-icon">
                     <a href="https://www.facebook.com/hengrentang/" target="_blank">
