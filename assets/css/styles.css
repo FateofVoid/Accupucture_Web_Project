@@ -374,7 +374,6 @@ section {
     padding: 0.5rem;
     align-items: center;
     justify-content: center;
-    min-height:100%;
 }
 
 .even-section {
@@ -940,6 +939,7 @@ header .social-icon .hover-image{
 }
 
 .staff-member-section .bullet-points li {
+    width: auto;
     list-style-type: disc; /* Set list-style-type to disc for bullet points */
     margin-left: 20px; /* Adjust the space between the bullet icon and the text */
 }
@@ -1314,22 +1314,19 @@ a:hover {
         padding: 1rem;
       }
 
-    .tooltip::after {
-        left: 100%; /* Center the tooltip horizontally */
-        transform: translateX(-100%) scale(0);
-        transform-origin: bottom center;
-        transition: transform 0.2s, opacity 0.2s;
+     .tooltiptext {
+         max-width: 2100%;
+         left: 50%;
+         white-space: normal;
+     }
+
+     .tt_1 {
+         transform: translateX(-100%)translateY(-100%) ;
     }
 
-    .tooltip:hover::after {
-        transform: translateX(-100%) scale(1);
-    }
-
-    .tooltiptext {
-        max-width:2100%;
-        left: 50%;
-        transform: translateX(-100%) translateY(-100%);
-    }
+     .tt_2 {
+         transform: translateX(-50%)translateY(-100%) ;
+     }
 
 
     .section_4_left,
