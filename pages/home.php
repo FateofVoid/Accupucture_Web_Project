@@ -179,7 +179,7 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                 </div>
             </div>
             <div class="margin"></div>
-
+            <br>
                 <h2><?php echo $homeContent['section_5_subtitle_1']; ?></h2>
                 <p><?php echo $homeContent['section_5_paragraph_1']; ?></p>
                 <div class="logo-container">
