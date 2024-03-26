@@ -278,7 +278,7 @@ header .logo {
 header .header-buttons {
     display: flex;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 1.1rem;
 }
 
 header .header-buttons button {
