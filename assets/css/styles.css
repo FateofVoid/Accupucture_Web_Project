@@ -802,7 +802,6 @@ header .social-icon .hover-image{
 /* Services page Specific Style*/
 .services_section {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
     justify-items: center; /* Center items horizontally in each grid cell */
     padding: 0.5rem;
     width: 100%;
@@ -1399,6 +1398,9 @@ a:hover {
     .faq .answer {
         grid-column: auto; /* Reset grid-column property */
         width: auto; /* Reset width property */
+    }
+    .service-grid {
+        grid-template-columns: repeat(1, 1fr); /* 3 columns with equal width */
     }
 
     .staff-member-section .left-section {
