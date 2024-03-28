@@ -282,9 +282,9 @@ function initializeExpandableMessage() {
     });
 }
 
-//////////////////////////////////////////
-// adjust margin at top to header height//
-//////////////////////////////////////////
+/////////////////////////////////////////
+// javascript for adjustable margin top//
+/////////////////////////////////////////
 
 function adjustMarginTopToHeader() {
     console.log('adjustMarginTopToHeader function called'); // Check if the function is being called
@@ -310,7 +310,6 @@ function setMarginTop() {
     console.log('Header element:', header); // Check if the header element is selected
     if (header) {
         const headerHeight = header.offsetHeight;
-        console.log('Header height:', headerHeight); // Check the height of the header
 
         // Set the height of the margin to match the header height
         const marginTop = document.querySelector('.margin-top');
@@ -325,7 +324,6 @@ function setMarginTop() {
         console.log('Header element not found');
     }
 }
-
 
 ///////////////////////////////////////////////
 // Run the scripts when the document is ready//

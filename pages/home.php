@@ -86,12 +86,12 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                             <?php echo $homeContent['section_3_paragraph_1_1']; ?>
                             <div class="tooltip">
                                 <img src="assets/images/tooltip_icon.png" alt="?" class="tooltip-icon">
-                                <span class="tooltiptext"><?php echo $homeContent['section_3_tooltip_text']; ?></span>
+                                <span class="tooltiptext tt_1"><?php echo $homeContent['section_3_tooltip_text']; ?></span>
                             </div>
                             <?php echo $homeContent['section_3_paragraph_1_2']; ?>
                             <div class="tooltip">
                                 <img src="assets/images/tooltip_icon.png" alt="?" class="tooltip-icon">
-                                <span class="tooltiptext"><?php echo $homeContent['section_3_tooltip_2_text']; ?></span>
+                                <span class="tooltiptext tt_2"><?php echo $homeContent['section_3_tooltip_2_text']; ?></span>
                             </div>
                         </div>
                     </p>
@@ -179,7 +179,7 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                 </div>
             </div>
             <div class="margin"></div>
-
+            <br>
                 <h2><?php echo $homeContent['section_5_subtitle_1']; ?></h2>
                 <p><?php echo $homeContent['section_5_paragraph_1']; ?></p>
                 <div class="logo-container">
