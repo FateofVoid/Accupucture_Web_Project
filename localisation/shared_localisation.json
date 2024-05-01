@@ -12,6 +12,7 @@
     "footer_link_1": "Home",
     "footer_link_2": "About",
     "footer_link_3": "Contact",
+
     "popup_title": "Select your preferred location or call me at",
     "popup_subtitle": "06 2419 9579",
     "popup_section_1_title": "Almere",
@@ -19,7 +20,17 @@
     "popup_section_1_button": "go to Almere",
     "popup_section_2_title": "Bussum",
     "popup_section_2_content": "Monday: 13:00 - 17:00 <br><br>Wednesday: 9:00 - 17:00 <br><br>Friday: 9:00 - 12:00",
-    "popup_section_2_button": "go to Bussum"
+    "popup_section_2_button": "go to Bussum",
+
+    "chat_widget_heading": "Do you have questions or are you curious about what a treatment can do for your health?",
+    "chat_widget_sub_heading": "Post your question below and I will get back to you as soon as possible:",
+    "chat_widget_prompt_msg": "Hi! I'm Francisca. Questions? Feel free to ask!",
+    "chat_widget_legal_msg": "Click 'Send message' below. By doing so, you agree that I will respond to your message via email or WhatsApp!",
+    "chat_widget_revisit_prompt_msg": "Good to see you again {{name}}, how can I help you today?",
+    "chat_widget_support_contact": "Thank you for your chat message!",
+    "chat_widget_success_msg": "Fransisca Ekkel | Team Heng Ren Tang 🙏",
+    "chat_widget_thank_you_msg": "Good of you to get in touch. Your message has been received in good order, and you have received an email confirmation. You will hear from us soon! Warm regards.",
+    "chat_widget_send_label": "Send message"
   },
   "nl": {
     "header_logo": "HENG REN TANG",
@@ -34,6 +45,7 @@
     "footer_link_1": "Home",
     "footer_link_2": "Over ons",
     "footer_link_3": "Contact",
+
     "popup_title": "Selecteer uw voorkeurslocatie of bel me op",
     "popup_subtitle": "06 2419 9579",
     "popup_section_1_title": "Almere",
@@ -41,6 +53,16 @@
     "popup_section_1_button": "Ga naar Almere",
     "popup_section_2_title": "Bussum",
     "popup_section_2_content": "Maandag: 13:00 - 17:00 <br><br>Woensdag: 9:00 - 17:00 <br><br>Vrijdag: 9:00 - 12:00",
-    "popup_section_2_button": "Ga naar Bussum"
+    "popup_section_2_button": "Ga naar Bussum",
+
+    "chat_widget_heading": "Heb je vragen of ben je benieuwd wat een behandeling voor jouw gezondheid kan doen?",
+    "chat_widget_sub_heading": "Stel hieronder je vraag en ik kom er zo snel mogelijk bij je op terug:",
+    "chat_widget_prompt_msg": "Hi! Ik ben Fransisca. Heb je vragen? Stel ze gerust!",
+    "chat_widget_legal_msg": "Klik hieronder op 'Bericht versturen'. Je gaat ermee akkoord dat ik reageer op je bericht via de mail of WhatsApp!",
+    "chat_widget_revisit_prompt_msg": "Goed dat je er weer bent {{name}}, hoe kan ik je helpen?",
+    "chat_widget_support_contact": "Bedankt voor je chatbericht!",
+    "chat_widget_success_msg": "Fransisca Ekkel | Team Heng Ren Tang 🙏",
+    "chat_widget_thank_you_msg": "Goed dat je contact opneemt. Je bericht is in goede orde ontvangen en je hebt een mailtje gekregen ter bevestiging. Je hoort zo snel mogelijk van ons! Vriendelijke groet,",
+    "chat_widget_send_label": "Bericht versturen"
   }
 }

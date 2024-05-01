@@ -24,11 +24,17 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                     </div>
                 </div>
                 <div class="section_1_right">
+                    <div class="image-logo">
+                        <img src="assets/images/Heng_ren_tang_logo.png" alt="Image">
+                    </div>
                     <h1><?php echo $homeContent['section_1_title']; ?></h1>
                     <p><?php echo $homeContent['section_1_paragraph']; ?></p>
                     <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button  popup-button"><?php echo $homeContent['section_1_button_label']; ?></button>
                 </div>
+
             </div>
+
+            <script src="https://link.growzy.io/js/form_embed.js"></script>
         </section>
 
         <div class="gradient_even">
@@ -58,6 +64,7 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                                 </a>
                             </div>
                         </div>
+                        <p><?php echo $homeContent['section_2_jump_prompt']; ?></p>
                     </div>
                 </div>
                 <div class="section_2_middle">
@@ -178,7 +185,24 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                     </div>
                 </div>
             </div>
-            <div class="margin"></div>
+            <br>
+            <div class="section_5_contact" id="faq_contact_form_section" >
+                <iframe class="contact_form"
+                    src="<?php echo $homeContent['section_5_contact_form_url']; ?>"
+                    id="inline-contact-form"
+                    data-layout="{'id':'INLINE'}"
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="<?php echo $homeContent['section_5_contact_form_name']; ?>"
+                    data-height="878"
+                    data-layout-iframe-id="inline-contact-form"
+                    title="<?php echo $homeContent['section_5_contact_form_name']; ?>"
+                ></iframe>
+            </div>
             <br>
                 <h2><?php echo $homeContent['section_5_subtitle_1']; ?></h2>
                 <p><?php echo $homeContent['section_5_paragraph_1']; ?></p>

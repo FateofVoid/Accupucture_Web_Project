@@ -7,6 +7,7 @@
     "section_2_title": "",
     "section_2_subtitle": "HENG REN TANG Acupuncture Clinic",
     "section_2_paragraph1": "At HENG REN TANG Acupuncture Clinic, we provide personalized care in a welcoming setting for various health issues like pain, stress, insomnia, fertility and more. Our experienced team employs the Balance Method, blending Classical Chinese medicine with modern insights to improve your well-being. We tailor treatments to your unique needs.<br><br>Contact us to schedule an appointment and start your journey to better health. Our team warmly welcome you, dedicating our knowledge and care to your wellbeing.",
+    "section_2_jump_prompt": "Got questions or need more information? Explore our FAQ section or <a href=\"#faq_contact_form_section\">reach out to us directly via the contact form</a> below!",
     "profile_text": "Profile description goes here",
     "section_2_button_label_1": "Certificates",
     "section_2_button_label_2": "Acupuncturists",
@@ -98,7 +99,13 @@
     "section_5_answer_21": "Yes, our practice is wheelchair accessible. We have a lift, and the practice area is wheelchair-friendly. So, you can definitely visit us if you're using a wheelchair.",
 
     "section_5_subtitle_1": "Partnership",
-    "section_5_paragraph_1": "<br><br>Our clinic is also a proud member of the Dutch Association for Traditional Chinese Medicine ZHONG. As a result, our treatments may be reimbursed by health insurers, depending on your policy."
+    "section_5_paragraph_1": "<br>Our clinic is also a proud member of the Dutch Association for Traditional Chinese Medicine ZHONG. As a result, our treatments may be reimbursed by health insurers, depending on your policy.",
+
+    "section_5_credits": "This website uses images from flaticon.com:",
+
+    "section_5_contact_form_url": "https://link.growzy.io/widget/form/CFsIIywZKhRbRI0L9vJS",
+    "section_5_contact_form_name": "#01. Optimized Contactform | Fransisca Ekkel - ENGLISH"
+
   },
   "nl": {
     "section_1_title": "",
@@ -108,6 +115,7 @@
     "section_2_title": "",
     "section_2_subtitle": "HENG REN TANG Acupunctuurkliniek",
     "section_2_paragraph1": "Bij HENG REN TANG Acupunctuurkliniek bieden we persoonlijke zorg in een gastvrije omgeving voor uiteenlopende gezondheidsproblemen zoals pijn, stress, fertiliteit, slapeloosheid en meer. Ons ervaren team gebruikt de Balans Methode, een combinatie van Klasieke Chinese geneeskunde en moderne inzichten, om uw welzijn te verbeteren. We passen onze behandelingen aan uw unieke behoeften aan.<br><br>Neem contact op voor een afspraak en begin uw weg naar een betere gezondheid. Ons team heten u van harte welkom en zetten onze kennis en zorg in voor uw welzijn.",
+    "section_2_jump_prompt": "Heb je vragen of heb je meer informatie nodig? Verken onze FAQ-sectie of <a href=\"#faq_contact_form_section\">neem rechtstreeks contact met ons op via het onderstaande contactformulier</a>!",
     "profile_text": "Profielbeschrijving komt hier",
     "section_2_button_label_1": "Certificaten",
     "section_2_button_label_2": "Acupuncturisten ",
@@ -198,8 +206,11 @@
     "section_5_answer_21": "Ja, onze praktijk is toegankelijk voor rolstoelgebruikers. We hebben een lift en de praktijkruimte is rolstoelvriendelijk. Dus je kunt ons zeker bezoeken als je een rolstoel gebruikt.",
 
     "section_5_subtitle_1": "Partnership",
-    "section_5_paragraph_1": "<br><br>Onze kliniek is ook trots lid van de Nederlandse Vereniging voor Traditionele Chinese Geneeskunde ZHONG. Hierdoor kunnen onze behandelingen vergoed worden door zorgverzekeraars, afhankelijk van uw polis.",
+    "section_5_paragraph_1": "<br>Onze kliniek is ook trots lid van de Nederlandse Vereniging voor Traditionele Chinese Geneeskunde ZHONG. Hierdoor kunnen onze behandelingen vergoed worden door zorgverzekeraars, afhankelijk van uw polis.",
 
-    "section_5_credits": "Deze website maakt gebruik van afbeeldingen van flaticon.com:"
+    "section_5_credits": "Deze website maakt gebruik van afbeeldingen van flaticon.com:",
+
+    "section_5_contact_form_url": "https://link.growzy.io/widget/form/lgXmnlkhypPI4D5q7zbh",
+    "section_5_contact_form_name": "#01. Optimized Contactform | Fransisca Ekkel - NEDERLANDS"
   }
 }

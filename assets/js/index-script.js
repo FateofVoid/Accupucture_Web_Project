@@ -1,3 +1,9 @@
+
+
+///////////////////////////////////////////////////
+// javascript for scrolling to top on page change//
+///////////////////////////////////////////////////
+
 ///////////////////////////////////////
 // javascript for navigation dropdown//
 ///////////////////////////////////////
@@ -120,7 +126,6 @@ function initializePageDropdown() {
     const pageOptions = document.getElementById('page-options');
     let selectedPage = 'home'; // Set the default selected page
 
-
     const pageOptionElements = document.querySelectorAll('.page-option');
     pageOptionElements.forEach((pageOption) => {
         pageOption.addEventListener('click', function () {
@@ -130,8 +135,12 @@ function initializePageDropdown() {
             updateDropdownURL(currentLang, pageValue);
             // Close the options
             pageOptions.classList.remove('show-options');
-            location.reload();
 
+            // Scroll to the top
+            window.scrollTo(0, 0);
+
+            // Reload the page
+            location.reload();
         });
     });
 
@@ -192,45 +201,6 @@ function getTitleForPage(page) {
     }
 }
 
-//////////////////////////////////
-// javascript for expandabl list//
-//////////////////////////////////
-
-function initializeExpandableMessage() {
-
-    document.addEventListener('DOMContentLoaded', function () {
-        const expandableTitles = document.querySelectorAll('.expandable_title');
-
-        expandableTitles.forEach(title => {
-            title.addEventListener('click', function () {
-                console.log('Expandable title clicked'); // Log a message when the title is clicked
-
-                const expandableMessage = this.nextElementSibling;
-                const isActive = this.classList.contains('active');
-
-                // Close all other expandable messages
-                expandableTitles.forEach(otherTitle => {
-                    if (otherTitle !== this && otherTitle.classList.contains('active')) {
-                        otherTitle.classList.remove('active');
-                        otherTitle.nextElementSibling.style.display = 'none';
-                    }
-                });
-
-                // Toggle current expandable message
-                if (isActive) {
-                    this.classList.remove('active');
-                    expandableMessage.style.display = 'none';
-                    console.log('Expandable message closed'); // Log a message when the message is closed
-                } else {
-                    this.classList.add('active');
-                    expandableMessage.style.display = 'block';
-                    console.log('Expandable message opened'); // Log a message when the message is opened
-                }
-            });
-        });
-    });
-}
-
 //////////////////////////////////////
 // javascript for expandable message//
 //////////////////////////////////////
@@ -239,7 +209,9 @@ function initializeExpandableMessage() {
     const expandableTitles = document.querySelectorAll('.expandable_title');
 
     expandableTitles.forEach(title => {
-        title.addEventListener('click', function () {
+        title.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent default behavior of anchor tags or buttons
+
             console.log('Expandable title clicked'); // Check if click event is being captured
 
             const expandableMessage = this.nextElementSibling;
@@ -249,35 +221,40 @@ function initializeExpandableMessage() {
 
             // Toggle current expandable message
             if (isActive) {
+                console.log('Active class removed'); // Log when active class is removed
                 this.classList.remove('active');
                 expandableMessage.style.display = 'none';
             } else {
+                console.log('Active class added'); // Log when active class is added
                 this.classList.add('active');
                 expandableMessage.style.display = 'block';
+
+                // Wait for the transition to complete before scrolling
+                setTimeout(() => {
+                    // Get the top position of the active title
+                    const titleTop = this.getBoundingClientRect().top + window.pageYOffset;
+
+                    // Calculate the target scroll position considering the header height
+                    const targetScrollPosition = titleTop - headerHeight - scrollOffset;
+
+                    console.log('Scrolling to:', targetScrollPosition); // Log the target scroll position
+
+                    // Scroll to the target position
+                    window.scrollTo({
+                        top: targetScrollPosition,
+                        behavior: 'smooth' // Optionally, use smooth scrolling
+                    });
+                }, 300); // Adjust the delay if necessary
             }
 
             // Close all other expandable messages
             expandableTitles.forEach(otherTitle => {
                 if (otherTitle !== this && otherTitle.classList.contains('active')) {
+                    console.log('Active class removed from other expandable messages'); // Log when active class is removed from other messages
                     otherTitle.classList.remove('active');
                     otherTitle.nextElementSibling.style.display = 'none';
                 }
             });
-
-            // Wait for the transition to complete before scrolling
-            setTimeout(() => {
-                // Get the top position of the active title
-                const titleTop = this.getBoundingClientRect().top + window.pageYOffset;
-
-                // Calculate the target scroll position considering the header height
-                const targetScrollPosition = titleTop - headerHeight - scrollOffset;
-
-                // Scroll to the target position
-                window.scrollTo({
-                    top: targetScrollPosition,
-                    behavior: 'smooth' // Optionally, use smooth scrolling
-                });
-            }, 300); // Adjust the delay if necessary
         });
     });
 }
@@ -332,12 +309,12 @@ function setMarginTop() {
 $(document).ready(function () {
     console.log("Script loaded");
 
-    adjustMarginTopToHeader();
     initializeNavigationDropdown();
     initializeExpandableMessage();
     initializeCustomDropdown();
     initializePageDropdown();
     document.title = getTitleForPage(getPageFromURL());
+    adjustMarginTopToHeader();
 
 });
 
