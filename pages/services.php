@@ -1,5 +1,4 @@
     <!-- SEO Meta Tags -->
-    <title>Treatment Specialties | HENG REN TANG Acupuncture Clinic</title>
     <meta name="description" content="Explore the treatment specialties offered by HENG REN TANG Acupuncture Clinic. Our services include respiratory, digestive, musculoskeletal, hormonal, urinary and reproductive health, and more. Learn how we can help with your specific health needs.">
     <meta name="keywords" content="Acupuncture, Treatment Specialties, Respiratory Health, Digestive Health, Musculoskeletal Pain, Hormonal Disorders, Urinary Health, Reproductive Health, HENG REN TANG">
     <meta name="author" content="HENG REN TANG Acupuncture Clinic">

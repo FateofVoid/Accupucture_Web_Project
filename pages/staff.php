@@ -1,5 +1,4 @@
     <!-- SEO Meta Tags -->
-    <title>Meet Our Experts | HENG REN TANG Acupuncture Clinic</title>
     <meta name="description" content="Meet the skilled professionals at HENG REN TANG Acupuncture Clinic. Learn about Fransisca Ekkel and Paz Lobo, their qualifications, expertise in traditional Chinese medicine, and how they can help with your health needs.">
     <meta name="keywords" content="Acupuncture Experts, Traditional Chinese Medicine, Fransisca Ekkel, Paz Lobo, HENG REN TANG, Acupuncture Clinic Staff">
     <meta name="author" content="HENG REN TANG Acupuncture Clinic">

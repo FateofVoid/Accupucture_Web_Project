@@ -1,4 +1,4 @@
-    <title>Privacy Policy | HENG REN TANG Acupuncture Clinic</title>
+    <!-- SEO Meta Tags -->
     <meta name="description" content="Read the privacy policy of HENG REN TANG Acupuncture Clinic to understand how we process and protect your personal and sensitive data. Learn about your rights and how we ensure your data security.">
     <meta name="keywords" content="Privacy Policy, Data Protection, Personal Data, Sensitive Data, HENG REN TANG, Acupuncture Clinic">
     <meta name="author" content="HENG REN TANG Acupuncture Clinic">

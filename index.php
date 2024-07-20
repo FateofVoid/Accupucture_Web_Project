@@ -8,9 +8,9 @@ include_once "config.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heng Ren Tang</title>
+    <title><?php echo isset($titles[$_SESSION['selectedPage']][$_SESSION['lang']]) ? $titles[$_SESSION['selectedPage']][$_SESSION['lang']] : $titles['home']['nl']; ?></title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/Heng_ren_tang_favicon.ico" type="image/x-icon">
     <!-- Include Quicksand as the primary font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap">
     <!-- Include other fonts as backup fonts -->

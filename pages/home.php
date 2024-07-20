@@ -1,5 +1,4 @@
     <!-- SEO Meta Tags -->
-    <title>HENG REN TANG Acupuncture Clinic | Balance Method & Wellness</title>
     <meta name="description" content="Discover the power of the Balance Method at HENG REN TANG Acupuncture Clinic. Our personalized care combines Classical Chinese medicine with modern insights to address pain, stress, insomnia, and more. Book an appointment today!">
     <meta name="keywords" content="Acupuncture, Balance Method, Chinese Medicine, Pain Relief, Stress Management, Insomnia, Fertility, HENG REN TANG">
     <meta name="author" content="HENG REN TANG Acupuncture Clinic">

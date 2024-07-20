@@ -1,5 +1,4 @@
     <!-- SEO Meta Tags -->
-    <title>Contact Us | HENG REN TANG Acupuncture Clinic</title>
     <meta name="description" content="Get in touch with HENG REN TANG Acupuncture Clinic for inquiries or to schedule an appointment. Use our optimized contact form to reach out directly to our team. We are here to assist you with all your acupuncture needs.">
     <meta name="keywords" content="Contact, HENG REN TANG, Acupuncture Clinic, Appointment, Inquiries">
     <meta name="author" content="HENG REN TANG Acupuncture Clinic">
