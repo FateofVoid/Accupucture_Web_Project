@@ -68,4 +68,19 @@ $privacyContent = $privacyLocalizationData[$_SESSION['lang']];
         <h2><?php echo $privacyContent['cookies_title']; ?></h2>
         <p><?php echo $privacyContent['cookies_paragraph']; ?></p>
     </section>
+
+    <div class="credits">
+        <?php echo $homeContent['section_5_credits']; ?>
+
+        <a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by mikan933 - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/contract" title="contract icons">Contract icons created by Freepik - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by Freepik - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Good Ware - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Flat Icons - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by Grand Iconic - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Eucalyp - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/healthcare-and-medical" title="healthcare and medical icons">Healthcare and medical icons created by Mayor Icons - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/chinese-medicine" title="chinese medicine icons">Chinese medicine icons created by Darius Dan - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Mayor Icons - Flaticon</a>
+    </div>
 </main>

@@ -2,12 +2,13 @@
   "en": {
     "section_1_title": "",
     "section_1_paragraph": "Welcome to HENG REN TANG Acupuncture Clinic, where you can discover the power of the Balance Method and experience the harmony between body and mind.",
+    "section_1_contact_button_label": "Contact us",
     "section_1_button_label": "Make an Appointment",
 
     "section_2_title": "",
     "section_2_subtitle": "HENG REN TANG Acupuncture Clinic",
     "section_2_paragraph1": "At HENG REN TANG Acupuncture Clinic, we provide personalized care in a welcoming setting for various health issues like pain, stress, insomnia, fertility and more. Our experienced team employs the Balance Method, blending Classical Chinese medicine with modern insights to improve your well-being. We tailor treatments to your unique needs.<br><br>Contact us to schedule an appointment and start your journey to better health. Our team warmly welcome you, dedicating our knowledge and care to your wellbeing.",
-    "section_2_jump_prompt": "Got questions or need more information? Explore our FAQ section or <a href=\"#faq_contact_form_section\">reach out to us directly via the contact form</a> below!",
+    "section_2_jump_prompt": "Got questions or need more information? Explore our FAQ section or <a href=\"#faq_contact_form_section\">reach out to us directly via the contact form</a>!",
     "profile_text": "Profile description goes here",
     "section_2_button_label_1": "Certificates",
     "section_2_button_label_2": "Acupuncturists",
@@ -101,15 +102,15 @@
     "section_5_subtitle_1": "Partnership",
     "section_5_paragraph_1": "<br>Our clinic is also a proud member of the Dutch Association for Traditional Chinese Medicine ZHONG. As a result, our treatments may be reimbursed by health insurers, depending on your policy.",
 
-    "section_5_credits": "This website uses images from flaticon.com:",
+    "section_5_subtitle_2": "<br>Privacy",
+    "section_5_paragraph_2": "<br>For more information on how we use and protect your personal data, please see our [Privacy Policy].",
 
-    "section_5_contact_form_url": "https://link.growzy.io/widget/form/CFsIIywZKhRbRI0L9vJS",
-    "section_5_contact_form_name": "#01. Optimized Contactform | Fransisca Ekkel - ENGLISH"
-
+    "section_5_credits": "This website uses images from flaticon.com:"
   },
   "nl": {
     "section_1_title": "",
     "section_1_paragraph": "Welkom bij de HENG REN TANG Acupunctuurkliniek, waar je de kracht van de Balans Methode kunt ontdekken en de harmonie tussen lichaam en geest kunt ervaren.",
+    "section_1_contact_button_label": "Contacteer ons",
     "section_1_button_label": "Maak een Afspraak",
 
     "section_2_title": "",
@@ -208,9 +209,9 @@
     "section_5_subtitle_1": "Partnership",
     "section_5_paragraph_1": "<br>Onze kliniek is ook trots lid van de Nederlandse Vereniging voor Traditionele Chinese Geneeskunde ZHONG. Hierdoor kunnen onze behandelingen vergoed worden door zorgverzekeraars, afhankelijk van uw polis.",
 
-    "section_5_credits": "Deze website maakt gebruik van afbeeldingen van flaticon.com:",
+    "section_5_subtitle_2": "<br>Privacy",
+    "section_5_paragraph_2": "<br>Voor meer informatie over hoe we uw persoonlijke gegevens gebruiken en beschermen, raadpleeg ons [Privacybeleid].",
 
-    "section_5_contact_form_url": "https://link.growzy.io/widget/form/lgXmnlkhypPI4D5q7zbh",
-    "section_5_contact_form_name": "#01. Optimized Contactform | Fransisca Ekkel - NEDERLANDS"
+    "section_5_credits": "Deze website maakt gebruik van afbeeldingen van flaticon.com:"
   }
 }

@@ -2,7 +2,11 @@
     session_start();
 
 
-    $validLanguages = array('en', 'nl');
+    $validLanguages = array('nl', 'en');
+    $validPages = array('home', 'services', 'staff', 'contact', 'privacy');
+    $validStaffMembers = array('fransisca', 'paz');
+
+
 
     if (!isset($_SESSION['lang']))
         $_SESSION['lang'] = "nl";
@@ -11,8 +15,6 @@
             $_SESSION['lang'] = $_GET['lang'];
     }
 
-    $validPages = array('home', 'services', 'staff', 'certificate', 'privacy');
-
     if (!isset($_SESSION['selectedPage'])) {
         $_SESSION['selectedPage'] = "home"; // Set a default page
     } else if (isset($_GET['page']) && $_SESSION['selectedPage'] != $_GET['page'] && !empty($_GET['page'])) {
@@ -20,7 +22,4 @@
             $_SESSION['selectedPage'] = $_GET['page'];
         }
     }
-
-    $validStaffMembers = array('fransisca', 'paz');
-
 ?>

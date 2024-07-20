@@ -5,12 +5,16 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
 ?>
 
 <main>
-    <div class="margin-top"></div>
 
     <div class="sections">
         <!-- Section 1 -->
         <section class="section_1">
             <div class="content">
+                <div class="section_1_top">
+                    <div class="image-logo">
+                        <img src="assets/images/Heng_ren_tang_logo.png" alt="Image">
+                    </div>
+                </div>
                 <div class="section_1_left">
                     <div class="video-container">
                         <video class="video" controls poster="assets/images/HangRenTang_intro_image.png">
@@ -24,12 +28,9 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                     </div>
                 </div>
                 <div class="section_1_right">
-                    <div class="image-logo">
-                        <img src="assets/images/Heng_ren_tang_logo.png" alt="Image">
-                    </div>
-                    <h1><?php echo $homeContent['section_1_title']; ?></h1>
                     <p><?php echo $homeContent['section_1_paragraph']; ?></p>
-                    <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button  popup-button"><?php echo $homeContent['section_1_button_label']; ?></button>
+                    <button class="contact-button image-text-button" data-value="contact"><?php echo $homeContent['section_1_contact_button_label']; ?></button>
+                    <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button popup-button"><?php echo $homeContent['section_1_button_label']; ?></button>
                 </div>
 
             </div>
@@ -47,23 +48,7 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                     <div class="left-content">
                         <h1><?php echo $homeContent['section_2_subtitle']; ?></h1>
                         <p><?php echo $homeContent['section_2_paragraph1']; ?></p>
-                        <div class="social-icons">
-                            <div class="social-icon">
-                                <a href="https://www.facebook.com/hengrentang/" target="_blank">
-                                    <i class="fab fa-facebook-square"></i>
-                                    <img class="default-image" src="assets/images/facebook_idle.png" alt="Facebook Icon Default">
-                                    <img class="hover-image" src="assets/images/facebook_hover.png" alt="Facebook Icon Hover">
-                                </a>
-                            </div>
 
-                            <div class="social-icon">
-                                <a href="https://instagram.com/hengrentang_acupunctuur?igshid=MWszYjEzMmUxd2J2dg%3D%3D&utm_source=qr" target="_blank">
-                                    <i class="fab fa-instagram"></i>
-                                    <img class="default-image" src="assets/images/Instagram_idle.png" alt="Instagram Icon Default">
-                                    <img class="hover-image" src="assets/images/Instagram_hover.png" alt="Instagram Icon Hover">
-                                </a>
-                            </div>
-                        </div>
                         <p><?php echo $homeContent['section_2_jump_prompt']; ?></p>
                     </div>
                 </div>
@@ -144,7 +129,10 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                     <h1><?php echo $homeContent['section_4_title']; ?></h1>
                     <p><?php echo $homeContent['section_4_paragraph']; ?></p>
                 </div>
-                <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button appointment"><?php echo $homeContent['section_4_left_button_label']; ?></button>
+                <div class="section_4_top_right">
+                    <button class="contact-button image-text-button" data-value="contact"><?php echo $homeContent['section_1_contact_button_label']; ?></button>
+                    <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button appointment"><?php echo $homeContent['section_4_left_button_label']; ?></button>
+                </div>
                 <div class="section_4_left">
                     <h2><?php echo $homeContent['section_4_left_subtitle']; ?></h2>
                     <p><?php echo $homeContent['section_4_left_paragraph']; ?></p>
@@ -186,47 +174,39 @@ $homeContent = $homeLocalizationData[$_SESSION['lang']];
                 </div>
             </div>
             <br>
-            <div class="section_5_contact" id="faq_contact_form_section" >
-                <iframe class="contact_form"
-                    src="<?php echo $homeContent['section_5_contact_form_url']; ?>"
-                    id="inline-contact-form"
-                    data-layout="{'id':'INLINE'}"
-                    data-trigger-type="alwaysShow"
-                    data-trigger-value=""
-                    data-activation-type="alwaysActivated"
-                    data-activation-value=""
-                    data-deactivation-type="neverDeactivate"
-                    data-deactivation-value=""
-                    data-form-name="<?php echo $homeContent['section_5_contact_form_name']; ?>"
-                    data-height="878"
-                    data-layout-iframe-id="inline-contact-form"
-                    title="<?php echo $homeContent['section_5_contact_form_name']; ?>"
-                ></iframe>
-            </div>
+
             <br>
+                <div class="social-icons">
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/hengrentang/" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                            <img class="default-image" src="assets/images/facebook_idle.png" alt="Facebook Icon Default">
+                            <img class="hover-image" src="assets/images/facebook_hover.png" alt="Facebook Icon Hover">
+                        </a>
+                    </div>
+
+                    <div class="social-icon">
+                        <a href="https://instagram.com/hengrentang_acupunctuur?igshid=MWszYjEzMmUxd2J2dg%3D%3D&utm_source=qr" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <img class="default-image" src="assets/images/Instagram_idle.png" alt="Instagram Icon Default">
+                            <img class="hover-image" src="assets/images/Instagram_hover.png" alt="Instagram Icon Hover">
+                        </a>
+                    </div>
+                </div>
                 <h2><?php echo $homeContent['section_5_subtitle_1']; ?></h2>
                 <p><?php echo $homeContent['section_5_paragraph_1']; ?></p>
                 <div class="logo-container">
                     <img onclick="window.open('https://www.scag.nl/', '_blank')" class="section_3_middle_img_1" src="assets/images/SCAG Logo.png" alt="SCAG Logo">
                     <img onclick="window.open('https://zhong.nl/', '_blank')" class="section_3_middle_img_2" src="assets/images/Zhong Logo.png" alt="Zhong Logo">
                 </div>
-
-            <div class="credits">
-                <?php echo $homeContent['section_5_credits']; ?>
-
-                <a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by mikan933 - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/contract" title="contract icons">Contract icons created by Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Good Ware - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Flat Icons - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by Grand Iconic - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Eucalyp - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/healthcare-and-medical" title="healthcare and medical icons">Healthcare and medical icons created by Mayor Icons - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/chinese-medicine" title="chinese medicine icons">Chinese medicine icons created by Darius Dan - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/acupuncture" title="acupuncture icons">Acupuncture icons created by Mayor Icons - Flaticon</a>
-            </div>
+                <h2><?php echo $homeContent['section_5_subtitle_2']; ?></h2>
+                <p><?php echo str_replace(
+                    array('[Privacy Policy]', '[Privacybeleid]'),
+                    array('<a href="http://localhost:8080/Accupucture%20Web%20Project/index.php?lang=en&page=privacy" class="blue-link">Privacy Policy</a>', '<a href="http://localhost:8080/Accupucture%20Web%20Project/index.php?lang=nl&page=privacy" class="blue-link">Privacybeleid</a>'),
+                    $homeContent['section_5_paragraph_2']
+                ); ?></p>
+            <div class="margin-top"></div>
         </section>
-
     </div>
 </main>
 

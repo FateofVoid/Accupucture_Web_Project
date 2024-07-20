@@ -23,6 +23,8 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
     send-label="<?php echo $headerContent['chat_widget_send_label']; ?>"
     primary-color="#46C9F0">
 </chat-widget>
+
+
 <script
     src="https://widgets.leadconnectorhq.com/loader.js"
     data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" >
@@ -57,7 +59,7 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
                 <div class="page-option" id="nav3" data-value="staff">
                     <button><?php echo $headerContent['header_staff_button_label']; ?></button>
                 </div>
-                <div class="page-option nav-omega" id="nav4" data-value="privacy">
+                <div class="page-option nav-omega" id="nav4" data-value="contact">
                     <button><?php echo $headerContent['header_privacy_button_label']; ?></button>
                 </div>
             </div>
@@ -65,23 +67,8 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
         <div class="right-section">
 
             <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button appointment-popup"><?php echo $headerContent['header_appointment_button_label']; ?></button>
-            <div class="social-icons">
-                <div class="social-icon">
-                    <a href="https://www.facebook.com/hengrentang/" target="_blank">
-                        <i class="fab fa-facebook-square"></i>
-                        <img class="default-image" src="assets/images/facebook_idle.png" alt="Facebook Icon Default">
-                        <img class="hover-image" src="assets/images/facebook_hover.png" alt="Facebook Icon Hover">
-                    </a>
-                </div>
 
-                <div class="social-icon">
-                    <a href="https://instagram.com/hengrentang_acupunctuur?igshid=MWszYjEzMmUxd2J2dg%3D%3D&utm_source=qr" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                        <img class="default-image" src="assets/images/Instagram_idle.png" alt="Instagram Icon Default">
-                        <img class="hover-image" src="assets/images/Instagram_hover.png" alt="Instagram Icon Hover">
-                    </a>
-                </div>
-            </div>
+
             <!-- Language Selection Dropdown -->
             <div class="language-dropdown">
                 <div class="custom-select" id="custom-select">

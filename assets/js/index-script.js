@@ -1,8 +1,6 @@
 
-
-///////////////////////////////////////////////////
-// javascript for scrolling to top on page change//
-///////////////////////////////////////////////////
+var validLanguages = ['en', 'nl'];
+var validPages = ['home', 'services', 'staff', 'contact', 'privacy'];
 
 ///////////////////////////////////////
 // javascript for navigation dropdown//
@@ -115,7 +113,13 @@ function initializeCustomDropdown() {
 // Function to extract language value from the URL
 function getLanguageFromURL() {
     const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('lang');
+    const langParam = urlParams.get('lang');
+    // Check if langParam is in the validLanguages array
+    if (langParam && validLanguages.includes(langParam)) {
+        return langParam;
+    } else {
+        return validLanguages ? validLanguages[0] : 'nl'; // Return null or handle invalid case as needed
+    }
 }
 
 //////////////////////////////////
@@ -153,18 +157,13 @@ function initializePageDropdown() {
 
 function getPageFromURL() {
     const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('page');
-}
-
-function setSessionPage(pageValue) {
-    // You can add checks to ensure the pageValue is valid
-    // For example, check against a list of valid pages
-    const validPages = ['home', 'services', 'staff', 'certificate', 'privacy'];
-    if (validPages.includes(pageValue)) {
-        // Set the session value for the selected page
-        // You can use the session variable as needed in your PHP code
-        // For example: $_SESSION['selectedPage'] = $pageValue;
+    const pageParam = urlParams.get('page');
+    if (pageParam && validPages.includes(pageParam)) {
+        return pageParam;
+    } else {
+        return validPages ? validPages[0] : 'home'; // Return null or handle invalid case as needed
     }
+    return urlParams.get('page');
 }
 
 function updateDropdownURL(langValue, pageValue) {
@@ -192,8 +191,8 @@ function getTitleForPage(page) {
             return 'Heng Ren Tang - Services';
         case 'staff':
             return 'Heng Ren Tang - Staff';
-        case 'certificate':
-            return 'Heng Ren Tang - Certificate';
+        case 'contact':
+            return 'Heng Ren Tang - Contact';
         case 'privacy':
             return 'Heng Ren Tang - Privacy';
         default:
@@ -308,6 +307,7 @@ function setMarginTop() {
 
 $(document).ready(function () {
     console.log("Script loaded");
+
 
     initializeNavigationDropdown();
     initializeExpandableMessage();

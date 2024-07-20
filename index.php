@@ -1,5 +1,10 @@
+
+<?php
+include_once "config.php";
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $_SESSION['lang']; ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,9 +29,9 @@
 </head>
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <div class="margin-top"></div>
     <?php
 
-    include_once "config.php";
     include_once "php/header.php";
     // Include the selected page based on the session variable
     include_once 'pages/' . $_SESSION['selectedPage'] . '.php';
