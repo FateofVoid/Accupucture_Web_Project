@@ -25,14 +25,8 @@ include_once "config.php";
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap">
 
-
-</head>
-<body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <div class="margin-top"></div>
     <?php
 
-    include_once "php/header.php";
     // Include the selected page based on the session variable
     include_once 'pages/' . $_SESSION['selectedPage'] . '.php';
     ?>

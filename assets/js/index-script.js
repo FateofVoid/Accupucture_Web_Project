@@ -182,24 +182,6 @@ function updateDropdownURL(langValue, pageValue) {
     window.history.pushState({}, '', newURL);
 }
 
-function getTitleForPage(page) {
-    // Customize this function to return the appropriate title for each page
-    switch (page) {
-        case 'home':
-            return 'Heng Ren Tang - Home Page';
-        case 'services':
-            return 'Heng Ren Tang - Services';
-        case 'staff':
-            return 'Heng Ren Tang - Staff';
-        case 'contact':
-            return 'Heng Ren Tang - Contact';
-        case 'privacy':
-            return 'Heng Ren Tang - Privacy';
-        default:
-            return 'Heng Ren Tang'; // Default title for unknown pages
-    }
-}
-
 //////////////////////////////////////
 // javascript for expandable message//
 //////////////////////////////////////
@@ -313,7 +295,6 @@ $(document).ready(function () {
     initializeExpandableMessage();
     initializeCustomDropdown();
     initializePageDropdown();
-    document.title = getTitleForPage(getPageFromURL());
     adjustMarginTopToHeader();
 
 });
