@@ -18,14 +18,15 @@
     <meta name="twitter:site" content="@yourtwitterhandle">
 
     <!-- Additional Meta Tags -->
-    <meta name="robots" content="noindex, follow"></head>
+    <meta name="robots" content="noindex, follow">
+</head>
 <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <div class="margin-top"></div>
 
-    include_once "php/header.php";
 
     <?php
+    include_once "php/header.php";
     // Load the specific localization data for privacy.php
     $privacyLocalizationData = json_decode(file_get_contents('localisation/privacy_localisation.json'), true);
     $privacyContent = $privacyLocalizationData[$_SESSION['lang']];

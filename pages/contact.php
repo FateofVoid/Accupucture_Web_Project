@@ -26,9 +26,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <div class="margin-top"></div>
 
-    include_once "php/header.php";
 
     <?php
+    include_once "php/header.php";
     // Load the specific localization data for services.php
     $contactLocalizationData = json_decode(file_get_contents('localisation/contact_localisation.json'), true);
     $contactContent = $contactLocalizationData[$_SESSION['lang']];

@@ -27,9 +27,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <div class="margin-top"></div>
 
-    include_once "php/header.php";
 
     <?php
+    include_once "php/header.php";
     // Load the specific localization data for services.php
     $homeLocalizationData = json_decode(file_get_contents('localisation/home_localisation.json'), true);
     $homeContent = $homeLocalizationData[$_SESSION['lang']];
