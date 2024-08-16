@@ -232,7 +232,7 @@
                     <h2><?php echo $homeContent['section_5_subtitle_2']; ?></h2>
                     <p><?php echo str_replace(
                         array('[Privacy Policy]', '[Privacybeleid]'),
-                        array('<a href="http://localhost:8080/Accupucture%20Web%20Project/index.php?lang=en&page=privacy" class="blue-link">Privacy Policy</a>', '<a href="http://localhost:8080/Accupucture%20Web%20Project/index.php?lang=nl&page=privacy" class="blue-link">Privacybeleid</a>'),
+                        array('<a href="https://hengrentang.nl/?lang=en&page=privacy" class="blue-link">Privacy Policy</a>', '<a href="https://hengrentang.nl/?lang=nl&page=privacy" class="blue-link">Privacybeleid</a>'),
                         $homeContent['section_5_paragraph_2']
                     ); ?></p>
                 <div class="margin-top"></div>
