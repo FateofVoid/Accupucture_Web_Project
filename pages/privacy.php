@@ -36,7 +36,7 @@
         <div class="margin-top"></div>
 
         <!-- Contact Section -->
-        <section class="contact_section">
+        <section class="privacy_contact_section">
             <h2><?php echo $privacyContent['contact_title']; ?></h2>
             <p><?php echo $privacyContent['contact_paragraph']; ?></p>
         </section>
