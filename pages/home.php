@@ -120,7 +120,7 @@
                         <h2><?php echo $homeContent['section_3_subtitle_2']; ?></h2>
                         <p><?php echo str_replace(
                             array('[Zhong]', '[Zorgwijzer.nl]'),
-                            array('<a href="https://zhong.nl/" class="blue-link" target="_blank">ZHONG</a>', '<a href="https://www.kab-koepel.nl/" class="blue-link" target="_blank">Zorgwijzer.nl</a>'),
+                            array('<a href="https://zhong.nl/" class="blue-link" target="_blank">ZHONG</a>', '<a href="https://www.zorgwijzer.nl/" class="blue-link" target="_blank">Zorgwijzer.nl</a>'),
                             $homeContent['section_3_paragraph_2']
                         ); ?></p>
                     </div>
