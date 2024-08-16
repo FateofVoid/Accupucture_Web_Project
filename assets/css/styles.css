@@ -1335,6 +1335,7 @@ a:hover {
 
 
     .section_1 .content, .section_3 .content {
+        display:flex;
         flex-direction: column; /* Reverse the order for mobile */
         align-items: center; /* Center items horizontally */
     }
