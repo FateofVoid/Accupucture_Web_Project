@@ -36,6 +36,7 @@ function initializeHomePageSelect() {
             // Update the page and language in the URL
             updateDropdownURL(currentLang, pageValue);
             // Close the options
+            window.scrollTo(0, 0);
             location.reload();
         });
     });
