@@ -73,14 +73,14 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
             <div class="language-dropdown">
                 <div class="custom-select" id="custom-select">
                     <div class="selected-option">
-                        <img src="assets/images/icon-nl.png" alt="English Flag" class="flag-icon"> NL
+                        <img src="assets/images/icon-nl.png" alt="Dutch Flag" class="flag-icon"> NL
                     </div>
                     <div class="options" id="options">
-                        <div class="option" data-value="en">
-                            <img src="assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
-                        </div>
                         <div class="option" data-value="nl">
                             <img src="assets/images/icon-nl.png" alt="Dutch Flag" class="flag-icon"> NL
+                        </div>
+                        <div class="option" data-value="en">
+                            <img src="assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
                         </div>
                     </div>
                 </div>

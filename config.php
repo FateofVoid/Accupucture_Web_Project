@@ -1,10 +1,9 @@
 <?php
     session_start();
 
-
     $validLanguages = array('nl', 'en');
     $validPages = array('home', 'services', 'staff', 'contact', 'privacy');
-    $validStaffMembers = array('fransisca', 'paz', 'Sahsenem');
+    $validStaffMembers = array('fransisca', 'paz', 'sahsenem');
     $titles = array(
         'home' => array(
             'en' => 'HENG REN TANG Acupuncture Clinic | Balance Method & Wellness',
