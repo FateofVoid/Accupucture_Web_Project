@@ -1,6 +1,17 @@
 <?php
     session_start();
 
+    $default_lang = 'nl';
+    $default_page = 'home';
+
+    $lang = isset($_GET['lang']) ? $_GET['lang'] : $default_lang;
+    $page = isset($_GET['page']) ? $_GET['page'] : $default_page;
+
+    if ($_SERVER['QUERY_STRING'] === '') {
+        header("Location: http://localhost:8080/Accupucture_Web_Project/?lang=$lang&page=$page");
+        exit();
+    }
+
     $validLanguages = array('nl', 'en');
     $validPages = array('home', 'services', 'staff', 'contact', 'privacy');
     $validStaffMembers = array('fransisca', 'paz', 'sahsenem');
