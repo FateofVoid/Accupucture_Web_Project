@@ -171,6 +171,10 @@
                         <h2><?php echo $homeContent['section_4_right_subtitle']; ?></h2>
                         <p><?php echo $homeContent['section_4_right_paragraph']; ?></p>
                     </div>
+                    <div class="section_4_left_2">
+                        <h2><?php echo $homeContent['section_4_left_2_subtitle']; ?></h2>
+                        <p><?php echo $homeContent['section_4_left_2_paragraph']; ?></p>
+                    </div>
                     <div class="section_4_bottom">
                         <h2><?php echo $homeContent['section_4_left_subtitle_2']; ?></h2>
                         <p><?php echo $homeContent['section_4_left_paragraph_2']; ?></p>
