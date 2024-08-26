@@ -8,12 +8,12 @@
     $page = isset($_GET['page']) ? $_GET['page'] : $default_page;
 
     if ($_SERVER['QUERY_STRING'] === '') {
-        header("Location: http://localhost:8080/Accupucture_Web_Project/?lang=$lang&page=$page");
+        header("Location: http://hengrentang.nl/?lang=$lang&page=$page");
         exit();
     }
 
     $validLanguages = array('nl', 'en');
-    $validPages = array('home', 'services', 'staff', 'contact', 'privacy');
+    $validPages = array('home', 'services', 'staff', 'contact', 'privacy', 'bulletin');
     $validStaffMembers = array('fransisca', 'paz', 'sahsenem');
     $titles = array(
         'home' => array(

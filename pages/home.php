@@ -206,7 +206,6 @@
                             <?php } ?>
                         </div>
                     </div>
-                </div>
                 <br>
 
                 <br>
@@ -239,6 +238,8 @@
                         array('<a href="https://hengrentang.nl/?lang=en&page=privacy" class="blue-link">Privacy Policy</a>', '<a href="https://hengrentang.nl/?lang=nl&page=privacy" class="blue-link">Privacybeleid</a>'),
                         $homeContent['section_5_paragraph_2']
                     ); ?></p>
+                </div>
+
                 <div class="margin-top"></div>
             </section>
         </div>

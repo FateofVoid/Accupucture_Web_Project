@@ -54,7 +54,6 @@ body {
     margin: 0 auto;
     font-size: var(--font-size-paragraph); /* Adjust the size as needed */
     line-height: 1.4;
-    max-width: 99%;
     min-height: 100vh;
     width: 1600px;
 }
@@ -537,6 +536,7 @@ section {
 .section_2 .section_2_left {
     grid-column: 1 / span 6; /* Span two columns */
     height:100%;
+    padding: 1rem;
 }
 
 .section_2 .left-content {
@@ -633,14 +633,18 @@ section {
 
 /* Section 3 Specific Style*/
 .section_3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
+
+
+}
+.section_3 .content {
+  padding: 1rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .section_3 .tooltip-container {
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 .tooltip {
@@ -698,8 +702,8 @@ section {
 
 .section_3 .section_3_left {
   flex: 0 0 calc(50% - 1rem); /* 40% width with some space between columns */
-  padding: 1rem;
   box-sizing: border-box;
+  max-width:100%;
 }
 
 .section_3 .section_3_middle {
@@ -725,7 +729,6 @@ section {
     grid-template-rows: auto auto; /* Automatically adjust height to content */
     align-items: start; /* Align items to the start (top) of the grid cells */
     gap: 1rem; /* Add some spacing between grid items */
-    padding: 1rem;
     box-sizing: border-box;
 }
 
@@ -734,13 +737,15 @@ section {
     grid-template-columns: 50% 50%; /* Equal width columns */
     grid-template-rows: auto auto; /* Rows fit content */
     gap: 1rem; /* Adjust the gap between sections as needed */
+    padding:1.5rem;
     align-items: flex-start; /* Align the items to the start of each column */
     justify-content: center; /* Center the grid items horizontally */
+    box-sizing: border-box;
+
 }
 
 .section_4 .section_4_top {
     grid-column: 1; /* Place in the first column */
-    grid-row: 1; /* Place in the first row */
 }
 .section_4 h1 {
     text-align: left; /* Align text to the left */
@@ -748,22 +753,18 @@ section {
 
 .section_4 .appointment-button {
     grid-column: 2; /* Place in the second column */
-    grid-row: 1; /* Place in the first row */
 }
 
 .section_4 .section_4_left {
     grid-column: 1; /* Place in the first column */
-    grid-row: 2; /* Place in the second row */
 }
 
 .section_4 .section_4_right {
     grid-column: 2; /* Place in the second column */
-    grid-row: 2; /* Place in the second row */
 }
 
 .section_4 .section_4_bottom {
     grid-column: 1/*/ span 2*/;
-    grid-row: 5;
 }
 
 /* Section 5 Specific Style*/
@@ -791,17 +792,24 @@ section {
     margin: calc(0.35*var(--font-size-subtitle));
 }
 
+.section_5 .content {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:1rem;
+    box-sizing: border-box;
+}
+
 .faq {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 1rem; /* Gap between columns */
-    position: relative;
     border-bottom: thin dotted #d4d4d4;
     /* Add a fixed height to the container */
     height: auto; /* or set a specific height in pixels */
     /* Other existing styles... */
-  align-items: end; /* Align items to the bottom */
-
+    align-items: end; /* Align items to the bottom */
 }
 
 .question.right, .answer.right {
@@ -821,7 +829,6 @@ section {
     cursor: pointer;
     font-size: var(--font-size-subtitle);
     padding: 0.5rem; /* Adjust padding */
-    position: relative;
 }
 
 .faq .question::after {
@@ -1099,7 +1106,6 @@ button:hover {
 
 
 .label-container {
-    width: 99%; /* Container width as a percentage of the button */
     height: auto; /* Maintain a 4:3 aspect ratio (adjust as needed) */
     position: relative; /* Added for positioning the image */
     overflow: hidden; /* Hide overflowing image */
@@ -1302,7 +1308,6 @@ a:hover {
     /* Optionally, you can adjust individual section styles for mobile */
     section {
         height: auto;
-        width: 99%; /* Make sections full width on mobile */
     }
 
     /* Adjust specific styles for each section as needed */
@@ -1330,14 +1335,12 @@ a:hover {
     .section_4_middle,
     .section_4_right {
         flex: 1; /* Full width on mobile */
-        padding: 1vw; /* Adjust padding as needed */
     }
 
 
     .section_1 .content, .section_3 .content {
         display:flex;
         flex-direction: column; /* Reverse the order for mobile */
-        align-items: center; /* Center items horizontally */
     }
 
     .section_1_left {
@@ -1411,7 +1414,6 @@ a:hover {
     .section_4_left,
     .section_4_middle,
     .section_4_right {
-        width:99%;
     }
 
     .section_4 {
@@ -1428,28 +1430,23 @@ a:hover {
 
     .section_4 .section_4_top {
         grid-column: 1; /* Place in the first column */
-        grid-row: 1; /* Place in the first row */
     }
 
     .section_4 .appointment-button {
         grid-column: 1; /* Place in the second column */
-        grid-row: 2; /* Place in the first row */
     }
 
     .section_4 .section_4_left {
         grid-column: 1; /* Place in the first column */
-        grid-row: 3; /* Place in the second row */
     }
 
     .section_4 .section_4_right {
         grid-column: 1; /* Place in the second column */
-        grid-row: 4; /* Place in the second row */
     }
 
 
     .section_5 {
         padding: 1vw;
-        width: 99%;
     }
 
     .section_5 .logo-container {

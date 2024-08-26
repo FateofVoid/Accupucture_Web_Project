@@ -33,8 +33,6 @@
     ?>
 
     <main>
-        <div class="margin-top"></div>
-
         <?php
         $sectionClass ='odd-section';
         // Loop through staff members
