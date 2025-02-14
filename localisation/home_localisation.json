@@ -23,20 +23,24 @@
     "section_3_tooltip_text": "You do not need a referral from your general practitioner or specialist.",
     "section_3_tooltip_2_text": "Flow AcuQiGong Group Therapy is a unique blend of acupuncture, QiGong, and meditation, all synchronized with the Earth's natural cycles. This therapy is offered four times a year in an intimate group setting.",
 
-    "section_4_title": "Location Heng Ren Tang Almere",
-    "section_4_paragraph": "De Binderij 62B,<br>1321EK Almere Literatuurwijk<br><br>Email: info.hengrentang@gmail.com<br>Chamber of Commerce: 56216815<br><br>Wheelchair users can easily access the practice via elevator.",
-    "section_4_left_subtitle": "<span translate=\"no\">Fransisca Ekkel</span>",
-    "section_4_left_paragraph": "Phone: 06 2419 9579<br><br>Tuesday: 4:00 PM - 8:00 PM<br>Thursday: 09:00 AM- 6:00 PM<br><br>ZHONG membership: 2016085<br><br>",
-    "section_4_left_button_label": "Make an Appointment",
-    "section_4_left_subtitle_2": "Cancel/Reschedule appointment",
-    "section_4_left_paragraph_2": "To cancel an appointment, do so at least 24 hours in advance to avoid charges. Cancellation can be done by phone or email. Your health insurers do not reimburse for consultations that are not canceled in time, as no treatment has taken place.",
+    "section_4_title_top": "Location Heng Ren Tang Almere",
+    "section_4_paragraph_top": "De Binderij 62B,<br>1321EK Almere Literatuurwijk<br><br>Email: info.hengrentang@gmail.com<br>Chamber of Commerce: 56216815<br><br>Wheelchair users can easily access the practice via elevator.",
+    "section_4_left_button_label_top": "Make an Appointment",
+    "section_4_left_1_subtitle": "<span translate=\"no\">Fransisca Ekkel</span>",
 
-    "section_4_right_title": "",
-    "section_4_right_subtitle": "<span translate=\"no\">Paz Lobo</span>",
-    "section_4_right_paragraph": "Phone: 06 5191 2027<br><br>Monday: 2:00 PM – 8:00 PM<br>Wednesday: 10:00 AM – 6:00 PM<br><br>ZHONG membership: 2023003<br><br>",
-    "section_4_left_2_subtitle": "<span translate=\"no\">Sahsenem Celik</span>",
-    "section_4_left_2_paragraph": "Phone: 06 4274 1100<br><br>Monday: 08:00 AM - 2:00 PM<br><br>ZHONG membership: 2240905<br><br>",
-    
+    "section_4_left_1_paragraph": "Phone: 06 2419 9579<br><br>Tuesday: 4:00 PM - 8:00 PM<br>Thursday: 09:00 AM- 6:00 PM<br><br>ZHONG membership: 2016085<br><br>",
+    "section_4_right_1_title": "",
+    "section_4_right_1_subtitle": "<span translate=\"no\">Paz Lobo</span>",
+    "section_4_right_1_paragraph": "Phone: 06 5191 2027<br><br>Monday: 2:00 PM – 8:00 PM<br>Wednesday: 10:00 AM – 6:00 PM<br><br>ZHONG membership: 2023003<br><br>",
+    "section_4_left_2_subtitle": "<span translate=\"no\">Merel Jongejan</span>",
+    "section_4_left_2_paragraph": "Tuesday: 9:00 AM - 5:00 PM<br>Fridays:9:00 AM - 6:00 PM<br><br>ZHONG membership: 2024027<br><br>",
+    "section_4_right_2_subtitle": "<span translate=\"no\">Marjan Born</span>",
+    "section_4_right_2_paragraph": "Wednesdays : 9:00 AM – 6:00 PM<br>Fridays: 9:00 AM – 4:00 PM<br><br>NVA membership: D4182<br><br>",
+
+    "section_4_left_subtitle_bot": "Cancel/Reschedule appointment",
+    "section_4_left_paragraph_bot": "To cancel an appointment, do so at least 24 hours in advance to avoid charges. Cancellation can be done by phone or email. Your health insurers do not reimburse for consultations that are not canceled in time, as no treatment has taken place.",
+
+
     "section_5_title": "FAQ:",
     "section_5_question_1": "What is acupuncture?",
     "section_5_answer_1": "Acupuncture is an ancient Chinese medical technique that aims to restore the body's energy balance by inserting thin needles at specific points on the body.",

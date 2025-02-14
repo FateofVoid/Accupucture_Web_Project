@@ -156,28 +156,32 @@
             <section class="section_4">
                 <div class="content">
                     <div class="section_4_top">
-                        <h1><?php echo $homeContent['section_4_title']; ?></h1>
-                        <p><?php echo $homeContent['section_4_paragraph']; ?></p>
+                        <h1><?php echo $homeContent['section_4_title_top']; ?></h1>
+                        <p><?php echo $homeContent['section_4_paragraph_top']; ?></p>
                     </div>
-                    <div class="section_4_top_right">
+                    <div class="section_4_right">
                         <button class="contact-button image-text-button" data-value="contact"><?php echo $homeContent['section_1_contact_button_label']; ?></button>
                         <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button appointment"><?php echo $homeContent['section_4_left_button_label']; ?></button>
                     </div>
                     <div class="section_4_left">
-                        <h2><?php echo $homeContent['section_4_left_subtitle']; ?></h2>
-                        <p><?php echo $homeContent['section_4_left_paragraph']; ?></p>
+                        <h2><?php echo $homeContent['section_4_left_1_subtitle']; ?></h2>
+                        <p><?php echo $homeContent['section_4_left_1_paragraph']; ?></p>
                     </div>
                     <div class="section_4_right">
-                        <h2><?php echo $homeContent['section_4_right_subtitle']; ?></h2>
-                        <p><?php echo $homeContent['section_4_right_paragraph']; ?></p>
+                        <h2><?php echo $homeContent['section_4_right_1_subtitle']; ?></h2>
+                        <p><?php echo $homeContent['section_4_right_1_paragraph']; ?></p>
                     </div>
-                    <div class="section_4_left_2">
+                    <div class="section_4_left">
                         <h2><?php echo $homeContent['section_4_left_2_subtitle']; ?></h2>
                         <p><?php echo $homeContent['section_4_left_2_paragraph']; ?></p>
                     </div>
+                    <div class="section_4_right">
+                        <h2><?php echo $homeContent['section_4_right_2_subtitle']; ?></h2>
+                        <p><?php echo $homeContent['section_4_right_2_paragraph']; ?></p>
+                    </div>
                     <div class="section_4_bottom">
-                        <h2><?php echo $homeContent['section_4_left_subtitle_2']; ?></h2>
-                        <p><?php echo $homeContent['section_4_left_paragraph_2']; ?></p>
+                        <h2><?php echo $homeContent['section_4_left_subtitle_bot']; ?></h2>
+                        <p><?php echo $homeContent['section_4_left_paragraph_bot']; ?></p>
                     </div>
                 </div>
             </section>
