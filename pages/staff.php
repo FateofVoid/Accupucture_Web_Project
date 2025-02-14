@@ -37,11 +37,13 @@
         $sectionClass ='odd-section';
         // Loop through staff members
         foreach ($validStaffMembers as $staffMember) {
+            $imagePath = 'assets/images/staff_profile_image_' . $staffMember . '.jpg';
+            $fallbackImage = 'assets/images/Heng_ren_tang_logo_no_text.png'; // Path to a default/fallback image
             ?>
             <section class="staff-member-section <?php echo $sectionClass; ?>">
                 <div class="left-section">
                     <div class="left-section-content">
-                        <img src="<?php echo 'assets/images/staff_profile_image_' . $staffMember . '.jpg'; ?>" alt="Image" class="round-image">
+                        <img src="<?php echo file_exists($imagePath) ? $imagePath : $fallbackImage; ?>" alt="Image" class="round-image">
                     </div>
                 </div>
 
