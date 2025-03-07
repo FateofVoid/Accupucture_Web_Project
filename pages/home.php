@@ -60,7 +60,7 @@
                     <div class="section_1_right">
                         <p><?php echo $homeContent['section_1_paragraph']; ?></p>
                         <button class="contact-button image-text-button" data-value="contact"><?php echo $homeContent['section_1_contact_button_label']; ?></button>
-                        <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button popup-button"><?php echo $homeContent['section_1_button_label']; ?></button>
+                        <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca', '_blank')" class="appointment-button popup-button"><?php echo $homeContent['section_1_button_label']; ?></button>
                     </div>
 
                 </div>
@@ -161,7 +161,7 @@
                     </div>
                     <div class="section_4_right">
                         <button class="contact-button image-text-button" data-value="contact"><?php echo $homeContent['section_1_contact_button_label']; ?></button>
-                        <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button appointment"><?php echo $homeContent['section_4_left_button_label']; ?></button>
+                        <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca', '_blank')" class="appointment-button appointment"><?php echo $homeContent['section_4_left_button_label_top']; ?></button>
                     </div>
                     <div class="section_4_left">
                         <h2><?php echo $homeContent['section_4_left_1_subtitle']; ?></h2>

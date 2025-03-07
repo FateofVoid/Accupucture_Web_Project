@@ -16,7 +16,7 @@ $popupContent = $popupLocalizationData[$_SESSION['lang']];
       <div class="popup-section left-section">
         <h3><?php echo $popupContent['popup_section_1_title']; ?></h3>
         <p><?php echo $popupContent['popup_section_1_content']; ?></p>
-        <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step3', '_blank')" class="appointment-button appointment-popup"><?php echo $popupContent['popup_section_1_button']; ?></button>
+        <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca', '_blank')" class="appointment-button appointment-popup"><?php echo $popupContent['popup_section_1_button']; ?></button>
       </div>
       <div class="popup-section right-section">
         <h3><?php echo $popupContent['popup_section_2_title']; ?></h3>

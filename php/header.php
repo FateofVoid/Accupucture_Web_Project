@@ -66,7 +66,7 @@ $headerContent = $headerLocalizationData[$_SESSION['lang']];
         </div>
         <div class="right-section">
 
-            <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step2', '_blank')" class="appointment-button appointment-popup"><?php echo $headerContent['header_appointment_button_label']; ?></button>
+            <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca', '_blank')" class="appointment-button appointment-popup"><?php echo $headerContent['header_appointment_button_label']; ?></button>
 
 
             <!-- Language Selection Dropdown -->
