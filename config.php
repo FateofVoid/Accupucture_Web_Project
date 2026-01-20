@@ -8,7 +8,7 @@
     $page = isset($_GET['page']) ? $_GET['page'] : $default_page;
 
     if ($_SERVER['QUERY_STRING'] === '') {
-        header("Location: http://hengrentang.nl/?lang=$lang&page=$page");
+        header("Location: http://localhost/HRT?lang=$lang&page=$page");
         exit();
     }
 
