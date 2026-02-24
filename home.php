@@ -286,12 +286,15 @@ $heroThirdHref   = $cta_href($heroThird);
       </div>
 
       <div class="partner-strip partner-strip--fees" aria-label="Partnership logos">
-        <div class="partner-logo">
-          <img src="<?=h($feesLogoA)?>" alt="" loading="lazy" aria-hidden="true" />
-        </div>
-        <div class="partner-logo">
-          <img src="<?=h($feesLogoB)?>" alt="" loading="lazy" aria-hidden="true" />
-        </div>
+          <div class="partner-logo">
+            <img src="assets/images/Zhong Logo.png" alt="ZHONG logo" loading="lazy" />
+          </div>
+          <div class="partner-logo">
+            <img src="assets/images/SCAG Logo.png" alt="SCAG logo" loading="lazy" />
+          </div>
+          <div class="partner-logo">
+            <img src="assets/images/KAB Logo.png" alt="SCAG logo" loading="lazy" />
+          </div>
       </div>
     </div>
   </section>

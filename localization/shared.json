@@ -28,7 +28,7 @@
       },
       "credits": "Heng Ren Tang • Almere",
       "address_html": "De Binderij 6B<br>1321 EH Almere",
-      "contact_html": "Email: hengrentang@gmail.com<br>Chamber of Commerce: 52681615"
+      "contact_html": "Email: info.hengrentang@gmail.com<br>Chamber of Commerce: 52681615"
     },
     "ui": {
       "tooltip_text": "This is a tooltip text."
@@ -150,7 +150,7 @@
       },
       "credits": "Heng Ren Tang • Almere",
       "address_html": "De Binderij 6B<br>1321 EH Almere",
-      "contact_html": "E-mail: hengrentang@gmail.com<br>KvK: 52681615"
+      "contact_html": "E-mail: info.hengrentang@gmail.com<br>KvK: 52681615"
     },
     "ui": {
       "tooltip_text": "Dit is een tooltip-tekst."
@@ -276,7 +276,7 @@
       },
       "credits": "Heng Ren Tang • Almere",
       "address_html": "De Binderij 6B<br>1321 EH Almere",
-      "contact_html": "Email: hengrentang@gmail.com<br>Cámara de Comercio: 52681615"
+      "contact_html": "Email: info.hengrentang@gmail.com<br>Cámara de Comercio: 52681615"
     },
     "ui": {
       "tooltip_text": "Este es un texto de ayuda."
