@@ -1,0 +1,187 @@
+{
+  "en": {
+    "meta": {
+      "page_title": "Contact Us | Heng Ren Tang",
+      "nav_anchors": [
+        { "id": "contact", "label": "Contact" },
+        { "id": "form", "label": "Send a message" },
+        { "id": "next", "label": "What happens next" }
+      ]
+    },
+
+    "hero": {
+      "title": "Contact",
+      "lead": "Send us your question or appointment request. We’ll reply as soon as possible.",
+      "chips": ["Privacy-first", "Supportive care", "Clear next steps"],
+      "primary_cta": { "label": "Go to the form", "anchor": "form" }
+    },
+
+    "contact_form_url": "https://link.growzy.io/widget/form/CFsIIywZKhRbRI0L9vJS",
+    "contact_form_name": "#01. Optimized Contactform | Fransisca Ekkel - ENGLISH",
+
+    "info_cards": {
+      "title": "Before you send your message",
+      "cards": [
+        {
+          "title": "What to include",
+          "text": "Your main concern, how long it has been present, and any relevant context (pregnancy, medications, major diagnoses)."
+        },
+        {
+          "title": "Appointment requests",
+          "text": "If you want to book, tell us your preferred days/times and whether you are new or returning."
+        },
+        {
+          "title": "Medical urgency",
+          "text": "Acupuncture is supportive care. For urgent or emergency symptoms, contact your GP or emergency services."
+        }
+      ]
+    },
+
+    "form_section": {
+      "id": "form",
+      "title": "Send a message",
+      "subtitle": "Use the form below. Your message goes directly to our clinic team."
+    },
+
+    "next_steps": {
+      "id": "next",
+      "title": "What happens next",
+      "steps": [
+        {
+          "title": "We review your message",
+          "text": "We’ll read your request and determine the best next step (appointment suggestion or follow-up questions)."
+        },
+        {
+          "title": "We reply",
+          "text": "We respond as soon as possible. Patient care comes first, so response times may vary."
+        },
+        {
+          "title": "You choose the next step",
+          "text": "If needed, we’ll suggest who to book with and what to expect from the first visit."
+        }
+      ],
+      "note": "Tip: If you don’t hear back within a reasonable time, feel free to send a short follow-up."
+    }
+  },
+
+  "nl": {
+    "meta": {
+      "page_title": "Contact | Heng Ren Tang",
+      "nav_anchors": [
+        { "id": "contact", "label": "Contact" },
+        { "id": "form", "label": "Stuur een bericht" },
+        { "id": "next", "label": "Wat gebeurt er daarna" }
+      ]
+    },
+
+    "hero": {
+      "title": "Contact",
+      "lead": "Stuur je vraag of afspraakverzoek. We reageren zo snel mogelijk.",
+      "chips": ["Privacy voorop", "Ondersteunende zorg", "Duidelijke stappen"],
+      "primary_cta": { "label": "Ga naar het formulier", "anchor": "form" }
+    },
+
+    "contact_form_url": "https://link.growzy.io/widget/form/lgXmnlkhypPI4D5q7zbh",
+    "contact_form_name": "#01. Optimized Contactform | Fransisca Ekkel - NEDERLANDS",
+
+    "info_cards": {
+      "title": "Handig om te weten",
+      "cards": [
+        {
+          "title": "Wat je kunt vermelden",
+          "text": "Je hoofdklacht, sinds wanneer, en relevante context (zwangerschap, medicatie, belangrijke diagnoses)."
+        },
+        {
+          "title": "Afspraakverzoek",
+          "text": "Wil je boeken? Geef je voorkeursdagen/tijden door en of je nieuw of terugkerend bent."
+        },
+        {
+          "title": "Spoed",
+          "text": "Acupunctuur is ondersteunende zorg. Neem bij spoed contact op met je huisarts of 112."
+        }
+      ]
+    },
+
+    "form_section": {
+      "id": "form",
+      "title": "Stuur een bericht",
+      "subtitle": "Gebruik het formulier hieronder. Je bericht gaat direct naar ons team."
+    },
+
+    "next_steps": {
+      "id": "next",
+      "title": "Wat gebeurt er daarna",
+      "steps": [
+        {
+          "title": "We bekijken je bericht",
+          "text": "We lezen je vraag en bepalen de beste vervolgstap (afspraakvoorstel of aanvullende vragen)."
+        },
+        {
+          "title": "We reageren",
+          "text": "We reageren zo snel mogelijk. Patiëntenzorg gaat voor, dus reactietijden kunnen variëren."
+        },
+        {
+          "title": "Jij kiest de volgende stap",
+          "text": "Als het helpt, adviseren we bij wie je het beste kunt starten en wat je kunt verwachten."
+        }
+      ],
+      "note": "Tip: Als je binnen redelijke tijd niets hoort, stuur gerust een korte follow-up."
+    }
+  },
+
+  "es": {
+    "meta": {
+      "page_title": "Contacto | Heng Ren Tang",
+      "nav_anchors": [
+        { "id": "contact", "label": "Contacto" },
+        { "id": "form", "label": "Enviar mensaje" },
+        { "id": "next", "label": "Siguientes pasos" }
+      ]
+    },
+
+    "hero": {
+      "title": "Contacto",
+      "lead": "Envíanos tu pregunta o solicitud de cita. Responderemos lo antes posible.",
+      "chips": ["Privacidad primero", "Atención de apoyo", "Siguientes pasos claros"],
+      "primary_cta": { "label": "Ir al formulario", "anchor": "form" }
+    },
+
+    "contact_form_url": "https://link.growzy.io/widget/form/CFsIIywZKhRbRI0L9vJS",
+    "contact_form_name": "#01. Optimized Contactform | Fransisca Ekkel - ENGLISH",
+
+    "info_cards": {
+      "title": "Antes de enviar",
+      "cards": [
+        {
+          "title": "Qué incluir",
+          "text": "Tu principal preocupación, desde cuándo, y contexto relevante (embarazo, medicación, diagnósticos)."
+        },
+        {
+          "title": "Solicitud de cita",
+          "text": "Si quieres reservar, indícanos días/horas preferidas y si eres paciente nueva o recurrente."
+        },
+        {
+          "title": "Urgencias",
+          "text": "La acupuntura es atención de apoyo. Ante síntomas urgentes, contacta con tu médico o emergencias."
+        }
+      ]
+    },
+
+    "form_section": {
+      "id": "form",
+      "title": "Enviar mensaje",
+      "subtitle": "Usa el formulario. Tu mensaje llega directamente a nuestro equipo."
+    },
+
+    "next_steps": {
+      "id": "next",
+      "title": "Siguientes pasos",
+      "steps": [
+        { "title": "Revisamos tu mensaje", "text": "Leemos tu solicitud y definimos el mejor siguiente paso." },
+        { "title": "Respondemos", "text": "Respondemos lo antes posible. Los tiempos pueden variar." },
+        { "title": "Tú eliges", "text": "Si hace falta, te sugerimos con quién reservar y qué esperar de la primera visita." }
+      ],
+      "note": "Consejo: si no recibes respuesta en un plazo razonable, envía un breve recordatorio."
+    }
+  }
+}

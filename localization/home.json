@@ -1,0 +1,508 @@
+{
+  "en": {
+    "meta": {
+      "page_title": "Heng Ren Tang Acupuncture Clinic (Almere)",
+      "nav_anchors": [
+        { "id": "treatments", "label": "What we help with" },
+        { "id": "about", "label": "About" },
+        { "id": "fees-insurance", "label": "Fees & Insurance" },
+        { "id": "balance-method", "label": "Balance Method" },
+        { "id": "team", "label": "Acupuncturists" },
+        { "id": "location", "label": "Location & Hours" },
+        { "id": "faq", "label": "FAQ" }
+      ]
+    },
+
+    "ui": {
+      "labels": {
+        "address": "Address",
+        "contact": "Contact",
+        "map": "Map"
+      },
+      "buttons": {
+        "make_appointment": "Make an Appointment",
+        "appointments": "Appointments",
+        "contact": "Contact",
+        "services": "Services",
+        "view_services": "View services",
+        "staff_page": "Staff page",
+        "about_section": "About",
+        "privacy": "Privacy",
+        "faq": "FAQ"
+      }
+    },
+
+    "hero": {
+      "title": "Heng Ren Tang Acupuncture Clinic",
+      "subtitle": "Balance Method acupuncture in Almere",
+      "paragraph": "At HENG REN TANG, we offer Balance Method acupuncture to support a wide range of health concerns for both men and women. Our clinic has a strong focus on women’s health, including hormonal balance, fertility support, pregnancy care, menopause, and stress related conditions.\nOur approach is designed to help restore harmony in the body, ease discomfort, and promote overall well being in a calm and supportive environment.",
+
+      "primary_cta": { "label": "Make an Appointment", "page": "contact" },
+      "secondary_cta": { "label": "Contact us", "page": "contact" },
+      "tertiary_cta": { "label": "Services", "page": "services" },
+
+      "trust_chips": [
+        "Women’s health focus",
+        "Balance Method approach",
+        "Registered practitioners (ZHONG/NVA)"
+      ]
+    },
+
+    "treatments": {
+      "title": "What we can help you with",
+      "subtitle": "Women’s health support",
+      "items": [
+        "Menstrual cycle support (PMS, cramps, irregular cycle)",
+        "Pregnancy support (nausea, fatigue, pelvic/back discomfort)",
+        "Preparing for birth & recovery after birth",
+        "Fertility support (natural or alongside medical care)",
+        "Menopause support (hot flashes, sleep, mood changes)",
+        "Stress, tension & burnout support",
+        "Sleep & insomnia",
+        "Pain & mobility"
+      ],
+      "note": "Not sure if acupuncture is suitable for your concern? Contact us and we’ll be happy to advise."
+    },
+
+    "about": {
+      "title": "HENG REN TANG Acupuncture Clinic",
+      "paragraphs": [
+        "At HENG REN TANG Acupuncture Clinic, we offer personalized acupuncture care for a wide range of health concerns in both women and men, with a dedicated focus on women’s health. Our practitioners frequently support concerns related to the menstrual cycle, fertility, pregnancy, postpartum recovery, menopause, and stress related conditions.",
+        "We work with the Balance Method, combining Classical Chinese Medicine principles with modern clinical understanding. Every treatment is tailored to your symptoms, constitution, and daily life, with thoughtful attention to comfort, discretion, and privacy.",
+        "If you’re unsure whether acupuncture is right for your situation, you’re welcome to reach out. We’re happy to discuss your concerns and outline what a potential treatment plan may involve."
+      ],
+      "highlights": [
+        {
+          "title": "Personalized care",
+          "text": "Each treatment plan is thoughtfully tailored to your individual needs, symptoms, and ongoing progress."
+        },
+        {
+          "title": "Balance Method expertise",
+          "text": "We use a structured acupuncture approach that often works with distal points, allowing effective treatment without needling directly at the area of discomfort."
+        },
+        {
+          "title": "Women’s health support",
+          "text": "Comprehensive care across all stages of women’s health, including cycle regulation, fertility support, pregnancy care, postpartum recovery, and menopause."
+        }
+      ],
+      "jump_prompt": {
+        "html": "Got questions or need more information? Explore our FAQ section or reach out to us directly via the contact form!",
+        "cta": { "label": "Contact", "page": "contact" }
+      }
+    },
+
+    "fees_insurance": {
+      "title": "Fees & Insurance",
+      "cards": [
+        {
+          "title": "Fees",
+          "items": [
+            { "label": "Intake interview (including treatment)", "value": "€ 72,00" },
+            { "label": "Follow-up treatment", "value": "€ 72,00" }
+          ],
+          "notes": [
+            "You do not need a referral from your general practitioner or specialist."
+          ]
+        },
+        {
+          "title": "Insurance reimbursement",
+          "paragraphs": [
+            "Acupuncture may be covered by supplementary insurance (alternative medicine). It is not physiotherapy.",
+            "We are part of NVTCG - ZHONG and NVA (Dutch Association for Traditional Chinese Medicine). Reimbursement depends on your insurer and policy; always verify beforehand.",
+            "For a list of insurers, visit Zorgwijzer.nl."
+          ],
+          "links": [
+            { "label": "Zorgwijzer.nl", "url": "https://www.zorgwijzer.nl/", "external": true }
+          ]
+        }
+      ]
+    },
+
+    "balance_method": {
+      "title": "The Balance Method",
+      "paragraphs": [
+        "The Balance Method is a modern, effective approach to acupuncture designed to support the body’s natural ability to heal. It can be used for a wide range of health concerns, including women’s health, hormonal balance, pain, stress, and everyday wellness.",
+        "This method focuses on choosing acupuncture points that reflect the location and pattern of your symptoms. Instead of placing needles directly where you feel discomfort, it often uses points on other areas of the body. This gentle, distal approach allows for powerful results without adding extra sensitivity to the area that already feels tender.",
+        "The goal is simple: restore balance, reduce discomfort, and help you feel more at ease in your body."
+      ],
+      "disclaimer": "Individual experiences differ. Your practitioner will follow your progress closely and adjust your treatment plan as needed to best support your well being."
+    },
+
+    "team": {
+      "title": "Meet our acupuncturists",
+      "subtitle": "Experienced practitioners with professional memberships",
+      "members": []
+    },
+
+    "location": {
+      "title": "Location Heng Ren Tang Almere",
+      "address_html": "De Binderij 6 B<br>1321 EH Almere",
+      "contact_html": "Email: info.hengrentang@gmail.com<br>Chamber of Commerce: 56216815",
+      "map_title": "Map: De Binderij 6B, Almere",
+      "map_iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.4279520651467!2d5.180499077573683!3d52.362659747865536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c61132540ce35b%3A0xf98647ea988de2b8!2sDe%20Binderij%206b%2C%201321%20EH%20Almere%2C%20Netherlands!5e0!3m2!1sen!2s!4v1769582726077!5m2!1sen!2s"
+    },
+
+    "policies": {
+      "cancel_reschedule": {
+        "title": "Cancel/Reschedule appointment",
+        "paragraph": "To cancel an appointment, do so at least 24 hours in advance to avoid charges. Cancellation can be done by phone or email. Your health insurers do not reimburse for consultations that are not canceled in time, as no treatment has taken place."
+      }
+    },
+
+    "faq": {
+      "title": "FAQ",
+      "subtitle": "Answers to common questions",
+      "categories": [
+        {
+          "id": "acupuncture-basics",
+          "title": "About acupuncture",
+          "items": [
+            { "q": "What is acupuncture?", "a": "Acupuncture is a traditional Chinese medical practice that aims to support the body’s natural balance by placing very thin needles at specific points on the body." },
+            { "q": "How does acupuncture work?", "a": "Acupuncture stimulates selected points to influence the body’s internal regulation. Many people find that it helps ease discomfort, improve circulation, and support overall well being." },
+            { "q": "Is acupuncture safe?", "a": "When performed by a trained practitioner, acupuncture is generally considered safe. Our clinic uses sterile, single use needles to maintain high hygiene standards." },
+            { "q": "Does acupuncture hurt?", "a": "Most people feel little to no discomfort. Sensations may include a light prick, warmth, pressure, or tingling." },
+            { "q": "How long does an acupuncture session last?", "a": "A typical session lasts between 45 and 60 minutes, depending on your needs and treatment plan." }
+          ]
+        }
+      ],
+      "closing_cta": {
+        "title": "Still have questions?",
+        "text": "Explore the FAQ above or reach out to us directly.",
+        "primary": { "label": "Contact us", "page": "contact" },
+        "secondary": { "label": "Make an Appointment", "page": "contact", "anchor": "contact" }
+      }
+    }
+  },
+
+  "nl": {
+    "meta": {
+      "page_title": "Heng Ren Tang Acupunctuurkliniek (Almere)",
+      "nav_anchors": [
+        { "id": "treatments", "label": "Waarmee kunnen we helpen" },
+        { "id": "about", "label": "Over ons" },
+        { "id": "fees-insurance", "label": "Tarieven & Vergoeding" },
+        { "id": "balance-method", "label": "Balans Methode" },
+        { "id": "team", "label": "Acupuncturisten" },
+        { "id": "location", "label": "Locatie & Openingstijden" },
+        { "id": "faq", "label": "Veelgestelde vragen" }
+      ]
+    },
+
+    "ui": {
+      "labels": { "address": "Adres", "contact": "Contact", "map": "Kaart" },
+      "buttons": {
+        "make_appointment": "Maak een afspraak",
+        "appointments": "Afspraken",
+        "contact": "Contact",
+        "services": "Onze specialiteiten",
+        "view_services": "Bekijk specialiteiten",
+        "staff_page": "Team",
+        "about_section": "Over ons",
+        "privacy": "Privacy",
+        "faq": "Veelgestelde vragen"
+      }
+    },
+
+    "hero": {
+      "title": "Heng Ren Tang Acupunctuurkliniek",
+      "subtitle": "Balance Method acupunctuur in Almere",
+      "paragraph": "Welkom bij HENG REN TANG. Wij bieden Balance Method-acupunctuur ter ondersteuning van uiteenlopende gezondheidsklachten voor zowel vrouwen als mannen. Onze kliniek heeft een sterke focus op vrouwengezondheid, waaronder hormonale balans, fertiliteit, zwangerschapszorg, overgangsklachten en stressgerelateerde klachten.\nOnze aanpak is gericht op het herstellen van harmonie in het lichaam, het verminderen van klachten en het bevorderen van algeheel welzijn in een rustige en ondersteunende omgeving.",
+      "primary_cta": { "label": "Maak een afspraak", "page": "contact" },
+      "secondary_cta": { "label": "Contact", "page": "contact" },
+      "tertiary_cta": { "label": "Onze specialiteiten", "page": "services" },
+      "trust_chips": [
+        "Focus op vrouwengezondheid",
+        "Balance Method aanpak",
+        "Geregistreerde behandelaars (ZHONG/NVA)"
+      ]
+    },
+
+    "treatments": {
+      "title": "Waarmee kunnen we je helpen",
+      "subtitle": "Ondersteuning bij vrouwengezondheid",
+      "items": [
+        "Menstruatie- en cyclusklachten (PMS, krampen, onregelmatige cyclus)",
+        "Ondersteuning rondom zwangerschap (misselijkheid, vermoeidheid, bekken/rug)",
+        "Voorbereiden op bevalling & herstel na de bevalling",
+        "Fertiliteit (natuurlijk of naast medische trajecten)",
+        "Overgangsklachten (opvliegers, slaap, stemming)",
+        "Stress, spanning & burn-out",
+        "Slaap & slapeloosheid",
+        "Pijn & mobiliteit"
+      ],
+      "note": "Weet je niet zeker of acupunctuur geschikt is? Neem contact op en we denken graag met je mee."
+    },
+
+    "about": {
+      "title": "HENG REN TANG Acupunctuurkliniek",
+      "paragraphs": [
+        "Bij HENG REN TANG Acupunctuurkliniek bieden we persoonlijke acupunctuurzorg voor een brede reeks klachten bij zowel vrouwen als mannen, met een duidelijke focus op vrouwengezondheid.",
+        "We werken met de Balance Method en combineren principes uit de Klassieke Chinese Geneeskunde met moderne klinische inzichten.",
+        "Twijfel je of acupunctuur past bij jouw situatie? Neem gerust contact op."
+      ],
+      "highlights": [
+        { "title": "Persoonlijke zorg", "text": "Elk behandelplan wordt zorgvuldig afgestemd op jouw behoeften, klachten en voortgang." },
+        { "title": "Balance Method expertise", "text": "Gestructureerde aanpak met distale punten, zonder direct op de pijnplek te naalden." },
+        { "title": "Vrouwengezondheid", "text": "Ondersteuning in alle fases: cyclus, fertiliteit, zwangerschap, herstel, overgang." }
+      ],
+      "jump_prompt": {
+        "html": "Heb je vragen of wil je meer informatie? Bekijk onze FAQ of neem rechtstreeks contact op via het contactformulier!",
+        "cta": { "label": "Contact", "page": "contact" }
+      }
+    },
+
+    "fees_insurance": {
+      "title": "Tarieven & Vergoeding",
+      "cards": [
+        {
+          "title": "Tarief",
+          "items": [
+            { "label": "Intakegesprek (incl. behandeling)", "value": "€ 72,00" },
+            { "label": "Vervolgbehandeling", "value": "€ 72,00" }
+          ],
+          "notes": [ "U heeft geen verwijzing nodig van uw huisarts of specialist." ]
+        },
+        {
+          "title": "Vergoeding door zorgverzekering",
+          "paragraphs": [
+            "Acupunctuur valt onder de aanvullende verzekering (alternatieve geneeskunde), niet onder fysiotherapie.",
+            "Wij zijn aangesloten bij NVTCG - ZHONG en NVA. Vergoeding is afhankelijk van uw verzekeraar en polis; controleer dit vooraf.",
+            "Voor een overzicht van verzekeraars bezoek Zorgwijzer.nl."
+          ],
+          "links": [
+            { "label": "Zorgwijzer.nl", "url": "https://www.zorgwijzer.nl/", "external": true }
+          ]
+        }
+      ]
+    },
+
+    "balance_method": {
+      "title": "De Balance Method",
+      "paragraphs": [
+        "De Balance Method is een moderne, effectieve benadering van acupunctuur die het natuurlijke herstelvermogen ondersteunt.",
+        "Er wordt vaak met distale punten gewerkt, zodat behandeling mogelijk is zonder direct op een gevoelige plek te naalden.",
+        "Het doel: balans herstellen, klachten verminderen en je meer op je gemak laten voelen in je lichaam."
+      ],
+      "disclaimer": "Ervaringen verschillen per persoon. De behandelaar volgt je voortgang en past het plan aan waar nodig."
+    },
+
+    "team": { "title": "Onze acupuncturisten", "subtitle": "Ervaren behandelaars", "members": [] },
+
+    "location": {
+      "title": "Locatie Heng Ren Tang Almere",
+      "address_html": "De Binderij 6 B<br>1321 EH Almere",
+      "contact_html": "E-mail: info.hengrentang@gmail.com<br>KvK: 56216815",
+      "map_title": "Kaart: De Binderij 6B, Almere",
+      "map_iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.4279520651467!2d5.180499077573683!3d52.362659747865536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c61132540ce35b%3A0xf98647ea988de2b8!2sDe%20Binderij%206b%2C%201321%20EH%20Almere%2C%20Netherlands!5e0!3m2!1sen!2s!4v1769582726077!5m2!1sen!2s"
+    },
+
+    "policies": {
+      "cancel_reschedule": {
+        "title": "Afspraak annuleren/verzetten",
+        "paragraph": "Annuleer een afspraak minimaal 24 uur van tevoren om kosten te voorkomen. Annuleren kan telefonisch of per e-mail."
+      }
+    },
+
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "subtitle": "Antwoorden op veelgestelde vragen",
+      "categories": [],
+      "closing_cta": {
+        "title": "Nog vragen?",
+        "text": "Bekijk de FAQ hierboven of neem direct contact met ons op.",
+        "primary": { "label": "Contact", "page": "contact" },
+        "secondary": { "label": "Maak een afspraak", "page": "contact", "anchor": "contact" }
+      }
+    }
+  },
+
+  "es": {
+    "meta": {
+      "page_title": "Clínica de Acupuntura Heng Ren Tang (Almere)",
+      "nav_anchors": [
+        { "id": "treatments", "label": "En qué ayudamos" },
+        { "id": "about", "label": "Sobre nosotros" },
+        { "id": "fees-insurance", "label": "Tarifas y seguro" },
+        { "id": "balance-method", "label": "Método Balance" },
+        { "id": "team", "label": "Acupunturistas" },
+        { "id": "location", "label": "Ubicación y horario" },
+        { "id": "faq", "label": "Preguntas frecuentes" }
+      ]
+    },
+
+    "ui": {
+      "labels": {
+        "address": "Dirección",
+        "contact": "Contacto",
+        "map": "Mapa"
+      },
+      "buttons": {
+        "make_appointment": "Pedir cita",
+        "appointments": "Citas",
+        "contact": "Contacto",
+        "services": "Servicios",
+        "view_services": "Ver servicios",
+        "staff_page": "Equipo",
+        "about_section": "Sobre nosotros",
+        "privacy": "Privacidad",
+        "faq": "Preguntas frecuentes"
+      }
+    },
+
+    "hero": {
+      "title": "Clínica de Acupuntura Heng Ren Tang",
+      "subtitle": "Acupuntura del Método Balance en Almere",
+      "paragraph": "En HENG REN TANG ofrecemos acupuntura del Método Balance para apoyar una amplia variedad de necesidades de salud en mujeres y hombres. Nuestra clínica tiene un enfoque especial en la salud de la mujer, incluyendo equilibrio hormonal, apoyo a la fertilidad, atención durante el embarazo, menopausia y condiciones relacionadas con el estrés.\nNuestro enfoque está diseñado para ayudar a restaurar la armonía del cuerpo, aliviar molestias y promover el bienestar general en un entorno tranquilo y de apoyo.",
+
+      "primary_cta": { "label": "Pedir cita", "page": "contact" },
+      "secondary_cta": { "label": "Contactar", "page": "contact" },
+      "tertiary_cta": { "label": "Servicios", "page": "services" },
+
+      "trust_chips": [
+        "Enfoque en salud femenina",
+        "Método Balance",
+        "Profesionales registrados (ZHONG/NVA)"
+      ]
+    },
+
+    "treatments": {
+      "title": "En qué podemos ayudarte",
+      "subtitle": "Apoyo en salud de la mujer",
+      "items": [
+        "Apoyo del ciclo menstrual (SPM, cólicos, irregularidad)",
+        "Apoyo durante el embarazo (náuseas, fatiga, molestias pélvicas/espalda)",
+        "Preparación para el parto y recuperación tras el parto",
+        "Apoyo a la fertilidad (natural o junto con atención médica)",
+        "Apoyo en la menopausia (sofocos, sueño, cambios de ánimo)",
+        "Apoyo en estrés, tensión y burnout",
+        "Sueño e insomnio",
+        "Dolor y movilidad"
+      ],
+      "note": "¿No estás seguro/a de si la acupuntura es adecuada para tu caso? Contáctanos y con gusto te orientaremos."
+    },
+
+    "about": {
+      "title": "Clínica de Acupuntura HENG REN TANG",
+      "paragraphs": [
+        "En la Clínica de Acupuntura HENG REN TANG ofrecemos atención personalizada para una amplia variedad de necesidades de salud en mujeres y hombres, con un enfoque dedicado a la salud de la mujer. A menudo apoyamos temas relacionados con el ciclo menstrual, fertilidad, embarazo, recuperación posparto, menopausia y condiciones relacionadas con el estrés.",
+        "Trabajamos con el Método Balance, combinando principios de la medicina china clásica con comprensión clínica moderna. Cada tratamiento se adapta a tus síntomas, constitución y vida diaria, con atención al confort, la discreción y la privacidad.",
+        "Si no estás seguro/a de si la acupuntura es adecuada para tu situación, puedes contactarnos. Con gusto comentaremos tus necesidades y qué podría incluir un plan de tratamiento."
+      ],
+      "highlights": [
+        {
+          "title": "Atención personalizada",
+          "text": "Cada plan de tratamiento se adapta cuidadosamente a tus necesidades, síntomas y evolución."
+        },
+        {
+          "title": "Experiencia en Método Balance",
+          "text": "Usamos un enfoque estructurado que a menudo trabaja con puntos distales, permitiendo tratar sin pinchar directamente la zona de molestia."
+        },
+        {
+          "title": "Apoyo en salud de la mujer",
+          "text": "Apoyo integral en todas las etapas: regulación del ciclo, fertilidad, embarazo, recuperación posparto y menopausia."
+        }
+      ],
+      "jump_prompt": {
+        "html": "¿Tienes preguntas o necesitas más información? Revisa nuestro apartado de preguntas frecuentes o contáctanos directamente mediante el formulario.",
+        "cta": { "label": "Contacto", "page": "contact" }
+      }
+    },
+
+    "fees_insurance": {
+      "title": "Tarifas y seguro",
+      "cards": [
+        {
+          "title": "Tarifas",
+          "items": [
+            { "label": "Entrevista de ingreso (incluye tratamiento)", "value": "€ 72,00" },
+            { "label": "Tratamiento de seguimiento", "value": "€ 72,00" }
+          ],
+          "notes": [
+            "No necesitas derivación de tu médico de cabecera ni de un especialista."
+          ]
+        },
+        {
+          "title": "Reembolso del seguro",
+          "paragraphs": [
+            "La acupuntura puede estar cubierta por seguros complementarios (medicina alternativa). No es fisioterapia.",
+            "Formamos parte de NVTCG - ZHONG y NVA (Asociación Holandesa de Medicina China Tradicional). El reembolso depende de tu aseguradora y póliza; compruébalo siempre de antemano.",
+            "Para una lista de aseguradoras, visita Zorgwijzer.nl."
+          ],
+          "links": [
+            { "label": "Zorgwijzer.nl", "url": "https://www.zorgwijzer.nl/", "external": true }
+          ]
+        }
+      ]
+    },
+
+    "balance_method": {
+      "title": "El Método Balance",
+      "paragraphs": [
+        "El Método Balance es un enfoque moderno y eficaz de acupuntura diseñado para apoyar la capacidad natural del cuerpo para recuperarse. Puede utilizarse para una amplia variedad de necesidades, incluida la salud de la mujer, equilibrio hormonal, dolor, estrés y bienestar general.",
+        "Este método se centra en seleccionar puntos de acupuntura que reflejan la ubicación y el patrón de tus síntomas. En lugar de colocar agujas directamente donde hay molestia, a menudo utiliza puntos en otras zonas del cuerpo. Este enfoque suave y distal permite resultados potentes sin aumentar la sensibilidad en la zona que ya está sensible.",
+        "El objetivo es simple: restaurar el equilibrio, reducir la molestia y ayudarte a sentirte más a gusto en tu cuerpo."
+      ],
+      "disclaimer": "Las experiencias individuales pueden variar. Tu profesional seguirá tu evolución y ajustará el plan según sea necesario para apoyar tu bienestar."
+    },
+
+    "team": {
+      "title": "Conoce a nuestras acupunturistas",
+      "subtitle": "Profesionales con experiencia y membresías profesionales",
+      "members": []
+    },
+
+    "location": {
+      "title": "Ubicación Heng Ren Tang Almere",
+      "address_html": "De Binderij 6 B<br>1321 EH Almere",
+      "contact_html": "Email: info.hengrentang@gmail.com<br>Cámara de Comercio: 56216815",
+      "map_title": "Mapa: De Binderij 6B, Almere",
+      "map_iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.4279520651467!2d5.180499077573683!3d52.362659747865536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c61132540ce35b%3A0xf98647ea988de2b8!2sDe%20Binderij%206b%2C%201321%20EH%20Almere%2C%20Netherlands!5e0!3m2!1sen!2s!4v1769582726077!5m2!1sen!2s"
+    },
+
+    "policies": {
+      "cancel_reschedule": {
+        "title": "Cancelar/reprogramar cita",
+        "paragraph": "Para cancelar una cita, hazlo con al menos 24 horas de antelación para evitar cargos. Puedes cancelar por teléfono o email. Las aseguradoras no reembolsan consultas no canceladas a tiempo, ya que no se realiza tratamiento."
+      }
+    },
+
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Respuestas a preguntas comunes",
+      "categories": [
+        {
+          "id": "acupuncture-basics",
+          "title": "Sobre la acupuntura",
+          "items": [
+            {
+              "q": "¿Qué es la acupuntura?",
+              "a": "La acupuntura es una práctica de la medicina tradicional china que busca apoyar el equilibrio natural del cuerpo mediante agujas muy finas colocadas en puntos específicos."
+            },
+            {
+              "q": "¿Cómo funciona la acupuntura?",
+              "a": "La acupuntura estimula puntos seleccionados para influir en la regulación interna del cuerpo. Muchas personas notan que ayuda a aliviar molestias, mejorar la circulación y apoyar el bienestar general."
+            },
+            {
+              "q": "¿Es segura la acupuntura?",
+              "a": "Cuando la realiza un profesional cualificado, la acupuntura suele considerarse segura. En nuestra clínica usamos agujas estériles de un solo uso para mantener altos estándares de higiene."
+            },
+            {
+              "q": "¿Duele la acupuntura?",
+              "a": "La mayoría de las personas siente poca o ninguna molestia. Puede notarse un pequeño pinchazo, calor, presión u hormigueo."
+            },
+            {
+              "q": "¿Cuánto dura una sesión de acupuntura?",
+              "a": "Una sesión típica dura entre 45 y 60 minutos, según tus necesidades y el plan de tratamiento."
+            }
+          ]
+        }
+      ],
+      "closing_cta": {
+        "title": "¿Aún tienes preguntas?",
+        "text": "Revisa el FAQ o contáctanos directamente.",
+        "primary": { "label": "Contactar", "page": "contact" },
+        "secondary": { "label": "Pedir cita", "page": "contact", "anchor": "contact" }
+      }
+    }
+  }
+}

@@ -1,92 +1,127 @@
 <?php
+// expects: $base_url, $lang, $page, $page_title, $S, $L
 
-// Load the shared localization data for the header
-$headerLocalizationData = json_decode(file_get_contents('localisation/shared_localisation.json'), true);
-$headerContent = $headerLocalizationData[$_SESSION['lang']];
+$nav  = $S['nav'] ?? [];
+$site = $S['site'] ?? [];
+
+// Remove contact from page links (we already have CTA buttons)
+$pages = [
+  ['id'=>'home',     'label'=>($nav['home_label'] ?? 'Home'),         'url'=>page_url($base_url,$lang,'home')],
+  ['id'=>'services', 'label'=>($nav['services_label'] ?? 'Services'), 'url'=>page_url($base_url,$lang,'services')],
+  ['id'=>'staff',    'label'=>($nav['staff_label'] ?? 'Staff'),       'url'=>page_url($base_url,$lang,'staff')],
+  ['id'=>'privacy',  'label'=>'Privacy',                              'url'=>page_url($base_url,$lang,'privacy')],
+];
+
+$anchors = $L['meta']['nav_anchors'] ?? [];
+
+$brand   = $site['brand'] ?? 'Heng Ren Tang';
+$tagline = $site['tagline'] ?? ''; // add this in shared.json (see below)
+
+// Language switcher
+$langOptions = [
+  'en' => ['label' => 'English',    'icon' => 'assets/images/icon-en.png'],
+  'nl' => ['label' => 'Nederlands', 'icon' => 'assets/images/icon-nl.png'],
+  'es' => ['label' => 'Español',    'icon' => 'assets/images/icon-es.png'],
+];
+
+$currentLangIcon = $langOptions[$lang]['icon'] ?? $langOptions['en']['icon'];
 ?>
-<chat-widget
-    location-id="JgOoqe6C0MAyDtgxJvFA"
-    style="--chat-widget-primary-color: #46C9F0; --chat-widget-active-color:#46C9F0 ;--chat-widget-bubble-color: #46C9F0 ;"
-    heading="<?php echo $headerContent['chat_widget_heading']; ?>"
-    sub-heading="<?php echo $headerContent['chat_widget_sub_heading']; ?>"
-    prompt-msg="<?php echo $headerContent['chat_widget_prompt_msg']; ?>"
-    legal-msg="<?php echo $headerContent['chat_widget_legal_msg']; ?>"
-    use-email-field="true"
-    revisit-prompt-msg="<?php echo $headerContent['chat_widget_revisit_prompt_msg']; ?>"
-    support-contact="<?php echo $headerContent['chat_widget_support_contact']; ?>"
-    success-msg="<?php echo $headerContent['chat_widget_success_msg']; ?>"
-    thank-you-msg="<?php echo $headerContent['chat_widget_thank_you_msg']; ?>"
-    prompt-avatar="https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/locationPhotos%2FJgOoqe6C0MAyDtgxJvFA%2Fchat-widget-person?alt=media&token=22f35409-e8b3-4762-a549-135a7d8ad2cc"
-    agency-name="Afspraakmakend"
-    agency-website="https://afspraakmakend.nl"
-    locale="<?php echo $_SESSION['lang']; ?>"
-    send-label="<?php echo $headerContent['chat_widget_send_label']; ?>"
-    primary-color="#46C9F0">
-</chat-widget>
+<!doctype html>
+<html lang="<?=h($lang)?>">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><?=h($page_title)?></title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
 
+  <link rel="icon" href="assets/images/Heng_ren_tang_favicon.ico" type="image/x-icon" />
 
-<script
-    src="https://widgets.leadconnectorhq.com/loader.js"
-    data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" >
-</script>
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "m37ojipi9i");
-</script>
-<header>
-    <div class="header-content">
-        <div class="left-section">
-            <div class="logo">
-                <div class="mobile-dropdown-button">
-                    <button class="mobile-dropdown-button-icon">☰</button>
-                </div>
-                <div class="image-logo">
-                    <img src="assets/images/Heng_ren_tang_logo_no_text.png" alt="Image">
-                    <?php echo $headerContent['header_logo']; ?>
-                </div>
+  <link rel="preload" as="image" href="assets/images/Heng_ren_tang_logo.png" />
+  <link rel="preload" as="image" href="assets/images/Heng_ren_tang_logo_no_text.png" />
+  <link rel="preload" as="image" href="assets/images/icon-en.png" />
+  <link rel="preload" as="image" href="assets/images/icon-nl.png" />
+  <link rel="preload" as="image" href="assets/images/icon-es.png" />
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" data-header>
+  <div class="container header__inner">
+    <a class="brand" href="<?=h(page_url($base_url,$lang,'home'))?>">
+      <!-- header should use no-text logo -->
+      <img
+        class="brand__logo"
+        src="assets/images/Heng_ren_tang_logo_no_text.png"
+        alt="<?=h($brand)?>"
+      />
+      <span class="brand__text">
+        <span class="brand__name"><?=h($brand)?></span>
+        <span class="brand__tagline"><?=h($tagline)?></span>
+      </span>
+    </a>
+
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" data-burger>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary navigation" data-nav>
+      <div class="nav__group nav__pages">
+        <?php foreach ($pages as $p): ?>
+          <a class="nav__link <?=($page===($p['id']??''))?'is-active':''?>" href="<?=h($p['url'] ?? '#')?>"><?=h($p['label'] ?? '')?></a>
+        <?php endforeach; ?>
+      </div>
+
+      <?php if (!empty($anchors) && $page === 'home'): ?>
+        <div class="nav__divider" aria-hidden="true"></div>
+
+        <div class="nav__group nav__anchors">
+          <div class="nav-dropdown" data-nav-dd>
+            <button class="nav-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false" data-nav-dd-toggle>
+              <?=h($nav['on_this_page_label'] ?? 'On this page')?> <span aria-hidden="true">▾</span>
+            </button>
+
+            <div class="nav-dd-menu" role="listbox" aria-label="On this page" data-nav-dd-menu hidden>
+              <?php foreach ($anchors as $a): ?>
+                <a class="nav-dd-item" role="option" href="#<?=h($a['id'])?>"><?=h($a['label'])?></a>
+              <?php endforeach; ?>
             </div>
-
-            <div class="header-buttons page-options" id="page-options">
-                <div class="page-option nav-alpha" id="nav1" data-value="home">
-                    <button><?php echo $headerContent['header_home_button_label']; ?></button>
-                </div>
-                <div class="page-option" id="nav2" data-value="services">
-                    <button><?php echo $headerContent['header_service_button_label']; ?></button>
-                </div>
-                <div class="page-option" id="nav3" data-value="staff">
-                    <button><?php echo $headerContent['header_staff_button_label']; ?></button>
-                </div>
-                <div class="page-option nav-omega" id="nav4" data-value="contact">
-                    <button><?php echo $headerContent['header_privacy_button_label']; ?></button>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="right-section">
+      <?php endif; ?>
 
-            <button onclick="window.open('https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca', '_blank')" class="appointment-button appointment-popup"><?php echo $headerContent['header_appointment_button_label']; ?></button>
+      <div class="nav__cta">
+        <!-- IMPORTANT: appointment_label_html may contain <br>, so do NOT use h() -->
+        <a class="btn btn--primary" href="<?=h(page_url($base_url,$lang,'contact'))?>">
+          <?=safe_html($nav['appointment_label_html'] ?? 'Make an Appointment')?>
+        </a>
+        <a class="btn btn--ghost" href="<?=h(page_url($base_url,$lang,'contact'))?>">
+          <?=h($nav['contact_label'] ?? 'Contact us')?>
+        </a>
 
+        <div class="lang-switch" data-lang-switch>
+          <button class="lang-btn" type="button" aria-haspopup="listbox" aria-expanded="false" data-lang-toggle>
+            <img class="lang-icon" src="<?=h($currentLangIcon)?>" alt="<?=h($lang)?>" />
+            <span class="lang-caret" aria-hidden="true">▾</span>
+          </button>
 
-            <!-- Language Selection Dropdown -->
-            <div class="language-dropdown">
-                <div class="custom-select" id="custom-select">
-                    <div class="selected-option">
-                        <img src="assets/images/icon-nl.png" alt="Dutch Flag" class="flag-icon"> NL
-                    </div>
-                    <div class="options" id="options">
-                        <div class="option" data-value="nl">
-                            <img src="assets/images/icon-nl.png" alt="Dutch Flag" class="flag-icon"> NL
-                        </div>
-                        <div class="option" data-value="en">
-                            <img src="assets/images/icon-en.png" alt="English Flag" class="flag-icon"> EN
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="lang-menu" role="listbox" aria-label="Language" data-lang-menu hidden>
+            <?php foreach ($langOptions as $code => $opt): ?>
+              <a class="lang-option <?=($lang===$code)?'is-active':''?>"
+                 role="option"
+                 aria-selected="<?=($lang===$code)?'true':'false'?>"
+                 href="<?=h(page_url($base_url, $code, $page))?>">
+                <img class="lang-icon" src="<?=h($opt['icon'])?>" alt="<?=h($opt['label'])?>" />
+                <span><?=h($opt['label'])?></span>
+              </a>
+            <?php endforeach; ?>
+          </div>
         </div>
-    </div>
-    <?php //echo 'File Path: ' . $rootPath . 'localisation/shared_localisation.json'; ?>
+      </div>
+    </nav>
+  </div>
+
+  <div class="header__gradient" aria-hidden="true"></div>
 </header>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<main id="main">

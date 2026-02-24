@@ -1,0 +1,44 @@
+{
+  "en": {
+    "hero": {
+      "title": "Message sent",
+      "lead": "Thank you. We received your message."
+    },
+    "body": {
+      "text": "We will reply as soon as possible.",
+      "reply_note": "If you don’t receive a response within a reasonable time, you can send a short follow-up."
+    },
+    "buttons": {
+      "home": "Back to Home",
+      "back": "Go back"
+    }
+  },
+  "nl": {
+    "hero": {
+      "title": "Bericht verzonden",
+      "lead": "Dank je wel. We hebben je bericht ontvangen."
+    },
+    "body": {
+      "text": "We reageren zo snel mogelijk.",
+      "reply_note": "Heb je binnen redelijke tijd niets gehoord? Stuur gerust een korte follow-up."
+    },
+    "buttons": {
+      "home": "Terug naar Home",
+      "back": "Ga terug"
+    }
+  },
+  "es": {
+    "hero": {
+      "title": "Mensaje enviado",
+      "lead": "Gracias. Hemos recibido tu mensaje."
+    },
+    "body": {
+      "text": "Responderemos lo antes posible.",
+      "reply_note": "Si no recibes respuesta en un tiempo razonable, puedes enviar un breve recordatorio."
+    },
+    "buttons": {
+      "home": "Volver a Inicio",
+      "back": "Volver"
+    }
+  }
+}

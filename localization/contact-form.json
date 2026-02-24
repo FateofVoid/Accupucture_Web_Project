@@ -1,0 +1,157 @@
+{
+  "en": {
+    "form": {
+      "action": "https://formspree.io/f/mzdaklld",
+      "id": "contact-form",
+      "title": "What can we do for you?",
+      "lead": "For more information or to make an appointment use the form below:",
+      "intro": "Please ask your question or briefly describe your issue(s) below:",
+      "thank_you_hint": "Thank you in advance for your message!",
+      "footer_note": "Send your message below. You will receive a confirmation via email!",
+
+      "fields": {
+        "message": {
+          "name": "message",
+          "label": "Your message *",
+          "placeholder": "Type your message here...",
+          "required": true
+        },
+        "name": {
+          "name": "name",
+          "label": "What is your name? *",
+          "placeholder": "John Doe",
+          "required": true
+        },
+        "phone": {
+          "name": "phone",
+          "label": "What is your phone number? *",
+          "placeholder": "555-123-4567",
+          "required": true
+        },
+        "email": {
+          "name": "email",
+          "label": "Which email address should we use to reply to you? *",
+          "placeholder": "your-email@example.com",
+          "required": true
+        }
+      },
+
+      "submit_label": "Send my message!",
+
+      "success": {
+        "title": "Message sent",
+        "text": "Thank you—your message has been received. You will receive a confirmation via email."
+      }
+    },
+
+    "ui": {
+      "required_note": "* Required fields",
+      "error_required": "Please fill in all required fields.",
+      "error_email": "Please enter a valid email address."
+    }
+  },
+
+  "nl": {
+    "form": {
+      "action": "https://formspree.io/f/mzdaklld",
+      "id": "contact-form",
+      "title": "Waarmee kunnen we je helpen?",
+      "lead": "Voor meer informatie of om een afspraak te maken, gebruik het formulier hieronder:",
+      "intro": "Stel je vraag of beschrijf kort je klacht(en) hieronder:",
+      "thank_you_hint": "Alvast bedankt voor je bericht!",
+      "footer_note": "Verstuur hieronder je bericht. Je ontvangt een bevestiging per e-mail!",
+
+      "fields": {
+        "message": {
+          "name": "message",
+          "label": "Je bericht *",
+          "placeholder": "Typ hier je bericht...",
+          "required": true
+        },
+        "name": {
+          "name": "name",
+          "label": "Wat is je naam? *",
+          "placeholder": "Jan Jansen",
+          "required": true
+        },
+        "phone": {
+          "name": "phone",
+          "label": "Wat is je telefoonnummer? *",
+          "placeholder": "06 1234 5678",
+          "required": true
+        },
+        "email": {
+          "name": "email",
+          "label": "Op welk e-mailadres kunnen we je antwoorden? *",
+          "placeholder": "jouw-email@voorbeeld.nl",
+          "required": true
+        }
+      },
+
+      "submit_label": "Verstuur mijn bericht!",
+
+      "success": {
+        "title": "Bericht verzonden",
+        "text": "Dank je wel—je bericht is ontvangen. Je ontvangt een bevestiging per e-mail."
+      }
+    },
+
+    "ui": {
+      "required_note": "* Verplichte velden",
+      "error_required": "Vul alle verplichte velden in.",
+      "error_email": "Vul een geldig e-mailadres in."
+    }
+  },
+
+  "es": {
+    "form": {
+      "action": "https://formspree.io/f/mzdaklld",
+      "id": "contact-form",
+      "title": "¿En qué podemos ayudarte?",
+      "lead": "Para más información o para pedir una cita, usa el formulario de abajo:",
+      "intro": "Haz tu pregunta o describe brevemente tu(s) consulta(s) abajo:",
+      "thank_you_hint": "¡Gracias de antemano por tu mensaje!",
+      "footer_note": "Envía tu mensaje abajo. Recibirás una confirmación por email.",
+
+      "fields": {
+        "message": {
+          "name": "message",
+          "label": "Tu mensaje *",
+          "placeholder": "Escribe tu mensaje aquí...",
+          "required": true
+        },
+        "name": {
+          "name": "name",
+          "label": "¿Cuál es tu nombre? *",
+          "placeholder": "Juan Pérez",
+          "required": true
+        },
+        "phone": {
+          "name": "phone",
+          "label": "¿Cuál es tu número de teléfono? *",
+          "placeholder": "555-123-4567",
+          "required": true
+        },
+        "email": {
+          "name": "email",
+          "label": "¿Qué correo electrónico debemos usar para responderte? *",
+          "placeholder": "tu-email@ejemplo.com",
+          "required": true
+        }
+      },
+
+      "submit_label": "¡Enviar mi mensaje!",
+
+      "success": {
+        "title": "Mensaje enviado",
+        "text": "Gracias—tu mensaje ha sido recibido. Recibirás una confirmación por email."
+      }
+    },
+
+    "ui": {
+      "required_note": "* Campos obligatorios",
+      "error_required": "Por favor, completa todos los campos obligatorios.",
+      "error_email": "Por favor, introduce un email válido."
+    }
+  }
+}

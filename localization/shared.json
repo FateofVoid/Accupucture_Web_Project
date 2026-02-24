@@ -1,0 +1,375 @@
+{
+  "en": {
+    "site": {
+      "brand": "HENG REN TANG",
+      "tagline": "Acupuncture Clinic • Balance Method • Almere",
+      "footer_brand": "Heng Ren Tang"
+    },
+    "nav": {
+      "on_this_page_label": "On this page",
+      "home_label": "Home",
+      "services_label": "Our Specialties",
+      "staff_label": "Acupuncturists",
+      "certificates_label": "Certificate",
+      "contact_label": "Contact Us",
+      "appointment_label_html": "Make an Appointment"
+    },
+    "footer": {
+      "blurb": "Warm, personal acupuncture care in Almere. We focus on Balance Method acupuncture with attention to comfort, clarity, and results.",
+      "contact_title": "Contact",
+      "links_title": "Quick links",
+      "partnership": {
+        "title": "Partnership",
+        "paragraph": "Affiliated and recognized through professional organizations and partners."
+      },
+      "privacy": {
+        "title": "Privacy",
+        "paragraph": "We handle your personal information with care. Read our privacy policy for details."
+      },
+      "credits": "Heng Ren Tang • Almere",
+      "address_html": "De Binderij 6B<br>1321 EH Almere",
+      "contact_html": "Email: hengrentang@gmail.com<br>Chamber of Commerce: 52681615"
+    },
+    "ui": {
+      "tooltip_text": "This is a tooltip text."
+    },
+    "chat_widget": {
+      "enabled": true,
+      "heading": "Do you have questions or are you curious about what a treatment can do for your health?",
+      "sub_heading": "Post your question below and I will get back to you as soon as possible:",
+      "prompt_msg": "Hi! I'm Fransisca. Questions? Feel free to ask!",
+      "legal_msg": "Click 'Send message' below. By doing so, you agree that I will respond to your message via email or WhatsApp!",
+      "revisit_prompt_msg": "Good to see you again {{name}}, how can I help you today?",
+      "support_contact": "Thank you for your chat message!",
+      "success_msg": "Fransisca Ekkel | Team Heng Ren Tang 🙏",
+      "thank_you_msg": "Good of you to get in touch. Your message has been received in good order, and you have received an email confirmation. You will hear from us soon! Warm regards.",
+      "send_label": "Send message",
+      "config": {
+        "location_id": "JgOoqe6C0MAyDtgxJvFA",
+        "use_email_field": true,
+        "locale_source": "session_lang",
+        "primary_color": "#46C9F0",
+        "style_vars": {
+          "chat_widget_primary_color": "#46C9F0",
+          "chat_widget_active_color": "#46C9F0",
+          "chat_widget_bubble_color": "#46C9F0"
+        },
+        "prompt_avatar": "https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/locationPhotos%2FJgOoqe6C0MAyDtgxJvFA%2Fchat-widget-person?alt=media&token=22f35409-e8b3-4762-a549-135a7d8ad2cc",
+        "agency_name": "Afspraakmakend",
+        "agency_website": "https://afspraakmakend.nl",
+        "loader_script_src": "https://widgets.leadconnectorhq.com/loader.js",
+        "loader_resources_url": "https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+      }
+    },
+    "integrations": {
+      "clarity": {
+        "enabled": true,
+        "project_id": "m37ojipi9i"
+      },
+      "growzy_form_embed": {
+        "enabled": true,
+        "script_src": "https://link.growzy.io/js/form_embed.js"
+      }
+    },
+    "team": {
+      "members": [
+        {
+          "key": "fransisca",
+          "name": "Fransisca Ekkel",
+          "phone": "06 24 19 95 79",
+          "image": "assets/images/staff_profile_image_fransisca.jpg",
+          "membership": [{ "org": "ZHONG", "id": "2016085" }],
+          "availability": [
+            { "day": "Tuesday", "time": "4:00 PM - 8:00 PM" },
+            { "day": "Thursday", "time": "09:00 AM - 6:00 PM" }
+          ]
+        },
+        {
+          "key": "paz",
+          "name": "Paz Lobo",
+          "phone": "06 51 91 20 27",
+          "image": "assets/images/staff_profile_image_paz.jpg",
+          "membership": [{ "org": "ZHONG", "id": "2023003" }],
+          "availability": [
+            { "day": "Monday", "time": "2:00 PM - 8:00 PM" },
+            { "day": "Wednesday", "time": "10:00 AM - 6:00 PM" }
+          ]
+        },
+        {
+          "key": "merel",
+          "name": "Merel Jongejan",
+          "phone": "06 24 72 13 77",
+          "image": "assets/images/staff_profile_image_jongejan.jpg",
+          "membership": [{ "org": "ZHONG", "id": "2024027" }],
+          "availability": [
+            { "day": "Tuesday", "time": "9:00 AM - 5:00 PM" },
+            { "day": "Friday", "time": "9:00 AM - 6:00 PM" }
+          ]
+        },
+        {
+          "key": "marjan",
+          "name": "Marjan Born",
+          "phone": "06 51 92 92 94",
+          "image": "assets/images/staff_profile_image_marjan.jpg",
+          "membership": [{ "org": "NVA", "id": "D4182" }],
+          "availability": [
+            { "day": "Wednesday", "time": "9:00 AM - 6:00 PM" },
+            { "day": "Friday", "time": "9:00 AM - 4:00 PM" }
+          ]
+        }
+      ]
+    }
+  },
+
+  "nl": {
+    "site": {
+      "brand": "HENG REN TANG",
+      "tagline": "Acupunctuurkliniek • Balance Method • Almere",
+      "footer_brand": "Heng Ren Tang"
+    },
+    "nav": {
+      "on_this_page_label": "Op deze pagina",
+      "home_label": "Home",
+      "services_label": "Onze specialiteiten",
+      "staff_label": "Acupuncturisten",
+      "certificates_label": "Certificaat",
+      "contact_label": "Contact",
+      "appointment_label_html": "Maak een afspraak"
+    },
+    "footer": {
+      "blurb": "Warme, persoonlijke acupunctuurzorg in Almere. Wij werken met Balance Method-acupunctuur, met aandacht voor comfort, duidelijkheid en resultaat.",
+      "contact_title": "Contact",
+      "links_title": "Snelkoppelingen",
+      "partnership": {
+        "title": "Samenwerking",
+        "paragraph": "Aangesloten bij en erkend door professionele organisaties en partners."
+      },
+      "privacy": {
+        "title": "Privacy",
+        "paragraph": "Wij gaan zorgvuldig om met je persoonsgegevens. Lees ons privacybeleid voor meer informatie."
+      },
+      "credits": "Heng Ren Tang • Almere",
+      "address_html": "De Binderij 6B<br>1321 EH Almere",
+      "contact_html": "E-mail: hengrentang@gmail.com<br>KvK: 52681615"
+    },
+    "ui": {
+      "tooltip_text": "Dit is een tooltip-tekst."
+    },
+    "chat_widget": {
+      "enabled": true,
+      "heading": "Heb je vragen of ben je benieuwd wat een behandeling voor jouw gezondheid kan doen?",
+      "sub_heading": "Stel hieronder je vraag en ik kom er zo snel mogelijk bij je op terug:",
+      "prompt_msg": "Hi! Ik ben Fransisca. Vragen? Stel ze gerust!",
+      "legal_msg": "Klik hieronder op 'Bericht versturen'. Je gaat ermee akkoord dat ik reageer op je bericht via e-mail of WhatsApp!",
+      "revisit_prompt_msg": "Goed je weer te zien {{name}}, hoe kan ik je vandaag helpen?",
+      "support_contact": "Bedankt voor je chatbericht!",
+      "success_msg": "Fransisca Ekkel | Team Heng Ren Tang 🙏",
+      "thank_you_msg": "Goed dat je contact opneemt. Je bericht is in goede orde ontvangen en je hebt een bevestigingsmail ontvangen. Je hoort zo snel mogelijk van ons! Vriendelijke groet,",
+      "send_label": "Bericht versturen",
+      "config": {
+        "location_id": "JgOoqe6C0MAyDtgxJvFA",
+        "use_email_field": true,
+        "locale_source": "session_lang",
+        "primary_color": "#46C9F0",
+        "style_vars": {
+          "chat_widget_primary_color": "#46C9F0",
+          "chat_widget_active_color": "#46C9F0",
+          "chat_widget_bubble_color": "#46C9F0"
+        },
+        "prompt_avatar": "https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/locationPhotos%2FJgOoqe6C0MAyDtgxJvFA%2Fchat-widget-person?alt=media&token=22f35409-e8b3-4762-a549-135a7d8ad2cc",
+        "agency_name": "Afspraakmakend",
+        "agency_website": "https://afspraakmakend.nl",
+        "loader_script_src": "https://widgets.leadconnectorhq.com/loader.js",
+        "loader_resources_url": "https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+      }
+    },
+    "integrations": {
+      "clarity": {
+        "enabled": true,
+        "project_id": "m37ojipi9i"
+      },
+      "growzy_form_embed": {
+        "enabled": true,
+        "script_src": "https://link.growzy.io/js/form_embed.js"
+      }
+    },
+    "team": {
+      "title": "Maak kennis met onze acupuncturisten",
+      "subtitle": "Ervaren behandelaars met professionele lidmaatschappen",
+      "members": [
+        {
+          "key": "fransisca",
+          "name": "Fransisca Ekkel",
+          "image": "assets/images/staff_profile_image_fransisca.jpg",
+          "membership": [{ "org": "ZHONG", "id": "2016085" }],
+          "availability": [
+            { "day": "Dinsdag", "time": "4:00 PM - 8:00 PM" },
+            { "day": "Donderdag", "time": "09:00 AM - 6:00 PM" }
+          ]
+        },
+        {
+          "key": "paz",
+          "name": "Paz Lobo",
+          "image": "assets/images/staff_profile_image_paz.jpg",
+          "membership": [{ "org": "ZHONG", "id": "2023003" }],
+          "availability": [
+            { "day": "Maandag", "time": "2:00 PM - 8:00 PM" },
+            { "day": "Woensdag", "time": "10:00 AM - 6:00 PM" }
+          ]
+        },
+        {
+          "key": "merel",
+          "name": "Merel Jongejan",
+          "image": "assets/images/staff_profile_image_paz.jpg",
+          "phone": "(06) 24 72 13 77",
+          "membership": [{ "org": "ZHONG", "id": "2024027" }],
+          "availability": [
+            { "day": "Dinsdag", "time": "9:00 AM - 5:00 PM" },
+            { "day": "Vrijdag", "time": "9:00 AM - 6:00 PM" }
+          ]
+        },
+        {
+          "key": "marjan",
+          "name": "Marjan Born",
+          "image": "assets/images/staff_profile_image_marjan.jpg",
+          "phone": "(06) 51 92 92 94",
+          "membership": [{ "org": "NVA", "id": "D4182" }],
+          "availability": [
+            { "day": "Woensdag", "time": "9:00 AM - 6:00 PM" },
+            { "day": "Vrijdag", "time": "9:00 AM - 4:00 PM" }
+          ]
+        }
+      ]
+    },
+    "staff_contacts": {
+      "marjan": { "name": "Marjan Born", "phone": "(06) 51 92 92 94" },
+      "merel": { "name": "Merel Jongejan", "phone": "(06) 24 72 13 77" }
+    }
+  },
+
+  "es": {
+    "site": {
+      "brand": "HENG REN TANG",
+      "tagline": "Clínica de acupuntura • Balance Method • Almere",
+      "footer_brand": "Heng Ren Tang"
+    },
+    "nav": {
+      "on_this_page_label": "En esta página",
+      "home_label": "Inicio",
+      "services_label": "Nuestras especialidades",
+      "staff_label": "Acupunturistas",
+      "certificates_label": "Certificado",
+      "contact_label": "Contacto",
+      "appointment_label_html": "Pedir cita"
+    },
+    "footer": {
+      "blurb": "Acupuntura cálida y personal en Almere. Nos centramos en la acupuntura Balance Method, con atención al confort, la claridad y los resultados.",
+      "contact_title": "Contacto",
+      "links_title": "Enlaces rápidos",
+      "partnership": {
+        "title": "Colaboración",
+        "paragraph": "Afiliados y reconocidos a través de organizaciones profesionales y socios."
+      },
+      "privacy": {
+        "title": "Privacidad",
+        "paragraph": "Tratamos tu información personal con cuidado. Lee nuestra política de privacidad para más detalles."
+      },
+      "credits": "Heng Ren Tang • Almere",
+      "address_html": "De Binderij 6B<br>1321 EH Almere",
+      "contact_html": "Email: hengrentang@gmail.com<br>Cámara de Comercio: 52681615"
+    },
+    "ui": {
+      "tooltip_text": "Este es un texto de ayuda."
+    },
+    "chat_widget": {
+      "enabled": true,
+      "heading": "¿Tienes preguntas o te interesa saber qué puede hacer un tratamiento por tu salud?",
+      "sub_heading": "Escribe tu pregunta abajo y te responderé lo antes posible:",
+      "prompt_msg": "¡Hola! Soy Fransisca. ¿Tienes preguntas? ¡Pregúntame!",
+      "legal_msg": "Haz clic en \"Enviar mensaje\" abajo. Al hacerlo, aceptas que responderé a tu mensaje por email o WhatsApp.",
+      "revisit_prompt_msg": "Me alegra verte de nuevo {{name}}, ¿en qué puedo ayudarte hoy?",
+      "support_contact": "¡Gracias por tu mensaje!",
+      "success_msg": "Fransisca Ekkel | Equipo Heng Ren Tang 🙏",
+      "thank_you_msg": "Gracias por ponerte en contacto. Hemos recibido tu mensaje correctamente y has recibido un email de confirmación. Pronto nos pondremos en contacto contigo. Un saludo cordial.",
+      "send_label": "Enviar mensaje",
+      "config": {
+        "location_id": "JgOoqe6C0MAyDtgxJvFA",
+        "use_email_field": true,
+        "locale_source": "session_lang",
+        "primary_color": "#46C9F0",
+        "style_vars": {
+          "chat_widget_primary_color": "#46C9F0",
+          "chat_widget_active_color": "#46C9F0",
+          "chat_widget_bubble_color": "#46C9F0"
+        },
+        "prompt_avatar": "https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/locationPhotos%2FJgOoqe6C0MAyDtgxJvFA%2Fchat-widget-person?alt=media&token=22f35409-e8b3-4762-a549-135a7d8ad2cc",
+        "agency_name": "Afspraakmakend",
+        "agency_website": "https://afspraakmakend.nl",
+        "loader_script_src": "https://widgets.leadconnectorhq.com/loader.js",
+        "loader_resources_url": "https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+      }
+    },
+    "integrations": {
+      "clarity": {
+        "enabled": true,
+        "project_id": "m37ojipi9i"
+      },
+      "growzy_form_embed": {
+        "enabled": true,
+        "script_src": "https://link.growzy.io/js/form_embed.js"
+      }
+    },
+    "team": {
+      "title": "Conoce a nuestras acupunturistas",
+      "subtitle": "Profesionales con experiencia y membresías profesionales",
+      "members": [
+        {
+          "key": "fransisca",
+          "name": "Fransisca Ekkel",
+          "image": "assets/images/staff_profile_image_fransisca.jpg",
+          "membership": [{ "org": "ZHONG", "id": "2016085" }],
+          "availability": [
+            { "day": "Martes", "time": "4:00 PM - 8:00 PM" },
+            { "day": "Jueves", "time": "09:00 AM - 6:00 PM" }
+          ]
+        },
+        {
+          "key": "paz",
+          "name": "Paz Lobo",
+          "image": "assets/images/staff_profile_image_paz.jpg",
+          "membership": [{ "org": "ZHONG", "id": "2023003" }],
+          "availability": [
+            { "day": "Lunes", "time": "2:00 PM - 8:00 PM" },
+            { "day": "Miércoles", "time": "10:00 AM - 6:00 PM" }
+          ]
+        },
+        {
+          "key": "merel",
+          "name": "Merel Jongejan",
+          "image": "assets/images/staff_profile_image_paz.jpg",
+          "phone": "(06) 24 72 13 77",
+          "membership": [{ "org": "ZHONG", "id": "2024027" }],
+          "availability": [
+            { "day": "Martes", "time": "9:00 AM - 5:00 PM" },
+            { "day": "Viernes", "time": "9:00 AM - 6:00 PM" }
+          ]
+        },
+        {
+          "key": "marjan",
+          "name": "Marjan Born",
+          "image": "assets/images/staff_profile_image_marjan.jpg",
+          "phone": "(06) 51 92 92 94",
+          "membership": [{ "org": "NVA", "id": "D4182" }],
+          "availability": [
+            { "day": "Miércoles", "time": "9:00 AM - 6:00 PM" },
+            { "day": "Viernes", "time": "9:00 AM - 4:00 PM" }
+          ]
+        }
+      ]
+    },
+    "staff_contacts": {
+      "marjan": { "name": "Marjan Born", "phone": "(06) 51 92 92 94" },
+      "merel": { "name": "Merel Jongejan", "phone": "(06) 24 72 13 77" }
+    }
+  }
+}

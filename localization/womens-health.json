@@ -1,0 +1,262 @@
+{
+  "en": {
+    "meta": {
+      "page_title": "Women’s Health — Heng Ren Tang (Almere)",
+      "on_page_label": "On this page",
+      "nav_anchors": [
+        { "id": "overview", "label": "Overview" },
+        { "id": "pregnancy", "label": "Pregnancy support" },
+        { "id": "cycle", "label": "Cycle & PMS" },
+        { "id": "menopause", "label": "Menopause" },
+        { "id": "stress", "label": "Stress & burnout" },
+        { "id": "what-to-expect", "label": "What to expect" },
+        { "id": "faq", "label": "FAQ" }
+      ]
+    },
+
+    "ui": {
+      "labels": {
+        "trust_highlights": "Trust highlights",
+        "examples": "Examples",
+        "often_combined": "Often combined with",
+        "important_note": "Important note",
+        "safety_first": "Safety first"
+      },
+      "buttons": {
+        "make_appointment": "Make an Appointment",
+        "contact": "Contact us",
+        "ask_question": "Ask a question",
+        "download_brochure": "Download brochure (PDF)"
+      }
+    },
+
+    "hero": {
+      "title": "Women’s Health — acupuncture for women, by women",
+      "subtitle": "Balance Method acupuncture in a calm, supportive setting",
+      "paragraphs": [
+        "We support women through different life stages—cycle concerns, hormonal transitions, fertility support, pregnancy care, and postpartum recovery.",
+        "Each treatment plan is tailored to your symptoms, constitution, and day-to-day life, with thoughtful attention to comfort and privacy."
+      ],
+      "trust_chips": [
+        "Women’s health focus",
+        "Balance Method approach",
+        "Registered practitioners (ZHONG / NVA)"
+      ],
+
+      "primary_cta": { "label": "Make an Appointment", "page": "contact" },
+      "secondary_cta": { "label": "Contact us", "page": "contact" },
+      "brochure_cta": {
+        "label": "Download brochure (PDF)",
+        "url": "assets/brochures/HengRenTang_WomensHealth_EN.pdf"
+      },
+
+      "disclaimer": "Acupuncture is supportive care and does not replace medical diagnosis or emergency treatment. For pregnancy-related concerns, always inform your midwife/doctor and share how far along you are so treatment can be adapted.",
+      "image": "assets/images/womens_health_hero.png",
+      "image_alt": "Supportive women’s health acupuncture care"
+    },
+
+    "pillars": {
+      "title": "Common reasons people book",
+      "subtitle": "A women-focused approach based on comfort, regulation, and recovery capacity.",
+      "items": [
+        {
+          "anchor_id": "cycle",
+          "title": "Cycle & PMS",
+          "text": "Support for cramps, PMS, irregular patterns, and tension around menstruation.",
+          "icon": "assets/images/icon_cycle.png"
+        },
+        {
+          "anchor_id": "pregnancy",
+          "title": "Pregnancy support",
+          "text": "Support during and after pregnancy, adapted carefully to your trimester.",
+          "icon": "assets/images/icon_pregnancy.png"
+        },
+        {
+          "anchor_id": "menopause",
+          "title": "Menopause transition",
+          "text": "Support for sleep, hot flashes, mood changes, and energy balance.",
+          "icon": "assets/images/icon_menopause.png"
+        },
+        {
+          "anchor_id": "stress",
+          "title": "Stress & burnout",
+          "text": "Nervous system support for tension, sleep disruption, and fatigue patterns.",
+          "icon": "assets/images/icon_stress.png"
+        }
+      ],
+      "note": "Not sure what fits best? Contact us and we’ll guide you to a suitable starting point."
+    },
+
+    "sections": {
+      "pregnancy_spotlight": {
+        "id": "pregnancy",
+        "title": "Pregnancy support",
+        "subtitle": "Before, during & after pregnancy — alongside standard care",
+        "paragraphs": [
+          "Pregnancy can place real demands on sleep, digestion, energy, and comfort. We offer supportive acupuncture care that can be used alongside your midwife/doctor.",
+          "Point selection is adapted to your trimester and symptoms, with a calm and privacy-first approach."
+        ],
+        "examples_title": "Common reasons people book",
+        "examples": [
+          "Pregnancy nausea, fatigue, and general discomfort",
+          "Pelvic and back discomfort during pregnancy",
+          "Birth preparation support",
+          "Support after miscarriage (recovery and regulation)",
+          "Postpartum recovery and rebalancing support",
+          "Support with breech presentation (where appropriate, alongside standard care)"
+        ],
+
+        "primary_cta": { "label": "Make an Appointment", "page": "contact" },
+        "secondary_cta": { "label": "Ask a question", "page": "contact" },
+
+        "image": "assets/images/womens_health_pregnancy.png",
+        "image_alt": "Pregnancy support in a calm setting",
+        "micro_trust": ["Supportive care", "Trimester-adapted", "Comfort-focused"],
+        "safety": {
+          "title": "Important note",
+          "text": "Supportive care only — not a substitute for midwifery/obstetric or emergency care. For severe, sudden, or worsening symptoms, contact your GP or emergency services first."
+        }
+      },
+
+      "life_stages_head": {
+        "title": "Support across life stages",
+        "subtitle": "Clear focus areas, with tailored planning based on timing and pattern."
+      },
+
+      "life_stages": [
+        {
+          "id": "cycle",
+          "title": "Cycle & PMS support",
+          "paragraphs": [
+            "Cycle discomfort often includes more than pain—it can affect mood, sleep, digestion, and energy. We tailor sessions based on timing, pattern, and what your body needs most right now."
+          ],
+          "examples_title": "Examples we often see",
+          "examples": [
+            "PMS-related tension, irritability, and fatigue",
+            "Cramps and lower abdominal discomfort",
+            "Irregular cycle patterns (supportive)",
+            "Sleep disruption around the cycle"
+          ],
+          "combined_title": "Often combined with",
+          "often_combined_with": [
+            "Breathing guidance",
+            "Lifestyle and routine adjustments",
+            "Gentle QiGong (optional)"
+          ]
+        },
+        {
+          "id": "menopause",
+          "title": "Menopause & hormonal transition",
+          "paragraphs": [
+            "Hormonal transitions can affect thermoregulation, sleep quality, mood, and stress tolerance. Treatment plans focus on improving comfort and recovery capacity."
+          ],
+          "examples_title": "Examples we often see",
+          "examples": [
+            "Hot flashes / night sweats (supportive)",
+            "Sleep issues",
+            "Mood changes and tension",
+            "Fatigue and low resilience"
+          ],
+          "combined_title": "Often combined with",
+          "often_combined_with": [
+            "Sleep and routine support",
+            "Stress regulation support",
+            "Gentle movement guidance"
+          ]
+        },
+        {
+          "id": "stress",
+          "title": "Stress & burnout support",
+          "paragraphs": [
+            "When stress stays “on” too long, the nervous system can become more sensitive—sleep, digestion, pain, and mood often follow. We focus on downshifting the stress response and supporting recovery."
+          ],
+          "examples_title": "Examples we often see",
+          "examples": [
+            "Burnout patterns and overwhelm",
+            "Tension headaches",
+            "Jaw, neck, and shoulder tension",
+            "Restless sleep / insomnia"
+          ],
+          "combined_title": "Often combined with",
+          "often_combined_with": [
+            "Breathing or relaxation guidance",
+            "QiGong",
+            "Daily rhythm support"
+          ]
+        }
+      ],
+
+      "what_to_expect": {
+        "id": "what-to-expect",
+        "title": "What to expect",
+        "subtitle": "A calm, structured, and privacy-first approach",
+        "steps": [
+          { "title": "Intake & assessment", "text": "We discuss your main concerns, relevant history, and goals, then decide together on a treatment approach." },
+          { "title": "Treatment plan", "text": "Most people start with a short series of sessions. Frequency depends on your situation and response." },
+          { "title": "Follow-up & adjustment", "text": "We track changes and adjust the plan based on progress, comfort, and daily life demands." }
+        ],
+        "note": "Individual experiences differ; your practitioner will adapt the plan with you."
+      },
+
+      "decision_helper": {
+        "id": "is-this-right",
+        "title": "Is this right for me?",
+        "subtitle": "A quick way to decide your next step.",
+        "items": [
+          "I’m not sure which category fits my symptoms.",
+          "I’m pregnant and want to know what’s appropriate.",
+          "I’m combining care with my GP/midwife and want supportive options.",
+          "I want a calm approach focused on regulation and comfort."
+        ],
+        "cta": {
+          "title": "Not sure where you fit?",
+          "text": "Send us a message with your main symptoms and we’ll suggest the most appropriate next step.",
+          "primary": { "label": "Make an Appointment", "page": "contact" },
+          "secondary": { "label": "Contact us", "page": "contact" }
+        },
+        "safety_note": {
+          "title": "Safety first",
+          "text": "If you have severe, sudden, or worsening symptoms, contact your GP or emergency services first. Acupuncture is supportive care and can be used alongside conventional treatment."
+        }
+      }
+    },
+
+    "faq": {
+      "id": "faq",
+      "title": "FAQ",
+      "subtitle": "Answers to common questions about women’s health support",
+      "items": [
+        {
+          "q": "Can I receive acupuncture during pregnancy?",
+          "a": "Yes. Acupuncture can be safely applied during pregnancy when performed by a trained practitioner. Please share how far along you are so treatment can be adapted appropriately."
+        },
+        {
+          "q": "What do you need to know before my pregnancy appointment?",
+          "a": "We’ll ask about your main symptoms, how far along you are, your comfort level, and any medical guidance you’ve received. Always keep your midwife/doctor informed."
+        },
+        {
+          "q": "Do you support postpartum recovery?",
+          "a": "Yes. Some people choose supportive acupuncture care for recovery and rebalancing after birth. We tailor the plan to your energy, sleep, and comfort needs."
+        },
+        {
+          "q": "How many sessions do people usually start with?",
+          "a": "Most people start with a short series. Frequency and duration depend on your symptoms, goals, and how your body responds."
+        },
+        {
+          "q": "Can acupuncture be combined with medical care?",
+          "a": "Often, yes. Please let your practitioner know about any ongoing treatments or medications so your plan can be adjusted appropriately."
+        },
+        {
+          "q": "What if symptoms are severe or sudden?",
+          "a": "Seek medical care first. Acupuncture is supportive care and does not replace urgent diagnosis or emergency treatment."
+        }
+      ],
+      "closing_cta": {
+        "title": "Still have questions?",
+        "text": "Explore the FAQ above or reach out to us directly.",
+        "primary": { "label": "Contact us", "page": "contact" },
+        "secondary": { "label": "Make an Appointment", "page": "contact" }
+      }
+    }
+  }
+}

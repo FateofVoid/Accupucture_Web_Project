@@ -1,0 +1,365 @@
+{
+  "en": {
+    "main_title": "Treatment Specialties",
+    "intro": {
+      "title": "Women’s Health — acupuncture for women, by women",
+      "subtitle": "Balance Method acupuncture in a calm, supportive setting",
+      "paragraphs": [
+        "At Heng Ren Tang, our professional, certified team combines Traditional Chinese Medicine with modern clinical understanding, with dedicated attention to women’s health.",
+        "We support women through different life stages—cycle concerns, hormonal transitions, fertility support, pregnancy care, and postpartum recovery—always tailored to your symptoms, constitution, and daily life.",
+        "Appointments are limited to protect personal attention and a calm treatment experience."
+      ],
+      "highlights": [
+        "Special focus on women’s health",
+        "Balance Method approach",
+        "Option to include herbal therapy where appropriate"
+      ],
+      "pregnancy_support_examples": [
+        "Pregnancy nausea, fatigue, and general discomfort",
+        "Pelvic and back discomfort during pregnancy",
+        "Support after miscarriage (recovery and regulation)",
+        "Birth preparation support",
+        "Postpartum recovery and ‘de-pregnancy’ / rebalancing support",
+        "Support with breech presentation (where appropriate, alongside standard care)"
+      ],
+      "buttons": [
+        {
+          "label": "Women’s Health (specialized page)",
+          "page": "womens-health"
+        },
+        {
+          "label": "Download brochure (PDF)",
+          "url": "assets/brochures/HengRenTang_WomensHealth_EN.pdf"
+        }
+      ],
+      "disclaimer": "Acupuncture is supportive care and does not replace medical diagnosis or emergency treatment. For pregnancy-related concerns, always inform your midwife/doctor and share how far along you are so treatment can be adapted."
+    },
+    "services_intro": {
+      "title": "Common areas we support",
+      "paragraph": "Below are common treatment areas. If you’re not sure where your concern fits, contact us and we’ll guide you to the right starting point."
+    },
+    "services": [
+      {
+        "title": "Respiratory",
+        "summary": "Support for breathing comfort, seasonal sensitivity, and recovery after acute illness.",
+        "examples": [
+          "Acute colds and flu recovery support",
+          "Sinus pressure, sinusitis, sore throat",
+          "Acute bronchitis-related discomfort",
+          "Asthma-related discomfort (supportive care)",
+          "Allergies / seasonal sensitivity"
+        ],
+        "notes": "We focus on easing discomfort, supporting resilience, and reducing recurrence intensity where possible."
+      },
+      {
+        "title": "Digestive system",
+        "summary": "Support for digestion, gut comfort, and stress-related digestive patterns.",
+        "examples": [
+          "Esophageal spasms / reflux-like discomfort",
+          "Gastritis-related discomfort",
+          "Inflammation-related bowel discomfort (supportive care)",
+          "Irritable bowel syndrome (IBS) patterns",
+          "Constipation and/or diarrhea regulation support"
+        ],
+        "notes": "Treatment planning considers diet patterns, stress load, sleep, and symptom timing."
+      },
+      {
+        "title": "Musculoskeletal",
+        "summary": "Support for pain, mobility, and recovery after strain or injury.",
+        "examples": [
+          "Sports injuries and overuse discomfort",
+          "Whiplash-related tension patterns",
+          "Shoulder and neck discomfort",
+          "Back pain and stiffness",
+          "Tennis elbow / golfer’s elbow",
+          "RSI-style repetitive strain patterns",
+          "Weakness/spasticity support (case-dependent)"
+        ],
+        "notes": "Balance Method often uses distal points, allowing support without needling directly at the painful area."
+      },
+      {
+        "title": "Hormonal",
+        "summary": "Support for regulation, energy balance, and hormone-related transitions.",
+        "examples": [
+          "Menstrual cycle concerns (irregular cycle, cramps, PMS)",
+          "Premenstrual pain and tension",
+          "Menopausal transition symptoms (hot flashes, sleep, mood changes)",
+          "Diabetes support (alongside medical care)"
+        ],
+        "notes": "We tailor sessions around cycle timing, symptom patterns, stress, and sleep."
+      },
+      {
+        "title": "Urinary and reproductive organs",
+        "summary": "Support for urinary comfort and selected reproductive concerns (case-dependent).",
+        "examples": [
+          "Urinary tract infections (supportive care)",
+          "Burning discomfort during urination (non-emergency support)",
+          "Bedwetting (pediatric/individual assessment)",
+          "Prostate hypertrophy / prostatitis-related discomfort",
+          "Impotence / erectile problems",
+          "Selected fertility-support cases (natural or alongside medical care)"
+        ],
+        "notes": "For acute infection signs, fever, or severe pain, seek medical care first."
+      },
+      {
+        "title": "Other",
+        "summary": "Support for stress load, sleep, pain syndromes, and quality-of-life concerns.",
+        "examples": [
+          "Fatigue / exhaustion (mental or physical)",
+          "Sleep disorders / insomnia",
+          "Stress, tension, burnout support",
+          "Headaches and migraines",
+          "Rheumatic complaints (supportive care)",
+          "Fibromyalgia patterns (supportive care)",
+          "Facial pain or jaw tension patterns",
+          "Ear problems such as tinnitus (supportive care)",
+          "Skin concerns such as acne or eczema (supportive care)",
+          "Mood instability, nervousness, phobias (supportive care alongside appropriate professional care)"
+        ],
+        "notes": "If you’re unsure whether your concern is suitable, contact us—we’ll advise honestly and carefully."
+      }
+    ]
+  },
+  "nl": {
+    "main_title": "Behandelingsspecialiteiten",
+    "intro": {
+      "title": "Vrouwengezondheid — acupunctuur voor vrouwen, door vrouwen",
+      "subtitle": "Balans Methode acupunctuur in een rustige, ondersteunende omgeving",
+      "paragraphs": [
+        "Bij Heng Ren Tang behandelt ons professionele en gediplomeerde team in een moderne en gastvrije praktijk. We combineren Traditionele Chinese Geneeskunde met moderne kennis, met speciale aandacht voor de vrouw.",
+        "We ondersteunen vrouwen in verschillende levensfases—cyclusklachten, hormonale veranderingen, fertiliteit, zwangerschapszorg en herstel na de bevalling—altijd afgestemd op jouw klachten, constitutie en dagelijks leven.",
+        "Plaatsen zijn beperkt om persoonlijke aandacht en rust tijdens behandeling te waarborgen."
+      ],
+      "highlights": [
+        "Speciale focus op vrouwengezondheid",
+        "Balans Methode aanpak",
+        "Waar passend: mogelijkheid tot kruidentherapie"
+      ],
+      "pregnancy_support_examples": [
+        "Zwangerschapsmisselijkheid, vermoeidheid en algemeen ongemak",
+        "Bekken- en rugklachten tijdens de zwangerschap",
+        "Herstel na miskraam (herstel en regulatie)",
+        "Voorbereiden van de bevalling",
+        "Herstel postpartum en ‘ontzwangeren’ / hernieuwde balans",
+        "Ondersteuning bij stuitligging (waar passend, naast reguliere zorg)"
+      ],
+      "buttons": [
+        {
+          "label": "Vrouwengezondheid (speciale pagina)",
+          "page": "womens-health"
+        },
+        {
+          "label": "Download brochure (PDF)",
+          "url": "assets/brochures/HengRenTang_Vrouwengezondheid_NL.pdf"
+        }
+      ],
+      "disclaimer": "Acupunctuur is ondersteunende zorg en vervangt geen medische diagnose of spoedzorg. Bij zwangerschap: informeer altijd je verloskundige/arts en geef aan hoe ver je bent zodat de behandeling passend kan worden aangepast."
+    },
+    "services_intro": {
+      "title": "Veelvoorkomende behandelgebieden",
+      "paragraph": "Hieronder staan veelvoorkomende gebieden waarbij we ondersteunen. Weet je niet zeker welke categorie past? Neem contact op, dan denken we mee."
+    },
+    "services": [
+      {
+        "title": "Ademhalingssysteem",
+        "summary": "Ondersteuning bij ademcomfort, seizoensgevoeligheid en herstel na acute klachten.",
+        "examples": [
+          "Acute verkoudheid en griep (herstelondersteuning)",
+          "Sinusdruk, sinusitis, keelpijn",
+          "Acute bronchitis-gerelateerd ongemak",
+          "Astma-gerelateerd ongemak (ondersteunend)",
+          "Allergieën / seizoensgevoeligheid"
+        ],
+        "notes": "Focus op het verminderen van ongemak, ondersteunen van herstel en het verlagen van terugkerende intensiteit waar mogelijk."
+      },
+      {
+        "title": "Maag-darmstelsel",
+        "summary": "Ondersteuning bij spijsvertering, buikcomfort en stress-gerelateerde patronen.",
+        "examples": [
+          "Slokdarmspasmen / reflux-achtig ongemak",
+          "Gastritis-gerelateerd ongemak",
+          "Ontstekingsgerelateerd darmongemak (ondersteunend)",
+          "Prikkelbare darmsyndroom (PDS) patronen",
+          "Obstipatie en/of diarree (regulatie-ondersteuning)"
+        ],
+        "notes": "Behandelplan houdt rekening met voeding, stressbelasting, slaap en timing van klachten."
+      },
+      {
+        "title": "Spier- en skeletstelsel",
+        "summary": "Ondersteuning bij pijn, mobiliteit en herstel na overbelasting of blessure.",
+        "examples": [
+          "Sportblessures en overbelasting",
+          "Whiplash-gerelateerde spanningspatronen",
+          "Schouder- en nekklachten",
+          "Rugpijn en stijfheid",
+          "Tenniselleboog / golfelleboog",
+          "RSI / herhaalde bewegingsklachten",
+          "Ondersteuning bij zwakte/spasticiteit (afhankelijk van situatie)"
+        ],
+        "notes": "De Balans Methode werkt vaak met distale punten, waardoor we effectief kunnen ondersteunen zonder direct op de pijnplek te naalden."
+      },
+      {
+        "title": "Hormonaal",
+        "summary": "Ondersteuning bij regulatie, energiebalans en hormonale overgangen.",
+        "examples": [
+          "Menstruatie- en cyclusklachten (onregelmatig, krampen, PMS)",
+          "Premenstruele pijn en spanning",
+          "Overgangsklachten (opvliegers, slaap, stemming)",
+          "Diabetes (naast reguliere zorg)"
+        ],
+        "notes": "We stemmen af op cyclusmomenten, klachtpatronen, stress en slaap."
+      },
+      {
+        "title": "Urinaire en voortplantingsorganen",
+        "summary": "Ondersteuning bij urinewegcomfort en geselecteerde voortplantingsklachten (situatie-afhankelijk).",
+        "examples": [
+          "Urineweginfecties (ondersteunend)",
+          "Brandende pijn bij plassen (niet-spoed ondersteuning)",
+          "Bedplassen (pediatrische/individuele beoordeling)",
+          "Prostaathypertrofie / prostatitis-gerelateerd ongemak",
+          "Impotentie / erectieproblemen",
+          "Geselecteerde fertiliteitsvragen (natuurlijk of naast medische trajecten)"
+        ],
+        "notes": "Bij koorts, heftige pijn of acute infectiesymptomen: neem eerst contact op met je huisarts."
+      },
+      {
+        "title": "Overige",
+        "summary": "Ondersteuning bij stressbelasting, slaap, pijnsyndromen en kwaliteit-van-leven klachten.",
+        "examples": [
+          "Uitputting (mentaal of fysiek)",
+          "Slaapstoornissen / slapeloosheid",
+          "Stress, spanning en burn-out",
+          "Hoofdpijn en migraine",
+          "Reumatische klachten (ondersteunend)",
+          "Fibromyalgie patronen (ondersteunend)",
+          "Gezichtspijn of kaakspanning",
+          "Oorproblemen zoals tinnitus (ondersteunend)",
+          "Huidklachten zoals acne of eczeem (ondersteunend)",
+          "Psychische instabiliteit, nervositeit, fobieën (ondersteunend, naast passende professionele hulp)"
+        ],
+        "notes": "Twijfel je of acupunctuur past? Neem contact op—dan adviseren we zorgvuldig en eerlijk."
+      }
+    ]
+  },
+  "es": {
+    "main_title": "Especialidades de tratamiento",
+    "intro": {
+      "title": "Salud de la mujer — acupuntura para mujeres, por mujeres",
+      "subtitle": "Acupuntura del Método Balance en un entorno tranquilo y de apoyo",
+      "paragraphs": [
+        "En Heng Ren Tang, nuestro equipo profesional y certificado combina la Medicina Tradicional China con una comprensión clínica moderna, con atención dedicada a la salud de la mujer.",
+        "Acompañamos a las mujeres en distintas etapas—ciclo menstrual, transiciones hormonales, apoyo a la fertilidad, embarazo y recuperación posparto—siempre adaptado a tus síntomas, constitución y vida diaria.",
+        "Las citas son limitadas para proteger la atención personal y una experiencia de tratamiento calmada."
+      ],
+      "highlights": [
+        "Enfoque especial en salud de la mujer",
+        "Enfoque del Método Balance",
+        "Opción de incluir fitoterapia cuando sea apropiado"
+      ],
+      "pregnancy_support_examples": [
+        "Náuseas, fatiga y malestar general durante el embarazo",
+        "Molestias pélvicas y dolor de espalda durante el embarazo",
+        "Apoyo tras un aborto espontáneo (recuperación y regulación)",
+        "Apoyo de preparación al parto",
+        "Recuperación posparto y reequilibrio (“de-embarazo”)",
+        "Apoyo en presentación de nalgas (cuando sea apropiado, junto con la atención estándar)"
+      ],
+      "buttons": [
+        {
+          "label": "Salud de la mujer (página especializada)",
+          "page": "womens-health"
+        },
+        {
+          "label": "Descargar folleto (PDF)",
+          "url": "assets/brochures/HengRenTang_WomensHealth_ES.pdf"
+        }
+      ],
+      "disclaimer": "La acupuntura es un cuidado de apoyo y no sustituye el diagnóstico médico ni el tratamiento de urgencia. Para asuntos relacionados con el embarazo, informa siempre a tu matrona/médico y comparte cuántas semanas de gestación tienes para adaptar el tratamiento."
+    },
+    "services_intro": {
+      "title": "Áreas comunes que apoyamos",
+      "paragraph": "A continuación se muestran áreas frecuentes de tratamiento. Si no estás seguro/a de dónde encaja tu caso, contáctanos y te guiaremos al mejor punto de partida."
+    },
+    "services": [
+      {
+        "title": "Respiratorio",
+        "summary": "Apoyo para el confort respiratorio, la sensibilidad estacional y la recuperación tras una enfermedad aguda.",
+        "examples": [
+          "Apoyo a la recuperación de resfriados agudos y gripe",
+          "Presión sinusal, sinusitis, dolor de garganta",
+          "Molestias relacionadas con bronquitis aguda",
+          "Molestias relacionadas con asma (cuidado de apoyo)",
+          "Alergias / sensibilidad estacional"
+        ],
+        "notes": "Nos enfocamos en aliviar molestias, apoyar la resiliencia y reducir la intensidad de recurrencias cuando sea posible."
+      },
+      {
+        "title": "Sistema digestivo",
+        "summary": "Apoyo para la digestión, el confort intestinal y patrones digestivos relacionados con el estrés.",
+        "examples": [
+          "Espasmos esofágicos / molestias tipo reflujo",
+          "Molestias relacionadas con gastritis",
+          "Molestias intestinales asociadas a inflamación (cuidado de apoyo)",
+          "Patrones de síndrome de intestino irritable (SII)",
+          "Apoyo para regular estreñimiento y/o diarrea"
+        ],
+        "notes": "La planificación considera dieta, carga de estrés, sueño y el momento en que aparecen los síntomas."
+      },
+      {
+        "title": "Musculoesquelético",
+        "summary": "Apoyo para el dolor, la movilidad y la recuperación tras tensión o lesión.",
+        "examples": [
+          "Lesiones deportivas y molestias por sobreuso",
+          "Patrones de tensión asociados a latigazo cervical",
+          "Molestias en hombro y cuello",
+          "Dolor y rigidez de espalda",
+          "Codo de tenista / codo de golfista",
+          "Patrones tipo RSI por movimientos repetitivos",
+          "Apoyo en debilidad/espasticidad (según el caso)"
+        ],
+        "notes": "El Método Balance a menudo usa puntos distales, permitiendo apoyar sin necesidad de pinchar directamente el área dolorida."
+      },
+      {
+        "title": "Hormonal",
+        "summary": "Apoyo para la regulación, el equilibrio de energía y transiciones relacionadas con hormonas.",
+        "examples": [
+          "Cuestiones del ciclo menstrual (irregularidad, cólicos, SPM)",
+          "Dolor y tensión premenstrual",
+          "Síntomas de transición menopáusica (sofocos, sueño, cambios de ánimo)",
+          "Apoyo en diabetes (junto con atención médica)"
+        ],
+        "notes": "Adaptamos las sesiones al momento del ciclo, patrones de síntomas, estrés y sueño."
+      },
+      {
+        "title": "Órganos urinarios y reproductivos",
+        "summary": "Apoyo para el confort urinario y algunas cuestiones reproductivas (según el caso).",
+        "examples": [
+          "Infecciones urinarias (cuidado de apoyo)",
+          "Ardor/molestia al orinar (apoyo no urgente)",
+          "Enuresis nocturna (evaluación individual/pediátrica)",
+          "Molestias por hipertrofia prostática / prostatitis",
+          "Impotencia / problemas de erección",
+          "Casos seleccionados de apoyo a la fertilidad (natural o junto con atención médica)"
+        ],
+        "notes": "Ante signos de infección aguda, fiebre o dolor intenso, busca atención médica primero."
+      },
+      {
+        "title": "Otros",
+        "summary": "Apoyo para carga de estrés, sueño, síndromes de dolor y calidad de vida.",
+        "examples": [
+          "Fatiga / agotamiento (mental o físico)",
+          "Trastornos del sueño / insomnio",
+          "Estrés, tensión, apoyo en burnout",
+          "Cefaleas y migrañas",
+          "Molestias reumáticas (cuidado de apoyo)",
+          "Patrones de fibromialgia (cuidado de apoyo)",
+          "Dolor facial o tensión mandibular",
+          "Problemas de oído como tinnitus (cuidado de apoyo)",
+          "Piel: acné o eczema (cuidado de apoyo)",
+          "Inestabilidad del ánimo, nerviosismo, fobias (apoyo junto con atención profesional adecuada)"
+        ],
+        "notes": "Si no estás seguro/a de si tu caso es adecuado, contáctanos—te orientaremos con honestidad y cuidado."
+      }
+    ]
+  }
+}

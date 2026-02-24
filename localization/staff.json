@@ -1,0 +1,334 @@
+{
+  "en": {
+    "main_title": "Our practitioners",
+    "meta": {
+      "page_title": "Our practitioners | Heng Ren Tang",
+      "nav_anchors": [
+        { "id": "team", "label": "Practitioners" },
+        { "id": "how-to-choose", "label": "How to choose" },
+        { "id": "standards", "label": "Standards & safety" }
+      ]
+    },
+    "ui": {
+      "quick_tools_title": "Quick tools",
+      "search_practitioner_label": "Search practitioner",
+      "search_placeholder": "Type a name…",
+      "expand_all": "Expand all",
+      "collapse_all": "Collapse all",
+      "tip_expand": "Tip: Click “About” or “Diplomas & certificates” on a profile to expand.",
+      "availability_label": "Availability",
+      "phone_label": "Phone"
+    },
+    "hero": {
+      "title": "Our practitioners",
+      "subtitle": "Balance Method acupuncture with attention to comfort, clarity, and results.",
+      "paragraphs": [
+        "Meet the practitioners at Heng Ren Tang. We work with Balance Method acupuncture and tailor each treatment plan to your situation, symptoms, and day-to-day life.",
+        "Not sure who to book with? Contact us and we’ll guide you to a suitable starting point."
+      ],
+      "trust_chips": [
+        "Balance Method approach",
+        "Registered practitioners (ZHONG / NVA)",
+        "Comfort & privacy-first"
+      ],
+      "primary_cta": { "label": "Make an Appointment", "page": "contact" },
+      "secondary_cta": { "label": "Ask a question", "page": "contact", "anchor": "contact" }
+    },
+    "team_section": {
+      "id": "team",
+      "title": "Practitioners",
+      "subtitle": "Click “About” or “Diplomas & certificates” to expand details.",
+      "note": "Availability and professional memberships are shown on each profile card."
+    },
+    "expandables": {
+      "about_label": "About",
+      "certs_label": "Diplomas & certificates",
+      "show_more_label": "Show more",
+      "show_less_label": "Show less"
+    },
+    "cta_labels": {
+      "make_appointment": "Make an Appointment",
+      "contact": "Contact us",
+      "ask_question": "Ask a question"
+    },
+
+    "staff_title_fransisca": "<span translate=\"no\">Fransisca Ekkel</span>",
+    "staff_paragraph_fransisca": "<ul class=\"bullet-points\"><li>Balance Method Master</li><li>Acupuncturist – Diploma 2014</li><li>Herbalist – Diploma 2019</li><li>Stage in Qing Dao – Certificate 2013</li></ul><ul class=\"bullet-points\"><li>Establishment of Heng Ren Tang Acupuncture in 2015</li><li>Assistant Lecturer: Focus on the Balance Method Acupuncture, supporting Kris Oosting at Qing Bai Academy since 2014</li><li>Expertise in Shen-Aspect of Acupuncture: Balances emotional, psychological, and physical health for a holistic approach</li><li>Expert in the Balance Method Acupuncture: Treats various conditions such as insomnia, gastrointestinal disorders, chronic pain, and allergies, with specialized knowledge in gynecology, oncology, and pediatrics</li></ul>",
+    "about_title_fransisca": "ABOUT ME",
+    "about_paragraph_fransisca": "Since founding Heng Ren Tang Acupuncture in 2015, I've been committed to delivering traditional Chinese medicine with precision and care. I obtained my HBO diploma in Acupuncture in 2014 and a TCM Herbalist diploma in 2019 from Academie Qing Bai.<br><br>In my role as an assistant teacher, I focus on the Balance Method, assisting Kris Oosting at Academie Qing Bai since 2014. My expertise includes the Shen aspect of acupuncture, harmonizing emotional and psychological health with physical well-being for a holistic approach.<br><br>Expert in the Balance Method, I treat various conditions, from insomnia and gastrointestinal issues to chronic pain and allergies, with specialized knowledge in gynecology, oncology, and pediatrics. I'm also dedicated to ongoing professional development, holding annual EHBO and Reanimation certifications.<br><br>At Heng Ren Tang, we aim to provide a sanctuary for healing, respecting each individual's path to health with the wisdom of traditional Chinese medicine and the transformative power of acupuncture.",
+    "certificate_title_fransisca": "DIPLOMAS & CERTIFICATES",
+    "certificate_paragraph_fransisca": "<ul class=\"bullet-points\">\n<li>Basic Training in Chinese Medicine</li><li>Diploma in Classical Acupuncture</li><li>Diploma in Chinese Herbal Medicine</li><li>Western Medical Basics (CPION/SHO)</li><li>Effective pain treatment with Acupuncture part I, II, and III</li><li>Effective pain treatment with Acupuncture: Qi Jing Ba Mai</li><li>Effective pain treatment with Acupuncture: special needle techniques</li><li>Effective functional disorder treatment with Acupuncture – meridian conversion</li><li>Effective functional disorder treatment with Acupuncture - seasons and cycles</li><li>Effective functional disorder treatment with Acupuncture-Wu Xing</li><li>Fatigue treatment with the Balance Method</li><li>Stomach and Intestinal Disorders treatment with Balance Method</li><li>Headache treatment with the Balance Method</li><li>Insomnia treatment with the Balance Method</li><li>Treatment of Post-COVID Long-term Conditions with the Balance Method</li><li>Hay fever treatment with the Balance Method</li><li>Gynecological disorders treatment with the Balance Method</li><li>Shoulder Disorders treatment with the Balance Method</li><li>Rheumatism & Arthrosis treatment with the Balance Method</li><li>Seasonal-related disorders treatment with the Balance Method</li><li>Balance Method Masterclass - The Path to Perfection</li><li>Masterclass meridian and points- the way of the acupuncturist</li><li>The Hormonal System</li><li>High Sensitivity in Adults</li><li>Gynecology: Menopause</li><li>Palliative care in the last phase of life</li><li>Post-traumatic stress disorder</li><li>The thyroid: disorders and support</li><li>Epigenetics a blueprint</li><li>Oncology acupuncture</li><li>Emotions in early Chinese philosophical and medical texts</li><li>Shen and the treatment of psychological disorders</li><li>Points with the name Shen & Windows of Heaven points</li><li>Compassion in TCM: Sun Simiao and beyond</li><li>Pediatrics: eczema and other skin problems</li><li>Red Flags in practice</li><li>First aid and Resuscitation for adults, children, and infants. - Repeat every year with Red Cross and Orange Cross</li></ul>",
+
+    "staff_title_paz": "<span translate=\"no\">Paz Lobo</span>",
+    "staff_paragraph_paz": "<ul class=\"bullet-points\"><li>Acupuncturist – Diploma 2022</li><li>Zhineng QiGong (Instructor) – Diploma 2021</li></ul><ul class=\"bullet-points\"><li>Born and raised in Spain, followed her heart and passion in TCM.</li><li>Specialization in the Balance Method Acupuncture: Treats various conditions such as insomnia, gastrointestinal disorders, chronic pain, and allergies.</li><li>QiGong Instructor: With profound knowledge of the energetic interaction between body and mind, her classes focus on promoting harmony and balance, sharing her passion for natural healthcare with her students.</li></ul>",
+    "about_title_paz": "ABOUT ME",
+    "about_paragraph_paz": "My name is <span translate=\"no\">Paz Lobo</span>. I was born and raised in Spain. After a long career in the financial world, first in Barcelona and then in the Netherlands, I decided to follow my heart and started studying Chinese Medicine at Qing-Bai Academy in 2018. I then completed the professional training in Classical Acupuncture, Zhineng Qigong, and Western Medical Basic Knowledge (CPION/SHO).<br><br>My interest in maintaining health in a natural way and the energetic interaction between body and mind has always fascinated me. I have turned my interest into my profession with the aim of helping others improve their health and quality of life.<br><br>I am a member of the Dutch Association for Traditional Chinese Medicine ZHONG, which guarantees the quality of my treatments.",
+    "certificate_title_paz": "DIPLOMAS & CERTIFICATES",
+    "certificate_paragraph_paz": "<ul class=\"bullet-points\"><li>Basic Education in Chinese Medicine</li><li>Diploma in Classical Acupuncture</li><li>Effectively Treating Pain with Acupuncture (parts 1, 2, and 3)</li><li>Effectively Treating Functional Complaints with Acupuncture – Meridian Conversion (Yi Jing)</li><li>Effectively Treating Functional Complaints with Acupuncture – WuXing</li><li>Effectively Treating Functional Complaints with Acupuncture – Seasons and Cycles</li><li>Treating Insomnia with the Balance Method</li><li>Treating Headaches with the Balance Method</li><li>Treating Fatigue with the Balance Method</li><li>Treating Gastrointestinal Complaints with the Balance Method</li><li>Western Medical Basics (CPION/SHO)</li><li>First Aid (including CPR and AED)</li><li>Zhengti Therapy Year Training - Medical Qigong Therapy</li><li>Certificate in Zhineng Qigong (Instructor)</li></ul>",
+
+    "staff_title_jongejan": "<span translate=\"no\">Merel Jongejan</span>",
+    "staff_paragraph_jongejan": "<ul class=\"bullet-points\"><li>Acupuncturist – Diploma 2023</li><li>Specialization in Balance Method Acupuncture</li><li>Instructor of Caring at the Nyingma Center: guides participants in developing self-care based on ancient Buddhist wisdom, applied in modern ways</li></ul><ul class=\"bullet-points\"><li>Offers a tailored treatment approach combining Balance Method Acupuncture and Buddhist-inspired self-care practices</li></ul>",
+    "about_title_jongejan": "ABOUT ME",
+    "about_paragraph_jongejan": "My name is Merel Jongejan. After completing my studies, I focused on horizontal and self-managing organizational structures that put people at the center. At the same time, my interest in the innate ability of the body and mind to heal itself grew, leading me to start an accredited higher education program in acupuncture. After obtaining my diploma, I wasn’t fully satisfied. In my search for an effective method, I discovered the Balance Method. With great enthusiasm, I deepened my knowledge of this method during my internship at Heng Ren Tang. Naturally, this is the place where I now join as a practitioner.",
+    "certificate_title_jongejan": "DIPLOMAS & CERTIFICATES",
+    "certificate_paragraph_jongejan": "<ul class=\"bullet-points\"><li>Basic Education in Chinese Medicine</li><li>Diploma in Classical Acupuncture</li><li>Western Medical Basics (CPION/SHO)</li><li>Effectively Treating Pain with Acupuncture (parts 1, 2, and 3)</li><li>Effectively Treating Functional Complaints with Acupuncture – Meridian Conversion (Yi Jing)</li><li>Treating Hay Fever with the Balance Method</li><li>Spiritual Anatomy of the Meridian System - Lung and Large Intestine Meridians</li><li>Teacher Training in Caring - Nyingma Institute</li><li>Caring & Skillful Means - Nyingma Center Netherlands</li><li>First Aid (including CPR and AED)</li><li>University background in Corporate Communication (MSc)</li></ul>",
+
+    "staff_title_marjan": "<span translate=\"no\">Marjan Born</span>",
+    "staff_paragraph_marjan": "<ul class=\"bullet-points\"><li>Balance Method Master</li><li>Acupuncturist – Diploma 2017</li><li>Master in Balance Method Acupuncture</li><li>Assistant Instructor: Academy for Chinese Medicine Qing Bai – Since 2020</li><li>Expertise in: – Relieving Pain and Discomfort – Better Sleep – Proper Digestive Function – Smooth Cycles – Emotional Balance – Easier Menopause</li><li>Psychosocial Therapist – Since 2005 – Expertise in Relaxed Living</li></ul>",
+    "about_title_marjan": "ABOUT ME",
+    "about_paragraph_marjan": "I know from personal experience that good health cannot always be taken for granted. Eventually, everyone faces pain, discomfort, or illness in life. I am the kind of person who searches for solutions to physical and emotional complaints. Over the past 25 years, I have completed various studies to find answers to my own health questions. With Balance Method Acupuncture, everything finally came together, and now I can help you with your health concerns.",
+    "certificate_title_marjan": "DIPLOMAS & CERTIFICATES",
+    "certificate_paragraph_marjan": "<ul class=\"bullet-points\"><li>Balance Method Mastermind</li><li>Scalp Acupuncture</li><li>CCM Pulse-Tongue Diagnosis – Ling Shu Jing Wu Xing Acupuncture for Zang Fu Diseases</li><li>Balance Method Mastery Coaching Program</li><li>Treating Male Infertility with Balance Method Acupuncture</li><li>Treating Female Infertility with Balance Method Acupuncture</li><li>Combining Tools in Balance Method Acupuncture</li><li>Treatment of Mental-Emotional Complaints with Balance Method Acupuncture</li><li>From TCM Patterns to Balance Method Acupuncture</li><li>Treatment of Skin Conditions with Balance Method Acupuncture</li><li>Treatment of the Five Senses with Balance Method Acupuncture</li><li>Balance Method Masterclass | The Road to Perfection</li><li>Treating Rheumatism & Osteoarthritis with the Balance Method</li><li>Treating Post-COVID Lung Conditions with the Balance Method</li><li>Effectively Treating Functional Complaints with Acupuncture – Seasons and Cycles</li><li>Effectively Treating with Acupuncture – Qi Jing Ba Mai</li><li>Effectively Treating Functional Complaints with Acupuncture – Wu Xing</li><li>Effectively Treating Pain with Acupuncture – Special Needle Techniques</li><li>Effectively Treating Functional Complaints with Acupuncture – Yi Jing</li><li>Effectively Treating Pain with Acupuncture – Global Balance</li><li>Effectively Treating Pain with Acupuncture – Part 1 and Part 2</li><li>VAS Diagnostics | Energetic Auriculotherapy | Diagnosis and Approach to Trauma | Diagnosis and Treatment of Long-COVID</li><li>Auriculotherapy as Support in Addiction Care</li><li>Auriculotherapy Parts 1 through 4</li><li>Treatment of Women’s Complaints</li><li>Okyu | Japanese Moxibustion</li><li>Distal Channel Palpation</li><li>Constitutional Facial Acupuncture Renewal</li><li>Engaging Vitality, Modules 1 through 3</li><li>Neurological Disorders – 2022</li><li>Lung Conditions – 2022</li><li>Gynecology – 2021</li><li>Cardiovascular Diseases – 2021</li><li>Gastrointestinal and Liver Issues – 2021</li><li>Western Medical Basics | SHO</li><li>Classical Acupuncture</li><li>Basic Training in Chinese Medicine</li><li>Breathing Coach</li><li>Spiritual Healing</li><li>Trainer Education</li><li>Professional Individual Guidance</li><li>NLP Practitioner | INLPTA</li><li>Professional Communication | SPHBO</li><li>Member of the Dutch Association for Acupuncture (NVA)</li></ul>",
+
+    "how_to_choose": {
+      "id": "how-to-choose",
+      "title": "How to choose a practitioner",
+      "subtitle": "A simple way to decide your next step.",
+      "cards": [
+        { "title": "Women’s health support", "text": "Support across life stages such as cycle-related concerns, pregnancy support, postpartum recovery, menopause, and stress-related patterns." },
+        { "title": "Pain & mobility", "text": "Support for pain patterns, tension, headaches, neck/shoulder discomfort, and recovery after strain—case-dependent and tailored." },
+        { "title": "Stress & sleep", "text": "Support for nervous system downshifting, sleep disruption, fatigue patterns, and overwhelm—alongside healthy routines." },
+        { "title": "QiGong & self-care", "text": "Some practitioners combine acupuncture with QiGong or self-care guidance to support balance and resilience." }
+      ],
+      "note": "If you’re unsure which practitioner fits best, contact us and we’ll guide you."
+    },
+    "standards": {
+      "id": "standards",
+      "title": "Standards & safety",
+      "items": [
+        { "title": "Registered practitioners", "text": "We work with professional memberships such as ZHONG and NVA, reflecting education, standards, and continuing development." },
+        { "title": "Hygiene", "text": "We use sterile, single-use needles and maintain a clean, professional clinical environment." },
+        { "title": "Supportive care", "text": "Acupuncture is supportive care and does not replace medical diagnosis or emergency treatment." },
+        { "title": "Pregnancy care", "text": "If you are pregnant, always tell us how far along you are so treatment can be adapted appropriately." }
+      ]
+    },
+    "closing_cta": {
+      "title": "Not sure where to start?",
+      "text": "Send us a message with your main concern and we’ll suggest the most appropriate next step.",
+      "primary": { "label": "Make an Appointment", "page": "contact" },
+      "secondary": { "label": "Contact us", "page": "contact", "anchor": "contact" }
+    }
+  },
+
+  "nl": {
+    "main_title": "Onze behandelaars",
+    "meta": {
+      "page_title": "Onze behandelaars | Heng Ren Tang",
+      "nav_anchors": [
+        { "id": "team", "label": "Behandelaars" },
+        { "id": "how-to-choose", "label": "Hoe kies je" },
+        { "id": "standards", "label": "Normen & veiligheid" }
+      ]
+    },
+    "ui": {
+      "quick_tools_title": "Snelle tools",
+      "search_practitioner_label": "Zoek behandelaar",
+      "search_placeholder": "Typ een naam…",
+      "expand_all": "Alles uitklappen",
+      "collapse_all": "Alles inklappen",
+      "tip_expand": "Tip: klik op “Over mij” of “Diploma’s & certificaten” om details te bekijken.",
+      "availability_label": "Beschikbaarheid",
+      "phone_label": "Telefoon"
+    },
+    "hero": {
+      "title": "Onze behandelaars",
+      "subtitle": "Balance Method acupunctuur met aandacht voor comfort, duidelijkheid en resultaat.",
+      "paragraphs": [
+        "Maak kennis met de behandelaars van Heng Ren Tang. We werken met Balance Method acupunctuur en stemmen elk behandelplan af op jouw situatie, klachten en dagelijks leven.",
+        "Weet je niet zeker bij wie je het beste kunt starten? Neem contact met ons op—dan denken we met je mee."
+      ],
+      "trust_chips": [
+        "Balance Method aanpak",
+        "Geregistreerde behandelaars (ZHONG / NVA)",
+        "Comfort & privacy voorop"
+      ],
+      "primary_cta": { "label": "Maak een afspraak", "page": "contact" },
+      "secondary_cta": { "label": "Stel een vraag", "page": "contact", "anchor": "contact" }
+    },
+    "team_section": {
+      "id": "team",
+      "title": "Behandelaars",
+      "subtitle": "Klik op “Over mij” of “Diploma’s & certificaten” om details uit te klappen.",
+      "note": "Beschikbaarheid en beroepsregistraties staan vermeld op iedere profielkaart."
+    },
+    "expandables": {
+      "about_label": "Over mij",
+      "certs_label": "Diploma’s & certificaten",
+      "show_more_label": "Meer tonen",
+      "show_less_label": "Minder tonen"
+    },
+    "cta_labels": {
+      "make_appointment": "Maak een afspraak",
+      "contact": "Neem contact op",
+      "ask_question": "Stel een vraag"
+    },
+
+    "staff_title_fransisca": "<span translate=\"no\">Fransisca Ekkel</span>",
+    "staff_paragraph_fransisca": "<ul class=\"bullet-points\"><li>Balance Method Master</li><li>Acupuncturist – Diploma 2014</li><li>Kruidengeneeskundige (Herbalist) – Diploma 2019</li><li>Stage in Qing Dao – Certificaat 2013</li></ul><ul class=\"bullet-points\"><li>Oprichting van Heng Ren Tang Acupuncture in 2015</li><li>Assistent-docent: Focus op Balance Method Acupuncture, ondersteuning van Kris Oosting bij Academie Qing Bai sinds 2014</li><li>Expertise in het Shen-aspect van acupunctuur: brengt emotionele, psychologische en fysieke gezondheid in balans voor een holistische benadering</li><li>Expert in Balance Method Acupuncture: behandelt uiteenlopende klachten zoals slapeloosheid, maag-darmklachten, chronische pijn en allergieën, met gespecialiseerde kennis in gynaecologie, oncologie en pediatrie</li></ul>",
+    "about_title_fransisca": "OVER MIJ",
+    "about_paragraph_fransisca": "Sinds de oprichting van Heng Ren Tang Acupuncture in 2015 zet ik mij in om Traditionele Chinese Geneeskunde met precisie en aandacht toe te passen. In 2014 behaalde ik mijn HBO-diploma Acupunctuur en in 2019 mijn diploma TCM Kruidengeneeskunde (Herbalist) aan Academie Qing Bai.<br><br>In mijn rol als assistent-docent richt ik mij op de Balance Method en ondersteun ik Kris Oosting bij Academie Qing Bai sinds 2014. Mijn expertise omvat onder andere het Shen-aspect van acupunctuur, waarbij emotionele en psychologische gezondheid wordt afgestemd op fysiek welzijn voor een holistische benadering.<br><br>Als expert in de Balance Method behandel ik diverse klachten, van slapeloosheid en maag-darmproblemen tot chronische pijn en allergieën, met gespecialiseerde kennis in gynaecologie, oncologie en pediatrie. Ik blijf mij daarnaast voortdurend bijscholen en beschik jaarlijks over EHBO- en reanimatiecertificeringen.<br><br>Bij Heng Ren Tang willen we een plek bieden waar herstel centraal staat, met respect voor ieders weg naar gezondheid—met de wijsheid van de traditionele Chinese geneeskunde en de transformerende kracht van acupunctuur.",
+    "certificate_title_fransisca": "DIPLOMA’S & CERTIFICATEN",
+    "certificate_paragraph_fransisca": "<ul class=\"bullet-points\">\n<li>Basistraining Chinese geneeskunde</li><li>Diploma klassieke acupunctuur</li><li>Diploma Chinese kruidengeneeskunde</li><li>Westerse medische basiskennis (CPION/SHO)</li><li>Effectieve pijnbehandeling met acupunctuur deel I, II en III</li><li>Effectieve pijnbehandeling met acupunctuur: Qi Jing Ba Mai</li><li>Effectieve pijnbehandeling met acupunctuur: speciale naaldtechnieken</li><li>Effectieve behandeling van functionele klachten met acupunctuur – meridiaanconversie</li><li>Effectieve behandeling van functionele klachten met acupunctuur – seizoenen en cycli</li><li>Effectieve behandeling van functionele klachten met acupunctuur – Wu Xing</li><li>Vermoeidheid behandelen met de Balance Method</li><li>Maag- en darmklachten behandelen met de Balance Method</li><li>Hoofdpijn behandelen met de Balance Method</li><li>Slapeloosheid behandelen met de Balance Method</li><li>Behandeling van post-COVID langdurige klachten met de Balance Method</li><li>Hooikoorts behandelen met de Balance Method</li><li>Gynaecologische klachten behandelen met de Balance Method</li><li>Schouderklachten behandelen met de Balance Method</li><li>Reuma & artrose behandelen met de Balance Method</li><li>Seizoensgebonden klachten behandelen met de Balance Method</li><li>Balance Method Masterclass - The Path to Perfection</li><li>Masterclass meridianen en punten - the way of the acupuncturist</li><li>Het hormonale systeem</li><li>Hooggevoeligheid bij volwassenen</li><li>Gynaecologie: menopauze</li><li>Palliatieve zorg in de laatste levensfase</li><li>Posttraumatische stressstoornis</li><li>De schildklier: stoornissen en ondersteuning</li><li>Epigenetica – een blauwdruk</li><li>Oncologie acupunctuur</li><li>Emoties in vroege Chinese filosofische en medische teksten</li><li>Shen en de behandeling van psychische klachten</li><li>Punten met de naam Shen & Windows of Heaven punten</li><li>Compassie in TCM: Sun Simiao en verder</li><li>Pediatrie: eczeem en andere huidproblemen</li><li>Red Flags in de praktijk</li><li>EHBO en reanimatie voor volwassenen, kinderen en baby’s – jaarlijks herhalen met Rode Kruis en Oranje Kruis</li></ul>",
+
+    "staff_title_paz": "<span translate=\"no\">Paz Lobo</span>",
+    "staff_paragraph_paz": "<ul class=\"bullet-points\"><li>Acupuncturist – Diploma 2022</li><li>Zhineng QiGong (Instructor) – Diploma 2021</li></ul><ul class=\"bullet-points\"><li>Geboren en getogen in Spanje, volgde haar hart en passie in TCM.</li><li>Specialisatie in Balance Method Acupuncture: behandelt uiteenlopende klachten zoals slapeloosheid, maag-darmklachten, chronische pijn en allergieën.</li><li>QiGong-instructeur: met diepgaande kennis van de energetische interactie tussen lichaam en geest, gericht op harmonie en balans, en het delen van haar passie voor natuurlijke gezondheidszorg.</li></ul>",
+    "about_title_paz": "OVER MIJ",
+    "about_paragraph_paz": "Mijn naam is <span translate=\"no\">Paz Lobo</span>. Ik ben geboren en getogen in Spanje. Na een lange carrière in de financiële wereld, eerst in Barcelona en daarna in Nederland, besloot ik mijn hart te volgen en begon ik in 2018 met de opleiding Chinese geneeskunde aan de Qing-Bai Academy. Daarna heb ik de beroepsopleiding Klassieke Acupunctuur, Zhineng Qigong en Westerse Medische Basiskennis (CPION/SHO) afgerond.<br><br>Mijn interesse in het op een natuurlijke manier behouden van gezondheid en de energetische wisselwerking tussen lichaam en geest heeft mij altijd gefascineerd. Ik heb deze interesse omgezet in mijn beroep met als doel anderen te helpen hun gezondheid en kwaliteit van leven te verbeteren.<br><br>Ik ben lid van de Nederlandse Vereniging voor Traditionele Chinese Geneeskunde ZHONG, wat de kwaliteit van mijn behandelingen waarborgt.",
+    "certificate_title_paz": "DIPLOMA’S & CERTIFICATEN",
+    "certificate_paragraph_paz": "<ul class=\"bullet-points\"><li>Basisopleiding Chinese geneeskunde</li><li>Diploma klassieke acupunctuur</li><li>Effectief pijn behandelen met acupunctuur (deel 1, 2 en 3)</li><li>Effectief functionele klachten behandelen met acupunctuur – meridiaanconversie (Yi Jing)</li><li>Effectief functionele klachten behandelen met acupunctuur – WuXing</li><li>Effectief functionele klachten behandelen met acupunctuur – seizoenen en cycli</li><li>Slapeloosheid behandelen met de Balance Method</li><li>Hoofdpijn behandelen met de Balance Method</li><li>Vermoeidheid behandelen met de Balance Method</li><li>Maag-darmklachten behandelen met de Balance Method</li><li>Westerse medische basiskennis (CPION/SHO)</li><li>EHBO (incl. CPR en AED)</li><li>Zhengti Therapy jaartraining - medische qigongtherapie</li><li>Certificaat Zhineng Qigong (Instructor)</li></ul>",
+
+    "staff_title_jongejan": "<span translate=\"no\">Merel Jongejan</span>",
+    "staff_paragraph_jongejan": "<ul class=\"bullet-points\"><li>Acupuncturist – Diploma 2023</li><li>Specialisatie in Balance Method Acupuncture</li><li>Instructeur Caring bij het Nyingma Center: begeleidt deelnemers in het ontwikkelen van zelfzorg op basis van oude boeddhistische wijsheid, toegepast in moderne vormen</li></ul><ul class=\"bullet-points\"><li>Biedt een aanpak op maat die Balance Method Acupuncture combineert met boeddhistisch geïnspireerde zelfzorgpraktijken</li></ul>",
+    "about_title_jongejan": "OVER MIJ",
+    "about_paragraph_jongejan": "Mijn naam is Merel Jongejan. Na mijn studie richtte ik mij op horizontale en zelforganiserende structuren waarin de mens centraal staat. Tegelijk groeide mijn interesse in het aangeboren vermogen van lichaam en geest om zichzelf te herstellen, waardoor ik begon aan een geaccrediteerde hbo-opleiding acupunctuur. Na het behalen van mijn diploma was ik nog niet volledig tevreden. In mijn zoektocht naar een effectieve methode ontdekte ik de Balance Method. Met veel enthousiasme verdiepte ik mij in deze methode tijdens mijn stage bij Heng Ren Tang. Logischerwijs is dit de plek waar ik mij nu als behandelaar aansluit.",
+    "certificate_title_jongejan": "DIPLOMA’S & CERTIFICATEN",
+    "certificate_paragraph_jongejan": "<ul class=\"bullet-points\"><li>Basisopleiding Chinese geneeskunde</li><li>Diploma klassieke acupunctuur</li><li>Westerse medische basiskennis (CPION/SHO)</li><li>Effectief pijn behandelen met acupunctuur (deel 1, 2 en 3)</li><li>Effectief functionele klachten behandelen met acupunctuur – meridiaanconversie (Yi Jing)</li><li>Hooikoorts behandelen met de Balance Method</li><li>Spiritual Anatomy of the Meridian System - Lung and Large Intestine Meridians</li><li>Teacher Training in Caring - Nyingma Institute</li><li>Caring & Skillful Means - Nyingma Center Netherlands</li><li>EHBO (incl. CPR en AED)</li><li>Universitaire achtergrond Corporate Communication (MSc)</li></ul>",
+
+    "staff_title_marjan": "<span translate=\"no\">Marjan Born</span>",
+    "staff_paragraph_marjan": "<ul class=\"bullet-points\"><li>Balance Method Master</li><li>Acupuncturist – Diploma 2017</li><li>Master in Balance Method Acupuncture</li><li>Assistent-instructeur: Academie voor Chinese geneeskunde Qing Bai – sinds 2020</li><li>Expertise in: – pijn en ongemak verlichten – beter slapen – goede spijsvertering – soepele cycli – emotionele balans – een makkelijkere menopauze</li><li>Psychosociaal therapeut – sinds 2005 – expertise in ontspannen leven</li></ul>",
+    "about_title_marjan": "OVER MIJ",
+    "about_paragraph_marjan": "Ik weet uit eigen ervaring dat een goede gezondheid niet altijd vanzelfsprekend is. Uiteindelijk krijgt iedereen in het leven te maken met pijn, ongemak of ziekte. Ik ben iemand die zoekt naar oplossingen voor lichamelijke en emotionele klachten. De afgelopen 25 jaar heb ik verschillende opleidingen gevolgd om antwoorden te vinden op mijn eigen gezondheidsvragen. Met Balance Method Acupuncture viel alles uiteindelijk op zijn plek, en nu kan ik jou helpen met jouw gezondheidsvragen.",
+    "certificate_title_marjan": "DIPLOMA’S & CERTIFICATEN",
+    "certificate_paragraph_marjan": "<ul class=\"bullet-points\"><li>Balance Method Mastermind</li><li>Scalp Acupuncture</li><li>CCM Pulse-Tongue Diagnosis – Ling Shu Jing Wu Xing Acupuncture for Zang Fu Diseases</li><li>Balance Method Mastery Coaching Program</li><li>Treating Male Infertility with Balance Method Acupuncture</li><li>Treating Female Infertility with Balance Method Acupuncture</li><li>Combining Tools in Balance Method Acupuncture</li><li>Treatment of Mental-Emotional Complaints with Balance Method Acupuncture</li><li>From TCM Patterns to Balance Method Acupuncture</li><li>Treatment of Skin Conditions with Balance Method Acupuncture</li><li>Treatment of the Five Senses with Balance Method Acupuncture</li><li>Balance Method Masterclass | The Road to Perfection</li><li>Treating Rheumatism & Osteoarthritis with the Balance Method</li><li>Treating Post-COVID Lung Conditions with the Balance Method</li><li>Effectively Treating Functional Complaints with Acupuncture – Seasons and Cycles</li><li>Effectively Treating with Acupuncture – Qi Jing Ba Mai</li><li>Effectively Treating Functional Complaints with Acupuncture – Wu Xing</li><li>Effectively Treating Pain with Acupuncture – Special Needle Techniques</li><li>Effectively Treating Functional Complaints with Acupuncture – Yi Jing</li><li>Effectively Treating Pain with Acupuncture – Global Balance</li><li>Effectively Treating Pain with Acupuncture – Part 1 and Part 2</li><li>VAS Diagnostics | Energetic Auriculotherapy | Diagnosis and Approach to Trauma | Diagnosis and Treatment of Long-COVID</li><li>Auriculotherapy as Support in Addiction Care</li><li>Auriculotherapy Parts 1 through 4</li><li>Treatment of Women’s Complaints</li><li>Okyu | Japanese Moxibustion</li><li>Distal Channel Palpation</li><li>Constitutional Facial Acupuncture Renewal</li><li>Engaging Vitality, Modules 1 through 3</li><li>Neurological Disorders – 2022</li><li>Lung Conditions – 2022</li><li>Gynecology – 2021</li><li>Cardiovascular Diseases – 2021</li><li>Gastrointestinal and Liver Issues – 2021</li><li>Western Medical Basics | SHO</li><li>Classical Acupuncture</li><li>Basic Training in Chinese Medicine</li><li>Breathing Coach</li><li>Spiritual Healing</li><li>Trainer Education</li><li>Professional Individual Guidance</li><li>NLP Practitioner | INLPTA</li><li>Professional Communication | SPHBO</li><li>Member of the Dutch Association for Acupuncture (NVA)</li></ul>",
+
+    "how_to_choose": {
+      "id": "how-to-choose",
+      "title": "Hoe kies je een behandelaar?",
+      "subtitle": "Een eenvoudige manier om je volgende stap te bepalen.",
+      "cards": [
+        { "title": "Vrouwengezondheid", "text": "Ondersteuning in verschillende levensfasen, zoals cyclusgerelateerde klachten, zwangerschapsbegeleiding, herstel na de bevalling, menopauze en stressgerelateerde patronen." },
+        { "title": "Pijn & mobiliteit", "text": "Ondersteuning bij pijnpatronen, spanning, hoofdpijn, nek-/schouderklachten en herstel na overbelasting—altijd passend bij jouw situatie." },
+        { "title": "Stress & slaap", "text": "Ondersteuning bij ontprikkeling, slaapproblemen, vermoeidheid en overbelasting—samen met gezonde routines." },
+        { "title": "QiGong & zelfzorg", "text": "Sommige behandelaars combineren acupunctuur met QiGong of zelfzorgbegeleiding voor meer balans en veerkracht." }
+      ],
+      "note": "Twijfel je welke behandelaar het beste past? Neem contact op, dan helpen we je kiezen."
+    },
+    "standards": {
+      "id": "standards",
+      "title": "Normen & veiligheid",
+      "items": [
+        { "title": "Geregistreerde behandelaars", "text": "We werken met beroepsregistraties zoals ZHONG en NVA, als weerspiegeling van opleiding, normen en bijscholing." },
+        { "title": "Hygiëne", "text": "We gebruiken steriele, wegwerpnaalden en werken in een schone, professionele behandelomgeving." },
+        { "title": "Ondersteunende zorg", "text": "Acupunctuur is ondersteunende zorg en vervangt geen medische diagnose of spoedbehandeling." },
+        { "title": "Zwangerschap", "text": "Ben je zwanger? Geef altijd aan hoe ver je bent, zodat de behandeling hierop kan worden afgestemd." }
+      ]
+    },
+    "closing_cta": {
+      "title": "Weet je niet waar je moet beginnen?",
+      "text": "Stuur ons een bericht met je belangrijkste klacht, dan adviseren we een passende volgende stap.",
+      "primary": { "label": "Maak een afspraak", "page": "contact" },
+      "secondary": { "label": "Neem contact op", "page": "contact", "anchor": "contact" }
+    }
+  },
+
+  "es": {
+    "main_title": "Nuestras profesionales",
+    "meta": {
+      "page_title": "Nuestras profesionales | Heng Ren Tang",
+      "nav_anchors": [
+        { "id": "team", "label": "Profesionales" },
+        { "id": "how-to-choose", "label": "Cómo elegir" },
+        { "id": "standards", "label": "Normas y seguridad" }
+      ]
+    },
+    "ui": {
+      "quick_tools_title": "Herramientas rápidas",
+      "search_practitioner_label": "Buscar profesional",
+      "search_placeholder": "Escribe un nombre…",
+      "expand_all": "Expandir todo",
+      "collapse_all": "Contraer todo",
+      "tip_expand": "Consejo: haz clic en “Sobre mí” o “Diplomas y certificados” para ver más detalles.",
+      "availability_label": "Disponibilidad",
+      "phone_label": "Teléfono"
+    },
+    "hero": {
+      "title": "Nuestras profesionales",
+      "subtitle": "Acupuntura Balance Method con atención al confort, claridad y resultados.",
+      "paragraphs": [
+        "Conoce a las profesionales de Heng Ren Tang. Trabajamos con acupuntura Balance Method y adaptamos cada plan a tu situación, tus síntomas y tu día a día.",
+        "¿No sabes con quién reservar? Contáctanos y te ayudaremos a elegir un buen punto de partida."
+      ],
+      "trust_chips": [
+        "Enfoque Balance Method",
+        "Profesionales registradas (ZHONG / NVA)",
+        "Confort y privacidad primero"
+      ],
+      "primary_cta": { "label": "Pedir cita", "page": "contact" },
+      "secondary_cta": { "label": "Hacer una pregunta", "page": "contact", "anchor": "contact" }
+    },
+    "team_section": {
+      "id": "team",
+      "title": "Profesionales",
+      "subtitle": "Haz clic en “Sobre mí” o “Diplomas y certificados” para ampliar la información.",
+      "note": "La disponibilidad y las afiliaciones profesionales se muestran en cada tarjeta de perfil."
+    },
+    "expandables": {
+      "about_label": "Sobre mí",
+      "certs_label": "Diplomas y certificados",
+      "show_more_label": "Mostrar más",
+      "show_less_label": "Mostrar menos"
+    },
+    "cta_labels": {
+      "make_appointment": "Pedir cita",
+      "contact": "Contáctanos",
+      "ask_question": "Hacer una pregunta"
+    },
+
+    "staff_title_fransisca": "<span translate=\"no\">Fransisca Ekkel</span>",
+    "staff_paragraph_fransisca": "<ul class=\"bullet-points\"><li>Balance Method Master</li><li>Acupunturista – Diploma 2014</li><li>Herbolaria (Herbalist) – Diploma 2019</li><li>Prácticas en Qing Dao – Certificado 2013</li></ul><ul class=\"bullet-points\"><li>Fundación de Heng Ren Tang Acupuncture en 2015</li><li>Docente asistente: enfoque en Balance Method Acupuncture, apoyando a Kris Oosting en la Academia Qing Bai desde 2014</li><li>Experta en el aspecto Shen de la acupuntura: equilibra salud emocional, psicológica y física con un enfoque holístico</li><li>Experta en Balance Method Acupuncture: trata diversas afecciones como insomnio, trastornos gastrointestinales, dolor crónico y alergías, con conocimiento especializado en ginecología, oncología y pediatría</li></ul>",
+    "about_title_fransisca": "SOBRE MÍ",
+    "about_paragraph_fransisca": "Desde que fundé Heng Ren Tang Acupuncture en 2015, me he comprometido a aplicar la medicina tradicional china con precisión y cuidado. Obtuve mi diploma HBO en Acupuntura en 2014 y el diploma de Herbolaria TCM en 2019 en la Academia Qing Bai.<br><br>En mi rol como docente asistente, me enfoco en el Balance Method y apoyo a Kris Oosting en la Academia Qing Bai desde 2014. Mi experiencia incluye el aspecto Shen de la acupuntura, armonizando la salud emocional y psicológica con el bienestar físico para un enfoque holístico.<br><br>Como experta en Balance Method, trato diversas afecciones, desde insomnio y problemas gastrointestinales hasta dolor crónico y alergias, con conocimiento especializado en ginecología, oncología y pediatría. También estoy comprometida con el desarrollo profesional continuo y mantengo certificaciones anuales de primeros auxilios y reanimación.<br><br>En Heng Ren Tang buscamos ofrecer un espacio de sanación, respetando el camino individual hacia la salud con la sabiduría de la medicina tradicional china y el poder transformador de la acupuntura.",
+    "certificate_title_fransisca": "DIPLOMAS Y CERTIFICADOS",
+    "certificate_paragraph_fransisca": "<ul class=\"bullet-points\">\n<li>Formación básica en medicina china</li><li>Diploma en acupuntura clásica</li><li>Diploma en herbolaria china</li><li>Bases de medicina occidental (CPION/SHO)</li><li>Tratamiento eficaz del dolor con acupuntura parte I, II y III</li><li>Tratamiento eficaz del dolor con acupuntura: Qi Jing Ba Mai</li><li>Tratamiento eficaz del dolor con acupuntura: técnicas especiales de aguja</li><li>Tratamiento eficaz de trastornos funcionales con acupuntura – conversión de meridianos</li><li>Tratamiento eficaz de trastornos funcionales con acupuntura – estaciones y ciclos</li><li>Tratamiento eficaz de trastornos funcionales con acupuntura – Wu Xing</li><li>Tratamiento de la fatiga con el Balance Method</li><li>Tratamiento de trastornos de estómago e intestino con el Balance Method</li><li>Tratamiento de cefaleas con el Balance Method</li><li>Tratamiento del insomnio con el Balance Method</li><li>Tratamiento de afecciones post-COVID de larga duración con el Balance Method</li><li>Tratamiento de la fiebre del heno con el Balance Method</li><li>Tratamiento de trastornos ginecológicos con el Balance Method</li><li>Tratamiento de trastornos de hombro con el Balance Method</li><li>Reumatismo y artrosis con el Balance Method</li><li>Trastornos relacionados con la estación con el Balance Method</li><li>Balance Method Masterclass - The Path to Perfection</li><li>Masterclass de meridianos y puntos - the way of the acupuncturist</li><li>El sistema hormonal</li><li>Alta sensibilidad en adultos</li><li>Ginecología: menopausia</li><li>Cuidados paliativos en la última fase de vida</li><li>Trastorno de estrés postraumático</li><li>Tiroides: trastornos y apoyo</li><li>Epigenética – un plano guía</li><li>Acupuntura en oncología</li><li>Emociones en textos filosóficos y médicos chinos tempranos</li><li>Shen y el tratamiento de trastornos psicológicos</li><li>Puntos con el nombre Shen y puntos Windows of Heaven</li><li>Compasión en TCM: Sun Simiao y más allá</li><li>Pediatría: eccema y otros problemas de piel</li><li>Red Flags en la práctica</li><li>Primeros auxilios y reanimación para adultos, niños y bebés – repetición anual con Cruz Roja y Orange Cross</li></ul>",
+
+    "staff_title_paz": "<span translate=\"no\">Paz Lobo</span>",
+    "staff_paragraph_paz": "<ul class=\"bullet-points\"><li>Acupunturista – Diploma 2022</li><li>Zhineng QiGong (Instructor) – Diploma 2021</li></ul><ul class=\"bullet-points\"><li>Nacida y criada en España, siguió su corazón y su pasión por la MTC.</li><li>Especialización en Balance Method Acupuncture: trata diversas afecciones como insomnio, trastornos gastrointestinales, dolor crónico y alergías.</li><li>Instructora de QiGong: con un profundo conocimiento de la interacción energética entre cuerpo y mente, sus clases se enfocan en promover armonía y equilibrio, compartiendo su pasión por la salud natural.</li></ul>",
+    "about_title_paz": "SOBRE MÍ",
+    "about_paragraph_paz": "Me llamo <span translate=\"no\">Paz Lobo</span>. Nací y crecí en España. Después de una larga carrera en el mundo financiero, primero en Barcelona y luego en los Países Bajos, decidí seguir mi corazón y comencé a estudiar Medicina China en la Academia Qing-Bai en 2018. Posteriormente completé la formación profesional en Acupuntura Clásica, Zhineng Qigong y Conocimientos Médicos Básicos de Occidente (CPION/SHO).<br><br>Siempre me ha fascinado mantener la salud de forma natural y la interacción energética entre el cuerpo y la mente. Convertí este interés en mi profesión con el objetivo de ayudar a otras personas a mejorar su salud y calidad de vida.<br><br>Soy miembro de la Asociación Neerlandesa de Medicina China Tradicional ZHONG, que garantiza la calidad de mis tratamientos.",
+    "certificate_title_paz": "DIPLOMAS Y CERTIFICADOS",
+    "certificate_paragraph_paz": "<ul class=\"bullet-points\"><li>Formación básica en medicina china</li><li>Diploma en acupuntura clásica</li><li>Tratamiento eficaz del dolor con acupuntura (partes 1, 2 y 3)</li><li>Tratamiento eficaz de molestias funcionales con acupuntura – conversión de meridianos (Yi Jing)</li><li>Tratamiento eficaz de molestias funcionales con acupuntura – WuXing</li><li>Tratamiento eficaz de molestias funcionales con acupuntura – estaciones y ciclos</li><li>Tratamiento del insomnio con el Balance Method</li><li>Tratamiento de cefaleas con el Balance Method</li><li>Tratamiento de la fatiga con el Balance Method</li><li>Tratamiento de molestias gastrointestinales con el Balance Method</li><li>Bases de medicina occidental (CPION/SHO)</li><li>Primeros auxilios (incluye RCP y DEA)</li><li>Formación anual Zhengti Therapy - terapia médica de qigong</li><li>Certificado en Zhineng Qigong (Instructor)</li></ul>",
+
+    "staff_title_jongejan": "<span translate=\"no\">Merel Jongejan</span>",
+    "staff_paragraph_jongejan": "<ul class=\"bullet-points\"><li>Acupunturista – Diploma 2023</li><li>Especialización en Balance Method Acupuncture</li><li>Instructora de Caring en Nyingma Center: guía a participantes en el desarrollo de autocuidado basado en sabiduría budista antigua, aplicada en formas modernas</li></ul><ul class=\"bullet-points\"><li>Ofrece un enfoque personalizado que combina Balance Method Acupuncture y prácticas de autocuidado inspiradas en el budismo</li></ul>",
+    "about_title_jongejan": "SOBRE MÍ",
+    "about_paragraph_jongejan": "Me llamo Merel Jongejan. Tras terminar mis estudios, me enfoqué en estructuras organizativas horizontales y autogestionadas que ponen a las personas en el centro. Al mismo tiempo, creció mi interés por la capacidad innata del cuerpo y la mente para sanar, lo que me llevó a iniciar una formación superior acreditada en acupuntura. Después de obtener mi diploma, no estaba completamente satisfecha. En mi búsqueda de un método efectivo, descubrí el Balance Method. Con gran entusiasmo profundicé en este método durante mis prácticas en Heng Ren Tang. Naturalmente, este es el lugar al que ahora me incorporo como profesional.",
+    "certificate_title_jongejan": "DIPLOMAS Y CERTIFICADOS",
+    "certificate_paragraph_jongejan": "<ul class=\"bullet-points\"><li>Formación básica en medicina china</li><li>Diploma en acupuntura clásica</li><li>Bases de medicina occidental (CPION/SHO)</li><li>Tratamiento eficaz del dolor con acupuntura (partes 1, 2 y 3)</li><li>Tratamiento eficaz de molestias funcionales con acupuntura – conversión de meridianos (Yi Jing)</li><li>Tratamiento de la fiebre del heno con el Balance Method</li><li>Spiritual Anatomy of the Meridian System - Lung and Large Intestine Meridians</li><li>Teacher Training in Caring - Nyingma Institute</li><li>Caring & Skillful Means - Nyingma Center Netherlands</li><li>Primeros auxilios (incluye RCP y DEA)</li><li>Formación universitaria en Corporate Communication (MSc)</li></ul>",
+
+    "staff_title_marjan": "<span translate=\"no\">Marjan Born</span>",
+    "staff_paragraph_marjan": "<ul class=\"bullet-points\"><li>Balance Method Master</li><li>Acupunturista – Diploma 2017</li><li>Máster en Balance Method Acupuncture</li><li>Instructora asistente: Academia de Medicina China Qing Bai – desde 2020</li><li>Experiencia en: – aliviar dolor y malestar – mejorar el sueño – buena función digestiva – ciclos más regulares – equilibrio emocional – menopausia más llevadera</li><li>Terapeuta psicosocial – desde 2005 – experiencia en vida más relajada</li></ul>",
+    "about_title_marjan": "SOBRE MÍ",
+    "about_paragraph_marjan": "Sé por experiencia propia que una buena salud no siempre se puede dar por sentada. Con el tiempo, todo el mundo se enfrenta a dolor, malestar o enfermedad. Soy el tipo de persona que busca soluciones a molestias físicas y emocionales. Durante los últimos 25 años he realizado distintos estudios para encontrar respuestas a mis propias preguntas de salud. Con Balance Method Acupuncture, por fin todo encajó, y ahora puedo ayudarte con tus preocupaciones de salud.",
+    "certificate_title_marjan": "DIPLOMAS Y CERTIFICADOS",
+    "certificate_paragraph_marjan": "<ul class=\"bullet-points\"><li>Balance Method Mastermind</li><li>Scalp Acupuncture</li><li>CCM Pulse-Tongue Diagnosis – Ling Shu Jing Wu Xing Acupuncture for Zang Fu Diseases</li><li>Balance Method Mastery Coaching Program</li><li>Treating Male Infertility with Balance Method Acupuncture</li><li>Treating Female Infertility with Balance Method Acupuncture</li><li>Combining Tools in Balance Method Acupuncture</li><li>Treatment of Mental-Emotional Complaints with Balance Method Acupuncture</li><li>From TCM Patterns to Balance Method Acupuncture</li><li>Treatment of Skin Conditions with Balance Method Acupuncture</li><li>Treatment of the Five Senses with Balance Method Acupuncture</li><li>Balance Method Masterclass | The Road to Perfection</li><li>Treating Rheumatism & Osteoarthritis with the Balance Method</li><li>Treating Post-COVID Lung Conditions with the Balance Method</li><li>Effectively Treating Functional Complaints with Acupuncture – Seasons and Cycles</li><li>Effectively Treating with Acupuncture – Qi Jing Ba Mai</li><li>Effectively Treating Functional Complaints with Acupuncture – Wu Xing</li><li>Effectively Treating Pain with Acupuncture – Special Needle Techniques</li><li>Effectively Treating Functional Complaints with Acupuncture – Yi Jing</li><li>Effectively Treating Pain with Acupuncture – Global Balance</li><li>Effectively Treating Pain with Acupuncture – Part 1 and Part 2</li><li>VAS Diagnostics | Energetic Auriculotherapy | Diagnosis and Approach to Trauma | Diagnosis and Treatment of Long-COVID</li><li>Auriculotherapy as Support in Addiction Care</li><li>Auriculotherapy Parts 1 through 4</li><li>Treatment of Women’s Complaints</li><li>Okyu | Japanese Moxibustion</li><li>Distal Channel Palpation</li><li>Constitutional Facial Acupuncture Renewal</li><li>Engaging Vitality, Modules 1 through 3</li><li>Neurological Disorders – 2022</li><li>Lung Conditions – 2022</li><li>Gynecology – 2021</li><li>Cardiovascular Diseases – 2021</li><li>Gastrointestinal and Liver Issues – 2021</li><li>Western Medical Basics | SHO</li><li>Classical Acupuncture</li><li>Basic Training in Chinese Medicine</li><li>Breathing Coach</li><li>Spiritual Healing</li><li>Trainer Education</li><li>Professional Individual Guidance</li><li>NLP Practitioner | INLPTA</li><li>Professional Communication | SPHBO</li><li>Member of the Dutch Association for Acupuncture (NVA)</li></ul>",
+
+    "how_to_choose": {
+      "id": "how-to-choose",
+      "title": "Cómo elegir una profesional",
+      "subtitle": "Una forma sencilla de decidir tu siguiente paso.",
+      "cards": [
+        { "title": "Salud femenina", "text": "Apoyo en distintas etapas: ciclo, fertilidad/embarazo, posparto, menopausia y patrones relacionados con el estrés." },
+        { "title": "Dolor y movilidad", "text": "Apoyo para patrones de dolor, tensión, cefaleas, molestias cervicales/hombros y recuperación tras sobrecarga, según cada caso." },
+        { "title": "Estrés y sueño", "text": "Apoyo para regular el sistema nervioso, alteraciones del sueño, fatiga y sensación de saturación, junto con hábitos saludables." },
+        { "title": "QiGong y autocuidado", "text": "Algunas profesionales combinan acupuntura con QiGong o pautas de autocuidado para favorecer equilibrio y resiliencia." }
+      ],
+      "note": "Si no estás segura de con quién empezar, contáctanos y te ayudaremos a elegir."
+    },
+    "standards": {
+      "id": "standards",
+      "title": "Normas y seguridad",
+      "items": [
+        { "title": "Profesionales registradas", "text": "Trabajamos con afiliaciones profesionales como ZHONG y NVA, que reflejan formación, estándares y desarrollo continuo." },
+        { "title": "Higiene", "text": "Usamos agujas estériles de un solo uso y mantenemos un entorno clínico limpio y profesional." },
+        { "title": "Atención de apoyo", "text": "La acupuntura es atención de apoyo y no reemplaza un diagnóstico médico ni un tratamiento de urgencia." },
+        { "title": "Embarazo", "text": "Si estás embarazada, indícanos siempre de cuántas semanas estás para adaptar el tratamiento adecuadamente." }
+      ]
+    },
+    "closing_cta": {
+      "title": "¿No sabes por dónde empezar?",
+      "text": "Envíanos un mensaje con tu principal preocupación y te sugeriremos el siguiente paso más adecuado.",
+      "primary": { "label": "Pedir cita", "page": "contact" },
+      "secondary": { "label": "Contáctanos", "page": "contact", "anchor": "contact" }
+    }
+  }
+}

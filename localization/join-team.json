@@ -1,0 +1,86 @@
+{
+  "en": {
+    "join_team": {
+      "id": "join",
+      "title": "Are you a practitioner and interested in joining?",
+      "subtitle": "We’re open to hearing from qualified acupuncturists who align with our approach.",
+      "paragraphs": [
+        "Heng Ren Tang is a calm, patient-focused clinic with a clear emphasis on Balance Method acupuncture and respectful, privacy-first care.",
+        "If you are a qualified acupuncturist and feel our clinic could be a good match, we invite you to introduce yourself."
+      ],
+      "requirements_title": "What we look for",
+      "requirements": [
+        "Accredited acupuncture education and professional practice experience",
+        "Alignment with Balance Method principles (training or strong interest)",
+        "Comfortable working with women’s health topics (supportive care)",
+        "Clear communication style and patient-centered mindset",
+        "Commitment to ongoing education and professional standards"
+      ],
+      "what_to_send_title": "What to send",
+      "what_to_send": [
+        "A short introduction and your clinical interests",
+        "Education background and any professional registrations",
+        "Availability and preferred working days",
+        "A CV (optional) and any relevant certificates (optional)"
+      ],
+      "cta": { "label": "Contact us", "page": "contact", "anchor": "contact" },
+      "note": "We respond as soon as possible. Patient care always comes first, so response times may vary."
+    }
+  },
+  "nl": {
+    "join_team": {
+      "id": "join",
+      "title": "Ben je behandelaar en wil je je aansluiten?",
+      "subtitle": "We staan open voor gekwalificeerde acupuncturisten die bij onze aanpak passen.",
+      "paragraphs": [
+        "Heng Ren Tang is een rustige, patiëntgerichte praktijk met duidelijke focus op Balance Method acupunctuur en respectvolle, privacy-first zorg.",
+        "Ben je een gekwalificeerde acupuncturist en denk je dat onze praktijk goed kan passen? Stel jezelf gerust aan ons voor."
+      ],
+      "requirements_title": "Wat we zoeken",
+      "requirements": [
+        "Geaccrediteerde acupunctuuropleiding en praktijkervaring",
+        "Affiniteit met Balance Method principes (opleiding of sterke interesse)",
+        "Comfort met onderwerpen rondom vrouwengezondheid (ondersteunende zorg)",
+        "Heldere communicatie en patiëntgerichte houding",
+        "Toewijding aan bijscholing en professionele normen"
+      ],
+      "what_to_send_title": "Wat je kunt sturen",
+      "what_to_send": [
+        "Een korte introductie en je klinische interesses",
+        "Opleidingsachtergrond en eventuele beroepsregistraties",
+        "Beschikbaarheid en voorkeursdagen",
+        "Een CV (optioneel) en relevante certificaten (optioneel)"
+      ],
+      "cta": { "label": "Neem contact op", "page": "contact", "anchor": "contact" },
+      "note": "We reageren zo snel mogelijk. Patiëntenzorg gaat altijd voor, dus reactietijden kunnen variëren."
+    }
+  },
+  "es": {
+    "join_team": {
+      "id": "join",
+      "title": "¿Eres profesional y te interesa unirte?",
+      "subtitle": "Estamos abiertas a escuchar a acupunturistas cualificadas que encajen con nuestro enfoque.",
+      "paragraphs": [
+        "Heng Ren Tang es una clínica tranquila y centrada en la paciente, con un énfasis claro en Balance Method y un cuidado respetuoso con la privacidad.",
+        "Si eres acupunturista cualificada y crees que nuestra clínica puede encajar contigo, nos encantará que te presentes."
+      ],
+      "requirements_title": "Qué buscamos",
+      "requirements": [
+        "Formación acreditada en acupuntura y experiencia clínica",
+        "Alineación con principios Balance Method (formación o interés sólido)",
+        "Comodidad con temas de salud femenina (atención de apoyo)",
+        "Comunicación clara y enfoque centrado en la paciente",
+        "Compromiso con formación continua y estándares profesionales"
+      ],
+      "what_to_send_title": "Qué enviar",
+      "what_to_send": [
+        "Una breve presentación y tus intereses clínicos",
+        "Formación y registros/afiliaciones profesionales",
+        "Disponibilidad y días preferidos",
+        "CV (opcional) y certificados relevantes (opcional)"
+      ],
+      "cta": { "label": "Contáctanos", "page": "contact", "anchor": "contact" },
+      "note": "Respondemos lo antes posible. La atención a pacientes siempre es lo primero, por lo que los tiempos pueden variar."
+    }
+  }
+}
