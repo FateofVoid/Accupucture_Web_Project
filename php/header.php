@@ -92,7 +92,7 @@ $currentLangIcon = $langOptions[$lang]['icon'] ?? $langOptions['en']['icon'];
 
       <div class="nav__cta">
         <!-- IMPORTANT: appointment_label_html may contain <br>, so do NOT use h() -->
-        <a class="btn btn--primary" href="<?=h(page_url($base_url,$lang,'contact'))?>">
+        <a class="btn btn--primary" href="<?=h($appointment_url)?>" target="_blank" rel="noopener">
           <?=safe_html($nav['appointment_label_html'] ?? 'Make an Appointment')?>
         </a>
         <a class="btn btn--ghost" href="<?=h(page_url($base_url,$lang,'contact'))?>">

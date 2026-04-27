@@ -68,6 +68,11 @@ $titles = [
   ]
 ];
 
+/**
+ * External booking URL (Crossuite)
+ * Use this for ALL "Make an Appointment" buttons/CTAs sitewide.
+ */
+$appointment_url = 'https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step3';
 
 /**
  * Determine base URL (useful for redirects & nav)

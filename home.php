@@ -74,8 +74,8 @@ $heroThirdHref   = $cta_href($heroThird);
         <p class="body"><?=h((string)($hero['paragraph'] ?? ''))?></p>
 
         <div class="actions">
-          <a class="btn btn--primary" href="<?=h($heroPrimaryHref)?>">
-            <?=h((string)($heroPrimary['label'] ?? $hero['primary_button_label'] ?? ($ui['buttons']['make_appointment'] ?? 'Make an Appointment')))?>
+          <a class="btn btn--primary" href="<?=h($appointment_url)?>" target="_blank" rel="noopener">
+            <?=h((string)($ui['buttons']['make_appointment'] ?? 'Make an Appointment'))?>
           </a>
 
           <a class="btn btn--ghost" href="<?=h($heroSecondHref)?>">
@@ -342,8 +342,8 @@ $heroThirdHref   = $cta_href($heroThird);
           <a class="btn btn--soft" href="<?=h(page_url($base_url,$lang,'staff'))?>">
             <?=h((string)($ui['buttons']['staff_page'] ?? 'Staff page'))?>
           </a>
-          <a class="btn btn--primary" href="<?=h(page_url($base_url,$lang,'contact'))?>">
-            <?=h((string)($ui['buttons']['appointments'] ?? 'Appointments'))?>
+          <a class="btn btn--primary" href="<?=h($appointment_url)?>" target="_blank" rel="noopener">
+            <?=h((string)($ui['buttons']['make_appointment'] ?? 'Make an Appointment'))?>
           </a>
         </div>
       </header>
@@ -407,7 +407,7 @@ $heroThirdHref   = $cta_href($heroThird);
             <p class="body"><?= $loc['contact_html'] ?? '' ?></p>
 
             <div class="actions">
-              <a class="btn btn--primary" href="<?=h(page_url($base_url,$lang,'contact'))?>">
+              <a class="btn btn--primary" href="<?=h($appointment_url)?>" target="_blank" rel="noopener">
                 <?=h((string)($ui['buttons']['make_appointment'] ?? 'Make an Appointment'))?>
               </a>
               <a class="btn btn--ghost" href="<?=h(page_url($base_url,$lang,'contact'))?>">
@@ -500,8 +500,8 @@ $heroThirdHref   = $cta_href($heroThird);
             <a class="btn btn--primary" href="<?=h($cta_href($ctaPrimary))?>">
               <?=h((string)($ctaPrimary['label'] ?? ($ui['buttons']['contact'] ?? 'Contact')) )?>
             </a>
-            <a class="btn btn--ghost" href="<?=h($cta_href($ctaSecond))?>">
-              <?=h((string)($ctaSecond['label'] ?? ($ui['buttons']['make_appointment'] ?? 'Make an Appointment')) )?>
+            <a class="btn btn--primary" href="<?=h($appointment_url)?>" target="_blank" rel="noopener">
+              <?=h((string)($ui['buttons']['make_appointment'] ?? 'Make an Appointment'))?>
             </a>
           </div>
         </div>

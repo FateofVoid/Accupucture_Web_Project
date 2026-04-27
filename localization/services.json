@@ -34,6 +34,44 @@
       ],
       "disclaimer": "Acupuncture is supportive care and does not replace medical diagnosis or emergency treatment. For pregnancy-related concerns, always inform your midwife/doctor and share how far along you are so treatment can be adapted."
     },
+    "womens_feature": {
+      "id": "womens-support",
+      "title": "Pregnancy & postpartum support",
+      "lead": "Supportive acupuncture care tailored to your stage, symptoms, and comfort.",
+      "list_title": "Examples we can support",
+      "items": [
+        "Pregnancy nausea, fatigue, and general discomfort",
+        "Pelvic and back discomfort during pregnancy",
+        "Support after miscarriage (recovery and regulation)",
+        "Birth preparation support",
+        "Postpartum recovery and rebalancing support",
+        "Support with breech presentation (where appropriate, alongside standard care)"
+      ],
+      "note": "If you are pregnant, please tell us how far along you are so treatment can be adapted safely.",
+      "ctas": {
+        "primary": { "label": "Women’s Health (specialized page)", "page": "womens-health" }
+      }
+    },
+    "pain_feature": {
+      "id": "pain-treatment",
+      "title": "Pain treatment & mobility support",
+      "lead": "We often support pain patterns by working with distal points—without needing to needle directly at the painful area.",
+      "list_title": "Common pain areas",
+      "items": [
+        "Back and lower back",
+        "Neck and shoulders",
+        "Knee and ankle",
+        "Elbow and wrist",
+        "Hips and pelvis",
+        "Headaches and migraines",
+        "Abdominal / tummy discomfort (case-dependent)"
+      ],
+      "note": "For severe, sudden, or worsening symptoms, contact your GP or emergency services first.",
+      "ctas": {
+        "primary": { "label": "Make an Appointment", "url": "https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step3" },
+        "secondary": { "label": "Contact", "page": "contact" }
+      }
+    },
     "services_intro": {
       "title": "Common areas we support",
       "paragraph": "Below are common treatment areas. If you’re not sure where your concern fits, contact us and we’ll guide you to the right starting point."
@@ -124,7 +162,7 @@
     "main_title": "Behandelingsspecialiteiten",
     "intro": {
       "title": "Vrouwengezondheid — acupunctuur voor vrouwen, door vrouwen",
-      "subtitle": "Balans Methode acupunctuur in een rustige, ondersteunende omgeving",
+      "subtitle": "Balansmethode-acupunctuur in een rustige, ondersteunende omgeving",
       "paragraphs": [
         "Bij Heng Ren Tang behandelt ons professionele en gediplomeerde team in een moderne en gastvrije praktijk. We combineren Traditionele Chinese Geneeskunde met moderne kennis, met speciale aandacht voor de vrouw.",
         "We ondersteunen vrouwen in verschillende levensfases—cyclusklachten, hormonale veranderingen, fertiliteit, zwangerschapszorg en herstel na de bevalling—altijd afgestemd op jouw klachten, constitutie en dagelijks leven.",
@@ -132,7 +170,7 @@
       ],
       "highlights": [
         "Speciale focus op vrouwengezondheid",
-        "Balans Methode aanpak",
+        "Balansmethode-benadering",
         "Waar passend: mogelijkheid tot kruidentherapie"
       ],
       "pregnancy_support_examples": [
@@ -158,6 +196,44 @@
     "services_intro": {
       "title": "Veelvoorkomende behandelgebieden",
       "paragraph": "Hieronder staan veelvoorkomende gebieden waarbij we ondersteunen. Weet je niet zeker welke categorie past? Neem contact op, dan denken we mee."
+    },
+    "womens_feature": {
+      "id": "womens-support",
+      "title": "Ondersteuning bij zwangerschap en postpartum",
+      "lead": "Ondersteunende acupunctuur, afgestemd op jouw fase, klachten en comfort.",
+      "list_title": "Voorbeelden van ondersteuning",
+      "items": [
+        "Zwangerschapsmisselijkheid, vermoeidheid en algemeen ongemak",
+        "Bekken- en rugklachten tijdens de zwangerschap",
+        "Herstel na miskraam (herstel en regulatie)",
+        "Voorbereiden van de bevalling",
+        "Herstel postpartum en hernieuwde balans",
+        "Ondersteuning bij stuitligging (waar passend, naast reguliere zorg)"
+      ],
+      "note": "Ben je zwanger? Geef altijd aan hoe ver je bent zodat de behandeling veilig kan worden aangepast.",
+      "ctas": {
+        "primary": { "label": "Vrouwengezondheid (speciale pagina)", "page": "womens-health" }
+      }
+    },
+    "pain_feature": {
+      "id": "pain-treatment",
+      "title": "Pijnbehandeling & ondersteuning van mobiliteit",
+      "lead": "We ondersteunen pijnpatronen vaak met distale punten—zonder direct op de pijnplek te naalden.",
+      "list_title": "Veelvoorkomende pijngebieden",
+      "items": [
+        "Rug en onderrug",
+        "Nek en schouders",
+        "Knie en enkel",
+        "Elleboog en pols",
+        "Heupen en bekken",
+        "Hoofdpijn en migraine",
+        "Buikklachten (afhankelijk van situatie)"
+      ],
+      "note": "Bij hevige, plotselinge of verergerende klachten: neem eerst contact op met je huisarts of spoedzorg.",
+      "ctas": {
+        "primary": { "label": "Maak een afspraak", "url": "https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step3" },
+        "secondary": { "label": "Contact", "page": "contact" }
+      }
     },
     "services": [
       {
@@ -196,7 +272,7 @@
           "RSI / herhaalde bewegingsklachten",
           "Ondersteuning bij zwakte/spasticiteit (afhankelijk van situatie)"
         ],
-        "notes": "De Balans Methode werkt vaak met distale punten, waardoor we effectief kunnen ondersteunen zonder direct op de pijnplek te naalden."
+        "notes": "De Balansmethode werkt vaak met distale punten, waardoor we effectief kunnen ondersteunen zonder direct op de pijnplek te naalden."
       },
       {
         "title": "Hormonaal",
@@ -245,7 +321,7 @@
     "main_title": "Especialidades de tratamiento",
     "intro": {
       "title": "Salud de la mujer — acupuntura para mujeres, por mujeres",
-      "subtitle": "Acupuntura del Método Balance en un entorno tranquilo y de apoyo",
+      "subtitle": "Acupuntura del Método del Equilibrio en un entorno tranquilo y de apoyo",
       "paragraphs": [
         "En Heng Ren Tang, nuestro equipo profesional y certificado combina la Medicina Tradicional China con una comprensión clínica moderna, con atención dedicada a la salud de la mujer.",
         "Acompañamos a las mujeres en distintas etapas—ciclo menstrual, transiciones hormonales, apoyo a la fertilidad, embarazo y recuperación posparto—siempre adaptado a tus síntomas, constitución y vida diaria.",
@@ -253,7 +329,7 @@
       ],
       "highlights": [
         "Enfoque especial en salud de la mujer",
-        "Enfoque del Método Balance",
+        "Enfoque del Método del Equilibrio",
         "Opción de incluir fitoterapia cuando sea apropiado"
       ],
       "pregnancy_support_examples": [
@@ -279,6 +355,44 @@
     "services_intro": {
       "title": "Áreas comunes que apoyamos",
       "paragraph": "A continuación se muestran áreas frecuentes de tratamiento. Si no estás seguro/a de dónde encaja tu caso, contáctanos y te guiaremos al mejor punto de partida."
+    },
+    "womens_feature": {
+      "id": "womens-support",
+      "title": "Apoyo en embarazo y posparto",
+      "lead": "Acupuntura de apoyo adaptada a tu etapa, síntomas y comodidad.",
+      "list_title": "Ejemplos de apoyo",
+      "items": [
+        "Náuseas, fatiga y malestar general durante el embarazo",
+        "Molestias pélvicas y dolor de espalda durante el embarazo",
+        "Apoyo tras un aborto espontáneo (recuperación y regulación)",
+        "Apoyo en la preparación al parto",
+        "Recuperación posparto y reequilibrio",
+        "Apoyo en presentación de nalgas (cuando sea apropiado, junto con la atención estándar)"
+      ],
+      "note": "Si estás embarazada, indícanos cuántas semanas de gestación tienes para adaptar el tratamiento con seguridad.",
+      "ctas": {
+        "primary": { "label": "Salud de la mujer (página especializada)", "page": "womens-health" }
+      }
+    },
+    "pain_feature": {
+      "id": "pain-treatment",
+      "title": "Tratamiento del dolor y apoyo a la movilidad",
+      "lead": "A menudo apoyamos patrones de dolor usando puntos distales, sin necesidad de pinchar directamente la zona dolorida.",
+      "list_title": "Zonas de dolor comunes",
+      "items": [
+        "Espalda y zona lumbar",
+        "Cuello y hombros",
+        "Rodilla y tobillo",
+        "Codo y muñeca",
+        "Caderas y pelvis",
+        "Cefaleas y migrañas",
+        "Molestias abdominales (según el caso)"
+      ],
+      "note": "Si hay síntomas intensos, repentinos o que empeoran, contacta primero con tu médico o urgencias.",
+      "ctas": {
+        "primary": { "label": "Pedir cita", "url": "https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608bda93ca/step3" },
+        "secondary": { "label": "Contacto", "page": "contact" }
+      }
     },
     "services": [
       {
@@ -317,7 +431,7 @@
           "Patrones tipo RSI por movimientos repetitivos",
           "Apoyo en debilidad/espasticidad (según el caso)"
         ],
-        "notes": "El Método Balance a menudo usa puntos distales, permitiendo apoyar sin necesidad de pinchar directamente el área dolorida."
+        "notes": "El Método del Equilibrio a menudo usa puntos distales, permitiendo apoyar sin necesidad de pinchar directamente el área dolorida."
       },
       {
         "title": "Hormonal",

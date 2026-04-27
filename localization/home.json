@@ -181,7 +181,7 @@
         { "id": "treatments", "label": "Waarmee kunnen we helpen" },
         { "id": "about", "label": "Over ons" },
         { "id": "fees-insurance", "label": "Tarieven & Vergoeding" },
-        { "id": "balance-method", "label": "Balans Methode" },
+        { "id": "balance-method", "label": "Balansmethode" },
         { "id": "team", "label": "Acupuncturisten" },
         { "id": "location", "label": "Locatie & Openingstijden" },
         { "id": "faq", "label": "Veelgestelde vragen" }
@@ -205,14 +205,14 @@
 
     "hero": {
       "title": "Heng Ren Tang Acupunctuurkliniek",
-      "subtitle": "Balance Method acupunctuur in Almere",
-      "paragraph": "Welkom bij HENG REN TANG. Wij bieden Balance Method-acupunctuur ter ondersteuning van uiteenlopende gezondheidsklachten voor zowel vrouwen als mannen. Onze kliniek heeft een sterke focus op vrouwengezondheid, waaronder hormonale balans, fertiliteit, zwangerschapszorg, overgangsklachten en stressgerelateerde klachten.\nOnze aanpak is gericht op het herstellen van harmonie in het lichaam, het verminderen van klachten en het bevorderen van algeheel welzijn in een rustige en ondersteunende omgeving.",
+      "subtitle": "Balansmethode-acupunctuur in Almere",
+      "paragraph": "Welkom bij HENG REN TANG. Wij bieden Balansmethode-acupunctuur ter ondersteuning van uiteenlopende gezondheidsklachten voor zowel vrouwen als mannen. Onze kliniek heeft een sterke focus op vrouwengezondheid, waaronder hormonale balans, fertiliteit, zwangerschapszorg, overgangsklachten en stressgerelateerde klachten.\nOnze aanpak is gericht op het herstellen van evenwicht in het lichaam, het verminderen van klachten en het bevorderen van algeheel welzijn in een rustige en ondersteunende omgeving.",
       "primary_cta": { "label": "Maak een afspraak", "page": "contact" },
       "secondary_cta": { "label": "Contact", "page": "contact" },
       "tertiary_cta": { "label": "Onze specialiteiten", "page": "services" },
       "trust_chips": [
         "Focus op vrouwengezondheid",
-        "Balance Method aanpak",
+        "Balansmethode-benadering",
         "Geregistreerde behandelaars (ZHONG/NVA)"
       ]
     },
@@ -237,12 +237,12 @@
       "title": "HENG REN TANG Acupunctuurkliniek",
       "paragraphs": [
         "Bij HENG REN TANG Acupunctuurkliniek bieden we persoonlijke acupunctuurzorg voor een brede reeks klachten bij zowel vrouwen als mannen, met een duidelijke focus op vrouwengezondheid.",
-        "We werken met de Balance Method en combineren principes uit de Klassieke Chinese Geneeskunde met moderne klinische inzichten.",
+        "We werken met de Balansmethode en combineren principes uit de Klassieke Chinese Geneeskunde met moderne klinische inzichten.",
         "Twijfel je of acupunctuur past bij jouw situatie? Neem gerust contact op."
       ],
       "highlights": [
         { "title": "Persoonlijke zorg", "text": "Elk behandelplan wordt zorgvuldig afgestemd op jouw behoeften, klachten en voortgang." },
-        { "title": "Balance Method expertise", "text": "Gestructureerde aanpak met distale punten, zonder direct op de pijnplek te naalden." },
+        { "title": "Balansmethode-expertise", "text": "Gestructureerde aanpak met distale punten, zonder direct op de pijnplek te naalden." },
         { "title": "Vrouwengezondheid", "text": "Ondersteuning in alle fases: cyclus, fertiliteit, zwangerschap, herstel, overgang." }
       ],
       "jump_prompt": {
@@ -277,13 +277,13 @@
     },
 
     "balance_method": {
-      "title": "De Balance Method",
+      "title": "De Balansmethode",
       "paragraphs": [
-        "De Balance Method is een moderne, effectieve benadering van acupunctuur die het natuurlijke herstelvermogen ondersteunt.",
-        "Er wordt vaak met distale punten gewerkt, zodat behandeling mogelijk is zonder direct op een gevoelige plek te naalden.",
-        "Het doel: balans herstellen, klachten verminderen en je meer op je gemak laten voelen in je lichaam."
+        "De Balansmethode is een moderne en effectieve benadering van acupunctuur, ontwikkeld om het natuurlijke herstelvermogen van het lichaam te ondersteunen. Ze kan worden ingezet bij uiteenlopende klachten, waaronder vrouwengezondheid, hormonale balans, pijn, stress en algemeen welzijn.",
+        "De methode richt zich op het kiezen van punten die passen bij de locatie en het patroon van je klachten. In plaats van direct in het pijnlijke gebied te prikken, worden vaak punten op andere plekken gebruikt. Deze zachte, distale aanpak kan krachtige effecten geven zonder extra gevoeligheid op de plek die al pijnlijk is.",
+        "Het doel is eenvoudig: evenwicht herstellen, klachten verminderen en je helpen je weer meer op je gemak te voelen in je lichaam."
       ],
-      "disclaimer": "Ervaringen verschillen per persoon. De behandelaar volgt je voortgang en past het plan aan waar nodig."
+      "disclaimer": "Ervaringen verschillen per persoon. De behandelaar volgt je voortgang en past het behandelplan aan waar nodig, zodat het zo goed mogelijk aansluit bij jouw situatie."
     },
 
     "team": { "title": "Onze acupuncturisten", "subtitle": "Ervaren behandelaars", "members": [] },
@@ -323,7 +323,7 @@
         { "id": "treatments", "label": "En qué ayudamos" },
         { "id": "about", "label": "Sobre nosotros" },
         { "id": "fees-insurance", "label": "Tarifas y seguro" },
-        { "id": "balance-method", "label": "Método Balance" },
+        { "id": "balance-method", "label": "Método del Equilibrio" },
         { "id": "team", "label": "Acupunturistas" },
         { "id": "location", "label": "Ubicación y horario" },
         { "id": "faq", "label": "Preguntas frecuentes" }
@@ -351,8 +351,8 @@
 
     "hero": {
       "title": "Clínica de Acupuntura Heng Ren Tang",
-      "subtitle": "Acupuntura del Método Balance en Almere",
-      "paragraph": "En HENG REN TANG ofrecemos acupuntura del Método Balance para apoyar una amplia variedad de necesidades de salud en mujeres y hombres. Nuestra clínica tiene un enfoque especial en la salud de la mujer, incluyendo equilibrio hormonal, apoyo a la fertilidad, atención durante el embarazo, menopausia y condiciones relacionadas con el estrés.\nNuestro enfoque está diseñado para ayudar a restaurar la armonía del cuerpo, aliviar molestias y promover el bienestar general en un entorno tranquilo y de apoyo.",
+      "subtitle": "Acupuntura del Método del Equilibrio en Almere",
+      "paragraph": "En HENG REN TANG ofrecemos acupuntura del Método del Equilibrio para apoyar una amplia variedad de necesidades de salud en mujeres y hombres. Nuestra clínica tiene un enfoque especial en la salud de la mujer, incluyendo equilibrio hormonal, apoyo a la fertilidad, atención durante el embarazo, menopausia y condiciones relacionadas con el estrés.\nNuestro enfoque está diseñado para ayudar a restaurar la armonía del cuerpo, aliviar molestias y promover el bienestar general en un entorno tranquilo y de apoyo.",
 
       "primary_cta": { "label": "Pedir cita", "page": "contact" },
       "secondary_cta": { "label": "Contactar", "page": "contact" },
@@ -360,7 +360,7 @@
 
       "trust_chips": [
         "Enfoque en salud femenina",
-        "Método Balance",
+        "Enfoque del Método del Equilibrio",
         "Profesionales registrados (ZHONG/NVA)"
       ]
     },
@@ -385,7 +385,7 @@
       "title": "Clínica de Acupuntura HENG REN TANG",
       "paragraphs": [
         "En la Clínica de Acupuntura HENG REN TANG ofrecemos atención personalizada para una amplia variedad de necesidades de salud en mujeres y hombres, con un enfoque dedicado a la salud de la mujer. A menudo apoyamos temas relacionados con el ciclo menstrual, fertilidad, embarazo, recuperación posparto, menopausia y condiciones relacionadas con el estrés.",
-        "Trabajamos con el Método Balance, combinando principios de la medicina china clásica con comprensión clínica moderna. Cada tratamiento se adapta a tus síntomas, constitución y vida diaria, con atención al confort, la discreción y la privacidad.",
+        "Trabajamos con el Método del Equilibrio, combinando principios de la medicina china clásica con comprensión clínica moderna. Cada tratamiento se adapta a tus síntomas, constitución y vida diaria, con atención al confort, la discreción y la privacidad.",
         "Si no estás seguro/a de si la acupuntura es adecuada para tu situación, puedes contactarnos. Con gusto comentaremos tus necesidades y qué podría incluir un plan de tratamiento."
       ],
       "highlights": [
@@ -394,7 +394,7 @@
           "text": "Cada plan de tratamiento se adapta cuidadosamente a tus necesidades, síntomas y evolución."
         },
         {
-          "title": "Experiencia en Método Balance",
+          "title": "Especialización en el Método del Equilibrio",
           "text": "Usamos un enfoque estructurado que a menudo trabaja con puntos distales, permitiendo tratar sin pinchar directamente la zona de molestia."
         },
         {
@@ -436,9 +436,9 @@
     },
 
     "balance_method": {
-      "title": "El Método Balance",
+      "title": "El Método del Equilibrio",
       "paragraphs": [
-        "El Método Balance es un enfoque moderno y eficaz de acupuntura diseñado para apoyar la capacidad natural del cuerpo para recuperarse. Puede utilizarse para una amplia variedad de necesidades, incluida la salud de la mujer, equilibrio hormonal, dolor, estrés y bienestar general.",
+        "El Método del Equilibrio es un enfoque moderno y eficaz de acupuntura, diseñado para apoyar la capacidad natural del cuerpo para recuperarse. Puede utilizarse para una amplia variedad de necesidades, incluida la salud de la mujer, el equilibrio hormonal, el dolor, el estrés y el bienestar diario.",
         "Este método se centra en seleccionar puntos de acupuntura que reflejan la ubicación y el patrón de tus síntomas. En lugar de colocar agujas directamente donde hay molestia, a menudo utiliza puntos en otras zonas del cuerpo. Este enfoque suave y distal permite resultados potentes sin aumentar la sensibilidad en la zona que ya está sensible.",
         "El objetivo es simple: restaurar el equilibrio, reducir la molestia y ayudarte a sentirte más a gusto en tu cuerpo."
       ],

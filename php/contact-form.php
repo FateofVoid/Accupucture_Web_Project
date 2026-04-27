@@ -58,14 +58,11 @@ $errEmail     = (string)($ui['error_email'] ?? 'Please enter a valid email addre
 $metaSourceLabel = (string)($ui['meta_source_label'] ?? 'Source page');
 $metaLangLabel   = (string)($ui['meta_lang_label'] ?? 'Language');
 
-// Redirect to custom success page, include where it came from
-$successUrl = page_url($base_url, $lang, 'contact-success') . '&from=' . rawurlencode((string)$page);
-
 // Fields
-$msg   = is_array($fields['message'] ?? null) ? $fields['message'] : [];
-$name  = is_array($fields['name'] ?? null) ? $fields['name'] : [];
-$phone = is_array($fields['phone'] ?? null) ? $fields['phone'] : [];
-$email = is_array($fields['email'] ?? null) ? $fields['email'] : [];
+$msg   = is_array($fields['Message'] ?? null) ? $fields['Message'] : [];
+$name  = is_array($fields['Name'] ?? null) ? $fields['Name'] : [];
+$phone = is_array($fields['Phone'] ?? null) ? $fields['Phone'] : [];
+$email = is_array($fields['Email'] ?? null) ? $fields['Email'] : [];
 
 ?>
 <section class="section section--contact-form" id="<?= h($formId) ?>">
@@ -88,8 +85,7 @@ $email = is_array($fields['email'] ?? null) ? $fields['email'] : [];
         data-i18n-email="<?= h($errEmail) ?>"
       >
         <!-- Formspree reserved fields -->
-        <input type="hidden" name="_subject" value="Heng Ren Tang — Contact form" />
-        <input type="hidden" name="_redirect" value="<?= h($successUrl) ?>" />
+        <input type="hidden" name="Subject" value="Heng Ren Tang — Contact form" />
 
         <!-- Human-readable meta (kept on purpose, easier emails) -->
         <input type="hidden" name="<?= h($metaSourceLabel) ?>" value="<?= h((string)$page) ?>" />

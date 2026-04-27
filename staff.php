@@ -45,7 +45,7 @@ $certParaKey   = fn(string $key) => 'certificate_paragraph_' . $key;
 
 // Routes
 $contactUrl = page_url($base_url, $lang, 'contact') . '#contact';
-$apptUrl    = page_url($base_url, $lang, 'contact');
+$apptUrl = $appointment_url;
 
 // Common labels (all from JSON)
 $uiQuickToolsTitle   = $getStr($L, ['ui','quick_tools_title'], 'Quick tools');

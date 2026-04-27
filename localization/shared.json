@@ -105,17 +105,6 @@
             { "day": "Tuesday", "time": "9:00 AM - 5:00 PM" },
             { "day": "Friday", "time": "9:00 AM - 6:00 PM" }
           ]
-        },
-        {
-          "key": "marjan",
-          "name": "Marjan Born",
-          "phone": "06 51 92 92 94",
-          "image": "assets/images/staff_profile_image_marjan.jpg",
-          "membership": [{ "org": "NVA", "id": "D4182" }],
-          "availability": [
-            { "day": "Wednesday", "time": "9:00 AM - 6:00 PM" },
-            { "day": "Friday", "time": "9:00 AM - 4:00 PM" }
-          ]
         }
       ]
     }
@@ -124,7 +113,7 @@
   "nl": {
     "site": {
       "brand": "HENG REN TANG",
-      "tagline": "Acupunctuurkliniek • Balance Method • Almere",
+      "tagline": "Acupunctuurkliniek • Balansmethode • Almere",
       "footer_brand": "Heng Ren Tang"
     },
     "nav": {
@@ -137,7 +126,7 @@
       "appointment_label_html": "Maak een afspraak"
     },
     "footer": {
-      "blurb": "Warme, persoonlijke acupunctuurzorg in Almere. Wij werken met Balance Method-acupunctuur, met aandacht voor comfort, duidelijkheid en resultaat.",
+      "blurb": "Warme, persoonlijke acupunctuurzorg in Almere. Wij werken met Balansmethode-acupunctuur, met aandacht voor comfort, duidelijkheid en resultaat.",
       "contact_title": "Contact",
       "links_title": "Snelkoppelingen",
       "partnership": {
@@ -220,29 +209,17 @@
         {
           "key": "merel",
           "name": "Merel Jongejan",
-          "image": "assets/images/staff_profile_image_paz.jpg",
+          "image": "assets/images/staff_profile_image_jongejan.jpg",
           "phone": "(06) 24 72 13 77",
           "membership": [{ "org": "ZHONG", "id": "2024027" }],
           "availability": [
             { "day": "Dinsdag", "time": "9:00 AM - 5:00 PM" },
             { "day": "Vrijdag", "time": "9:00 AM - 6:00 PM" }
           ]
-        },
-        {
-          "key": "marjan",
-          "name": "Marjan Born",
-          "image": "assets/images/staff_profile_image_marjan.jpg",
-          "phone": "(06) 51 92 92 94",
-          "membership": [{ "org": "NVA", "id": "D4182" }],
-          "availability": [
-            { "day": "Woensdag", "time": "9:00 AM - 6:00 PM" },
-            { "day": "Vrijdag", "time": "9:00 AM - 4:00 PM" }
-          ]
         }
       ]
     },
     "staff_contacts": {
-      "marjan": { "name": "Marjan Born", "phone": "(06) 51 92 92 94" },
       "merel": { "name": "Merel Jongejan", "phone": "(06) 24 72 13 77" }
     }
   },
@@ -250,7 +227,7 @@
   "es": {
     "site": {
       "brand": "HENG REN TANG",
-      "tagline": "Clínica de acupuntura • Balance Method • Almere",
+      "tagline": "Clínica de acupuntura • Método del Equilibrio • Almere",
       "footer_brand": "Heng Ren Tang"
     },
     "nav": {
@@ -263,7 +240,7 @@
       "appointment_label_html": "Pedir cita"
     },
     "footer": {
-      "blurb": "Acupuntura cálida y personal en Almere. Nos centramos en la acupuntura Balance Method, con atención al confort, la claridad y los resultados.",
+      "blurb": "Acupuntura cálida y personal en Almere. Nos centramos en la acupuntura del Método del Equilibrio, con atención al confort, la claridad y los resultados.",
       "contact_title": "Contacto",
       "links_title": "Enlaces rápidos",
       "partnership": {
@@ -346,29 +323,17 @@
         {
           "key": "merel",
           "name": "Merel Jongejan",
-          "image": "assets/images/staff_profile_image_paz.jpg",
+          "image": "assets/images/staff_profile_image_jongejan.jpg",
           "phone": "(06) 24 72 13 77",
           "membership": [{ "org": "ZHONG", "id": "2024027" }],
           "availability": [
             { "day": "Martes", "time": "9:00 AM - 5:00 PM" },
             { "day": "Viernes", "time": "9:00 AM - 6:00 PM" }
           ]
-        },
-        {
-          "key": "marjan",
-          "name": "Marjan Born",
-          "image": "assets/images/staff_profile_image_marjan.jpg",
-          "phone": "(06) 51 92 92 94",
-          "membership": [{ "org": "NVA", "id": "D4182" }],
-          "availability": [
-            { "day": "Miércoles", "time": "9:00 AM - 6:00 PM" },
-            { "day": "Viernes", "time": "9:00 AM - 4:00 PM" }
-          ]
         }
       ]
     },
     "staff_contacts": {
-      "marjan": { "name": "Marjan Born", "phone": "(06) 51 92 92 94" },
       "merel": { "name": "Merel Jongejan", "phone": "(06) 24 72 13 77" }
     }
   }

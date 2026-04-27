@@ -31,8 +31,12 @@ $site = $S['site'] ?? [];
       <p class="muted"><?=safe_html($foot['address_html'] ?? '')?></p>
       <p class="muted"><?=safe_html($foot['contact_html'] ?? '')?></p>
       <div class="actions">
-        <a class="btn btn--primary btn--sm" href="<?=h(page_url($base_url,$lang,'contact'))?>"><?=h($nav['appointment_label'] ?? 'Make an Appointment')?></a>
-        <a class="btn btn--ghost btn--sm" href="<?=h(page_url($base_url,$lang,'contact'))?>"><?=h($nav['contact_label'] ?? 'Contact')?></a>
+        <a class="btn btn--primary btn--sm" href="<?=h($appointment_url)?>" target="_blank" rel="noopener">
+          <?=h($nav['appointment_label'] ?? 'Make an Appointment')?>
+        </a>
+        <a class="btn btn--ghost btn--sm" href="<?=h(page_url($base_url,$lang,'contact'))?>">
+          <?=h($nav['contact_label'] ?? 'Contact')?>
+        </a>
       </div>
     </div>
 
