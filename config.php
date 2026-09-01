@@ -1,5 +1,14 @@
 <?php
 declare(strict_types=1);
+
+$is_https = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off';
+session_set_cookie_params([
+  'lifetime' => 0,
+  'path' => '/',
+  'secure' => $is_https,
+  'httponly' => true,
+  'samesite' => 'Lax',
+]);
 session_start();
 
 /**
@@ -77,7 +86,7 @@ $appointment_url = 'https://bookings.crossuite.app/ef415adc-c2ee-40c8-a9e6-e1608
 /**
  * Determine base URL (useful for redirects & nav)
  */
-$scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+$scheme = $is_https ? 'https' : 'http';
 $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
 $scriptDir = rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? '/')), '/');
 $base_url = $scheme . '://' . $host . ($scriptDir ? $scriptDir : '');
@@ -89,24 +98,22 @@ $lang = isset($_GET['lang']) ? preg_replace('/[^a-z\-]/i', '', (string)$_GET['la
 $page = isset($_GET['page']) ? preg_replace('/[^a-z\-]/i', '', (string)$_GET['page']) : $default_page;
 
 /**
- * Session language
+ * Query parameters are authoritative so direct links, bookmarks and search
+ * engines always receive the requested language and page. The session is only
+ * a fallback when a parameter is omitted.
  */
-if (!isset($_SESSION['lang'])) {
-  $_SESSION['lang'] = $default_lang;
-} else if (isset($_GET['lang']) && in_array($lang, $validLanguages, true) && $_SESSION['lang'] !== $lang) {
-  $_SESSION['lang'] = $lang;
-}
-$lang = $_SESSION['lang'];
+$lang = isset($_GET['lang']) && in_array($lang, $validLanguages, true)
+  ? $lang
+  : (string)($_SESSION['lang'] ?? $default_lang);
+$page = isset($_GET['page']) && in_array($page, $validPages, true)
+  ? $page
+  : (string)($_SESSION['selectedPage'] ?? $default_page);
 
-/**
- * Session page
- */
-if (!isset($_SESSION['selectedPage'])) {
-  $_SESSION['selectedPage'] = $default_page;
-} else if (isset($_GET['page']) && in_array($page, $validPages, true) && $_SESSION['selectedPage'] !== $page) {
-  $_SESSION['selectedPage'] = $page;
-}
-$page = $_SESSION['selectedPage'];
+if (!in_array($lang, $validLanguages, true)) $lang = $default_lang;
+if (!in_array($page, $validPages, true)) $page = $default_page;
+
+$_SESSION['lang'] = $lang;
+$_SESSION['selectedPage'] = $page;
 
 /**
  * Redirect empty query string → canonical URL
@@ -115,12 +122,6 @@ if (($_SERVER['QUERY_STRING'] ?? '') === '') {
   header("Location: {$base_url}/?lang={$lang}&page={$page}");
   exit();
 }
-
-/**
- * Ensure params are valid (fallback safely)
- */
-if (!in_array($lang, $validLanguages, true)) $lang = $default_lang;
-if (!in_array($page, $validPages, true)) $page = $default_page;
 
 /**
  * Page title fallback

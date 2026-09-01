@@ -237,13 +237,16 @@ $closingSecondaryLabel = (string)($closingSecondary['label'] ?? $ctaContact);
               $mbBlob = implode(' ', $parts);
             }
 
-            $blob = mb_strtolower(trim(
+            $searchText = trim(
               strip_tags((string)($m['name'] ?? '')) . ' ' .
               $mbBlob . ' ' .
               strip_tags($summaryHtml) . ' ' .
               strip_tags($aboutHtml) . ' ' .
               strip_tags($certHtml)
-            ));
+            );
+            $blob = function_exists('mb_strtolower')
+              ? mb_strtolower($searchText, 'UTF-8')
+              : strtolower($searchText);
           ?>
 
           <article class="card staff-card" data-staff-card data-staff-text="<?= h($blob) ?>">

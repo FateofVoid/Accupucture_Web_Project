@@ -1,0 +1,14 @@
+/.idea/
+/*.iml
+/_bck_*/
+/_bck_*.zip
+/_bck_*.rar
+/assets/files/
+/assets/images/06ec500a-d623-46bf-9763-666908b87fb2-md.jpeg
+/assets/images/9ffc96be-f4c3-4bc1-8133-72a7419c7cad-md.jpeg
+/assets/images/ChatGPT Image*.png
+/assets/images/KAB Logo.jpeg
+/.env
+/.env.*
+!/\.env.example
+*.log

@@ -71,7 +71,7 @@ $site = $S['site'] ?? [];
             <img src="assets/images/SCAG Logo.png" alt="SCAG logo" loading="lazy" />
           </div>
           <div class="partner-logo">
-            <img src="assets/images/KAB Logo.png" alt="SCAG logo" loading="lazy" />
+            <img src="assets/images/KAB Logo.png" alt="KAB logo" loading="lazy" />
           </div>
         </div>
       </div>

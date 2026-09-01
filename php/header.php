@@ -25,13 +25,29 @@ $langOptions = [
 ];
 
 $currentLangIcon = $langOptions[$lang]['icon'] ?? $langOptions['en']['icon'];
+$canonicalUrl = page_url($base_url, $lang, $page);
+$metaDescription = trim((string)($L['hero']['subtitle'] ?? $site['tagline'] ?? ''));
+if ($metaDescription === '') {
+  $metaDescription = 'Heng Ren Tang Acupuncture Clinic in Almere. Personal acupuncture care using the Balance Method.';
+}
 ?>
 <!doctype html>
 <html lang="<?=h($lang)?>">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="<?=h($metaDescription)?>" />
   <title><?=h($page_title)?></title>
+  <link rel="canonical" href="<?=h($canonicalUrl)?>" />
+  <?php foreach (array_keys($langOptions) as $alternateLang): ?>
+    <link rel="alternate" hreflang="<?=h($alternateLang)?>" href="<?=h(page_url($base_url,$alternateLang,$page))?>" />
+  <?php endforeach; ?>
+  <link rel="alternate" hreflang="x-default" href="<?=h(page_url($base_url,'en',$page))?>" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<?=h($page_title)?>" />
+  <meta property="og:description" content="<?=h($metaDescription)?>" />
+  <meta property="og:url" content="<?=h($canonicalUrl)?>" />
+  <meta property="og:image" content="<?=h($base_url . '/assets/images/Heng_ren_tang_logo.png')?>" />
   <link rel="stylesheet" href="assets/css/styles.css" />
 
   <link rel="icon" href="assets/images/Heng_ren_tang_favicon.ico" type="image/x-icon" />

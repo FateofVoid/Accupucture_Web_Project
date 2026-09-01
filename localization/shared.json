@@ -85,6 +85,13 @@
           ]
         },
         {
+          "key": "aron",
+          "name": "Aron Ebbing",
+          "image": "assets/images/staff_profile_image_aron.png",
+          "membership": [{ "org": "LVNT", "id": "16014" }],
+          "availability": []
+        },
+        {
           "key": "paz",
           "name": "Paz Lobo",
           "phone": "06 51 91 20 27",
@@ -195,6 +202,13 @@
             { "day": "Dinsdag", "time": "4:00 PM - 8:00 PM" },
             { "day": "Donderdag", "time": "09:00 AM - 6:00 PM" }
           ]
+        },
+        {
+          "key": "aron",
+          "name": "Aron Ebbing",
+          "image": "assets/images/staff_profile_image_aron.png",
+          "membership": [{ "org": "LVNT", "id": "16014" }],
+          "availability": []
         },
         {
           "key": "paz",
@@ -309,6 +323,13 @@
             { "day": "Martes", "time": "4:00 PM - 8:00 PM" },
             { "day": "Jueves", "time": "09:00 AM - 6:00 PM" }
           ]
+        },
+        {
+          "key": "aron",
+          "name": "Aron Ebbing",
+          "image": "assets/images/staff_profile_image_aron.png",
+          "membership": [{ "org": "LVNT", "id": "16014" }],
+          "availability": []
         },
         {
           "key": "paz",
