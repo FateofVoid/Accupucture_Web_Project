@@ -1833,6 +1833,13 @@ img{ max-width:100%; display:block; }
   align-items:stretch;
 }
 
+/* Keep every collapsed desktop profile the same height, not only each row. */
+@media (min-width: 961px){
+  .staff-grid:not(:has(.staff-acc[open])){
+    grid-auto-rows: 1fr;
+  }
+}
+
 .staff-card{
   display:flex;
   flex-direction:column;
