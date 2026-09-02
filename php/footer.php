@@ -65,13 +65,13 @@ $site = $S['site'] ?? [];
 
         <div class="footer-partnership__logos" aria-label="Partnership logos">
           <div class="partner-logo">
-            <img src="assets/images/Zhong Logo.png" alt="ZHONG logo" loading="lazy" />
+            <img src="assets/images/zhong-logo.svg" alt="ZHONG logo" loading="lazy" />
           </div>
           <div class="partner-logo">
-            <img src="assets/images/SCAG Logo.png" alt="SCAG logo" loading="lazy" />
+            <img src="assets/images/scag-logo.png" alt="SCAG logo" loading="lazy" />
           </div>
           <div class="partner-logo">
-            <img src="assets/images/KAB Logo.png" alt="KAB logo" loading="lazy" />
+            <img src="assets/images/kab-logo.png" alt="KAB logo" loading="lazy" />
           </div>
           <a class="partner-logo" href="https://www.lvnt.nl/" target="_blank" rel="noopener" aria-label="Visit the LVNT website">
             <img src="assets/images/lvnt-logo.svg" alt="LVNT logo" loading="lazy" />

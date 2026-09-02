@@ -35,8 +35,8 @@ $aboutImgBottom = 'assets/images/Home_About_bottom.png';
 $bmImg          = 'assets/images/Home_BalanceMethod_media.png';
 
 // Partner logos
-$feesLogoA = 'assets/images/Zhong Logo.png';
-$feesLogoB = 'assets/images/SCAG Logo.png';
+$feesLogoA = 'assets/images/zhong-logo.svg';
+$feesLogoB = 'assets/images/scag-logo.png';
 
 /**
  * Helper: build internal href from a CTA object.
@@ -287,13 +287,13 @@ $heroThirdHref   = $cta_href($heroThird);
 
       <div class="partner-strip partner-strip--fees" aria-label="Partnership logos">
           <div class="partner-logo">
-            <img src="assets/images/Zhong Logo.png" alt="ZHONG logo" loading="lazy" />
+            <img src="assets/images/zhong-logo.svg" alt="ZHONG logo" loading="lazy" />
           </div>
           <div class="partner-logo">
-            <img src="assets/images/SCAG Logo.png" alt="SCAG logo" loading="lazy" />
+            <img src="assets/images/scag-logo.png" alt="SCAG logo" loading="lazy" />
           </div>
           <div class="partner-logo">
-            <img src="assets/images/KAB Logo.png" alt="KAB logo" loading="lazy" />
+            <img src="assets/images/kab-logo.png" alt="KAB logo" loading="lazy" />
           </div>
           <a class="partner-logo" href="https://www.lvnt.nl/" target="_blank" rel="noopener" aria-label="Visit the LVNT website">
             <img src="assets/images/lvnt-logo.svg" alt="LVNT logo" loading="lazy" />
