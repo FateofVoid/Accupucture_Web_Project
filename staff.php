@@ -251,7 +251,7 @@ $closingSecondaryLabel = (string)($closingSecondary['label'] ?? $ctaContact);
 
           <article class="card staff-card" data-staff-card data-staff-text="<?= h($blob) ?>">
             <header class="staff-card__top">
-              <div class="staff-card__avatar">
+              <div class="staff-card__avatar<?= (($m['key'] ?? '') === 'aron') ? ' staff-card__avatar--aron' : '' ?>">
                 <img src="<?= h($imgFinal) ?>" alt="<?= h((string)($m['name'] ?? 'Practitioner')) ?>" loading="lazy" />
               </div>
 

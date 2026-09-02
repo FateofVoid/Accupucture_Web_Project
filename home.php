@@ -363,7 +363,7 @@ $heroThirdHref   = $cta_href($heroThird);
           ?>
           <article class="card team-card">
             <div class="team-card__head">
-              <div class="team-card__avatar">
+              <div class="team-card__avatar<?= (($m['key'] ?? '') === 'aron') ? ' team-card__avatar--aron' : '' ?>">
                 <img src="<?=h($imgFinal)?>" alt="<?=h((string)(($m['name'] ?? 'Acupuncturist') . ' profile photo'))?>" loading="lazy" />
               </div>
 

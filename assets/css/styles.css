@@ -1011,6 +1011,13 @@ img{ max-width:100%; display:block; }
   display:block;
 }
 
+/* Aron’s source portrait is wider than the other headshots; tighten only his crop. */
+.team-card__avatar--aron img,
+.staff-card__avatar--aron img{
+  transform: scale(1.7);
+  transform-origin: 50% 37%;
+}
+
 /* --------------------------------------------------------------------------
    4.7 HOME PAGE — FEES & INSURANCE
    -------------------------------------------------------------------------- */
