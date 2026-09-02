@@ -23,10 +23,13 @@ Open `http://127.0.0.1:8080/?lang=en&page=home`.
    production branch.
 4. Set the deployment target to the domain's document root, normally
    `/httpdocs`.
-5. Use automatic deployment if Plesk offers a webhook URL. Add that URL as a
-   GitHub repository webhook for push events. Otherwise use **Pull Updates**
-   and **Deploy** in Plesk after merging changes.
-6. After every deployment, verify the English, Dutch and Spanish home and staff
+5. Set the repository deployment mode to **Manual deployment**. Do not enable
+   automatic deployment: GitHub commits must not be published without release
+   approval.
+6. For an approved release, click **Pull Updates** and then **Deploy from
+   Repository** in Plesk. A webhook may fetch changes automatically, but it
+   must not automatically deploy them.
+7. After every deployment, verify the English, Dutch and Spanish home and staff
    pages, the contact form, appointment link, and static assets.
 
 Do not commit hosting credentials, Formspree secrets, Plesk webhook URLs or

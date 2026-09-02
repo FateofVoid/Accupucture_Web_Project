@@ -89,7 +89,10 @@
           "name": "Aron Ebbing",
           "image": "assets/images/staff_profile_image_aron.png",
           "membership": [{ "org": "LVNT", "id": "16014" }],
-          "availability": []
+          "availability": [
+            { "day": "Thursday", "time": "10:00 AM - 3:00 PM" },
+            { "day": "Friday", "time": "9:00 AM - 1:00 PM" }
+          ]
         },
         {
           "key": "paz",
@@ -208,7 +211,10 @@
           "name": "Aron Ebbing",
           "image": "assets/images/staff_profile_image_aron.png",
           "membership": [{ "org": "LVNT", "id": "16014" }],
-          "availability": []
+          "availability": [
+            { "day": "Donderdag", "time": "10:00 - 15:00" },
+            { "day": "Vrijdag", "time": "09:00 - 13:00" }
+          ]
         },
         {
           "key": "paz",
@@ -329,7 +335,10 @@
           "name": "Aron Ebbing",
           "image": "assets/images/staff_profile_image_aron.png",
           "membership": [{ "org": "LVNT", "id": "16014" }],
-          "availability": []
+          "availability": [
+            { "day": "Jueves", "time": "10:00 - 15:00" },
+            { "day": "Viernes", "time": "09:00 - 13:00" }
+          ]
         },
         {
           "key": "paz",
