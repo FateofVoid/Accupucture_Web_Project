@@ -1021,6 +1021,7 @@ img{ max-width:100%; display:block; }
 
 .partner-strip{
   display:flex;
+  flex-wrap:wrap;
   gap: 16px;
   align-items:center;
   justify-content:flex-start;

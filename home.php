@@ -295,6 +295,12 @@ $heroThirdHref   = $cta_href($heroThird);
           <div class="partner-logo">
             <img src="assets/images/KAB Logo.png" alt="KAB logo" loading="lazy" />
           </div>
+          <a class="partner-logo" href="https://www.lvnt.nl/" target="_blank" rel="noopener" aria-label="Visit the LVNT website">
+            <img src="assets/images/lvnt-logo.svg" alt="LVNT logo" loading="lazy" />
+          </a>
+          <a class="partner-logo" href="https://rbcz.nu/" target="_blank" rel="noopener" aria-label="Visit the RBCZ website">
+            <img src="assets/images/rbcz-logo.png" alt="RBCZ — een vrije zorgkeuze" loading="lazy" />
+          </a>
       </div>
     </div>
   </section>
